@@ -4,39 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="icon" type="image/png" href="assets/img/favicon/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="assets/img/favicon/favicon-16x16.png" sizes="16x16" />
+    <title>Journeys Special Travel</title>
 
+    <!-- Plugins -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/countrySelect.css">
+    <link rel="stylesheet" href="assets/css/plugins/video-js.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/jquery-ui-slider.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
+   
+    <!-- Bootstrap Styles -->
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-reboot.css">
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-grid.css">
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-utilities.css">
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
 
-    
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-datepicker.css">
-    
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css">
-
-
+    <!-- Main Css -->
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
-
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
-
-
-
-    <title>Journeys Special Travel</title>
     
 </head>
 
 
 
 <body>
-    <header class="o-header position-absolute p-4">
+    <header class="o-header position-absolute p-4 o-header--white o-header--page">
 
         <nav class="navbar navbar-dark">
             <div class="container">
@@ -47,28 +48,54 @@
                     </span>
                 </a>
 
+                <ul class="nav justify-content-end align-items-center o-header__main">
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="brasil-secreto.php">Brasil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="sobre.php">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="relatorios.php">Relatórios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="reservas.php">Reservas</a>
+                    </li>
+                </ul>
+
                 <ul class="nav justify-content-end align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link text-secondary fs-6" href="brasil-secreto.php">Brasil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary fs-6" href="sobre.php">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary fs-6" href="relatorios.php">Relatórios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary fs-6" href="reservas.php">Reservas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">
+                        <div class="o-header__language d-flex ps-3 pe-3 rounded-pill cursor-pointer">
+
+                            <div class="o-header__language__options">
+                                <ul class="nav">
+                                    <li class="active">
+                                        <span class="fs-12 fw-500 cursor-pointer">
+                                            PT
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="fs-12 fw-500 cursor-pointer">
+                                            IN
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="fs-12 fw-500 cursor-pointer">
+                                            ES
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+
                             <span class="icon-language"></span>
-                        </a>
+
+                        </div>
+
                     </li>
                     <li>
-                        <a href="login.php" class="text-reset bg-white text-secondary fs-6 ps-4 pe-2 rounded-pill d-flex align-items-center border border-secondary"> 
-                            Bem-Vindo <span class="text-primary fw-500 ms-1 me-3 py-3"> Anti Travel</span>
-                            <div class="o-header__login rounded-circle" style="background-image: url('assets/img/header-user.jpg')">
+                        <a href="login.php" class="text-reset bg-white text-secondary fs-6 ps-4 pe-2 rounded-pill d-flex align-items-center border border-secondary o-header__login"> 
+                            Bem-Vindo <span class="text-primary fw-500 ms-1 me-3 "> Anti Travel</span>
+                            <div class="o-header__login__img rounded-circle" style="background-image: url('assets/img/header-user.jpg')">
                             </div>
                         </a>
                     </li>

@@ -2,6 +2,29 @@
     border-radius: 1.25rem;
     overflow: hidden;
     position: relative;
+    height: 19.6rem;
+    @include breakpoint(xxl){
+        width: 33.43rem;
+        .fs-6{
+            font-size: .75rem!important;
+        }
+    }
+    &.open{
+        height: auto;
+    }
+    &__more-button{
+        position: absolute;
+        z-index: 9999;
+        padding-right: .62rem;
+        right: 0;
+        .btn{
+            position: relative;
+            top: 259.4px;
+            width: auto !important;
+            padding-top: 14px;
+            height: 2.77rem;
+        }
+    }
     &__img{
         position: relative;
         height: 12.37rem;
@@ -48,6 +71,7 @@
                 width: 7.28rem;
                 height: 2.77rem;
                 border-radius: 12px;
+                padding-top: 14px;
             }
         }
     }

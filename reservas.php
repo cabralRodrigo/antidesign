@@ -7,20 +7,15 @@
     <section class="c-banner">
         <?php include('includes/search-box.php') ?>
 
-        <div id="principal" class="carousel slide carousel-fade h-100" data-bs-ride="carousel">
+        <div class="swiper-container h-100 JS__banner">
             
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#principal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#principal" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
+            <div class="swiper-wrapper h-100">
 
-            <div class="carousel-inner h-100">
-
-                <div class="carousel-item h-100 d-flex align-items-end active " style="background-image: url('assets/img/todas-reservas-banner.jpg');">
+                <div class="c-banner__item swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/todas-reservas-banner.jpg');">
                     <img src="assets/img/banner-bg.png" alt="background" class="c-banner__background">
                     <div class="container text-light">
                         <div class="row h-100 d-flex align-items-center">
-                            <div class="col-xl-4">
+                            <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-8 col-sm-8">
                                 <h2 class="c-banner__title fw-bold fs-3">Bali.</h2>
                                 <p>Uma das ilhas com um cenário inesquecível! Se você busca sol brilhante, praias e montanhas, esse é o lugar certo</p>
                                 <a href="" class="c-banner__button d-flex align-items-center text-reset text-uppercase fw-bolder">
@@ -29,10 +24,9 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
 
-                <div class="carousel-item h-100 d-flex align-items-end " style="background-image: url('assets/img/reservas-banner.jpg');">
+                <div class="c-banner__item swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/reservas-banner.jpg');">
                     <img src="assets/img/banner-bg.png" alt="background" class="c-banner__background">
                     <div class="container text-light">
                         <div class="row h-100 d-flex align-items-center">
@@ -45,11 +39,11 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
+                
 
             </div>
-              
+            
         </div>
 
     </section>
@@ -59,7 +53,7 @@
 
             <div class="row mb-4">
                 <div class="col-xl-12">
-                    <h3 class="fs-2 text-primary fw-normal fw-bold">Todas as reservas</h3>
+                    <h3 class="fs-2 text-primary fw-bold">Todas as reservas</h3>
                 </div>
             </div>
 
@@ -85,8 +79,8 @@
             </div>
 
             <div class="collapse multi-collapse c-reservas__filtros" id="filtros">
-                <div class="d-flex justify-content-between">
-                    <div class="c-reservas__filtros__container">
+                <div class="d-flex justify-content-between align-items-baseline">
+                    <div class="c-reservas__filtros__container me-4">
                         <div class="d-flex no-wrap justify-content-between">
                             <div class="mb-4 w-100 mx-2">
                                 <label for="exampleInputEmail1" class="form-label">Id. Journeys</label>
@@ -105,7 +99,7 @@
                                 <input class="form-control" type="text" aria-label="default input example">
                             </div>
                         </div>
-                        <div class="d-flex no-wrap justify-content-between">
+                        <div class="d-flex no-wrap justify-content-between  align-items-baseline">
                             <div class="mb-4 w-100 mx-2">
                                 <label for="exampleInputEmail1" class="form-label">Tour Líder</label>
                                 <input class="form-control" type="text" aria-label="default input example">
@@ -137,38 +131,40 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="d-flex no-wrap justify-content-between">
+                        <div class="d-flex no-wrap justify-content-between align-items-baseline">
                             <div class="mb-4 w-100 mx-2">
                                 <label for="country" class="form-label">País do Cliente</label>
-                                <input type="text" class="form-control" id="country">
+                                <select class="form-select">
+                                    <option value="">Brasil</option>
+                                </select>
                             </div>
                             
                             <div class="mb-4 w-100 mx-2 o-data-picker">
-                                <label for="checkin" class="form-label">Datas de Check-In</label>
-                                <input class="form-control input-date bg-transparent" type="text" aria-label="Datas de Check-In" id="checkin">
+                                <label for="checkin" class="form-label">Datas Check-In</label>
+                                <input class="form-control input-date bg-transparent" type="text" aria-label="Datas de Check-In" id="checkin" placeholder="Selecionar">
                                 <span class="icon-calendar"></span>
                             </div>
                             
                             <div class="mb-4 w-100 mx-2 o-data-picker">
-                                <label for="checkout" class="form-label">Datas de Check-Out</label>
-                                <input class="form-control input-date bg-transparent" type="text" aria-label="Datas de Check-In" id="checkout">
+                                <label for="checkout" class="form-label">Datas Check-Out</label>
+                                <input class="form-control input-date bg-transparent" type="text" aria-label="Datas de Check-In" id="checkout" placeholder="Selecionar">
                                 <span class="icon-calendar"></span>
                             </div>
                             
                             <div class="mb-4 w-100 mx-2 o-data-picker">
-                                <label for="data-criacao" class="form-label">Datas de Criação</label>
-                                <input class="form-control input-date bg-transparent" type="text" aria-label="Datas de Criação" id="data-criacao">
+                                <label for="data-criacao" class="form-label">Datas Criação</label>
+                                <input class="form-control input-date bg-transparent" type="text" aria-label="Datas de Criação" id="data-criacao" placeholder="Selecionar">
                                 <span class="icon-calendar"></span>
                             </div>
                             
                             <div class="mb-4 w-100 mx-2 o-data-picker">
-                                <label for="data-cancelamento" class="form-label">Datas de Cancelamento</label>
-                                <input class="form-control input-date bg-transparent" type="text" aria-label="Datas de Cancelamento" id="data-cancelamento">
+                                <label for="data-cancelamento" class="form-label">Datas Cancelamento</label>
+                                <input class="form-control input-date bg-transparent" type="text" aria-label="Datas de Cancelamento" id="data-cancelamento" placeholder="Selecionar">
                                 <span class="icon-calendar"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex ">
                         <div class="me-5">   
                             <label for="exampleInputEmail1" class="form-label">Canais de Venda</label>
                             <div class="form-check mb-1">
@@ -271,13 +267,9 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row c-reservas__table">
                 <div class="col-xl-12">
-                    <table class="table table-striped fs-6 table-borderless" id="table"  
-                    data-locale="pt-BR"
-                    data-toggle="table" 
-                    data-pagination="true" 
-                    >
+                    <table class="table table-striped fs-6 table-borderless table-hover" id="table">
                         <thead>
                             <tr class="text-secondary">
                                 <th scope="col">Id.</th>
@@ -297,7 +289,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <tr data-href="reserva.php">
                                 <td scope="row">36496</td>
                                 <td>1564AO</td>
                                 <td>110064B21</td>
@@ -308,19 +300,21 @@
                                 <td>11/02/2021</td>
                                 <td>15/03/2021</td>
                                 <td>13/03/2021</td>
-                                <td class="c-reservas__table__status d-flex">
-                                    <div class="c-reservas__table__status__item">
-                                        1
-                                        <span class="bg-success"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        2
-                                        <span class="bg-danger"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        3
-                                        <span class="bg-warning"></span>
-                                    </div>
+                                <td class="c-reservas__table__status">
+                                    <div class="d-flex">
+                                        <div class="c-reservas__table__status__item">
+                                            1
+                                            <span class="bg-success"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            2
+                                            <span class="bg-danger"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            3
+                                            <span class="bg-warning"></span>
+                                        </div>
+                                   </div>
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
@@ -328,7 +322,7 @@
                                     <span class="c-reservas__table__visibilidade"></span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr data-href="reserva.php">
                                 <td scope="row">36524</td>
                                 <td>743122768</td>
                                 <td>030449b21</td>
@@ -344,7 +338,7 @@
                                 <td>01</td>
                                 <td><span class="c-reservas__table__visibilidade check"></span></td>
                             </tr>
-                            <tr>
+                            <tr  data-href="reserva.php">
                                 <td scope="row">36496</td>
                                 <td>1564AO</td>
                                 <td>110064B21</td>
@@ -355,18 +349,86 @@
                                 <td>11/02/2021</td>
                                 <td>15/03/2021</td>
                                 <td>13/03/2021</td>
-                                <td class="c-reservas__table__status d-flex">
-                                    <div class="c-reservas__table__status__item">
-                                        1
-                                        <span class="bg-success"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        2
-                                        <span class="bg-danger"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        3
-                                        <span class="bg-warning"></span>
+                                <td class="c-reservas__table__status">
+                                   <div class="d-flex">
+                                        <div class="c-reservas__table__status__item">
+                                            1
+                                            <span class="bg-success"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            2
+                                            <span class="bg-danger"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            3
+                                            <span class="bg-warning"></span>
+                                        </div>
+                                   </div>
+                                </td>
+                                <td>-</td>
+                                <td>01</td>
+                                <td>
+                                    <span class="c-reservas__table__visibilidade"></span>
+                                </td>
+                            </tr>
+                            <tr data-href="reserva.php">
+                                <td scope="row">36496</td>
+                                <td>1564AO</td>
+                                <td>110064B21</td>
+                                <td>David Baez</td>
+                                <td>Mundo Travel</td>
+                                <td>Caroline Menezes</td>
+                                <td>Caroline Menezes</td>
+                                <td>11/02/2021</td>
+                                <td>15/03/2021</td>
+                                <td>13/03/2021</td>
+                                <td class="c-reservas__table__status">
+                                   <div class="d-flex">
+                                        <div class="c-reservas__table__status__item">
+                                            1
+                                            <span class="bg-success"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            2
+                                            <span class="bg-danger"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            3
+                                            <span class="bg-warning"></span>
+                                        </div>
+                                   </div>
+                                </td>
+                                <td>-</td>
+                                <td>01</td>
+                                <td>
+                                    <span class="c-reservas__table__visibilidade"></span>
+                                </td>
+                            </tr>
+                            <tr data-href="reserva.php">
+                                <td scope="row">36496</td>
+                                <td>1564AO</td>
+                                <td>110064B21</td>
+                                <td>David Baez</td>
+                                <td>Mundo Travel</td>
+                                <td>Caroline Menezes</td>
+                                <td>Caroline Menezes</td>
+                                <td>11/02/2021</td>
+                                <td>15/03/2021</td>
+                                <td>13/03/2021</td>
+                                <td class="c-reservas__table__status">
+                                    <div class="d-flex">
+                                        <div class="c-reservas__table__status__item">
+                                            1
+                                            <span class="bg-success"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            2
+                                            <span class="bg-danger"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            3
+                                            <span></span>
+                                        </div>
                                     </div>
                                 </td>
                                 <td>-</td>
@@ -375,7 +437,7 @@
                                     <span class="c-reservas__table__visibilidade"></span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr data-href="reserva.php">
                                 <td scope="row">36496</td>
                                 <td>1564AO</td>
                                 <td>110064B21</td>
@@ -386,19 +448,21 @@
                                 <td>11/02/2021</td>
                                 <td>15/03/2021</td>
                                 <td>13/03/2021</td>
-                                <td class="c-reservas__table__status d-flex">
-                                    <div class="c-reservas__table__status__item">
-                                        1
-                                        <span class="bg-success"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        2
-                                        <span class="bg-danger"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        3
-                                        <span class="bg-warning"></span>
-                                    </div>
+                                <td class="c-reservas__table__status">
+                                    <div class="d-flex">
+                                        <div class="c-reservas__table__status__item">
+                                            1
+                                            <span class="bg-success"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            2
+                                            <span class="bg-danger"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            3
+                                            <span class="bg-warning"></span>
+                                        </div>
+                                   </div>
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
@@ -406,7 +470,7 @@
                                     <span class="c-reservas__table__visibilidade"></span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr data-href="reserva.php">
                                 <td scope="row">36496</td>
                                 <td>1564AO</td>
                                 <td>110064B21</td>
@@ -417,19 +481,21 @@
                                 <td>11/02/2021</td>
                                 <td>15/03/2021</td>
                                 <td>13/03/2021</td>
-                                <td class="c-reservas__table__status d-flex">
-                                    <div class="c-reservas__table__status__item">
-                                        1
-                                        <span class="bg-success"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        2
-                                        <span class="bg-danger"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        3
-                                        <span></span>
-                                    </div>
+                                <td class="c-reservas__table__status">
+                                    <div class="d-flex">
+                                        <div class="c-reservas__table__status__item">
+                                            1
+                                            <span class="bg-success"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            2
+                                            <span class="bg-danger"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            3
+                                            <span class="bg-warning"></span>
+                                        </div>
+                                   </div>
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
@@ -437,7 +503,7 @@
                                     <span class="c-reservas__table__visibilidade"></span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr data-href="reserva.php">
                                 <td scope="row">36496</td>
                                 <td>1564AO</td>
                                 <td>110064B21</td>
@@ -448,19 +514,21 @@
                                 <td>11/02/2021</td>
                                 <td>15/03/2021</td>
                                 <td>13/03/2021</td>
-                                <td class="c-reservas__table__status d-flex">
-                                    <div class="c-reservas__table__status__item">
-                                        1
-                                        <span class="bg-success"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        2
-                                        <span class="bg-danger"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        3
-                                        <span></span>
-                                    </div>
+                                <td class="c-reservas__table__status">
+                                    <div class="d-flex">
+                                        <div class="c-reservas__table__status__item">
+                                            1
+                                            <span class="bg-success"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            2
+                                            <span class="bg-danger"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            3
+                                            <span class="bg-warning"></span>
+                                        </div>
+                                   </div>
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
@@ -468,7 +536,7 @@
                                     <span class="c-reservas__table__visibilidade"></span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr data-href="reserva.php">
                                 <td scope="row">36496</td>
                                 <td>1564AO</td>
                                 <td>110064B21</td>
@@ -479,19 +547,21 @@
                                 <td>11/02/2021</td>
                                 <td>15/03/2021</td>
                                 <td>13/03/2021</td>
-                                <td class="c-reservas__table__status d-flex">
-                                    <div class="c-reservas__table__status__item">
-                                        1
-                                        <span class="bg-success"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        2
-                                        <span class="bg-danger"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        3
-                                        <span></span>
-                                    </div>
+                                <td class="c-reservas__table__status">
+                                    <div class="d-flex">
+                                        <div class="c-reservas__table__status__item">
+                                            1
+                                            <span class="bg-success"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            2
+                                            <span class="bg-danger"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            3
+                                            <span class="bg-warning"></span>
+                                        </div>
+                                   </div>
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
@@ -499,7 +569,7 @@
                                     <span class="c-reservas__table__visibilidade"></span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr data-href="reserva.php">
                                 <td scope="row">36496</td>
                                 <td>1564AO</td>
                                 <td>110064B21</td>
@@ -510,19 +580,21 @@
                                 <td>11/02/2021</td>
                                 <td>15/03/2021</td>
                                 <td>13/03/2021</td>
-                                <td class="c-reservas__table__status d-flex">
-                                    <div class="c-reservas__table__status__item">
-                                        1
-                                        <span class="bg-success"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        2
-                                        <span class="bg-danger"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        3
-                                        <span></span>
-                                    </div>
+                                <td class="c-reservas__table__status">
+                                    <div class="d-flex">
+                                        <div class="c-reservas__table__status__item">
+                                            1
+                                            <span class="bg-success"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            2
+                                            <span class="bg-danger"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            3
+                                            <span class="bg-warning"></span>
+                                        </div>
+                                   </div>
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
@@ -530,7 +602,7 @@
                                     <span class="c-reservas__table__visibilidade"></span>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr data-href="reserva.php">
                                 <td scope="row">36496</td>
                                 <td>1564AO</td>
                                 <td>110064B21</td>
@@ -541,81 +613,21 @@
                                 <td>11/02/2021</td>
                                 <td>15/03/2021</td>
                                 <td>13/03/2021</td>
-                                <td class="c-reservas__table__status d-flex">
-                                    <div class="c-reservas__table__status__item">
-                                        1
-                                        <span class="bg-success"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        2
-                                        <span class="bg-danger"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        3
-                                        <span></span>
-                                    </div>
-                                </td>
-                                <td>-</td>
-                                <td>01</td>
-                                <td>
-                                    <span class="c-reservas__table__visibilidade"></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td scope="row">36496</td>
-                                <td>1564AO</td>
-                                <td>110064B21</td>
-                                <td>David Baez</td>
-                                <td>Mundo Travel</td>
-                                <td>Caroline Menezes</td>
-                                <td>Caroline Menezes</td>
-                                <td>11/02/2021</td>
-                                <td>15/03/2021</td>
-                                <td>13/03/2021</td>
-                                <td class="c-reservas__table__status d-flex">
-                                    <div class="c-reservas__table__status__item">
-                                        1
-                                        <span class="bg-success"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        2
-                                        <span class="bg-danger"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        3
-                                        <span></span>
-                                    </div>
-                                </td>
-                                <td>-</td>
-                                <td>01</td>
-                                <td>
-                                    <span class="c-reservas__table__visibilidade"></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td scope="row">36496</td>
-                                <td>1564AO</td>
-                                <td>110064B21</td>
-                                <td>David Baez</td>
-                                <td>Mundo Travel</td>
-                                <td>Caroline Menezes</td>
-                                <td>Caroline Menezes</td>
-                                <td>11/02/2021</td>
-                                <td>15/03/2021</td>
-                                <td>13/03/2021</td>
-                                <td class="c-reservas__table__status d-flex">
-                                    <div class="c-reservas__table__status__item">
-                                        1
-                                        <span class="bg-success"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        2
-                                        <span class="bg-danger"></span>
-                                    </div>
-                                    <div class="c-reservas__table__status__item">
-                                        3
-                                        <span></span>
-                                    </div>
+                                <td class="c-reservas__table__status">
+                                    <div class="d-flex">
+                                        <div class="c-reservas__table__status__item">
+                                            1
+                                            <span class="bg-success"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            2
+                                            <span class="bg-danger"></span>
+                                        </div>
+                                        <div class="c-reservas__table__status__item">
+                                            3
+                                            <span class="bg-warning"></span>
+                                        </div>
+                                   </div>
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
@@ -633,7 +645,6 @@
 
 </main>
 
-<script src="assets/js/pages/reservas.js"></script>
 
 
 <?php include('includes/footer.php') ?>

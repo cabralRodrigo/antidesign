@@ -7,6 +7,7 @@ const concat = require('gulp-concat');
 const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 
+
 // Funçao para compilar o SASS e adicionar os prefixos
 function compilaSass() {
   return gulp
@@ -50,8 +51,10 @@ function pluginJS() {
     'node_modules/moment/moment.js',
     'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
     'node_modules/country-select-js/src/js/countrySelect.js',
+    'node_modules/video.js/dist/video.js',
+    'node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js',
 
-    // 'assets/js/plugins/*.js'
+    'assets/js/plugins/*.js'
   ])
   .pipe(concat('plugins.js'))
   .pipe(gulp.dest('assets/js/'))

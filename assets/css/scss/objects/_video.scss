@@ -1,3 +1,13 @@
-// .o-video{
-    
-// }
+.video-js{
+    width: 100%;
+    .vjs-control-bar{
+        background-color: transparent!important;
+    }
+    .vjs-big-play-button{
+         left: calc(50% - 90px);
+         top: calc(50% - 48px);
+    }
+}
+.vjs-poster{
+    background-size: cover;
+}

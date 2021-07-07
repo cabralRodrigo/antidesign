@@ -4,10 +4,18 @@
     }
     &__content{
         padding: 3.78rem 0 8.87rem;
+        display: grid !important;
+        grid-template-columns: repeat(5, 1fr);
+        @include breakpoint(xxl){
+            grid-template-columns: repeat(4, 1fr);
+        }
         &__item{
             width: 16.25rem;
             margin-bottom: 4rem;
-            margin: 0 1.75rem 4rem;
+            margin: 0 5rem 4rem 0;
+            @include breakpoint(xxl){
+                margin-right: 29px;
+            }
             &__img{
                 background-size: cover;
                 background-position: center;

@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
     searchBox.init();
   }
 
+  reserva.init();
+
+
   //Date Picker
   flatpickr(".input-date", {
     locale: 'pt',
@@ -23,12 +26,44 @@ document.addEventListener("DOMContentLoaded", function (event) {
   $('.input-number').on('click', '.button-minus', function(e) {
     decrementValue(e);
   });
+
+
+  $('.c-hotel__price__passageiros input').each(function() {
+    $(this).on('change click', function(){
+      priceBox.passageiros();
+    });
+  });
   
   
   
+ 
+      
 });
 
 
+var reserva = {
+  init: function(){
+
+    $('.JS__reservar-toggle').each(function() {
+      $(this).on('click', function(){
+        reserva.toggleModal();
+      });
+    });
+    
+    $('.JS__reserva-next').on('click', function(){
+      
+      $('.o-reserva__step1').removeClass('show')
+      $('.o-reserva__step2').addClass('show')
+
+    });
+
+  },
+  toggleModal: function(){
+    document.querySelector('.JS__reserva').classList.toggle('open');
+    document.querySelector('.o-reserva__step1').classList.add('show');
+    document.querySelector('.o-reserva__step2').classList.remove('show');
+  }
+}
 
 
 var cardSlides = {
@@ -36,7 +71,8 @@ var cardSlides = {
         new Swiper(".JS-cards", {
             slidesPerView: 'auto',
             spaceBetween: 16,
-            breakpointsInverse: true,
+            // centeredSlides: true,
+            loop: true,
             navigation: {
                 nextEl: '.JS-cards__pagination .swiper-button-next',
                 prevEl: '.JS-cards__pagination .swiper-button-prev',
@@ -57,6 +93,15 @@ var searchBox = {
     if (radio){
       this.handleClick(radio)
     }
+    
+    // Search Box - Exibir Passageiros
+    $('.JS__passageiros-input').on('click', function(e) {
+      openPassageiros();
+    });
+
+    $('.JS__search-box__radio').on('click', function(e) {
+      searchBox.handleClick();
+    });
 
     //Date Picker
     flatpickr("#datepicker", {
@@ -70,31 +115,60 @@ var searchBox = {
 
   },
 
-  handleClick: function(myRadio) {
+  handleClick: function() {
 
-    const value = myRadio.value,
-    regimeInput = document.querySelector('.JS__regime-input'),
-    itemInput = document.querySelector('.JS__item-input');
-  
-    if( value == 2 || value == 3 || value == 4 ){
-      if (! regimeInput.classList.contains('show')){
-        regimeInput.classList.add('show');
+    const radios = document.querySelectorAll('.JS__search-box__radio'),
+    searchBox = document.querySelector('.JS__search-box');
+
+    var value;
+
+
+    for (var i=0, len=radios.length; i<len; i++) {
+      if ( radios[i].checked ) { // radio checked?
+          value = radios[i].value; // if so, hold its value in val
+          break; // and break out of for loop
       }
     }
-    else{
-      if (regimeInput.classList.contains('show')){
-        regimeInput.classList.remove('show');
+
+    if(value == 1){
+      if (! searchBox.classList.contains('--hotel')){
+        searchBox.classList.add('--hotel');
       }
+    } else{
+        searchBox.classList.remove('--hotel');
+    }
+    if(value == 2){
+      if (! searchBox.classList.contains('--translado')){
+        searchBox.classList.add('--translado');
+      }
+    } else{
+        searchBox.classList.remove('--translado');
+    }
+    if(value == 3){
+      if (! searchBox.classList.contains('--tour')){
+        searchBox.classList.add('--tour');
+      }
+    } else{
+        searchBox.classList.remove('--tour');
+    }
+
+  
+    if( value == 4 ){
+      if (! searchBox.classList.contains('--pacotes')){
+        searchBox.classList.add('--pacotes');
+      }
+    } else{
+        searchBox.classList.remove('--pacotes');
     }
 
     if( value == 5){
-      if (! itemInput.classList.contains('show')){
-        itemInput.classList.add('show');
+      if (! searchBox.classList.contains('--extra')){
+        searchBox.classList.add('--extra');
       }
     }
     else{
-      if (itemInput.classList.contains('show')){
-        itemInput.classList.remove('show');
+      if (searchBox.classList.contains('--extra')){
+        searchBox.classList.remove('--extra');
       }
     }
   
@@ -120,11 +194,10 @@ var searchBox = {
 
 };
 
-
 const openPassageiros = () => {
   const passageirosBox = document.querySelector('.JS__passageiros-box');
         
-  if(! passageirosBox.classList.contains('show')){
+  if(!passageirosBox.classList.contains('show')){
     passageirosBox.classList.add("show");
   }
 
@@ -143,9 +216,28 @@ const closePassageiros = (event) => {
     document.removeEventListener('click', closePassageiros, false);
 
   }
-
 }
 
+const openSearchboxReducedRadios = () => {
+  const searchRadiosBox = document.querySelector('.JS__search-box__radios');
+        
+  if(! searchRadiosBox.classList.contains('show')){
+    searchRadiosBox.classList.add("show");
+  }
+
+  setTimeout(() => { document.addEventListener('click', closeSearchboxReducedRadios, false) }, 200);
+}
+
+const closeSearchboxReducedRadios = (event) => {
+  const searchRadiosBox = document.querySelector('.JS__search-box__radios');
+
+  if (!searchRadiosBox.contains(event.target)) {
+    
+    searchRadiosBox.classList.remove("show");
+    document.removeEventListener('click', closeSearchboxReducedRadios, false);
+
+  }
+}
 
 Number.prototype.pad = function(size) {
   var s = String(this);
@@ -179,14 +271,47 @@ function decrementValue(e) {
   }
 }
 
-
  
+var mainSwiper = new Swiper(".JS__banner", {
+  // loop: true,
+  effect: 'fade',
+  fadeEffect: {
+      crossFade: true
+  },
+});
 
 
-// var swiper2 = new Swiper(".JS__content-carousel", {
-//   slidesPerView: 'auto',
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   }
-// });
+var swiperContent = new Swiper(".JS__content-carousel", {
+  slidesPerView: 'auto',
+  navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+  },
+  effect: 'fade',
+  fadeEffect: {
+      crossFade: true
+  },
+});
+  
+
+var swiperDestaque = new Swiper(".JS__destaque", {
+  loop: true,
+  pagination: {
+    el: ".JS__destaque .swiper-pagination",
+    clickable: true
+  },
+  effect: 'fade',
+  autoplay: {
+    delay: 5000,
+  },
+  fadeEffect: {
+      crossFade: true
+  },
+});
+  
+
+jQuery(document).ready(function($) {
+  $('*[data-href]').on('click', function() {
+      window.location = $(this).data("href");
+  });
+});

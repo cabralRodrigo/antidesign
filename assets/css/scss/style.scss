@@ -57,10 +57,14 @@
 @import 'objects/_card.scss';
 @import 'objects/_praia.scss';
 @import 'objects/_daterange.scss';
+@import 'objects/_reserva.scss';
+@import 'objects/_comments.scss';
+@import 'objects/_upload.scss';
+@import 'objects/_video.scss';
 
 @import 'components/_banner.scss';
-@import 'components/_destaque.scss';
 @import 'components/_cards-carousel.scss';
+@import 'components/_destaque.scss';
 @import 'components/_page.scss';
 @import 'components/_reservas.scss';
 @import 'components/_busca.scss';
@@ -71,6 +75,9 @@
 @import 'components/_experiencias.scss';
 @import 'components/_condicoes.scss';
 @import 'components/_relatorios.scss';
+@import 'components/_eventos.scss';
+@import 'components/_single-experiencia.scss';
+@import 'components/_destinos.scss';
 
 
 @import 'components/_home.scss';
@@ -78,4 +85,4 @@
 // @import 'utility/_background.scss';
 @import 'utility/_colors.scss';
 @import 'utility/_helpers.scss';
-@import 'utility/_sizes.scss';
+@import 'utility/_sizes.scss'; 

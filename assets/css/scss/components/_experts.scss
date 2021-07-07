@@ -21,6 +21,9 @@
             padding: 0 9.6rem;
             width: 36%;
             height: 100%;
+            @include breakpoint(xxl){
+                padding: 0 5rem;
+            }
             a {
                 svg{
                     margin-left: .93rem;
@@ -39,10 +42,23 @@
         width: 64%;
         margin-top: -6.1rem;
         nav{
+
             margin: 0 calc((100vw - 1640px) / 2);
+            
+            @include breakpoint(xxl){
+                margin: 0;
+
+                .nav-tabs{
+                    margin: 0 auto;
+                    width: max-content;
+                }
+
+            }
+
             .nav-tabs .nav-link::before{
                 background: #fff;
             }
+
         }
     }
 }

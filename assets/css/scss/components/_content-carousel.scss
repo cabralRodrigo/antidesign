@@ -15,6 +15,30 @@
         margin-top: 6.6rem;
         padding-left: 26.5rem;
         padding-top: 9.68rem;
+        padding-bottom: 5rem;
+        overflow: auto;
+        @include breakpoint(xxl){
+            padding-left: 18.5rem;
+        }
+        /* width */
+        &::-webkit-scrollbar {
+            width: 4px;
+        }
+        
+        /* Track */
+        &::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: #888; 
+        }
+        
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #555; 
+        }
     }
     &__buttons{
         width: 71.1%;

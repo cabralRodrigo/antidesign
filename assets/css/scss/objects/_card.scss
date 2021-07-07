@@ -3,11 +3,12 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 23rem!important;
-    width: 16.25rem!important;
+    width: 16.25rem;
     padding: 1.18rem 1.31rem 1.56rem;
     color: #fff;
     overflow: hidden;
     border-radius: 1.25rem;
+    transition:  .2s;
     &__bg{
         position: absolute;
         height: 100%;
@@ -29,32 +30,32 @@
     &__content{
         max-width: 243px;
     }
-    &--first{
-        width: 33.5rem!important;
-        &:after{
-            content:'';
-            background: $primary;
-            width: 20.31rem;
-            height: 7.87rem;
-            border-radius: 0 6.25rem 0 0;
-            position: absolute;
-            left: 0;
-            bottom: 0;
-        }
-        &:before{
-            content: '';
-            background-image: url(../img/arrow-right.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 20px;
-            width: 42px;
-            right: 36px;
-            bottom: 35px;
-            position: absolute;
-            z-index: 99;
-        }
-    }
+    // &.swiper-slide-active{
+    //     width: 33.5rem;
+    //     &:after{
+    //         content:'';
+    //         background: $primary;
+    //         width: 20.31rem;
+    //         height: 7.87rem;
+    //         border-radius: 0 6.25rem 0 0;
+    //         position: absolute;
+    //         left: 0;
+    //         bottom: 0;
+    //     }
+    //     &:before{
+    //         content: '';
+    //         background-image: url(../img/arrow-right.png);
+    //         background-position: center;
+    //         background-repeat: no-repeat;
+    //         background-size: cover;
+    //         height: 20px;
+    //         width: 42px;
+    //         right: 36px;
+    //         bottom: 35px;
+    //         position: absolute;
+    //         z-index: 99;
+    //     }
+    // }
 }
 
 

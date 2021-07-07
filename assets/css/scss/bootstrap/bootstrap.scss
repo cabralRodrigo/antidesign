@@ -13,7 +13,7 @@ $grid-breakpoints: (
     md: 768px,
     lg: 992px,
     xl: 1200px,
-    xxl: 1800px
+    xxl: 1680px
   ) !default;
 
 $grid-gutter-width: 1rem;
@@ -45,6 +45,7 @@ $red:     #F15375 !default;
 $orange:  #FAA528 !default;
 $green:   #A6DD2B !default;
 $cyan:    #47D6F8 !default;
+$pink-dark: #F549A0 !default;
 
 $primary:    #0F6B7B !default;
 $secondary:    #3B3B3B!default;
@@ -147,6 +148,27 @@ $form-select-bg-size:               16px 16px; // In pixels because image dimens
 * JOURNEY'S CUSTOM BOOTSTRAP 
 */
 
+
+
+.text-purple  { color: $purple!important;}
+.text-pink    { color:  $pink!important;}
+.text-red     { color:  $red!important;}
+.text-orange  { color:  $orange!important;}
+.text-green   { color:  $green!important;}
+.text-cyan    { color:  $cyan!important;}
+
+
+.bg-purple  { background-color: $purple!important;}
+.bg-pink    { background-color:  $pink!important;}
+.bg-red     { background-color:  $red!important;}
+.bg-orange  { background-color:  $orange!important;}
+.bg-green   { background-color:  $green!important;}
+.bg-cyan    { background-color:  $cyan!important;}
+.bg-pink-dark    { background-color:  $pink-dark!important;}
+
+
+
+
 // scss-docs-end import-stack
 .btn-link {
     color: #0F6B7B;
@@ -163,6 +185,7 @@ $form-select-bg-size:               16px 16px; // In pixels because image dimens
     font-weight: 500;
     font-size: .75rem;
     margin-bottom: .87rem;
+    cursor: pointer;
 }
 
 .form-switch .form-check-label{
@@ -181,6 +204,7 @@ $form-select-bg-size:               16px 16px; // In pixels because image dimens
 .form-switch .form-check-input{
   height: 1.25rem;
   width: 2rem;
+  cursor: pointer;
 }
 
 .text-black-50{
@@ -191,27 +215,33 @@ $form-select-bg-size:               16px 16px; // In pixels because image dimens
     text-decoration: none;
 }
 
-.table-striped{
+table.table{
   border-collapse: separate;
   border-spacing: 0 .75rem;
+  thead th{
+    font-weight: 500;
+    border-radius: 0;
+  }
+  tbody:before{
+    content: '';
+  }
+  tbody td{
+    padding: .7rem .5rem;
+    &:first-of-type{
+      border-radius: .93rem 0 0 .93rem;
+    }
+    &:last-of-type{
+      border-radius: 0 .93rem .93rem 0;
+    }
+  } 
+  & > :not(:last-child) > :last-child > *{
+    border-color: #EAEAEA;
+  }
+  &.no-footer{
+    border-color: #EAEAEA;
+  }
 }
 
-.table>:not(:last-child)>:last-child>*{
-  border-bottom-color: #EAEAEA;
-}
-
-.table tr th{
-  border-radius: 0;
-}
-
-.table tbody tr td:first-of-type{
-  border-radius: .93rem 0 0 .93rem;
-}
-
-
-.table tbody tr td:last-of-type{
-  border-radius: 0 .93rem .93rem 0;
-}
 
 .nav-tabs{
   overflow: hidden;
@@ -266,6 +296,51 @@ $form-select-bg-size:               16px 16px; // In pixels because image dimens
   }
 }
 
+.nav-pills{
+  .nav-item{
+    margin-right: 1.12rem;
+    margin-bottom: 1.12rem;
+    justify-content: flex-start;
+    flex: inherit;
+    .nav-link{
+      border: 1px solid #707070;
+      color: #707070;
+      font-size: .87rem;
+      padding: .87rem 1.12rem;
+      border-radius: 26px;
+      width: auto;
+      display: inline-block;
+      &.active{
+        color: $white;
+        border-color: $primary;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
 .carousel-indicators [data-bs-target]{
   border-radius: 100%;
+}
+
+.accordion .accordion-button{
+  box-shadow: none;
+}
+
+.accordion .accordion-button.bg-dark:after{
+  background-image: url('../../img/arrow-down-white.png');
+  height: 8px;
+  width: 15px;
+  background-size: contain;
+  background-position: center;
+}
+
+
+.shadow{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .06) !important;
+}
+
+table.table tbody td{
+  padding: .7rem 1.07rem;
+  transition: .15s ease-in-out;
 }

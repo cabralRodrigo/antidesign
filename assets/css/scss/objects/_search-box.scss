@@ -6,8 +6,15 @@
     font-size: .75rem;
     z-index: 99;
     box-shadow: 5px 13px 15px 5px rgba(0,0,0,0.16);
+    @include breakpoint(xl){
+        width: 50rem;
+    }
+
     &__radios{
         width: 46rem;
+        @include breakpoint(xl){
+            width: 34rem;
+        }
         .form-check-label{
             font-weight: 400;
             cursor: pointer;
@@ -24,6 +31,8 @@
             }
             svg{
                 margin-right: 12px;
+                height: 23px;
+                width: 27px;
             }
         }
         .form-check-input {
@@ -39,13 +48,16 @@
         font-size: 1.13rem;
         line-height: 1.37rem;
         margin-bottom: 1.15rem;
+        @include breakpoint(xl){
+            font-size: .85rem;
+        }
     }
     &__form{
         padding-top: 1.15rem;
         border-top: 1px solid #EAEAEA;
         &__item{
             display: none;
-            width: 25.96rem;
+            width: 42.9rem;
             position: absolute;
             background: #fff;
             z-index: 99;
@@ -69,16 +81,13 @@
             .form-select{
                 padding: 1.02rem 3rem 1.14rem 1rem;
             }
-            &.show{
-                display: block;
-            }
         }
         &__passageiros{
             width: 16rem;
             &__input{
                 position: relative;
                 .form-control{
-                    padding: 1.02rem 1rem 1.02rem 3.7rem;
+                    padding: 1.02rem 1rem 1.145rem 3.7rem;
                     cursor: pointer;
                 }
             }
@@ -92,18 +101,22 @@
                 top: 8.5rem;
                 left: 0;
                 height: 5rem;
-                width: 100%;
-                padding: .75rem .31rem .75rem .31rem;
+                width: calc(100% + 4rem);
+                margin-left: -2rem;
+                padding: .75rem 2.37rem .75rem 2.37rem;
                 border-radius: 1.8rem;
                 opacity: 0;
                 box-shadow: 5px 13px 15px 5px rgba(0,0,0,0.16);
-
                 visibility: hidden;
                 &__item{
                     border-right: 1px solid #E3E3E3;
                     padding: 0 2.44rem 0 1.5rem;
+                    &:first-of-type{
+                        padding-left: 0;
+                    }
                     &:last-of-type{
                         border-right: 0;
+                        padding-right: 0;
                     }
                 }
                 &.show{
@@ -149,21 +162,34 @@
             margin-bottom: .4rem;
         }
     }
+ 
+    &.--translado,
+    &.--tour,
+    &.--pacotes{
+        .o-search-box__form__regime{
+            display: block;
+        }
+    }
+    &.--extra{
+        .o-search-box__form__item{
+            display: block;
+        }
+    }
 }
-
-
 
 
 .o-search-box--reduced{
     height: 4rem;
-    border-radius: 40px;
+    border-radius: 2.5rem;
     height: 4rem;
-    width: 68rem;
+    width: 72.6rem;
     padding: 1rem .52rem 1rem 2rem;
     font-size: .75rem;
     z-index: 99;
     box-shadow: 5px 13px 15px 5px rgba(0,0,0,0.16);
     &__form{
+        overflow: hidden;
+        height: 31px;
         .form-label{
             display: block;
             margin-bottom: 0;
@@ -175,9 +201,20 @@
             outline: none;
         }
         &__options{
-            width: 8.1rem;
+            width: 6rem;
+            cursor: pointer;
+            .icon-arrow-down{
+                font-size: 24px;
+            }
             &__icon{
-                margin-right: 3.6rem;
+                margin-right: 1rem;
+                width: 1.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .icon{
+                    display: none;
+                }
             }
         }
         &__item{
@@ -186,9 +223,6 @@
             position: absolute;
             background: #fff;
             z-index: 99;
-            &.show{
-                display: block;
-            }
         }
         &__destino{
             width: 13.6rem;
@@ -201,15 +235,12 @@
         }
         &__regime{
             display: none;
-            // width: 12rem;
+            width: 10rem;
             background: #fff;
-            left: 13.95rem;
+            left: 18.5rem;
             background: #fff;
-            .form-select{
-                padding: 1.02rem 3rem 1.14rem 1rem;
-            }
-            &.show{
-                display: block;
+            select{
+                margin: 2px 0 0 -3px;
             }
         }
         &__passageiros{
@@ -217,38 +248,16 @@
             padding-right: 1rem;
             &__input{
                 position: relative;
+                cursor: pointer;
                 .form-control{
                     padding: 1.02rem 1rem 1.02rem 3.7rem;
                 }
             }
-            &__content{
-                top: 14rem;
-                left: 0;
-                height: 5rem;
-                width: 100%;
-                padding: .75rem .31rem .75rem .31rem;
-                border-radius: 1.8rem;
-                transition: .15s;
-                box-shadow: 5px 13px 15px 5px rgba(0,0,0,0.16);
-                
-                
-                opacity: 0;
-                transform:translate3d(0,-20px,0);
-                visibility: hidden;
-
-                &__item{
-                    border-right: 1px solid #E3E3E3;
-                    padding: 0 2.44rem 0 1.5rem;
-                    &:last-of-type{
-                        border-right: 0;
-                    }
-                }
-                &.show{
-                    animation: fpFadeInDown 300ms cubic-bezier(.23,1,.32,1);
-                    opacity: 1;
-                    visibility: visible;
-                }
-            }
+           .o-search-box__form__passageiros__content{
+               width: 68rem;
+               margin-left: 2rem;
+               top: 6.5rem;
+           }
         }
         &__checkin{
             border-right: 1px solid #EAEAEA;
@@ -277,34 +286,73 @@
                 }
             }
         }
-        .o-search-box__form__passageiros__content{
-            top: 6.5rem;
-        }
     }
     
     &__radios{
         top: 17.6rem;
-        left: 0;
         height: 4rem;
-        width: 100%;
-        padding: 1rem .52rem 1rem 2rem;
+        width: 72.6rem;
+        left: calc(50% - 72rem/2);
+        padding: 1.3rem 2.16rem 1rem 2rem;
         border-radius: 1.8rem;
-        transition: .15s;
         box-shadow: 5px 13px 15px 5px rgba(0,0,0,0.16);
-        z-index: 99;
-        width: 68rem;
+        z-index: 999;
+        opacity: 0;
+        visibility: hidden;
 
-        position: absolute;
-        left: 50%;
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
-        
-        // opacity: 0;
-        // transform:translate3d(0,-20px,0);
-        // visibility: hidden;
-
+        &.show{
+            animation: fpFadeInDown 300ms cubic-bezier(.23,1,.32,1);
+            opacity: 1;
+            visibility: visible;
+        }
         
     }
+    &.--hotel{
+        .o-search-box--reduced__form__options__icon__hotel{
+            display: block;
+        }
+    }
+    &.--translado,
+    &.--tour,
+    &.--pacotes{
+        width: 64.37rem;
+        .o-search-box--reduced__form__regime{
+            display: block;
+        }
+    }
+    &.--translado{
+        .o-search-box--reduced__form__options__icon__translado{
+            display: block;
+        }
+    }
+    &.--tour{
+        .o-search-box--reduced__form__options__icon__tour{
+            display: block;
+        }
+    }
+    &.--pacotes{
+        .o-search-box--reduced__form__options__icon__pacotes{
+            display: block;
+        }
+    }
+    &.--extra{
+        width: 43.25rem;
+        .o-search-box__form__item{
+            display: block;
+            width: 186px;
+            left: 7rem;
+            position: absolute;
+        }
+        .o-search-box--reduced__form__destino,
+        .o-search-box--reduced__form__hotel{
+            display: none;
+        }
+        .o-search-box--reduced__form__options__icon__extras{
+            display: block;
+            font-size: 22px;
+        }
+    }
+    transition: .2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 

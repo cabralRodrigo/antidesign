@@ -97,6 +97,14 @@ span.flatpickr-weekday{
     border-color: #F0F0F0;
 }
 
+.flatpickr-day.selected.startRange + .endRange:not(:nth-child(7n+1)), .flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n+1)), .flatpickr-day.endRange.startRange + .endRange:not(:nth-child(7n+1)){
+    box-shadow: -10px 0 0 #F0F0F0;
+}
+
+
+.flatpickr-calendar.multiMonth .flatpickr-days .dayContainer:nth-child(n+2) .flatpickr-day.inRange:nth-child(7n+1){
+    box-shadow: -2px 0 0 #F0F0F0, 5px 0 0 #F0F0F0;
+}
 
 
 .flatpickr-months .flatpickr-prev-month.flatpickr-prev-month{

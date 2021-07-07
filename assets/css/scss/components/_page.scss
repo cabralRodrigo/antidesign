@@ -4,6 +4,10 @@
         background-position: center;
         height: 100vh;
         width: 43.2%;
+        position: absolute;
+        &.fixed{
+            position: fixed;
+        }
     }
     &__container{
         padding: 13rem 0 7rem;

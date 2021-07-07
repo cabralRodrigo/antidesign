@@ -3,34 +3,26 @@
 
 
 <main>
-        
+
     <section class="c-banner">
 
-        <div id="principal" class="carousel slide h-100" data-bs-ride="carousel">
+        <div class="swiper-container h-100 JS__banner">
             
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#principal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#principal" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#principal" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+            <div class="swiper-wrapper h-100">
 
-            <div class="carousel-inner h-100">
-
-                <div class="carousel-item h-100 d-flex align-items-end active" style="background-image: url('assets/img/banner-home2.jpg');">
-                    
-                <img src="assets/img/banner-bg.png" alt="background" class="c-banner__background">
+                <div class="c-banner__item swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/banner-home2.jpg');">
+                    <img src="assets/img/banner-bg--video.png" alt="background" class="c-banner__background">
                     <div class="container text-light h-100">
                         <div class="row h-100 d-flex align-items-center">
-                            <div class="col-md-8 col-lg-7 col-xl-6 col-xxl-3">
+                            <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-8 col-sm-8">
                                 <h2 class="fw-bold fs-93">Experiências</h2>
                                 <p>Existe momentos únicos, que podem ficar ainda melhores com novas experiências.</p>
-                                <a href="" class="c-banner__button d-flex align-items-center text-reset text-uppercase fw-bolder">
+                                <a href="experiencias.php" class="c-banner__button d-flex align-items-center text-reset text-uppercase fw-bolder">
                                     Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20"><path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path></svg>
                                 </a>
                             </div>
                         </div>
                     </div>
-
                 </div>
 
             </div>
@@ -49,7 +41,7 @@
                     <h3 class="mb-4 fs-3 fw-bold text-secondary">Tenha a pura sensação da liberdade</h3>
                     <p class="text-black-50">Confira os destinos que separamos especialmente para você</p>
 
-                    <div class="position-relative JS-cards__pagination">
+                    <div class="position-relative c-cards-carousel__pagination JS__destinos-destacados__pagination">
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev fs-4 shadow rounded-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" width="8.397" height="14.73"><path data-name="Caminho 4" d="M8.396 7.365a1.029 1.029 0 01-.3.729l-6.337 6.337A1.032 1.032 0 01.3 12.972l5.6-5.6-5.6-5.6A1.036 1.036 0 111.759.302l6.336 6.329a1.029 1.029 0 01.301.734z" fill="#0e6a7a"/></svg>
@@ -63,7 +55,7 @@
 
                 <div class="c-cards-carousel__content">
                 
-                    <div class="swiper-container JS-cards">
+                    <div class="swiper-container JS__destinos-destacados">
                     <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <div class="swiper-slide o-card o-card--first d-flex align-items-end" style="background-image: url('assets/img/card-trancoso.jpg');">
@@ -85,7 +77,7 @@
                                 
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <span class="icon icon-beach-view bg-white rounded text-primary rounded-circle "></span>
-                                    <div>
+                                    <div class="o-card__content">
                                         <span class="fs-4 text-white fw-500 mb-2 d-block">Ilha Grande</span>
                                         <p class="fs-6">Todos os hotéis com serviço completo e melhor conforto.</p>
                                     </div>
@@ -98,7 +90,7 @@
 
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <span class="icon icon-paw bg-white rounded text-primary rounded-circle "></span>
-                                    <div>
+                                    <div class="o-card__content">
                                         <span class="fs-4 text-white fw-500 mb-2 d-block">Jericoacoara</span>
                                         <p class="fs-6">Lugares que não pode ficar de fora.</p>
                                     </div>
@@ -111,7 +103,7 @@
 
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <span class="icon icon-suitcase bg-white rounded text-primary rounded-circle "></span>
-                                    <div>
+                                    <div class="o-card__content">
                                         <span class="fs-4 text-white fw-500 mb-2 d-block">Pantanal</span>
                                         <p class="fs-6">Confira um guia de habitações para famílias.</p>
                                     </div>
@@ -149,7 +141,7 @@
                     <h3 class="mb-4 fs-3 fw-bold text-secondary">Conheça praias incríveis espalhadas por Búzios</h3>
                     <p>Desfrutes de lugares incríveis escondidos que você só vai encontrar em Búzios!</p>
 
-                    <div class="position-relative JS-cards__pagination">
+                    <div class="position-relative c-cards-carousel__pagination JS__praias-carousel__pagination">
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev fs-4 shadow rounded-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" width="8.397" height="14.73"><path data-name="Caminho 4" d="M8.396 7.365a1.029 1.029 0 01-.3.729l-6.337 6.337A1.032 1.032 0 01.3 12.972l5.6-5.6-5.6-5.6A1.036 1.036 0 111.759.302l6.336 6.329a1.029 1.029 0 01.301.734z" fill="#0e6a7a"/></svg>
@@ -163,7 +155,7 @@
 
                 <div class="c-cards-carousel__content">
                 
-                    <div class="swiper-container JS-cards">
+                    <div class="swiper-container JS__praias-carousel">
                     <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             
@@ -222,7 +214,7 @@
                     <h3 class="mb-4 fs-3 fw-bold text-secondary">Encontre a experiencia perfeita com nossa seleção de hotéis</h3>
                     <p class="text-black-50">Explore os diversos hotéis com classificações desde a gastronomia até a decoração</p>
 
-                    <div class="position-relative JS-cards__pagination">
+                    <div class="position-relative c-cards-carousel__pagination JS__classificacao-pagination">
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev fs-4 shadow rounded-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" width="8.397" height="14.73"><path data-name="Caminho 4" d="M8.396 7.365a1.029 1.029 0 01-.3.729l-6.337 6.337A1.032 1.032 0 01.3 12.972l5.6-5.6-5.6-5.6A1.036 1.036 0 111.759.302l6.336 6.329a1.029 1.029 0 01.301.734z" fill="#0e6a7a"/></svg>
@@ -236,7 +228,7 @@
 
                 <div class="c-cards-carousel__content">
                 
-                    <div class="swiper-container JS-cards">
+                    <div class="swiper-container JS-classificacao-carousel">
                     <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <div class="swiper-slide o-card d-flex align-items-end" style="background-image: url('assets/img/card-barra-de-sao-miguel.jpg');">
@@ -258,7 +250,7 @@
                                 
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <span class="icon icon-key bg-white rounded text-warning rounded-circle "></span>
-                                    <div>
+                                    <div class="o-card__content">
                                         <span class="fs-4 text-white fw-500 mb-2 d-block">Maraú</span>
                                         <p class="fs-6">Lugar incrível, oferecido por  <span class="fw-bold">Butterfly House Bahia</span></p>
                                     </div>
@@ -271,7 +263,7 @@
 
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <span class="icon icon-key bg-white rounded text-warning rounded-circle "></span>
-                                    <div>
+                                    <div class="o-card__content">
                                         <span class="fs-4 text-white fw-500 mb-2 d-block">Maragogi</span>
                                         <p class="fs-6">Viva uma experiência no hotel <span class="fw-bold">Camurim Grande</span>.</p>
                                     </div>
@@ -284,7 +276,7 @@
 
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <span class="icon icon-key bg-white rounded text-warning rounded-circle "></span>
-                                    <div>
+                                    <div class="o-card__content">
                                         <span class="fs-4 text-white fw-500 mb-2 d-block">Trancoso</span>
                                         <p class="fs-6">Lugar incrível, oferecido por <span class="fw-bold">Vilas de Trancoso</span></p>
                                     </div>
@@ -296,7 +288,7 @@
 
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <span class="icon icon-key bg-white rounded text-warning rounded-circle "></span>
-                                    <div>
+                                    <div class="o-card__content">
                                         <span class="fs-4 text-white fw-500 mb-2 d-block">Buzios</span>
                                         <p class="fs-6">Uma experiência única Tramonto de Búzios</p>
                                     </div>
@@ -319,3 +311,5 @@
 
 <?php include('includes/footer.php') ?>
 
+
+<script src="assets/js/pages/home.js"></script>

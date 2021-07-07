@@ -32,6 +32,14 @@
     }
 }
 
+.dot{
+    display: block;
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    margin-right: 2px;
+}
+
 .o-data-picker{
     position: relative;
     input{
@@ -53,7 +61,6 @@
 
 .input-number{
     display: flex;
-    
     .button-minus, .button-plus{
         display: flex;
         align-items: center;
@@ -70,7 +77,10 @@
         color: #656565;
     }
     input[type="number"]{
+        -webkit-appearance: none;
+        -webkit-appearance: textfield;
         -moz-appearance: textfield;
+        appearance: textfield;
         border: 0;
         height: 2rem;
         width: 2rem;
@@ -78,6 +88,37 @@
         font-size: 14px;
         margin: 0 4px;
         outline: none;
+    }
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
+    }
+}
+
+
+.input-search{
+    .icon-search{
+        font-size: 26px;
+        color: #222222;
+        position: relative;
+        top: 14px;
+        left: 23px;
+    }
+    input{
+        border: 1px solid #707070;
+        color: #707070;
+        font-size: .87rem;
+        padding: 1.08rem 1.12rem 1.08rem 4rem;
+        border-radius: 26px;
+        width: 100%;
+        display: inline;
+        font-size: 12px;
+    }
+    &--tarifarios{
+        input{
+            width: 317px;
+        }
     }
 }
 

@@ -77,7 +77,7 @@
                 <!-- Slides -->
                 <div class="swiper-slide c-brasil-secreto__tour__item text-center">
                     <a href="#" class="text-decoration-none">
-                        <div class="c-brasil-secreto__item__img">
+                        <div class="c-brasil-secreto__tour__item__img">
                             <img src="assets/img/brasil-secreto/carousel2.jpg" alt="">
                         </div>
                         <div class="c-brasil-secreto__tour__item__content">
@@ -91,7 +91,7 @@
 
                 <div class="swiper-slide c-brasil-secreto__tour__item text-center">
                     <a href="" class="text-decoration-none">
-                        <div class="c-brasil-secreto__item__img">
+                        <div class="c-brasil-secreto__tour__item__img">
                             <img src="assets/img/brasil-secreto/carousel1.jpg" alt="">
                         </div>
                         <div class="c-brasil-secreto__tour__item__content">
@@ -105,7 +105,7 @@
 
                 <div class="swiper-slide c-brasil-secreto__tour__item text-center">
                     <a href="" class="text-decoration-none">
-                        <div class="c-brasil-secreto__item__img">
+                        <div class="c-brasil-secreto__tour__item__img">
                             <img src="assets/img/brasil-secreto/carousel3.jpg" alt="">
                         </div>
                         <div class="c-brasil-secreto__tour__item__content">
@@ -120,7 +120,7 @@
                 <!-- Slides -->
                 <div class="swiper-slide c-brasil-secreto__tour__item text-center">
                     <a href="" class="text-decoration-none">
-                        <div class="c-brasil-secreto__item__img">
+                        <div class="c-brasil-secreto__tour__item__img">
                             <img src="assets/img/brasil-secreto/carousel2.jpg" alt="">
                         </div>
                         <div class="c-brasil-secreto__tour__item__content">
@@ -134,7 +134,7 @@
 
                 <div class="swiper-slide c-brasil-secreto__tour__item text-center">
                     <a href="" class="text-decoration-none">
-                        <div class="c-brasil-secreto__item__img">
+                        <div class="c-brasil-secreto__tour__item__img">
                             <img src="assets/img/brasil-secreto/carousel1.jpg" alt="">
                         </div>
                         <div class="c-brasil-secreto__tour__item__content">
@@ -148,7 +148,7 @@
 
                 <div class="swiper-slide c-brasil-secreto__tour__item text-center">
                     <a href="" class="text-decoration-none">
-                        <div class="c-brasil-secreto__item__img">
+                        <div class="c-brasil-secreto__tour__item__img">
                             <img src="assets/img/brasil-secreto/carousel3.jpg" alt="">
                         </div>
                         <div class="c-brasil-secreto__tour__item__content">
@@ -181,7 +181,7 @@
                     <h3 class="mb-4 fs-3 fw-bold text-secondary">Encontre a experiencia perfeita com nossa seleção de hotéis</h3>
                     <p class="text-black-50">Explore os diversos hotéis com classificações desde a gastronomia até a decoração</p>
 
-                    <div class="position-relative JS-cards__pagination">
+                    <div class="position-relative JS-cards__pagination c-cards-carousel__pagination">
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev fs-4 shadow rounded-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" width="8.397" height="14.73"><path data-name="Caminho 4" d="M8.396 7.365a1.029 1.029 0 01-.3.729l-6.337 6.337A1.032 1.032 0 01.3 12.972l5.6-5.6-5.6-5.6A1.036 1.036 0 111.759.302l6.336 6.329a1.029 1.029 0 01.301.734z" fill="#0e6a7a"/></svg>
@@ -274,42 +274,25 @@
 
     <section class="c-brasil-secreto__video">
 
-        <div class="o-video">
-            <figure id="videoContainer">
-                <video id="video" controls preload="metadata" poster="assets/img/banner-buzios.jpg">
-                    <source src="assets/img/video.mp4" type="video/mp4">
-                    <source src="assets/img/video.webm" type="video/webm">
-                    <source src="assets/img/video.ogg" type="video/ogg">
-                    <!-- Flash fallback -->
-                    <object type="application/x-shockwave-flash" data="flash-player.swf?videoUrl=assets/img/video.mp4" width="1024" height="576">
-                        <param name="movie" value="flash-player.swf?videoUrl=assets/img/video.mp4" />
-                        <param name="allowfullscreen" value="true" />
-                        <param name="wmode" value="transparent" />
-                        <param name="flashvars" value="controlbar=over&amp;image=img/poster.jpg&amp;file=flash-player.swf?videoUrl=assets/img/video.mp4" />
-                        <img alt="Tears of Steel poster image" src="assets/img/banner-buzios.jpg" width="1024" height="428" title="No video playback possible, please download the video from the link below" />
-                    </object>
-                    <!-- Offer download -->
-                    <a href="assets/img/video.mp4">Download MP4</a>
-                </video>
-                <figcaption>&copy; Blender Foundation | <a href="http://mango.blender.org">mango.blender.org</a></figcaption>
-                </figure>
-                <ul id="video-controls" class="controls">
-                    <li><button id="playpause" type="button">Play/Pause</button></li>
-                    <li><button id="stop" type="button">Stop</button></li>
-                    <li class="progress">
-                        <progress id="progress" value="0" min="0">
-                            <span id="progress-bar"></span>
-                        </progress>
-                    </li>
-                    <li><button id="mute" type="button">Mute/Unmute</button></li>
-                    <li><button id="volinc" type="button">Vol+</button></li>
-                    <li><button id="voldec" type="button">Vol-</button></li>
-                    <li><button id="fs" type="button">Fullscreen</button></li>
-                </ul>
-
-        </div>
-
-        <img src="assets/img/brasil-secreto/video.jpg" alt="Video">
+        <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            poster="assets/img/brasil-secreto/video.jpg"
+            data-setup="{}"
+            class= "teste"
+        >
+            <source src="assets/img/brasil-secreto/video.mp4" type="video/mp4" />
+            <source src="assets/img/brasil-secreto/video.webm" type="video/webm" />
+            <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+            >
+            </p>
+        </video>
 
     </section>
 
@@ -345,7 +328,7 @@
                     Não funcionam com taxas de mercado nacional e internacional.
                 </div>
                 <div class="c-condicoes__item--6 fs-6">
-                    <span class="icon-bad d-block fs-3 mb-4"></span>
+                    <span class="icon-group d-block fs-3 mb-4"></span>
                     Muitos deles não aceitam menores ou grupos.
                 </div>
                
@@ -357,6 +340,7 @@
 
 
 
-<script src="assets/js/pages/brasil-secreto.js"></script>
 
 <?php include('includes/footer.php') ?>
+
+<script src="assets/js/pages/brasil-secreto.js"></script>

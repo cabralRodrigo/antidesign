@@ -2,7 +2,7 @@
 
     <main class="c-page">
        <div class="container-fluid p-0 d-flex">
-            <div class="c-page__img position-absolute" style="background-image: url('assets/img/downloads-banner.jpg');"></div>
+            <div class="c-page__img natural" style="background-image: url('assets/img/downloads-banner.jpg');"></div>
 
             <div class="h-100 w-100 d-flex c-page__container">
 
@@ -12,8 +12,6 @@
 
                         <div class="col-xl-6">
 
-                         
-
                             <div class="row">
                                 <div class="col-xl-6">
                                     <h2 class="d-inline-block fs-5 text-primary p-2 px-0 mb-0">Kit de Mídia</h2>
@@ -21,7 +19,6 @@
                                     <p class="mb-5 fs-4 text-black-50">Pegue nossos recursos oficiais da marca e saiba mais sobre as diretrizes de uso.</p>
                                 </div>
                             </div>
-
 
                             <div class="row mt-5">
                                 <div class="col-xl-12">
@@ -125,3 +122,4 @@
 
 <?php include('includes/footer.php'); ?>
     
+<script src="assets/js/pages/page.js"></script>

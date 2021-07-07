@@ -12,23 +12,6 @@
         svg{
             fill: #525252;
         }
-        &__facebook{
-            margin-right: 1.4rem;
-        }
-        &__instagram{
-            margin-right: 2.18rem;
-        }
-        &__language{
-            .icon-translate{
-                font-size: 1.75rem;
-                margin-right: .87rem;
-            }
-            &__name{
-                border-bottom: 1px solid $secondary;
-                font-weight: 500;
-                margin-left: .87rem;
-            }
-        }
     }
     a{
         transition-duration: .3s;

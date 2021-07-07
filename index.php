@@ -3,23 +3,17 @@
 
 
 <main class="c-home">
-        
+
     <section class="c-banner">
         <?php include('includes/search-box.php') ?>
 
-        <div id="principal" class="carousel slide h-100" data-bs-ride="carousel">
+        <div class="swiper-container h-100 JS__banner">
             
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#principal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#principal" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#principal" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+            <div class="swiper-wrapper h-100">
 
-            <div class="carousel-inner h-100">
-
-                <div class="carousel-item h-100 d-flex align-items-end active" style="background-image: url('assets/img/home-banner.jpg');">
+                <div class="c-banner__item swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/home-banner.jpg');">
                     
-                <img src="assets/img/banner-bg.png" alt="background" class="c-banner__background">
+                    <img src="assets/img/banner-bg.png" alt="background" class="c-banner__background">
                     <div class="container text-light">
                         <div class="row h-100 d-flex align-items-center">
                             <div class="col-md-8 col-lg-7 col-xl-6 col-xxl-4">
@@ -51,29 +45,29 @@
                 <div class="row">
                     <ul class="nav nav-tabs d-flex justify-content-between">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="tarifarios.php">
                                 <span class="icon icon-hotel"></span>Hotelaria
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">
+                            <a class="nav-link" href="tarifarios.php">
                                 <span class="icon icon-car"></span>Transfers
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"><span class="icon icon-tour"></span>Tour</a>
+                            <a class="nav-link" href="tarifarios.php"><span class="icon icon-tour"></span>Tour</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"><span class="icon icon-case"></span>Pacotes</a>
+                            <a class="nav-link" href="tarifarios.php"><span class="icon icon-case"></span>Pacotes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"><span class="icon icon-transfer"></span>Autos</a>
+                            <a class="nav-link" href="tarifarios.php"><span class="icon icon-transfer"></span>Autos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"><span class="icon icon-hotel"></span>Circuitos</a>
+                            <a class="nav-link" href="tarifarios.php"><span class="icon icon-hotel"></span>Circuitos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"><span class="icon icon-bad"></span>Casas & Apartamentos</a>
+                            <a class="nav-link" href="tarifarios.php"><span class="icon icon-bad"></span>Casas & Apartamentos</a>
                         </li>
                     </ul>
                 </div>
@@ -95,7 +89,7 @@
                         <h3 class="mb-4 fs-3 fw-bold text-secondary">Escolha a experiência ideal para seus clientes!</h3>
                         <p>Guia de produtos por perfil de viagens</p>
                     </div>
-                    <div class="position-relative JS-cards__pagination">
+                    <div class="position-relative JS-cards__pagination c-cards-carousel__pagination">
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev fs-4 shadow rounded-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" width="8.397" height="14.73"><path data-name="Caminho 4" d="M8.396 7.365a1.029 1.029 0 01-.3.729l-6.337 6.337A1.032 1.032 0 01.3 12.972l5.6-5.6-5.6-5.6A1.036 1.036 0 111.759.302l6.336 6.329a1.029 1.029 0 01.301.734z" fill="#0e6a7a"/></svg>
@@ -112,10 +106,9 @@
                     <div class="swiper-container JS-cards">
                     <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide o-card o-card--first d-flex align-items-end" style="background-image: url('assets/img/card-brasil-secreto.jpg');">
 
-                                <img src="assets/img/card-bg.png" alt="" class="o-card__bg">
-
+                            <div class="swiper-slide o-card d-flex align-items-end" style="background-image: url('assets/img/card-brasil-secreto.jpg');">
+                                <img src="assets/img/card-bg.png" class="o-card__bg">
                                 <a href="brasil-secreto.php" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column w-100">
                                     <span class="icon icon-airport bg-white rounded text-primary rounded-circle "></span>
                                     <div class="o-card__content">
@@ -123,12 +116,10 @@
                                         <p class="fs-6">Conheça todos os segredos escondidos deste pais incrível!</p>
                                     </div>
                                 </a>
-
                             </div>
-                            <div class="swiper-slide o-card d-flex align-items-end" style="background-image: url('assets/img/card-Hotelaria-all-Inclusive.jpg');">
 
+                            <div class="swiper-slide o-card d-flex align-items-end" style="background-image: url('assets/img/card-Hotelaria-all-Inclusive.jpg');">
                                 <img src="assets/img/card-bg.png" alt="" class="o-card__bg">
-                                
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <span class="icon icon-beach-view bg-white rounded text-primary rounded-circle "></span>
                                     <div>
@@ -136,12 +127,10 @@
                                         <p class="fs-6">Todos os hotéis com serviço completo e melhor conforto.</p>
                                     </div>
                                 </a>
-
                             </div>
+
                             <div class="swiper-slide o-card d-flex align-items-end" style="background-image: url('assets/img/card-hotel-pet-friendly.jpg');">
-
                                 <img src="assets/img/card-bg.png" alt="" class="o-card__bg">
-
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <span class="icon icon-paw bg-white rounded text-primary rounded-circle "></span>
                                     <div>
@@ -149,12 +138,10 @@
                                         <p class="fs-6">Sempre tem um membro que não pode ficar de fora.</p>
                                     </div>
                                 </a>
-
                             </div>
+
                             <div class="swiper-slide o-card d-flex align-items-end" style="background-image: url('assets/img/card-brasil-familias.jpg');">
-
                                 <img src="assets/img/card-bg.png" alt="" class="o-card__bg">
-
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <span class="icon icon-suitcase bg-white rounded text-primary rounded-circle "></span>
                                     <div>
@@ -162,14 +149,12 @@
                                         <p class="fs-6">Confira um guia de habitações para famílias.</p>
                                     </div>
                                 </a>
-
                             </div>
                             
                         </div>
-                        </div>
                     </div>
-
                 </div>
+
             </div>
         </div>
     </section>
@@ -201,7 +186,7 @@
                                 <h3 class="mb-4 fs-5 fw-500 text-secondary">Atualização de Tarifas</h3>
                                 <p class="fs-6">Acompanhe as atualizações Tarifarias diariamente em um só lugar.</p>
                             </div>
-                            <a href="" class="btn-link fs-6">Saber mais</a>
+                            <a href="destinos.php" class="btn-link fs-6">Saber mais</a>
                             
                         </div>      
                         <div class="col-xl-3 mb-5 c-home__info__container__box__item">
@@ -214,7 +199,7 @@
                             <span class="c-home__info__container__box__icon icon-user d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Fornecedores</h3>
                             <p class="fs-6">Conheça todos os fornecedores espalhados pelo Brasil.</p>
-                            <a href="fornecedores.php" class="btn-link fs-6">Saber mais</a>
+                            <a href="parcerias.php" class="btn-link fs-6">Saber mais</a>
                         </div>      
                         <div class="col-xl-3 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-sun d-block"></span>
