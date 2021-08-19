@@ -79,13 +79,13 @@
         }
         &__visibilidade{
             display: block;
-            background-image: url(../img/eye-close.png);
+            background-image: url(../../../img/eye-close.png);
             background-size: contain;
             background-repeat: no-repeat;
             height: 1.18rem;
             width: 1.37rem;
             &.check{
-                background-image: url(../img/eye-open.png);
+                background-image: url(../../../img/eye-open.png);
             }
         }
         .dataTables_wrapper .dataTables_paginate .paginate_button,
