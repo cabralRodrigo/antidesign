@@ -57,20 +57,19 @@
                 </div>
             </div>
 
-            <div class="row pt-1 pb-5">
+            <div class="row pt-1 pb-4">
                 <div class="container-fluid">
 
                     <div class="row">
-                        <div class="col-10 d-flex align-items-center">
+                        <div class="col-md-9 d-flex align-items-center mb-4">
                             <span class="icon-search me-3"></span>
                             <input type="text" class="form-control w-100 fs-5 border-0" placeholder="Procure por uma reserva inserindo o código #000">
                         </div>
-
-                        <div class="col-1 offset-1">
-                            <a class="fs-4 text-decoration-none text-primary fw-500 d-flex align-items-center justify-content-between mb-3" data-bs-toggle="collapse" href="#filtros" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
-                                <span class="icon-ajust"></span>
+                        <div class="col-md-2 offset-md-1 d-flex align-items-center mb-4">
+                            <a class="fs-4 text-decoration-none text-primary fw-500 d-flex align-items-center" data-bs-toggle="collapse" href="#filtros" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                                <span class="icon-ajust me-3"></span>
                                 Filtros
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14.73" height="8.397"><path data-name="Caminho 4" d="M7.366 8.397a1.029 1.029 0 01-.729-.3L.3 1.76A1.032 1.032 0 011.759.301l5.6 5.6 5.6-5.6a1.036 1.036 0 111.47 1.459L8.1 8.096a1.029 1.029 0 01-.734.301z" fill="#0e6a7a"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14.73" height="8.397" class="ms-3"><path data-name="Caminho 4" d="M7.366 8.397a1.029 1.029 0 01-.729-.3L.3 1.76A1.032 1.032 0 011.759.301l5.6 5.6 5.6-5.6a1.036 1.036 0 111.47 1.459L8.1 8.096a1.029 1.029 0 01-.734.301z" fill="#0e6a7a"/></svg>
                             </a>
                         </div>
                     </div>
@@ -79,9 +78,10 @@
             </div>
 
             <div class="collapse multi-collapse c-reservas__filtros" id="filtros">
-                <div class="d-flex justify-content-between align-items-baseline">
-                    <div class="c-reservas__filtros__container me-4">
-                        <div class="d-flex no-wrap justify-content-between">
+                <div class="d-flex justify-content-between align-items-baseline flex-wrap">
+
+                    <div class="c-reservas__filtros__container mb-4">
+                        <div class="d-flex no-wrap justify-content-between c-reservas__filtros__content">
                             <div class="mb-4 w-100 mx-2">
                                 <label for="exampleInputEmail1" class="form-label">Id. Journeys</label>
                                 <input class="form-control " type="text" aria-label="default input example">
@@ -99,7 +99,7 @@
                                 <input class="form-control" type="text" aria-label="default input example">
                             </div>
                         </div>
-                        <div class="d-flex no-wrap justify-content-between  align-items-baseline">
+                        <div class="d-flex no-wrap justify-content-between align-items-baseline c-reservas__filtros__content">
                             <div class="mb-4 w-100 mx-2">
                                 <label for="exampleInputEmail1" class="form-label">Tour Líder</label>
                                 <input class="form-control" type="text" aria-label="default input example">
@@ -131,7 +131,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="d-flex no-wrap justify-content-between align-items-baseline">
+                        <div class="d-flex no-wrap justify-content-between align-items-baseline c-reservas__filtros__content">
                             <div class="mb-4 w-100 mx-2">
                                 <label for="country" class="form-label">País do Cliente</label>
                                 <select class="form-select">
@@ -141,31 +141,31 @@
                             
                             <div class="mb-4 w-100 mx-2 o-data-picker">
                                 <label for="checkin" class="form-label">Datas Check-In</label>
-                                <input class="form-control input-date bg-transparent" type="text" aria-label="Datas de Check-In" id="checkin" placeholder="Selecionar">
+                                <input class="form-control daterange bg-transparent" type="text" aria-label="Datas de Check-In" id="checkin" placeholder="Ida e volta">
                                 <span class="icon-calendar"></span>
                             </div>
                             
                             <div class="mb-4 w-100 mx-2 o-data-picker">
                                 <label for="checkout" class="form-label">Datas Check-Out</label>
-                                <input class="form-control input-date bg-transparent" type="text" aria-label="Datas de Check-In" id="checkout" placeholder="Selecionar">
+                                <input class="form-control daterange bg-transparent" type="text" aria-label="Datas de Check-In" id="checkout" placeholder="Ida e volta">
                                 <span class="icon-calendar"></span>
                             </div>
                             
                             <div class="mb-4 w-100 mx-2 o-data-picker">
                                 <label for="data-criacao" class="form-label">Datas Criação</label>
-                                <input class="form-control input-date bg-transparent" type="text" aria-label="Datas de Criação" id="data-criacao" placeholder="Selecionar">
+                                <input class="form-control daterange bg-transparent" type="text" aria-label="Datas de Criação" id="data-criacao" placeholder="Ida e volta">
                                 <span class="icon-calendar"></span>
                             </div>
                             
                             <div class="mb-4 w-100 mx-2 o-data-picker">
                                 <label for="data-cancelamento" class="form-label">Datas Cancelamento</label>
-                                <input class="form-control input-date bg-transparent" type="text" aria-label="Datas de Cancelamento" id="data-cancelamento" placeholder="Selecionar">
+                                <input class="form-control daterange bg-transparent" type="text" aria-label="Datas de Cancelamento" id="data-cancelamento" placeholder="Ida e volta">
                                 <span class="icon-calendar"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex ">
-                        <div class="me-5">   
+                    <div class="d-flex mb-4 flex-wrap">
+                        <div class="ms-2 me-5">   
                             <label for="exampleInputEmail1" class="form-label">Canais de Venda</label>
                             <div class="form-check mb-1">
                                 <input class="form-check-input" type="radio" name="canais-venda" id="mesa-operativa">
@@ -210,7 +210,7 @@
                                 </label>
                             </div>  
                         </div>
-                        <div class="me-5">   
+                        <div class="ms-2 me-3">   
                             <label for="exampleInputEmail1" class="form-label">Status</label>
                             <div class="form-check mb-1">
                                 <input class="form-check-input" type="radio" name="status" id="confirmada">
@@ -245,7 +245,7 @@
                                 </label>
                             </div>  
                         </div>
-                        <div>
+                        <div class="ms-2">
                             <label for="exampleInputEmail1" class="form-label">Conferido</label>
                             <div class="form-check mb-1">
                                 <input class="form-check-input" type="radio" name="conferido" id="com-bookings">
@@ -267,8 +267,8 @@
                 </div>
             </div>
 
-            <div class="row c-reservas__table">
-                <div class="col-xl-12">
+            <div class="row">
+                <div class="col-xl-12 c-reservas__table">
                     <table class="table table-striped fs-6 table-borderless table-hover" id="table">
                         <thead>
                             <tr class="text-secondary">
@@ -648,4 +648,3 @@
 
 
 <?php include('includes/footer.php') ?>
-

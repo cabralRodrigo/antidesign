@@ -1,19 +1,19 @@
-<?php include('includes/header--page.php'); ?>
+<?php include('includes/header--white.php'); ?>
 
     <main class="c-page">
        <div class="container-fluid p-0 d-flex">
             <div class="c-page__img natural" style="background-image: url('assets/img/banner-sobre.jpg');"></div>
 
-            <div class="h-100 w-100 d-flex c-page__container">
+            <div class="w-100 d-flex c-page__container">
 
                 <div class="container">
 
                     <div class="row d-flex justify-content-end">
 
-                        <div class="col-xl-6">
+                        <div class="col-lg-6">
 
                             <h1 class="d-inline-block fs-6 text-primary p-2 px-0 mb-0">Sobre</h1>
-                            <h2 class="mb-4 fs-1 fw-bold text-secondary col-xl-6">Journeys Special Travel</h2>
+                            <h2 class="mb-4 fs-1 fw-bold text-secondary col-lg-10 col-xl-8 col-xxl-6">Journeys Special Travel</h2>
 
                             <div class="row">
                                 <div class="col-xl-9 fs-4">

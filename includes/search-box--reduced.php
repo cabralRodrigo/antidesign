@@ -57,7 +57,7 @@
                 <div class="o-search-box__form__passageiros__input">
                     <label for="passageirosInput" class="form-label">Passageiros + Quarto/s</label>
 
-                    <span class="o-search-box--reduced__form__input JS__passageiros-input" id="passageirosInput" aria-label="Passageiros + Quarto/s"  onclick="openPassageiros()">
+                    <span class="o-search-box--reduced__form__input JS__passageiros-input cursor-pointer" id="passageirosInput" aria-label="Passageiros + Quarto/s"  onclick="openPassageiros()">
                         <span class="JS__total-passageiros"></span> passageiros  • <span class="JS__total-quartos"></span> Quartos
                     </span>
                 </div>
@@ -89,6 +89,7 @@
                         </div>
                     </div>
 
+                    
                     <div class="d-flex align-items-center o-search-box__form__passageiros__content__item">
                         <div class="me-3">
                             <span class="fs-5 fw-500 d-block mb-0">Bebês</span>

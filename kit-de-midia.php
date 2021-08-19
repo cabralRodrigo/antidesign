@@ -1,16 +1,16 @@
-<?php include('includes/header--page.php'); ?>
+<?php include('includes/header--white.php'); ?>
 
     <main class="c-page">
        <div class="container-fluid p-0 d-flex">
             <div class="c-page__img natural" style="background-image: url('assets/img/downloads-banner.jpg');"></div>
 
-            <div class="h-100 w-100 d-flex c-page__container">
+            <div class="w-100 d-flex c-page__container">
 
                 <div class="container">
 
                     <div class="row d-flex justify-content-end">
 
-                        <div class="col-xl-6">
+                        <div class="col-lg-6">
 
                             <div class="row">
                                 <div class="col-xl-6">

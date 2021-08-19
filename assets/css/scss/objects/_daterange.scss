@@ -9,13 +9,6 @@
     &:before, &:after{
         display: none;
     }
-    &.multiMonth{
-        width: 68rem!important;
-        top: 400px!important;
-        left: calc(50% - 68rem/2)!important;
-        right: inherit!important;
-        padding: 28px 48px;
-    }
 }
 
 .flatpickr-rContainer,
@@ -106,6 +99,10 @@ span.flatpickr-weekday{
     box-shadow: -2px 0 0 #F0F0F0, 5px 0 0 #F0F0F0;
 }
 
+// .flatpickr-day.inRange{
+//     box-shadow: -10px 0 0 #f0f0f0;
+// }
+
 
 .flatpickr-months .flatpickr-prev-month.flatpickr-prev-month{
     left: 46px;
@@ -128,7 +125,3 @@ span.flatpickr-weekday{
     border-radius: 0px 10px 10px 0px;
 }
 
-
-// 
-
-// 

@@ -273,31 +273,23 @@
     </section>
 
     <section class="c-brasil-secreto__video">
-
+  
         <video
             id="my-video"
             class="video-js"
             controls
             preload="auto"
             poster="assets/img/brasil-secreto/video.jpg"
-            data-setup="{}"
-            class= "teste"
+            width="100vw" height="200"
+            data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=0Qzcw64Bwu0"}], "youtube": { "hl": "pt"} }'
         >
-            <source src="assets/img/brasil-secreto/video.mp4" type="video/mp4" />
-            <source src="assets/img/brasil-secreto/video.webm" type="video/webm" />
-            <p class="vjs-no-js">
-            To view this video please enable JavaScript, and consider upgrading to a
-            web browser that
-            <a href="https://videojs.com/html5-video-support/" target="_blank"
-                >supports HTML5 video</a
-            >
-            </p>
         </video>
-
+    
     </section>
 
+
     
-    <section class="c-condicoes">
+    <section class="pb-5 mb-5">
 
         <div class="container">
             <div class="row mb-5">
@@ -306,33 +298,41 @@
                     <h3 class="mb-2 fs-3 fw-bold text-secondary">Coisas a saber</h3>
                 </div>
             </div>
-            <div class="row pt-5 d-flex justify-content-between">
-                <div class="c-condicoes__item--1 fs-6">
+
+            <div class="row fs-6">
+            
+                <div class="col-xxl-2 col-lg-4 col-md-6 px-4 mb-5">
                     <span class="icon-bad d-block fs-3 mb-4"></span>
                     Oferecem poucos quartos e, muitas vezes, são diferenciados, com categorias personalizadas para cada quarto.
                 </div>
-                <div class="c-condicoes__item--2 fs-6">
-                    <span class="icon-edit-values d-block fs-3 mb-4"></span>
+                
+                <div class="col-xxl-2 col-lg-4 col-md-6 px-4 mb-5">
+                    <span class="icon-percent d-block fs-3 mb-4"></span>
                     Políticas de marketing diferenciadas, pois normalmente não funcionam com tarifas de operadora e agência, ou seja, protegidas.
                 </div>
-                <div class="c-condicoes__item--3 fs-6">
+                
+                <div class="col-xxl-2 col-lg-4 col-md-6 px-4 mb-5">
                     <span class="icon-edit-values d-block fs-3 mb-4"></span>
                     Aplicam-se severas restrições na política de garantia de reserva, prazos de cancelamento sem despesas e reembolsos.
                 </div>
-                <div class="c-condicoes__item--4 fs-6">
+                
+                <div class="col-xxl-2 col-lg-4 col-md-6 px-4 mb-5">
                     <span class="icon-user d-block fs-3 mb-4"></span>
                     Valorizam um relacionamento personalizado tanto com o hóspede quanto na sua forma de marketing e divulgação.
                 </div>
-                <div class="c-condicoes__item--5 fs-6">
+                
+                <div class="col-xxl-2 col-lg-4 col-md-6 px-4 mb-5">
                     <span class="icon-tax-increace d-block fs-3 mb-4"></span>
                     Não funcionam com taxas de mercado nacional e internacional.
                 </div>
-                <div class="c-condicoes__item--6 fs-6">
+                
+                <div class="col-xxl-2 col-lg-4 col-md-6 px-4 mb-5">
                     <span class="icon-group d-block fs-3 mb-4"></span>
                     Muitos deles não aceitam menores ou grupos.
                 </div>
-               
+
             </div>
+
         </div>
     </section>
 

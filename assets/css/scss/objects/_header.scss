@@ -13,6 +13,9 @@
     }
     .nav-link{
         padding: .5rem 2rem;
+        @include breakpoint(xxl){
+            padding: .5rem 1.5rem;
+        }
     }
     &__login{
         padding: .347rem 0;
@@ -25,9 +28,16 @@
     }
 
     &__main{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        @include breakpoint(xxl){
+            margin-left: -70px;
+        }
         a{
             position: relative;
             color: #fff;
+            opacity: .7;
             &:after{
                 content: '';
                 display: block;
@@ -40,10 +50,13 @@
                 bottom: -4px;
                 opacity: 0;
                 transition: .3s;
+                transform: scale(0);
             }
             &:hover, &.active{
+                opacity: 1;
                 &:after{
                     opacity: 1;
+                    transform: scale(1);
                 }
             }
         }
@@ -52,10 +65,12 @@
     &__language{
         margin-right: 23px;
         transition: .3s;
-        max-width: 56px;
-        width: 56px;
+        max-width: 58px;
+        width: 58px;
         overflow: hidden;
         padding: 0.844rem;
+        border: 1px solid transparent;
+        height: 51px;
         &:hover{
             background: #fff;
             max-width: 166px;
@@ -122,6 +137,10 @@
         .o-header__logo{
             svg{
                 fill: $primary;
+                transition: .3s;
+                &:hover{
+                    filter: brightness(1.4);
+                }
             }
         }
         .o-header__main{
@@ -130,34 +149,18 @@
                 &:after{
                     background: $secondary;
                 }
+                opacity: 1;
             }
         }
         .o-header__login{
-            border-color: #343434!important;
+            border-color: $secondary!important;
         }
         .o-header__language {
             .icon-language{
                 color: #343434;
             }
-        }
-    }
-    &--page{
-        .o-header__logo svg{
-            fill: #fff;
-        }
-        .o-header__main li{
-            filter: grayscale(1)
-        }
-        .o-header__main a{
-            mix-blend-mode: difference;
-        }
-        .o-header__main{
-            li:first-of-type a,
-            li:nth-child(2) a{
-                color: #fff;
-                &:after{
-                    background: #fff;
-                }
+            &:hover{
+                border-color: $secondary;
             }
         }
     }

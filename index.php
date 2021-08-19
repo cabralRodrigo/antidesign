@@ -84,8 +84,8 @@
 
                 <div class="col-xl-3 c-cards-carousel__title h-100">
 
-                    <div>
-                        <h2 class="d-inline-block fs-5 text-primary p-2 px-0 mb-0">Brasil por perfil de viagens</h2>
+                    <div class="row">
+                        <h2 class="d-inline-block fs-5 text-primary p-2 mb-0">Brasil por perfil de viagens</h2>
                         <h3 class="mb-4 fs-3 fw-bold text-secondary">Escolha a experiência ideal para seus clientes!</h3>
                         <p>Guia de produtos por perfil de viagens</p>
                     </div>
@@ -152,6 +152,7 @@
                             </div>
                             
                         </div>
+                        
                     </div>
                 </div>
 
@@ -171,16 +172,15 @@
             
             <div class="c-home__info__container col-xl-12">
 
-
                 <div class="bg-white c-home__info__container__box">
 
                     <div class="row mb-5">
-                        <div class="col-xl-3">
+                        <div class="col-xxl-3 col-xl-5 col-lg-6">
                             <h3 class="fs-2 fw-bold text-secondary">Informações técnicas e suporte</h3>
                         </div>    
                     </div>
                     <div class="row">
-                        <div class="col-xl-3 mb-5 c-home__info__container__box__item">
+                        <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <div>
                                 <span class="c-home__info__container__box__icon icon-commission d-block"></span>
                                 <h3 class="mb-4 fs-5 fw-500 text-secondary">Atualização de Tarifas</h3>
@@ -189,43 +189,43 @@
                             <a href="destinos.php" class="btn-link fs-6">Saber mais</a>
                             
                         </div>      
-                        <div class="col-xl-3 mb-5 c-home__info__container__box__item">
+                        <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-document d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Condições Gerais</h3>
                             <p class="fs-6">As condições regem todas nossas politicas, fique a parte sobre tudo.</p>
                             <a href="como-funcionamos.php" class="btn-link fs-6">Saber mais</a>
                         </div>      
-                        <div class="col-xl-3 mb-5 c-home__info__container__box__item">
+                        <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-user d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Fornecedores</h3>
                             <p class="fs-6">Conheça todos os fornecedores espalhados pelo Brasil.</p>
                             <a href="parcerias.php" class="btn-link fs-6">Saber mais</a>
                         </div>      
-                        <div class="col-xl-3 mb-5 c-home__info__container__box__item">
+                        <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-sun d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Covid-19</h3>
                             <p class="fs-6">Saiba quais as medidas vem sendo tomadas pela Journeys e parceiros.</p>
                             <a href="juntos-somos-mais-fortes.php" class="btn-link fs-6">Saber mais</a>
                         </div>      
-                        <div class="col-xl-3 mb-5 c-home__info__container__box__item">
+                        <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-suporter d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Sap - Atendimento</h3>
                             <p class="fs-6">Atendimento dedicado a você para tirar qualquer dúvida, estamos a sua disposição.</p>
                             <a href="sap.php" class="btn-link fs-6">Saber mais</a>
                         </div>      
-                        <div class="col-xl-3 mb-5 c-home__info__container__box__item">
+                        <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-save-1 d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Datas Especiais</h3>
                             <p class="fs-6">Algumas tarifas podem sofrer alterações de acordo com algumas datar, fique a parte.</p>
                             <a href="eventos.php" class="btn-link fs-6">Saber mais</a>
                         </div>      
-                        <div class="col-xl-3 mb-5 c-home__info__container__box__item">
+                        <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-beach d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Vouchers</h3>
                             <p class="fs-6">Informações sobre utilizações de vouchers</p>
                             <a href="vouchers.php" class="btn-link fs-6">Saber mais</a>
                         </div>      
-                        <div class="col-xl-3 mb-5 c-home__info__container__box__item">
+                        <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-commission d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Downloads & Kit De Mídia</h3>
                             <p class="fs-6">Pegue nossos recursos oficiais da marca e saiba mais sobre as diretrizes de uso.</p>
@@ -240,7 +240,6 @@
             </div>
             
         </div>
-
 
     </section>
 

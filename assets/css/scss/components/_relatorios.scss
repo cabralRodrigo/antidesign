@@ -3,6 +3,13 @@
         min-height: 100vh;
         width: 43.2%;
         background-color: #fff;
+        position: absolute;
+        height: 100%;
+        @include breakpoint(xl){
+            width: 100%;
+            height: auto;
+            min-height: initial;
+        }
     }
     &__container{
         padding: 9.56rem 0 7rem;
@@ -20,13 +27,18 @@
         &__form{
             height: 682px;
             border-radius: 1.37rem;
+            padding: 1.5rem 3rem;
             .btn{
                 padding: 1.83rem 0;
             }
+            @include breakpoint(xxl){
+                padding: 1.5rem 2rem;
+            }
         }
         &__result{
-            h2{
-                margin-bottom: 6.18rem;
+            .row{
+                max-width: 100%;
+                overflow-x: auto;
             }
             .table{
                 border-collapse: separate;
@@ -34,6 +46,14 @@
                 & > tbody > tr{
                     background: #fff;
                     cursor: pointer;
+                }
+            }
+            @include breakpoint(xl){
+                padding-top: 80px;
+            }
+            @include breakpoint(lg){
+                svg{
+                    display: none;
                 }
             }
         }

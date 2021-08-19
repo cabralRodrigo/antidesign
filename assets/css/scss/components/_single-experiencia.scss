@@ -4,6 +4,9 @@
     }
     &__galeria{
         padding: 9.6rem 0 12.9rem;
+        @include breakpoint(lg){
+            padding: 9rem 0;
+        }
         &__swiper{
             .swiper-slide{
                 height: 30rem;
@@ -56,7 +59,7 @@
                 overflow: hidden;
                 &:after{
                     content: '';
-                    background-image: url('../../../../assets/img/single-experiencia/experiencia-carousel-bg.png');
+                    background-image: url('../img/single-experiencia/experiencia-carousel-bg.png');
                     display: block;
                     height: 100%;
                     width: 100%;

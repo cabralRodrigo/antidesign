@@ -30,7 +30,7 @@
 
     </section>
 
-    <section class="pt-5">
+    <section class="py-5 mb-5">
         <div class="container">
 
             <div class="row mb-5">
@@ -88,11 +88,11 @@
                         <div class="col">
 
                             <ul class="nav nav-pills nav-fill mt-2">
-                                <li>
-                                    <div class="me-5 position-relative input-search input-search--tarifarios">
+                                <li class="input-search--tarifarios">
+                                    <div class="me-5 position-relative input-search">
                                         <span class="icon-search position-absolute"></span>
                                         <input type="text" placeholder="Busque por um produto, cidade ou região" class="form-control me-5">
-                                        <span class="text-black-50">|</span>
+                                        <span class="text-black-50 separator">|</span>
                                     </div>
                                 </li>
                                 <li class="nav-item">
@@ -183,10 +183,11 @@
                                 </div>
                             </div>
 
-                            <div class="row c-reservas__table border-bottom pt-5">
+                            <div class="row border-bottom pt-5">
                                 <div class="col-xl-12">
                                     <span class="d-inline-block fs-12 p-2 px-0 mb-0">Copacabana - Rio de Janeiro - Rj</span>
                                     <h2 class="mb-2 fw-bold text-primary fs-24">Belmond Copacabana Palace</h2>
+                                    
                                     <p class="fs-12"> 
                                         <span class="o-hotel__img__item md-inline-block fw-500 me-3">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="10.965" height="10.512"><path data-name="Caminho 36" d="M6.248.476l1.033 2.093a.853.853 0 00.642.467l2.31.335a.854.854 0 01.473 1.456L9.035 6.456a.854.854 0 00-.245.755l.395 2.3a.853.853 0 01-1.238.9L5.881 9.325a.854.854 0 00-.794 0l-2.066 1.086a.853.853 0 01-1.238-.9l.395-2.3a.853.853 0 00-.246-.755L.26 4.827a.854.854 0 01.473-1.456l2.31-.335a.853.853 0 00.642-.467L4.718.476a.853.853 0 011.53 0z" fill="#0f6b7b"></path></svg>
@@ -195,127 +196,131 @@
                                         Twin Standart BB   |   Sem Reembolso   |   Disp. Sob-Consulta
                                     </p>
                                     
-                                    <table class="table table-striped fs-6 table-borderless mt-5" id="table">
-                                        <thead>
-                                            <tr class="text-secondary">
-                                                <th scope="col">Categoria</th>
-                                                <th scope="col">Vista</th>
-                                                <th scope="col">In</th>
-                                                <th scope="col">Out</th>
-                                                <th scope="col">Tipo</th>
-                                                <th scope="col">EBB</th>
-                                                <th scope="col">Semana</th>
-                                                <th scope="col">Remark</th>
-                                                <th scope="col">Promo</th>
-                                                <th scope="col">BB</th>
-                                                <th scope="col">MAP</th>
-                                                <th scope="col">FAP</th>
-                                                <th scope="col">AI</th>
-                                                <th scope="col">SGL</th>
-                                                <th scope="col">DBL</th>
-                                                <th scope="col">TPL</th>
-                                                <th scope="col">QLP</th>
-                                                <th scope="col">CHD1</th>
-                                                <th scope="col">CHD2</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td scope="row">Médio</td>
-                                                <td>Cidade</td>
-                                                <td>30/03/21</td>
-                                                <td>01/04/21</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>114</td>
-                                                <td>114</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">Médio</td>
-                                                <td>Cidade</td>
-                                                <td>05/04/21</td>
-                                                <td>27/12/21</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>114</td>
-                                                <td>114</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">Grande</td>
-                                                <td>Praia</td>
-                                                <td>30/03/21</td>
-                                                <td>01/04/21</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>274</td>
-                                                <td>274</td>
-                                                <td>349</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">Grande</td>
-                                                <td>Praia</td>
-                                                <td>05/04/21</td>
-                                                <td>27/12/21</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>274</td>
-                                                <td>274</td>
-                                                <td>349</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                        
-                                        </tbody>
-                                    </table>
+                                    <div class="c-reservas__table">
+                                        <table class="table table-striped fs-6 table-borderless mt-5" id="table">
+                                            <thead>
+                                                <tr class="text-secondary">
+                                                    <th scope="col">Categoria</th>
+                                                    <th scope="col">Vista</th>
+                                                    <th scope="col">In</th>
+                                                    <th scope="col">Out</th>
+                                                    <th scope="col">Tipo</th>
+                                                    <th scope="col">EBB</th>
+                                                    <th scope="col">Semana</th>
+                                                    <th scope="col">Remark</th>
+                                                    <th scope="col">Promo</th>
+                                                    <th scope="col">BB</th>
+                                                    <th scope="col">MAP</th>
+                                                    <th scope="col">FAP</th>
+                                                    <th scope="col">AI</th>
+                                                    <th scope="col">SGL</th>
+                                                    <th scope="col">DBL</th>
+                                                    <th scope="col">TPL</th>
+                                                    <th scope="col">QLP</th>
+                                                    <th scope="col">CHD1</th>
+                                                    <th scope="col">CHD2</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td scope="row">Médio</td>
+                                                    <td>Cidade</td>
+                                                    <td>30/03/21</td>
+                                                    <td>01/04/21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>114</td>
+                                                    <td>114</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">Médio</td>
+                                                    <td>Cidade</td>
+                                                    <td>05/04/21</td>
+                                                    <td>27/12/21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>114</td>
+                                                    <td>114</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">Grande</td>
+                                                    <td>Praia</td>
+                                                    <td>30/03/21</td>
+                                                    <td>01/04/21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>274</td>
+                                                    <td>274</td>
+                                                    <td>349</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">Grande</td>
+                                                    <td>Praia</td>
+                                                    <td>05/04/21</td>
+                                                    <td>27/12/21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>274</td>
+                                                    <td>274</td>
+                                                    <td>349</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                            
+                                            </tbody>
+                                        </table>
+                                    </div>
+
 
                                     <div class="row border-bottom">
                                         <div class="col">
+
                                             <a class="c-busca__controls__item text-decoration-none fs-4 text-primary fw-500 d-flex align-items-center p-3 px-0 border-0 pb-4 collapsed" data-bs-toggle="collapse" data-bs-target="#belmond-copacabana-palace-info" aria-expanded="false" aria-controls="info">
                                                 <span class="icon-info me-3 fs-28"></span>
                                                 <span class="me-3">Informações Importantes</span>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="14.73" height="8.397"><path data-name="Caminho 4" d="M7.365.001a1.029 1.029 0 01.729.3l6.337 6.337a1.032 1.032 0 01-1.459 1.459l-5.6-5.6-5.6 5.6a1.036 1.036 0 11-1.47-1.459L6.631.302a1.029 1.029 0 01.734-.301z" fill="#0e6a7a"></path></svg>
                                             </a>
-                                        
+                                    
                                             <div class="multi-collapse collapse border-0" id="belmond-copacabana-palace-info">
                                                 <div class="row border-top py-4"> 
                                                     <div class="col-4 fs-6">
@@ -345,7 +350,7 @@
                                 </div>
                             </div>
 
-                            <div class="row c-reservas__table border-bottom pt-5">
+                            <div class="row border-bottom pt-5">
                                 <div class="col-xl-12">
 
                                     <span class="d-inline-block fs-12 p-2 px-0 mb-0">Copacabana - Rio de Janeiro - Rj</span>
@@ -357,119 +362,121 @@
                                         </span>  
                                         Twin Standart BB   |   Sem Reembolso   |   Disp. Sob-Consulta
                                     </p>
-                                    
-                                    <table class="table table-striped fs-6 table-borderless mt-5" id="table">
-                                        <thead>
-                                            <tr class="text-secondary">
-                                                <th scope="col">Categoria</th>
-                                                <th scope="col">Vista</th>
-                                                <th scope="col">In</th>
-                                                <th scope="col">Out</th>
-                                                <th scope="col">Tipo</th>
-                                                <th scope="col">EBB</th>
-                                                <th scope="col">Semana</th>
-                                                <th scope="col">Remark</th>
-                                                <th scope="col">Promo</th>
-                                                <th scope="col">BB</th>
-                                                <th scope="col">MAP</th>
-                                                <th scope="col">FAP</th>
-                                                <th scope="col">AI</th>
-                                                <th scope="col">SGL</th>
-                                                <th scope="col">DBL</th>
-                                                <th scope="col">TPL</th>
-                                                <th scope="col">QLP</th>
-                                                <th scope="col">CHD1</th>
-                                                <th scope="col">CHD2</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td scope="row">Standard</td>
-                                                <td>Sem Vista</td>
-                                                <td>30/03/21</td>
-                                                <td>01/04/21</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>35</td>
-                                                <td>39</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">Standard</td>
-                                                <td>Sem Vista</td>
-                                                <td>05/04/21</td>
-                                                <td>27/12/21</td>
-                                                <td>Semana Santa</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>55</td>
-                                                <td>60</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">Standard</td>
-                                                <td>Sem Vista</td>
-                                                <td>30/03/21</td>
-                                                <td>01/04/21</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>274</td>
-                                                <td>274</td>
-                                                <td>349</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">Standard</td>
-                                                <td>Sem Vista</td>
-                                                <td>05/04/21</td>
-                                                <td>27/12/21</td>
-                                                <td>Rock in Rio</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>274</td>
-                                                <td>274</td>
-                                                <td>349</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                        
-                                        </tbody>
-                                    </table>
+
+                                    <div class="c-reservas__table">
+                                        <table class="table table-striped fs-6 table-borderless mt-5" id="table">
+                                            <thead>
+                                                <tr class="text-secondary">
+                                                    <th scope="col">Categoria</th>
+                                                    <th scope="col">Vista</th>
+                                                    <th scope="col">In</th>
+                                                    <th scope="col">Out</th>
+                                                    <th scope="col">Tipo</th>
+                                                    <th scope="col">EBB</th>
+                                                    <th scope="col">Semana</th>
+                                                    <th scope="col">Remark</th>
+                                                    <th scope="col">Promo</th>
+                                                    <th scope="col">BB</th>
+                                                    <th scope="col">MAP</th>
+                                                    <th scope="col">FAP</th>
+                                                    <th scope="col">AI</th>
+                                                    <th scope="col">SGL</th>
+                                                    <th scope="col">DBL</th>
+                                                    <th scope="col">TPL</th>
+                                                    <th scope="col">QLP</th>
+                                                    <th scope="col">CHD1</th>
+                                                    <th scope="col">CHD2</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td scope="row">Standard</td>
+                                                    <td>Sem Vista</td>
+                                                    <td>30/03/21</td>
+                                                    <td>01/04/21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>35</td>
+                                                    <td>39</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">Standard</td>
+                                                    <td>Sem Vista</td>
+                                                    <td>05/04/21</td>
+                                                    <td>27/12/21</td>
+                                                    <td>Semana Santa</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>55</td>
+                                                    <td>60</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">Standard</td>
+                                                    <td>Sem Vista</td>
+                                                    <td>30/03/21</td>
+                                                    <td>01/04/21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>274</td>
+                                                    <td>274</td>
+                                                    <td>349</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">Standard</td>
+                                                    <td>Sem Vista</td>
+                                                    <td>05/04/21</td>
+                                                    <td>27/12/21</td>
+                                                    <td>Rock in Rio</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>274</td>
+                                                    <td>274</td>
+                                                    <td>349</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                            
+                                            </tbody>
+                                        </table>
+                                    </div>
 
                                     <div class="row border-bottom">
                                         <div class="col">
@@ -519,119 +526,120 @@
                                         </span>  
                                         Twin Standart BB   |   Sem Reembolso   |   Disp. Sob-Consulta
                                     </p>
-                                    
-                                    <table class="table table-striped fs-6 table-borderless mt-5" id="table">
-                                        <thead>
-                                            <tr class="text-secondary">
-                                                <th scope="col">Categoria</th>
-                                                <th scope="col">Vista</th>
-                                                <th scope="col">In</th>
-                                                <th scope="col">Out</th>
-                                                <th scope="col">Tipo</th>
-                                                <th scope="col">EBB</th>
-                                                <th scope="col">Semana</th>
-                                                <th scope="col">Remark</th>
-                                                <th scope="col">Promo</th>
-                                                <th scope="col">BB</th>
-                                                <th scope="col">MAP</th>
-                                                <th scope="col">FAP</th>
-                                                <th scope="col">AI</th>
-                                                <th scope="col">SGL</th>
-                                                <th scope="col">DBL</th>
-                                                <th scope="col">TPL</th>
-                                                <th scope="col">QLP</th>
-                                                <th scope="col">CHD1</th>
-                                                <th scope="col">CHD2</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td scope="row">Médio</td>
-                                                <td>Cidade</td>
-                                                <td>30/03/21</td>
-                                                <td>01/04/21</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>114</td>
-                                                <td>114</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">Médio</td>
-                                                <td>Cidade</td>
-                                                <td>05/04/21</td>
-                                                <td>27/12/21</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>114</td>
-                                                <td>114</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">Grande</td>
-                                                <td>Praia</td>
-                                                <td>30/03/21</td>
-                                                <td>01/04/21</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>274</td>
-                                                <td>274</td>
-                                                <td>349</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">Grande</td>
-                                                <td>Praia</td>
-                                                <td>05/04/21</td>
-                                                <td>27/12/21</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>274</td>
-                                                <td>274</td>
-                                                <td>349</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                        
-                                        </tbody>
-                                    </table>
+                                    <div class="c-reservas__table">
+                                        <table class="table table-striped fs-6 table-borderless mt-5" id="table">
+                                            <thead>
+                                                <tr class="text-secondary">
+                                                    <th scope="col">Categoria</th>
+                                                    <th scope="col">Vista</th>
+                                                    <th scope="col">In</th>
+                                                    <th scope="col">Out</th>
+                                                    <th scope="col">Tipo</th>
+                                                    <th scope="col">EBB</th>
+                                                    <th scope="col">Semana</th>
+                                                    <th scope="col">Remark</th>
+                                                    <th scope="col">Promo</th>
+                                                    <th scope="col">BB</th>
+                                                    <th scope="col">MAP</th>
+                                                    <th scope="col">FAP</th>
+                                                    <th scope="col">AI</th>
+                                                    <th scope="col">SGL</th>
+                                                    <th scope="col">DBL</th>
+                                                    <th scope="col">TPL</th>
+                                                    <th scope="col">QLP</th>
+                                                    <th scope="col">CHD1</th>
+                                                    <th scope="col">CHD2</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td scope="row">Médio</td>
+                                                    <td>Cidade</td>
+                                                    <td>30/03/21</td>
+                                                    <td>01/04/21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>114</td>
+                                                    <td>114</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">Médio</td>
+                                                    <td>Cidade</td>
+                                                    <td>05/04/21</td>
+                                                    <td>27/12/21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>114</td>
+                                                    <td>114</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">Grande</td>
+                                                    <td>Praia</td>
+                                                    <td>30/03/21</td>
+                                                    <td>01/04/21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>274</td>
+                                                    <td>274</td>
+                                                    <td>349</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">Grande</td>
+                                                    <td>Praia</td>
+                                                    <td>05/04/21</td>
+                                                    <td>27/12/21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>274</td>
+                                                    <td>274</td>
+                                                    <td>349</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                            
+                                            </tbody>
+                                        </table>
+                                    </div>
 
                                     <div class="row border-bottom">
                                         <div class="col">
@@ -846,75 +854,77 @@
                                         Twin Standart BB   |   Sem Reembolso   |   Disp. Sob-Consulta
                                     </p>
                                     
-                                    <table class="table table-striped fs-6 table-borderless mt-5" id="table">
-                                        <thead>
-                                            <tr class="text-secondary">
-                                                <th scope="col">Categoria</th>
-                                                <th scope="col">Vista</th>
-                                                <th scope="col">In</th>
-                                                <th scope="col">Out</th>
-                                                <th scope="col">Tipo</th>
-                                                <th scope="col">EBB</th>
-                                                <th scope="col">Semana</th>
-                                                <th scope="col">Remark</th>
-                                                <th scope="col">Promo</th>
-                                                <th scope="col">BB</th>
-                                                <th scope="col">MAP</th>
-                                                <th scope="col">FAP</th>
-                                                <th scope="col">AI</th>
-                                                <th scope="col">SGL</th>
-                                                <th scope="col">DBL</th>
-                                                <th scope="col">TPL</th>
-                                                <th scope="col">QLP</th>
-                                                <th scope="col">CHD1</th>
-                                                <th scope="col">CHD2</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td scope="row">Luxo</td>
-                                                <td>Sem Vista</td>
-                                                <td>11/06/21</td>
-                                                <td>30/06/21</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>163</td>
-                                                <td>174</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">Superior</td>
-                                                <td>Sem Vista</td>
-                                                <td>11/06/21</td>
-                                                <td>30/06/21</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Dias de Aplicação</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>Inc</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>99</td>
-                                                <td>110</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="c-reservas__table">
+                                        <table class="table table-striped fs-6 table-borderless mt-5" id="table">
+                                            <thead>
+                                                <tr class="text-secondary">
+                                                    <th scope="col">Categoria</th>
+                                                    <th scope="col">Vista</th>
+                                                    <th scope="col">In</th>
+                                                    <th scope="col">Out</th>
+                                                    <th scope="col">Tipo</th>
+                                                    <th scope="col">EBB</th>
+                                                    <th scope="col">Semana</th>
+                                                    <th scope="col">Remark</th>
+                                                    <th scope="col">Promo</th>
+                                                    <th scope="col">BB</th>
+                                                    <th scope="col">MAP</th>
+                                                    <th scope="col">FAP</th>
+                                                    <th scope="col">AI</th>
+                                                    <th scope="col">SGL</th>
+                                                    <th scope="col">DBL</th>
+                                                    <th scope="col">TPL</th>
+                                                    <th scope="col">QLP</th>
+                                                    <th scope="col">CHD1</th>
+                                                    <th scope="col">CHD2</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td scope="row">Luxo</td>
+                                                    <td>Sem Vista</td>
+                                                    <td>11/06/21</td>
+                                                    <td>30/06/21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>163</td>
+                                                    <td>174</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">Superior</td>
+                                                    <td>Sem Vista</td>
+                                                    <td>11/06/21</td>
+                                                    <td>30/06/21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Dias de Aplicação</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>Inc</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>99</td>
+                                                    <td>110</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
 
                                     <div class="row border-bottom">
                                         <div class="col">
@@ -926,17 +936,17 @@
                                         
                                             <div class="multi-collapse collapse border-0" id="belmond-copacabana-palace-info">
                                                 <div class="row border-top py-4"> 
-                                                    <div class="col-4 fs-6">
+                                                    <div class="col-lg-4 fs-6">
                                                         <span class="d-block icon-suport fs-24 mb-3"></span>
                                                         <span class="d-block text-primary fw-500 mb-3 fs-4">Nossa Opinião</span>
                                                         <p>O Hotel é uma excelente opção para casais e familias.</p>
                                                     </div>
-                                                    <div class="col-3 fs-6 offset-xl-1">
+                                                    <div class="col-lg-3 fs-6 offset-xl-1">
                                                         <span class="d-block icon-parking mb-3 fs-24"></span>
                                                         <span class="d-block text-primary fs-4 fw-500 mb-3">Condições Gerais</span>
                                                         <p>Aceita 01 Chd grátis até 06 anos em quarto duplo com os pais.</p>
                                                     </div>
-                                                    <div class="col-3 fs-6 offset-xl-1">
+                                                    <div class="col-lg-3 fs-6 offset-xl-1">
                                                         <span class="d-block icon-calendar mb-3 fs-24"></span>
                                                         <span class="d-block text-primary fs-4 fw-500 mb-3">Check-In / Check-Out</span>
                                                         <p">15:00h / 12:00h</p>    
@@ -1004,6 +1014,7 @@
                     </div>
 
                 </div>
+
 
                 <div class="tab-pane fade" id="transfers" role="tabpanel" aria-labelledby="transfers-tab">
                     <div class="row">

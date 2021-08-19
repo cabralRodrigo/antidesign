@@ -2,7 +2,7 @@
 
 <div class="o-search-box bg-white JS__search-box --hotel">
 
-    <div class="d-flex justify-content-between">
+    <div class="d-flex justify-content-between flex-wrap">
 
         <span class="o-search-box__title">Encontre o destino ideal</span>
 
@@ -45,7 +45,7 @@
     </div>
 
     <div class="o-search-box__form">
-        <div class="d-flex justify-content-between align-items-end position-relative">
+        <div class="d-flex justify-content-between align-items-end flex-wrap position-relative">
             <div class="o-search-box__form__item JS__item-input">
                 <label for="itemInput" class="form-label">Qual é o item que você busca?</label>
                 <input class="form-control" type="text" id="itemInput" placeholder="Busque por tics, tours, transfers" aria-label="Busque por tics, tours, transfers">
@@ -138,7 +138,7 @@
                 </div>
 
             </div>
-            <div class="o-search-box__form__data">
+            <div class="o-search-box__form__data JS__searchBox-data">
 
                 <label for="datefilter" class="form-label">Datas</label>
 
@@ -149,8 +149,9 @@
 
             </div>
             <div class="o-search-box__form__submit">
-                <button type="submit" class="btn btn-primary position-relative">
-                    <span class="d-block position-relative icon-search"></span>
+                <button type="submit" class="btn btn-primary position-relative d-flex align-items-center justify-content-center">
+                    <span class="o-search-box__form__submit__txt">BUSCAR</span>
+                    <span class="position-relative icon-search"></span>
                 </button>
             </div>
             

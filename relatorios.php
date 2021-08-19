@@ -2,7 +2,7 @@
 
     <main class="c-relatorios">
        <div class="container-fluid p-0 d-flex position-relative">
-            <div class="c-relatorios__bg position-absolute h-100">
+            <div class="c-relatorios__bg">
             </div>
 
             <div class="w-100 d-flex c-relatorios__container">
@@ -11,15 +11,13 @@
 
                     <div class="row">
 
-                        <div class="col-xl-6 c-relatorios__container__left">
-                            <h2 class="mb-4 fs-1 fw-bold text-secondary">Relatórios</h2>
+                        <div class="col-xl-5 c-relatorios__container__left">
+                            <h2 class="mb-4 fs-2 fw-bold text-secondary">Relatórios</h2>
+                            <p class="mb-5 fs-4 text-gray-200 col-xl-8 ">Insira os dados e preencha todos os dados do relatórios basta preencher os campos abaixo.</p>
 
                             <div class="row">
-                                <div class="col-xxl-6 col-xl-9">
-                                    <p class="mb-5 fs-4 text-gray-200">Insira os dados e preencha todos os dados do relatórios basta preencher os campos abaixo.</p>
-                                </div>
-                                <div class="col-xl-8">
-                                    <form class="c-relatorios__container__form border border-dark py-4 px-5" action="">
+                                <div class="col-xl-11">
+                                    <form class="c-relatorios__container__form border border-dark" action="">
                                         <div class="row border-bottom pb-3 border-dark">
                                             <div class="col-6 border-end border-dark">
                                                 <label for="checkin" class="form-label d-block mb-0 text-primary fs-5">Check-In</label>
@@ -75,13 +73,12 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-6 c-relatorios__container__result">
+                        <div class="col-xl-6 offset-xl-1 c-relatorios__container__result">
 
-                            <h2 class="fs-1 fw-bold text-secondary">Todos os relatórios</h2>
+                            <h2 class="fs-2 fw-bold text-secondary mb-5 ">Todos os relatórios</h2>
 
                             <div class="row">
-
-                                <table class="table" id="table">
+                                <table class="table pt-4" id="table">
                                     <thead class="fs-12">
                                         <tr class="text-secondary">
                                             <th scope="col" class="fw-500"> 

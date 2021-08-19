@@ -58,90 +58,100 @@
             </div>
 
             <div class="row">
-
-                <div class="d-flex border-bottom pb-4">
-                    <div class="me-5">
+                <div class="d-flex border-bottom pb-4 flex-wrap">
+                    <div class="me-5 mb-4">
                         <span class="fw-500 fs-12 d-block">Check-In</span>
                         <div class="fs-6">12 de Fevereiro</div>
                     </div>
-                    <div class="me-5">
+                    <div class="me-5 mb-4">
                         <span class="fw-500 fs-12 d-block">Check-Out</span>
                         <div class="fs-6">14 de Fevereiro</div>
                     </div>
-                    <div class="me-5">
+                    <div class="me-5 mb-4">
                         <span class="fw-500 fs-12 d-block">Competência</span>
                         <div class="fs-6">Março de 2021</div>
                     </div>
-                    <div class="me-5">
+                    <div class="me-5 mb-4">
                         <span class="fw-500 fs-12 d-block">Finceiramente</span>
                         <div class="fs-6">Ativo</div>
                     </div>
-                    <div class="me-5">
+                    <div class="me-5 mb-4">
                         <span class="fw-500 fs-12 d-block">Unid. de Faturamento</span>
                         <div class="fs-6">Journeys Internacional</div>
                     </div>
-                    <div class="me-5">
+                    <div class="me-5 mb-4">
                         <span class="fw-500 fs-12 d-block">Canal de Venda</span>
                         <div class="fs-6">Traveltino</div>
                     </div>
-                    <div class="me-5">
+                    <div class="me-5 mb-4">
                         <span class="fw-500 fs-12 d-block">Empresa</span>
                         <div class="fs-6">Journeys Special Travel & More</div>
                     </div>
+                    <div class="me-5 mb-4">
+                        <span class="fw-500 fs-12 d-block">Tour Lider</span>
+                        <div class="fs-6">Lidiane Medina</div>
+                    </div>
                 </div>
-
             </div>
+
             <div class="row mb-4 pt-5">
-               <div class="d-flex no-wrap justify-content-between">
-                    <div class="mb-4 w-100 me-2">
+               <div class="d-flex flex-wrap">
+                    <div class="mb-4 me-3">
                         <label for="reserva-referencia" class="form-label">Referência do Cliente</label>
                         <input class="form-control" id="reserva-referencia" type="text" placeholder="Editar/Ref Cliente">
                     </div>
-                    <div class="mb-4 w-100 mx-2">
+                    <div class="mb-4 mx-3">
                         <label for="reserva-invoice" class="form-label">File/Invoice</label>
                         <input class="form-control" type="text" id="reserva-invoice" placeholder="8383283" id="file">
                     </div>
-                    <div class="mb-4 w-100 mx-2">
+                    <div class="mb-4 mx-3">
                         <label for="reserva-agrupamento" class="form-label">Agrupamento</label>
                         <select class="form-select" id="reserva-agrupamento">
                             <option value="">Journeys</option>
                         </select>
                     </div>
-                    <div class="mb-4 w-100 mx-2">
+                    <div class="mb-4 mx-3">
                         <label for="reserva-nacionalidade" class="form-label">Nacionalidade</label>
                         <select class="form-select" id="reserva-nacionalidade">
                             <option value="">Brasil</option>
                         </select>
                     </div>
-                    <div class="mb-4 w-100 mx-2">
+                    <div class="mb-4 mx-3">
                         <label for="reserva-idioma" class="form-label">Idioma</label>
                         <select class="form-select" id="reserva-idioma">
                             <option value="">Selecione o idioma</option>
                         </select>
                     </div>
-                    <div class="mb-4 w-100 mx-2">
+                    <div class="mb-4 mx-3">
                         <label for="reserva-tour" class="form-label">Tour Líder</label>
                         <input class="form-control " type="text" placeholder="Juliana Pinheiros" id="reserva-tour">
                     </div>
-                    <div class="mb-4 w-100 mx-2">
+                    <div class="mb-4 mx-3">
                         <label for="reserva-due" class="form-label">Due Data</label>
-                        <input class="form-control" type="text" placeholder="Editar data e valor" id="reserva-due">
+                        <span class="form-control JS__passageiros-input" id="passageirosInput" aria-label="Passageiros + Quarto/s">
+                            <span class="JS__total-passageiros">00/00/0000</span> • R$<span class="JS__total-quartos">0,00</span>   
+                        </span>
                     </div>
-                    <div class="mb-4 w-100 mx-2">
-                        <label for="exampleInputEmail1" class="form-label">Visibilidade</label>
-                        <div class="form-check form-switch">
-                            <label class="form-check-label" for="reserva-visibilidade">
-                                Ativada
-                            </label>
-                            <input class="form-check-input me-2" type="checkbox" id="reserva-visibilidade">
+                    <div class="mb-4 mx-3">
+                        <label class="form-label">Visibilidade</label>
+
+                        <div class="c-reservas__" aria-label="Visibilidade">
+                            <div class="form-check form-switch mb-1">
+                                <label class="form-check-label mb-0" for="reserva-visibilidade">
+                                    Ativada
+                                </label>
+                                <input class="form-check-input me-2" type="checkbox" id="reserva-visibilidade">
+                            </div>
                         </div>
+
+
                     </div>
                </div>
             </div>
 
 
-            <div class="row c-reservas__table">
-                <div class="col-xl-12">
+            <div class="row">
+                <div class="col-xl-12 c-reservas__table">
                     <table class="table fs-6" id="table">
                         <thead style="background-color: #FBFBFB;" class="fs-12">
                             <tr class="text-secondary">
@@ -166,10 +176,9 @@
                                 <th scope="col">
                                     <div class="d-flex align-items-center">
                                         <span class="text-primary icon-calendar fs-28 me-2"></span>
-                                        Check-In
+                                        Check-In <span class="mx-3 text-primary fw-bold">|</span> Check Out
                                     </div>
                                 </th>
-                                <th scope="col">Check-Out</th>
                                 <th scope="col">
                                     <div class="d-flex align-items-center">
                                         <span class="text-primary icon-cost fs-24 me-2"></span>
@@ -203,78 +212,74 @@
                             </tr>
                         </thead>
                         <tbody>
-                           <tr>
-                                <td colspan="10">
-                                    <table class="table">
-                                        <tbody>
-                                            <tr>
-                                                <td scope="row" class="text-primary">
-                                                    Hotel
-                                                    35080-1-HT
-                                                </td>
-                                                <td>   
-                                                    <div class="d-flex align-items-center">
-                                                        <span class="dot bg-success me-2"></span>
-                                                        Confirmado
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <span class="fw-500 text-primary">TRF O.W. ARPT / HOTEL O V.V - 1 - Privado - Sólo chofer - IN</span><br>
-                                                    Salvador <br>
-                                                    02 Adultos <br> 
-                                                    Cancelamento 15/01/2021<br>
-                                                    Lidiane Medina<br>
-                                                    RES014998-6059<br>
-                                                    Fornecedor: Toca da Coruja<br>
-                                                    Criação: 15/02/2021 - 10:44:15
-                                                </td>
-                                                <td>18/03/2021</td>
-                                                <td>21/03/2021</td>
-                                                <td>BRL 3747,20</td>
-                                                <td>-</td>
-                                                <td>15,2500</td>
-                                                <td>5,00 %</td>
-                                                <td>USD 752</td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="10">
-                                                    <div class="d-flex justify-content-between pt-5">
-                                                        <div class="d-flex">
-                                                            <div class="form-check form-switch mb-2 me-4">
-                                                                <input class="form-check-input me-2" type="checkbox" id="hoteis-internos">
-                                                                <label class="form-check-label" for="hoteis-internos">
-                                                                    Visível para o cliente
-                                                                </label>
-                                                            </div>
-                                                            <div class="form-check form-switch mb-2 me-4">
-                                                                <input class="form-check-input me-2" type="checkbox" id="hoteis-internos">
-                                                                <label class="form-check-label" for="hoteis-internos">
-                                                                    Confirmado
-                                                                </label>
-                                                            </div>
-                                                            <div class="form-check form-switch mb-2 me-4">
-                                                                <input class="form-check-input me-2" type="checkbox" id="hoteis-internos">
-                                                                <label class="form-check-label" for="hoteis-internos">
-                                                                    Booking não opcional
-                                                                </label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="d-flex">
-                                                            <span class="icon-comment text-primary fs-24 me-3 cursor-pointer JS__open-editar-reserva"></span>
-                                                            <span class="icon-pickup text-primary fs-24 me-3 cursor-pointer JS__open-editar-reserva"></span>
-                                                            <span class="icon-edit-values text-primary fs-24 me-3 cursor-pointer JS__open-editar-reserva"></span>
-                                                            <span class="icon-change-log text-primary fs-24 me-3 cursor-pointer JS__open-editar-reserva"></span>
-                                                            <span class="icon-privacy-policy text-primary fs-24 me-3 cursor-pointer JS__open-editar-reserva"></span>
-                                                            <span class="icon-trash text-primary fs-24 me-3 cursor-pointer JS__open-editar-reserva"></span>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                            <tr>
+                                <td scope="row">
+                                <div class="form-check bg-white">
+                                    <input class="form-check-input JS__search-box__radio" type="radio" name="search-opt" id="35080-1-HT" value="35080-1-HT">
+                                    <label class="form-check-label d-flex align-items-center text-primary fw-500 mb-0" for="35080-1-HT">
+                                        Hotel
+                                        35080-1-HT
+                                    </label>
+                                </div>
+                                    
                                 </td>
-                           </tr>
-                           
+                                <td>   
+                                    <div class="d-flex align-items-center">
+                                        <span class="dot bg-success me-2"></span>
+                                        Confirmado
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="fw-500 text-primary">TRF O.W. ARPT / HOTEL O V.V - 1 - Privado - Sólo chofer - IN</span><br>
+                                    Salvador <br>
+                                    02 Adultos <br> 
+                                    Cancelamento 15/01/2021<br>
+                                    Lidiane Medina<br>
+                                    RES014998-6059<br>
+                                    Fornecedor: Toca da Coruja<br>
+                                    Criação: 15/02/2021 - 10:44:15
+                                </td>
+                                <td>18/03/2021 <span class="mx-3 text-white fw-bold">|</span> 21/03/2021</td>
+                                <td>BRL 3747,20</td>
+                                <td>-</td>
+                                <td>15,2500</td>
+                                <td>5,00 %</td>
+                                <td>USD 752</td>
+                            </tr>
+                            <tr>
+                                <td colspan="10">
+                                    <div class="d-flex justify-content-between pt-5">
+                                        <div class="d-flex">
+                                            <div class="form-check form-switch mb-2 me-4">
+                                                <input class="form-check-input me-2" type="checkbox" id="hoteis-internos">
+                                                <label class="form-check-label" for="hoteis-internos">
+                                                    Visível para o cliente
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-switch mb-2 me-4">
+                                                <input class="form-check-input me-2" type="checkbox" id="hoteis-internos">
+                                                <label class="form-check-label" for="hoteis-internos">
+                                                    Confirmado
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-switch mb-2 me-4">
+                                                <input class="form-check-input me-2" type="checkbox" id="hoteis-internos">
+                                                <label class="form-check-label" for="hoteis-internos">
+                                                    Booking não opcional
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <span class="icon-comment text-primary fs-24 me-3 cursor-pointer JS__open-editar-reserva"></span>
+                                            <span class="icon-pickup text-primary fs-24 me-3 cursor-pointer JS__open-editar-reserva"></span>
+                                            <span class="icon-edit-values text-primary fs-24 me-3 cursor-pointer JS__open-editar-reserva"></span>
+                                            <span class="icon-change-log text-primary fs-24 me-3 cursor-pointer JS__open-editar-reserva"></span>
+                                            <span class="icon-privacy-policy text-primary fs-24 me-3 cursor-pointer JS__open-editar-reserva"></span>
+                                            <span class="icon-trash text-primary fs-24 me-3 cursor-pointer JS__open-editar-reserva"></span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -641,19 +646,17 @@
 </div>
 
 
+<div class="c-reserva-single c-reservas__doc JS__doc ">
 
+    <div class="c-reserva-single__bg cursor-pointer JS__doc-toggle"></div>
 
-<div class="o-reserva c-reservas__doc JS__doc ">
+    <div class="c-reserva-single__box container">
 
-    <div class="o-reserva__bg cursor-pointer JS__doc-toggle"></div>
-
-    <div class="o-reserva__box container">
-
-        <div class="o-reserva__close JS__doc-toggle cursor-pointer">
+        <div class="c-reserva-single__close JS__doc-toggle cursor-pointer">
             <span class="icon-close text-primary fs-28"></span>
         </div>
 
-        <div class="o-reserva__box__container--check o-reserva__step2 show">
+        <div class="c-reserva-single__box__container--check c-reserva-single__step2 show">
 
             <div class="border-bottom pb-3 ps-5 pt-2 mb-4">
                 <span class="fs-4 text-primary fw-bold mb-3 d-block">Doc Digital</span>
@@ -804,24 +807,24 @@
 </div>
 
 
-<div class="o-reserva c-reservas__invoice JS__invoice">
+<div class="c-reserva-single c-reservas__invoice JS__invoice">
 
-    <div class="o-reserva__bg cursor-pointer JS__invoice-toggle"></div>
+    <div class="c-reserva-single__bg cursor-pointer JS__invoice-toggle"></div>
 
-    <div class="o-reserva__box container">
+    <div class="c-reserva-single__box container">
 
-        <div class="o-reserva__close JS__invoice-toggle cursor-pointer">
+        <div class="c-reserva-single__close JS__invoice-toggle cursor-pointer">
             <span class="icon-close text-primary fs-28"></span>
         </div>
 
-        <div class="o-reserva__box__container--check o-reserva__step2 show">
+        <div class="c-reserva-single__box__container--check c-reserva-single__step2 show">
 
             <div class="d-flex justify-content-between align-items-center border-bottom pb-3 pt-2 ps-5 mb-4">
                 <span class="fs-4 text-primary fw-normal"><span class="fw-bold">Invoice:</span> #35080</span>
             </div>
             
 
-            <div class="o-reserva__box__item d-flex justify-content-between">
+            <div class="c-reserva-single__box__item d-flex justify-content-between">
 
                 <table class="table fs-6" id="table">
                     <thead>
@@ -897,17 +900,17 @@
 </div>
 
 
-<div class="o-reserva c-reservas__voucher JS__voucher">
+<div class="c-reserva-single c-reservas__voucher JS__voucher">
 
-    <div class="o-reserva__bg cursor-pointer JS__voucher-toggle"></div>
+    <div class="c-reserva-single__bg cursor-pointer JS__voucher-toggle"></div>
 
-    <div class="o-reserva__box container">
+    <div class="c-reserva-single__box container">
 
-        <div class="o-reserva__close JS__voucher-toggle cursor-pointer">
+        <div class="c-reserva-single__close JS__voucher-toggle cursor-pointer">
             <span class="icon-close text-primary fs-28"></span>
         </div>
 
-        <div class="o-reserva__box__container--check o-reserva__step2 show">
+        <div class="c-reserva-single__box__container--check c-reserva-single__step2 show">
 
             <div class="d-flex justify-content-between align-items-center border-bottom pb-3 ps-5 mb-4 pt-2">
                 <span class="fs-4 text-primary fw-normal"><span class="fw-bold">Voucher:</span> 36547-1HT</span>

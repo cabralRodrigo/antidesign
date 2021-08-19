@@ -1,18 +1,20 @@
-<?php include('includes/header--page.php'); ?>
+<?php include('includes/header--white.php'); ?>
 
     <main class="c-page">
        <div class="container-fluid p-0 d-flex">
             <div class="c-page__img natural" style="background-image: url('assets/img/login-banner.jpg');"></div>
 
-            <div class="h-100 w-100 d-flex c-page__container">
+            <div class="w-100 d-flex c-page__container">
 
                 <div class="container">
 
                     <div class="row d-flex justify-content-end">
 
-                        <div class="col-xl-6">
+                        <div class="col-lg-6">
+
                             <div class="row">
-                                <div class="col-xl-6">
+                                <div class="col-xxl-6">
+
                                     <h1 class="d-inline-block fs-5 text-primary p-2 px-0 mb-0">Bem-Vindo</h1>
                                     <h2 class="mb-4 fs-1 fw-bold text-secondary">Faça seu login para continuar</h2>
 
@@ -38,10 +40,11 @@
                                             <span class="fs-6 d-block text-gray-100">Ao acessar sua conta você concorda com todos os <a href="" class="d-block text-decoration-none fw-b">Termos de Politica e Privacidade & Cookies.</a></span>
                                         </div>
                                     </form>
-                                    
+
+
                                 </div>
                             </div>
-                           
+                            
                         </div>
                     </div>
 

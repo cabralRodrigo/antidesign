@@ -1,11 +1,11 @@
 
 <section class="c-experts position-relative">
 
-    <div class="tab-content h-100" id="experts-tabContent">
+    <div class="tab-content" id="experts-tabContent">
 
-        <div class="c-experts__item tab-pane h-100 fade" id="experts-fernando" role="tabpanel" aria-labelledby="experts-fernando-tab">
-            <div class="h-100 d-flex">
-                <div class="c-experts__item__bg h-100" style="background-image: url('assets/img/home-banner.jpg');">
+        <div class="c-experts__item tab-pane fade" id="experts-fernando" role="tabpanel" aria-labelledby="experts-fernando-tab">
+            <div class="c-experts__item__container">
+                <div class="c-experts__item__bg" style="background-image: url('assets/img/home-banner.jpg');">
                     <img src="assets/img/experts-item-bg.png" alt="">
                 </div>
                 <div class="c-experts__item__content text-white d-flex align-items-center ">
@@ -20,9 +20,9 @@
                 </div>
             </div>
         </div>
-        <div class="c-experts__item tab-pane h-100 fade show active" id="experts-buzios" role="tabpanel" aria-labelledby="experts-buzios-tab">
-            <div class="h-100 d-flex">
-                <div class="c-experts__item__bg h-100" style="background-image: url('assets/img/experts-buzios.jpg');">
+        <div class="c-experts__item tab-pane fade show active" id="experts-buzios" role="tabpanel" aria-labelledby="experts-buzios-tab">
+            <div class="c-experts__item__container">
+                <div class="c-experts__item__bg" style="background-image: url('assets/img/experts-buzios.jpg');">
                     <img src="assets/img/experts-item-bg.png" alt="">
                 </div>
                 <div class="c-experts__item__content text-white d-flex align-items-center ">
@@ -41,10 +41,12 @@
     </div>
 
 
-    <div class="c-experts__controls border-bottom position-relative">
+    <div class="c-experts__controls border-bottom">
 
         <nav>
             <div class="nav nav-tabs text-white d-flex justify-content-between border-0" id="experts-tab" role="tablist">
+
+                
 
                 <button class="nav-link text-white" id="experts-fernando-tab" data-bs-toggle="tab" data-bs-target="#experts-fernando" type="button" role="tab" aria-controls="experts-fernando" aria-selected="false">
                     Fernando de Noronha

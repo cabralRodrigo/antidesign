@@ -1,3 +1,8 @@
+.o-search-box,
+.o-search-box--reduced{
+    display: none;
+}
+
 .o-search-box{
     border-radius: 40px;
     height: 11.5rem;
@@ -7,13 +12,29 @@
     z-index: 99;
     box-shadow: 5px 13px 15px 5px rgba(0,0,0,0.16);
     @include breakpoint(xl){
-        width: 50rem;
+        width: 57rem;
+    }
+    @include breakpoint(lg){    
+        width: 45rem;
+        height: auto;
+    }
+    @include breakpoint(md){
+        width: 21rem;
+        top: 7rem;
     }
 
     &__radios{
         width: 46rem;
         @include breakpoint(xl){
-            width: 34rem;
+            width: 39rem;
+        }
+        @include breakpoint(lg){
+            flex-wrap: wrap;
+        }
+        @include breakpoint(md){
+            & > div{ 
+                width: 100%;
+            }
         }
         .form-check-label{
             font-weight: 400;
@@ -64,13 +85,36 @@
             &.show{
                 display: block;
             }
+            @include breakpoint(xl){
+                width: 38.2rem;
+            }
         }
         &__destino{
             width: 13rem;
+            @include breakpoint(xl){
+                width: 11rem;
+            }
+            @include breakpoint(lg){
+                width: calc(50% - 12px);
+                margin-bottom: 1rem;
+            }
+            @include breakpoint(md){
+                width: 100%;
+            }
         }
         &__hotel{
             width: 12rem;
             position: relative;
+            @include breakpoint(xl){
+                width: 11rem;
+            }
+            @include breakpoint(lg){
+                width: calc(50% - 12px);
+                margin-bottom: 1rem;
+            }
+            @include breakpoint(md){
+                width: 100%;
+            }
         }
         &__regime{
             display: none;
@@ -78,12 +122,29 @@
             background: #fff;
             left: 13.95rem;
             background: #fff;
+            @include breakpoint(xl){
+                width: 11rem;
+                left: 11.6rem;
+            }
+            @include breakpoint(md){
+                width: 100%;
+            }
             .form-select{
                 padding: 1.02rem 3rem 1.14rem 1rem;
             }
         }
         &__passageiros{
             width: 16rem;
+            @include breakpoint(xl){
+                width: 15rem;
+            }
+            @include breakpoint(lg){
+                width: calc(50% - 12px);
+                margin-bottom: 1rem;
+            }
+            @include breakpoint(md){
+                width: 100%;
+            }
             &__input{
                 position: relative;
                 .form-control{
@@ -98,7 +159,7 @@
                 left: 1rem;
             }
             &__content{
-                top: 8.5rem;
+                top: 8.65rem;
                 left: 0;
                 height: 5rem;
                 width: calc(100% + 4rem);
@@ -108,9 +169,16 @@
                 opacity: 0;
                 box-shadow: 5px 13px 15px 5px rgba(0,0,0,0.16);
                 visibility: hidden;
+                overflow: hidden;
+                @include breakpoint(xl){
+                    padding: .75rem 1.37rem;
+                }
                 &__item{
                     border-right: 1px solid #E3E3E3;
                     padding: 0 2.44rem 0 1.5rem;
+                    @include breakpoint(xl){
+                        padding: 0 .9rem;
+                    }
                     &:first-of-type{
                         padding-left: 0;
                     }
@@ -128,7 +196,60 @@
         }
         &__data{
             width: 25.3%;
-            position: relative;
+            // position: relative;
+
+            @include breakpoint(xl){
+                width: 20%;
+            }
+
+            @include breakpoint(lg){
+                width: calc(50% - 12px);
+                margin-bottom: 1rem;
+            }
+            
+            @include breakpoint(md){
+                width: 100%;
+            }
+
+            .flatpickr-calendar.multiMonth{
+                width: 68rem!important;
+                top: 8.65rem;
+                left: calc(50% - 68rem/2)!important;
+                right: inherit!important;
+                padding: 28px 48px;
+                position: absolute!important;
+
+                visibility: hidden;
+                opacity: 0;
+
+                @include breakpoint(xl){
+                    padding: 1.37rem;
+                }
+
+                
+                &.show{
+                    animation: fpFadeInDown 300ms cubic-bezier(.23,1,.32,1);
+                    opacity: 1;
+                    visibility: visible;
+                }
+
+                @include breakpoint(xl){
+                    width: 57rem!important;
+                    left: calc(50% - 57rem/2)!important;
+                }
+                @include breakpoint(lg){    
+                    width: 41rem!important;
+                    left: calc(50% - 41rem/2)!important;
+                }
+                @include breakpoint(md){
+                    width: 21rem!important;
+                    left: calc(50% - 21rem/2)!important;
+                }
+                 @include breakpoint(sm){
+                    width: 100%;
+                    margin: 0 8rem!important;
+                }
+            }
 
             &__icon{
                 position: absolute;
@@ -148,13 +269,30 @@
         }
         &__submit{
             width: 3rem;
+            @include breakpoint(lg){
+                width: 100%;
+                margin-top: 18px;
+            }
             .btn{
                 height: 3rem;
                 width: 3rem;
                 padding: 0;
-                span{
+                .icon-search{
                     font-size: 1.75rem;
                     top: 2px;
+                }
+                @include breakpoint(lg){
+                    width: 100%;
+                    .icon-search{
+                        display: none;
+                    }
+                }
+            }
+            
+            &__txt{
+                display: none;
+                @include breakpoint(lg){
+                    display: inline;
                 }
             }
         }
@@ -178,6 +316,8 @@
 }
 
 
+
+
 .o-search-box--reduced{
     height: 4rem;
     border-radius: 2.5rem;
@@ -187,6 +327,22 @@
     font-size: .75rem;
     z-index: 99;
     box-shadow: 5px 13px 15px 5px rgba(0,0,0,0.16);
+    
+    @include breakpoint(xl){
+        width: 57rem;
+    }
+    @include breakpoint(lg){    
+        width: 45rem;
+    }
+    @include breakpoint(md){
+        width: 21rem;
+    }
+     @include breakpoint(sm){
+        width: 100%;
+        margin: 0 8rem;
+    }
+
+
     &__form{
         overflow: hidden;
         height: 31px;
@@ -200,6 +356,7 @@
             border: 0;
             outline: none;
         }
+
         &__options{
             width: 6rem;
             cursor: pointer;
@@ -244,7 +401,7 @@
             }
         }
         &__passageiros{
-            width: 15.6rem;
+            width: 13.6rem;
             padding-right: 1rem;
             &__input{
                 position: relative;
@@ -254,9 +411,12 @@
                 }
             }
            .o-search-box__form__passageiros__content{
-               width: 68rem;
-               margin-left: 2rem;
-               top: 6.5rem;
+                width: 72.6rem;
+                // margin-left: 2rem;
+                top: 6.5rem;
+                @include breakpoint(xl){
+                    width: 57rem;
+                }
            }
         }
         &__checkin{
@@ -289,16 +449,32 @@
     }
     
     &__radios{
-        top: 17.6rem;
+        top: 14rem;
         height: 4rem;
         width: 72.6rem;
-        left: calc(50% - 72rem/2);
+        left: calc(50% - 72.6rem/2);
         padding: 1.3rem 2.16rem 1rem 2rem;
         border-radius: 1.8rem;
         box-shadow: 5px 13px 15px 5px rgba(0,0,0,0.16);
         z-index: 999;
         opacity: 0;
         visibility: hidden;
+
+        @include breakpoint(xl){
+            width: 57rem;
+            left: calc(50% - 57rem/2);
+        }
+        @include breakpoint(lg){    
+            width: 45rem;
+            flex-wrap: wrap;
+        }
+        @include breakpoint(md){
+            width: 21rem;
+        }
+         @include breakpoint(sm){
+            width: 100%;
+            margin: 0 8rem;
+        }
 
         &.show{
             animation: fpFadeInDown 300ms cubic-bezier(.23,1,.32,1);

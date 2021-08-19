@@ -38,11 +38,11 @@
 
             <div class="c-experiencias__filtros border-bottom">
                 <ul class="nav nav-pills nav-fill mt-2">
-                    <li>
+                    <li class="c-experiencias__filtros__search">
                         <div class="me-5 position-relative input-search input-search--tarifarios">
                             <span class="icon-search position-absolute"></span>
                             <input type="text" placeholder="Busque por itens extras" class="form-control me-5">
-                            <span class="text-black-50">|</span>
+                            <span class="text-black-50 c-experiencias__filtros__search__border">|</span>
                         </div>
                     </li>
                     <li class="nav-item">

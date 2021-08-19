@@ -17,6 +17,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
     dateFormat: 'd/m/Y'
   });
 
+  flatpickr(".daterange", {
+      mode: "range",
+      showMonths: 1,
+      locale: 'pt',
+      dateFormat: 'd/m/Y',
+      conjunction: " - ",
+  });
+
 
   //Plus and Minus buttons
   $('.input-number').on('click', '.button-plus', function(e) {
@@ -34,8 +42,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
   });
   
-  
-  
  
       
 });
@@ -52,16 +58,16 @@ var reserva = {
     
     $('.JS__reserva-next').on('click', function(){
       
-      $('.o-reserva__step1').removeClass('show')
-      $('.o-reserva__step2').addClass('show')
+      $('.c-reserva-single__step1').removeClass('show')
+      $('.c-reserva-single__step2').addClass('show')
 
     });
 
   },
   toggleModal: function(){
     document.querySelector('.JS__reserva').classList.toggle('open');
-    document.querySelector('.o-reserva__step1').classList.add('show');
-    document.querySelector('.o-reserva__step2').classList.remove('show');
+    document.querySelector('.c-reserva-single__step1').classList.add('show');
+    document.querySelector('.c-reserva-single__step2').classList.remove('show');
   }
 }
 
@@ -69,14 +75,21 @@ var reserva = {
 var cardSlides = {
     init: function () {
         new Swiper(".JS-cards", {
-            slidesPerView: 'auto',
-            spaceBetween: 16,
             // centeredSlides: true,
             loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 16,
             navigation: {
                 nextEl: '.JS-cards__pagination .swiper-button-next',
                 prevEl: '.JS-cards__pagination .swiper-button-prev',
             },
+            breakpoints: {
+              // when window width is >= 320px
+              1200: {
+                slidesPerView: 'auto',
+                spaceBetween: 16,
+              }
+            }
         });
     }
 };
@@ -99,6 +112,10 @@ var searchBox = {
       openPassageiros();
     });
 
+    $('.JS__searchBox-data input').on('click', function(e) {
+      searchboxDateOpen();
+    });
+
     $('.JS__search-box__radio').on('click', function(e) {
       searchBox.handleClick();
     });
@@ -109,12 +126,11 @@ var searchBox = {
       showMonths: 3,
       locale: 'pt',
       dateFormat: 'd/m/Y',
-      conjunction: " - "
+      conjunction: " - ",
+      inline: true
     });
 
-
   },
-
   handleClick: function() {
 
     const radios = document.querySelectorAll('.JS__search-box__radio'),
@@ -218,6 +234,27 @@ const closePassageiros = (event) => {
   }
 }
 
+const searchboxDateOpen = () => {
+  const dateBox = document.querySelector('.JS__searchBox-data .flatpickr-calendar');
+
+  if(!dateBox.classList.contains('show')){
+    dateBox.classList.add("show");
+  }
+
+  setTimeout(() => { document.addEventListener('click', searchboxDateClose, false) }, 200);
+}
+
+const searchboxDateClose = (event) => {
+  const dateBox = document.querySelector('.JS__searchBox-data .flatpickr-calendar');
+
+  if (!dateBox.contains(event.target)) {
+
+    dateBox.classList.remove("show");
+    document.removeEventListener('click', searchboxDateClose, false);
+
+  }
+}
+
 const openSearchboxReducedRadios = () => {
   const searchRadiosBox = document.querySelector('.JS__search-box__radios');
         
@@ -281,18 +318,6 @@ var mainSwiper = new Swiper(".JS__banner", {
 });
 
 
-var swiperContent = new Swiper(".JS__content-carousel", {
-  slidesPerView: 'auto',
-  navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-  },
-  effect: 'fade',
-  fadeEffect: {
-      crossFade: true
-  },
-});
-  
 
 var swiperDestaque = new Swiper(".JS__destaque", {
   loop: true,

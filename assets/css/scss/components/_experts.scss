@@ -2,12 +2,26 @@
     height: 30.43rem;
     margin-bottom: 9rem;
     background: #262626;
+    .tab-content{
+        height: 100%;
+    }
+    @include breakpoint(xl){
+        height: auto;
+        .tab-content{
+            height: auto;
+        }
+    }
     &__item{
+        height: 100%;
         &__bg{
             position: relative;
             height: 100%;
             width: 64%;
             background-size: cover;
+            @include breakpoint(xl){
+                width: 100%;
+                height: 24rem;
+            }
             img{
                 position: absolute;
                 height: 100%;
@@ -24,6 +38,10 @@
             @include breakpoint(xxl){
                 padding: 0 5rem;
             }
+            @include breakpoint(xl){
+                width: 100%;
+                padding: 5rem;
+            }
             a {
                 svg{
                     margin-left: .93rem;
@@ -37,12 +55,25 @@
                 }
             }
         }
+        &__container{
+            @include breakpoint(xl){
+                flex-wrap: wrap;
+            }
+            display: flex;
+            height: 100%;
+        }
     }
     &__controls{
         width: 64%;
         margin-top: -6.1rem;
+        position: relative;
+        @include breakpoint(xl){
+            width: 100%;
+            margin: 0;
+            position: absolute;
+            top: 18rem;
+        }
         nav{
-
             margin: 0 calc((100vw - 1640px) / 2);
             
             @include breakpoint(xxl){

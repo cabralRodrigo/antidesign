@@ -46,8 +46,10 @@
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
         top: 178px;
+        @include breakpoint(lg){
+            top: 9rem;
+        }
     }
-    
 
     &--reduced-search{
         .c-banner__item .container {

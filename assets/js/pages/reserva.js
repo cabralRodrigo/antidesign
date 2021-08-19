@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function (event) {
     
-  menuReserva.init();
-  voucher.init();
-  invoice.init();
-  docDigital.init();
+	menuReserva.init();
+	voucher.init();
+	invoice.init();
+	docDigital.init();
 
-    flatpickr("#reserva-data", {
-      locale: 'pt',
-      dateFormat: 'd/m/Y',
-    });
-  
+	flatpickr("#reserva-data", {
+		locale: 'pt',
+		dateFormat: 'd/m/Y',
+	});
+
 
 });
 

@@ -12,28 +12,8 @@
             
             <div class="swiper-wrapper h-100">
 
-                <div class="c-banner__item --video swiper-slide h-100 d-flex align-items-end">
-                    <video
-                        id="my-video"
-                        class="video-js"
-                        controls
-                        preload="auto"
-                        poster="assets/img/banner-buzios.jpg"
-                        data-setup="{}"
-                        class= "teste"
-                        autoplay = true
-                        muted = true
-                    >
-                        <source src="assets/img/brasil-secreto/video.mp4" type="video/mp4" />
-                        <source src="assets/img/brasil-secreto/video.webm" type="video/webm" />
-                        <p class="vjs-no-js">
-                        To view this video please enable JavaScript, and consider upgrading to a
-                        web browser that
-                        <a href="https://videojs.com/html5-video-support/" target="_blank"
-                            >supports HTML5 video</a
-                        >
-                        </p>
-                    </video>
+                <div class="c-banner__item --video swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/banner-buzios.jpg');">
+                    <img src="assets/img/banner-bg.png" alt="background" class="c-banner__background">
                     <div class="container text-light">
                         <div class="row h-100 d-flex align-items-center">
                             <div class="col-xxl-6 col-xl-8 col-lg-12 col-md-8 col-sm-8">
@@ -61,8 +41,8 @@
             <div class="row">
 
                 <div class="col-xl-4 d-flex align-items-center">
-                    <div>
-                        <div class="col-xl-9">
+                    <div class="mb-5">
+                        <div class="col-xxl-9">
                             <h2 class="mb-5 fs-1 fw-bold text-secondary">Um lugar cheio de histórias</h2>
                         </div>
                         <div class="fs-4">
@@ -85,7 +65,7 @@
                             <div class="swiper-button-next">
                                 <span class="icon-arrow-right"></span>
                             </div>
-                        </div>
+                        </div>                        
                         
                         <div class="swiper-pagination"></div>
 
@@ -248,7 +228,7 @@
     <section class="c-cards-carousel">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4 mb-5">
+                <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-8 col-sm-11 mb-5">
                     <h2 class="d-inline-block fs-5 text-primary p-2 px-0 mb-0">Experiências únicas</h2>
                     <h3 class="mb-4 fs-3 fw-bold text-secondary">Encontre aventuras em Búzios e muito mais</h3>
                     <p class="fs-4">Consulte as restrições com base no Covid-19 <a href="juntos-somos-mais-fortes.php" class="ms-3 btn-link fs-6 text-secondary border-secondary py-0">Leia mais</a></p>
@@ -284,7 +264,7 @@
                     <div class="swiper-container JS__experiencias-swiper">
                         <div class="swiper-wrapper">
 
-                            <div class="swiper-slide col-xl-3 c-single-experiencia__explorar__item">
+                            <div class="swiper-slide col-xl-3 col-lg-4 col-md-5 c-single-experiencia__explorar__item">
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <div class="w-100 c-single-experiencia__explorar__item__img" style="background-image: url('assets/img/single-experiencia/aventuras-buzios01.png');"></div>
                                     <div class="mt-4 fs-6 c-single-experiencia__explorar__item__content">
@@ -296,7 +276,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide col-xl-3 c-single-experiencia__explorar__item">
+                            <div class="swiper-slide col-xl-3 col-lg-4 col-md-5 c-single-experiencia__explorar__item">
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <div class="w-100 c-single-experiencia__explorar__item__img" style="background-image: url('assets/img/single-experiencia/aventuras-buzios02.png');"></div>
                                     <div class="mt-4 fs-6 c-single-experiencia__explorar__item__content">
@@ -308,7 +288,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide col-xl-3 c-single-experiencia__explorar__item">
+                            <div class="swiper-slide col-xl-3 col-lg-4 col-md-5 c-single-experiencia__explorar__item">
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <div class="w-100 c-single-experiencia__explorar__item__img" style="background-image: url('assets/img/single-experiencia/aventuras-buzios03.png');"></div>
                                     <div class="mt-4 fs-6 c-single-experiencia__explorar__item__content">
@@ -320,7 +300,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide col-xl-3 c-single-experiencia__explorar__item">
+                            <div class="swiper-slide col-xl-3 col-lg-4 col-md-5 c-single-experiencia__explorar__item">
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <div class="w-100 c-single-experiencia__explorar__item__img" style="background-image: url('assets/img/single-experiencia/aventuras-buzios04.png');"></div>
                                     <div class="mt-4 fs-6 c-single-experiencia__explorar__item__content">
@@ -332,7 +312,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="swiper-slide col-xl-3 c-single-experiencia__explorar__item">
+                            <div class="swiper-slide col-xl-3 col-lg-4 col-md-5 c-single-experiencia__explorar__item">
                                 <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
                                     <div class="w-100 c-single-experiencia__explorar__item__img" style="background-image: url('assets/img/single-experiencia/aventuras-buzios05.png');"></div>
                                     <div class="mt-4 fs-6 c-single-experiencia__explorar__item__content">
@@ -551,8 +531,6 @@
                     </div>
 
                 </div>
-
-            </div>
 
             </div>
         </div>

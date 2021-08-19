@@ -240,7 +240,7 @@
 
                 </div>
 
-                <div class="col-xl-4 offset-1">
+                <div class="col-xl-4 offset-xl-1">
                     <div class="c-hotel__price natural shadow" id="price">
                         <span class="text-primary fs-28 mb-4 d-block"><span class="fw-500">R$ 510,00</span>/noite</span>
 
@@ -699,7 +699,8 @@
     </section>
     
 
-    <section class="c-condicoes">
+    <section class="pb-5 mb-5">
+
         <div class="container">
             <div class="row mb-5">
                 <div class="col-xl-7">
@@ -707,33 +708,41 @@
                     <h3 class="mb-2 fs-3 fw-bold text-secondary">Coisas a saber</h3>
                 </div>
             </div>
-            <div class="row pt-5 d-flex justify-content-between">
-                <div class="c-condicoes__item--1 fs-6">
+
+            <div class="row fs-6">
+            
+                <div class="col-xxl-2 col-lg-4 col-md-6 px-4 mb-5">
                     <span class="icon-bad d-block fs-3 mb-4"></span>
                     Oferecem poucos quartos e, muitas vezes, são diferenciados, com categorias personalizadas para cada quarto.
                 </div>
-                <div class="c-condicoes__item--2 fs-6">
-                    <span class="icon-edit-values d-block fs-3 mb-4"></span>
+                
+                <div class="col-xxl-2 col-lg-4 col-md-6 px-4 mb-5">
+                    <span class="icon-percent d-block fs-3 mb-4"></span>
                     Políticas de marketing diferenciadas, pois normalmente não funcionam com tarifas de operadora e agência, ou seja, protegidas.
                 </div>
-                <div class="c-condicoes__item--3 fs-6">
+                
+                <div class="col-xxl-2 col-lg-4 col-md-6 px-4 mb-5">
                     <span class="icon-edit-values d-block fs-3 mb-4"></span>
                     Aplicam-se severas restrições na política de garantia de reserva, prazos de cancelamento sem despesas e reembolsos.
                 </div>
-                <div class="c-condicoes__item--4 fs-6">
+                
+                <div class="col-xxl-2 col-lg-4 col-md-6 px-4 mb-5">
                     <span class="icon-user d-block fs-3 mb-4"></span>
                     Valorizam um relacionamento personalizado tanto com o hóspede quanto na sua forma de marketing e divulgação.
                 </div>
-                <div class="c-condicoes__item--5 fs-6">
+                
+                <div class="col-xxl-2 col-lg-4 col-md-6 px-4 mb-5">
                     <span class="icon-tax-increace d-block fs-3 mb-4"></span>
                     Não funcionam com taxas de mercado nacional e internacional.
                 </div>
-                <div class="c-condicoes__item--6 fs-6">
+                
+                <div class="col-xxl-2 col-lg-4 col-md-6 px-4 mb-5">
                     <span class="icon-group d-block fs-3 mb-4"></span>
                     Muitos deles não aceitam menores ou grupos.
                 </div>
-            
+
             </div>
+
         </div>
     </section>
 
@@ -743,3 +752,4 @@
 <?php include('includes/footer.php') ?>
 
 <script src="assets/js/pages/hotel.js"></script>
+

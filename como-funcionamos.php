@@ -1,22 +1,22 @@
-<?php include('includes/header--page.php'); ?>
+<?php include('includes/header--white.php'); ?>
 
     <main class="c-page">
        <div class="container-fluid p-0 d-flex">
             <div class="c-page__img natural" style="background-image: url('assets/img/banner-condicoes-gerais.jpg');"></div>
 
-            <div class="h-100 w-100 d-flex c-page__container">
+            <div class="w-100 d-flex c-page__container">
 
                 <div class="container">
 
                     <div class="row d-flex justify-content-end">
 
-                        <div class="col-xl-6">
+                        <div class="col-lg-6">
 
                             <h2 class="d-inline-block fs-6 text-primary p-2 px-0 mb-0">Como funcionamos</h2>
-                            <h3 class="mb-4 fs-1 fw-bold text-secondary">Condições gerais</h3>
+                            <h3 class="mb-4 fs-1 fw-bold text-secondary col-xl-12 col-xxl-8">Condições gerais</h3>
 
                             <div class="row">
-                                <div class="col-xl-7">
+                                <div class="col-xxl-8">
                                     <p class="mb-5 fs-4 text-black-50">As Condições Gerais regem as nossas políticas comerciais, tarifárias e operacionais, aplicáveis ​​às reservas off-line e online. É extremamente importante que sejam fonte de consulta e conhecimento permanente das suas equipas, para que as nossas empresas funcionem em harmonia.</p>
                                 </div>
                             </div>

@@ -53,7 +53,7 @@
     .icon-calendar{
         position: absolute;
         right: 12px;
-        top: 48px;
+        top: 40px;
         font-size: 26px;
         color: #E0E0E0;
     }
@@ -117,9 +117,22 @@
     }
     &--tarifarios{
         input{
-            width: 317px;
+            margin-bottom: 1.12rem;
+            width: 19.8rem;
+        }
+        @include breakpoint(lg){
+            width: 100%;
+            .input-search{
+                margin-right: 0!important;
+                input{
+                    width: 100%;
+                    margin-right: 0!important;
+                }
+            }
+            .separator{
+                display: none;
+            }
         }
     }
 }
-
 

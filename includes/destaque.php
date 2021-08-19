@@ -13,7 +13,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-lg-7">
                                 <p>A um ano atrás o Covid mudou a forma como nos devemos relacionar, como tínhamos que evoluir.  Veja todas as modificações que fizemos para oferecer o bem-estar dos passageiros.</p>
                                 <span class="d-flex align-items-center text-reset text-uppercase fw-bolder c-destaque__link">
                                     Saber mais <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20"><path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"/></svg>
@@ -35,8 +35,8 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xl-3">
-                                <p>Vivencie experiencias únicas e deixe sua viagem muito mais marcante</p>
+                            <div class="col-xl-3 col-lg-5">
+                                <p>Vivencie experiencias únicas e deixe sua viagem muito mais marcante.</p>
                             </div>
                         </div>
                     </div>

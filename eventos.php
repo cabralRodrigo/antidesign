@@ -1,19 +1,19 @@
-<?php include('includes/header--page.php'); ?>
+<?php include('includes/header--white.php'); ?>
 
     <main class="c-page c-eventos">
        <section class="container-fluid p-0 d-flex">
-            <div class="c-page__img natural" id="banner" style="background-image: url('assets/img/datas-especiais-banner.jpg');"></div>
+            <div class="c-page__img position-absolute" id="banner" style="background-image: url('assets/img/datas-especiais-banner.jpg');"></div>
 
-            <div class="h-100 w-100 d-flex c-page__container">
+            <div class="w-100 d-flex c-page__container">
 
                 <div class="container">
 
                     <div class="row d-flex justify-content-end">
 
-                        <div class="col-xl-6">
+                        <div class="col-lg-6">
 
                             <h1 class="d-inline-block fs-5 text-primary p-2 px-0 mb-0">Eventos</h1>
-                            <h2 class="mb-4 fs-1 fw-bold col-xl-6 text-secondary">Datas Especiais</h2>
+                            <h2 class="mb-4 fs-1 fw-bold text-secondary col-lg-10 col-xl-8 col-xxl-6">Datas Especiais</h2>
 
                             <div class="row">
                                 <div class="col-xl-8">
@@ -32,6 +32,9 @@
 
                                     <p>Como não é possível contemplar aqui 100% das situações, se alguma data
                                     ou informação específica não for detalhada, por favor consulte.</p>
+
+                                    
+                                    <a href="#todos-eventos" class="text-primary fw-500 d-flex align-items-center text-decoration-none mt-5">Veja todos os eventos <span class="icon-arrow-right fs-4 fw-bold ms-2"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +44,6 @@
 
             </div>
        </section>
-
 
         <section class="c-eventos__medidas" id="medidas">
 
@@ -85,257 +87,129 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="natal" role="tabpanel" aria-labelledby="natal-tab">
                     
-                    <!-- Slider main container -->
-                    <div class="swiper-container c-content-carousel JS__content-carousel">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
+                    <div class="c-content-carousel">
+                        <div class="d-flex">
+                            <div class="w-100">
 
                                 <div class="c-content-carousel__img" style="background-image:url('assets/img/eventos-natal.jpg')"></div>
-                                <div class="c-content-carousel__content text-white bg-dark">
 
-                                    <div class="col-xxl-5 col-xl-8">
+                                <div class="c-content-carousel__content text-white">
 
-                                        <span class="fs-3 fw-bold mb-3 d-block">Natal</span>
-                                        <p>Os hotéis podem aplicar tarifas diferenciadas no período de 22 a 27 de dezembro, por noite ou em pacotes mínimos de noites, com ou sem jantar de Natal obrigatório.</p>
+                                    <div class="c-content-carousel__content__bg bg-dark"></div>
 
-                                        <p>Se você tiver algum serviço adicional, você será sempre informado sobre a tarifa. Os serviços
-                                        podem ter taxas diferenciadas no período de
-                                        22 a 27 de Dezembro.</p>
+                                    <div class="container">
+                                        <div class="col-xxl-5 offset-xxl-6 col-xl-6 col-lg-6 offset-lg-6 ">
+                                            <span class="fs-3 fw-500 mb-5 d-block">Natal</span>
+                                            <p>Os hotéis podem aplicar tarifas diferenciadas no período de 22 a 27 de dezembro, por noite ou em pacotes mínimos de noites, com ou sem jantar de Natal obrigatório.</p>
 
+                                            <p>Se você tiver algum serviço adicional, você será sempre informado sobre a tarifa. Os serviços
+                                            podem ter taxas diferenciadas no período de
+                                            22 a 27 de Dezembro.</p>
+
+                                        </div>
                                     </div>
 
                                 </div>
-                                
-                            </div>
-                            <div class="swiper-slide">
-
-                                <div class="c-content-carousel__img" style="background-image:url('assets/img/eventos-natal.jpg')"></div>
-                                <div class="c-content-carousel__content text-white bg-dark">
-
-                                    <div class="col-xxl-5 col-xl-8">
-
-                                        <span class="fs-3 fw-bold mb-3 d-block">Natal</span>
-                                        <p>Os hotéis podem aplicar tarifas diferenciadas no período de 22 a 27 de dezembro, por noite ou em pacotes mínimos de noites, com ou sem jantar de Natal obrigatório.</p>
-
-                                        <p>Se você tiver algum serviço adicional, você será sempre informado sobre a tarifa. Os serviços
-                                        podem ter taxas diferenciadas no período de
-                                        22 a 27 de Dezembro.</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            
-                        </div>
-                        <!-- If we need navigation buttons -->
-                        <div class="c-content-carousel__buttons">
-                            <div class="c-content-carousel__buttons__container">
-                                <div class="swiper-button-prev">
-                                    <span class="icon-arrow-left"></span>
-                                </div>
-                                <div class="swiper-button-next">
-                                    <span class="icon-arrow-right"></span>
-                                </div>
                             </div>
                         </div>
-
                     </div>
 
                 </div>
                 <div class="tab-pane fade" id="carnaval" role="tabpanel" aria-labelledby="carnaval-tab">
-                       <!-- Slider main container -->
-                       <div class="swiper-container c-content-carousel JS__content-carousel">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
+                    <div class="c-content-carousel">
+                        <div class="d-flex">
+                            <div class="w-100">
 
                                 <div class="c-content-carousel__img" style="background-image:url('assets/img/eventos-natal.jpg')"></div>
-                                <div class="c-content-carousel__content text-white bg-dark">
 
-                                    <div class="col-xl-5">
+                                <div class="c-content-carousel__content text-white">
 
-                                        <span class="fs-3 fw-bold mb-3 d-block">Natal</span>
-                                        <p>Os hotéis podem aplicar tarifas diferenciadas no período de 22 a 27 de dezembro, por noite ou em pacotes mínimos de noites, com ou sem jantar de Natal obrigatório.</p>
+                                    <div class="c-content-carousel__content__bg bg-dark"></div>
 
-                                        <p>Se você tiver algum serviço adicional, você será sempre informado sobre a tarifa. Os serviços
-                                        podem ter taxas diferenciadas no período de
-                                        22 a 27 de Dezembro.</p>
+                                    <div class="container">
+                                        <div class="col-xxl-5 offset-xxl-6 col-xl-6 col-lg-6 offset-lg-6 ">
+                                            <span class="fs-3 fw-500 mb-5 d-block">Carnaval</span>
+                                            <p>Os hotéis podem aplicar tarifas diferenciadas no período de 22 a 27 de dezembro, por noite ou em pacotes mínimos de noites, com ou sem jantar de Natal obrigatório.</p>
 
+                                            <p>Se você tiver algum serviço adicional, você será sempre informado sobre a tarifa. Os serviços
+                                            podem ter taxas diferenciadas no período de
+                                            22 a 27 de Dezembro.</p>
+
+                                        </div>
                                     </div>
 
                                 </div>
-                                
-                            </div>
-                            <div class="swiper-slide">
-
-                                <div class="c-content-carousel__img" style="background-image:url('assets/img/eventos-natal.jpg')"></div>
-                                <div class="c-content-carousel__content text-white bg-dark">
-
-                                    <div class="col-xl-5">
-
-                                        <span class="fs-3 fw-bold mb-3 d-block">Natal</span>
-                                        <p>Os hotéis podem aplicar tarifas diferenciadas no período de 22 a 27 de dezembro, por noite ou em pacotes mínimos de noites, com ou sem jantar de Natal obrigatório.</p>
-
-                                        <p>Se você tiver algum serviço adicional, você será sempre informado sobre a tarifa. Os serviços
-                                        podem ter taxas diferenciadas no período de
-                                        22 a 27 de Dezembro.</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            
-                        </div>
-                        <!-- If we need navigation buttons -->
-                        <div class="c-content-carousel__buttons">
-                            <div class="c-content-carousel__buttons__container">
-                                <div class="swiper-button-prev">
-                                    <span class="icon-arrow-left"></span>
-                                </div>
-                                <div class="swiper-button-next">
-                                    <span class="icon-arrow-right"></span>
-                                </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="tab-pane fade" id="reveillon" role="tabpanel" aria-labelledby="reveillon-tab">
-                       <!-- Slider main container -->
-                       <div class="swiper-container c-content-carousel JS__content-carousel">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
+                    <div class="c-content-carousel">
+                            <div class="d-flex">
+                                <div class="w-100">
 
-                                <div class="c-content-carousel__img" style="background-image:url('assets/img/eventos-natal.jpg')"></div>
-                                <div class="c-content-carousel__content text-white bg-dark">
+                                    <div class="c-content-carousel__img" style="background-image:url('assets/img/eventos-natal.jpg')"></div>
 
-                                    <div class="col-xl-5">
+                                    <div class="c-content-carousel__content text-white">
 
-                                        <span class="fs-3 fw-bold mb-3 d-block">Natal</span>
-                                        <p>Os hotéis podem aplicar tarifas diferenciadas no período de 22 a 27 de dezembro, por noite ou em pacotes mínimos de noites, com ou sem jantar de Natal obrigatório.</p>
+                                        <div class="c-content-carousel__content__bg bg-dark"></div>
 
-                                        <p>Se você tiver algum serviço adicional, você será sempre informado sobre a tarifa. Os serviços
-                                        podem ter taxas diferenciadas no período de
-                                        22 a 27 de Dezembro.</p>
+                                        <div class="container">
+                                            <div class="col-xxl-5 offset-xxl-6 col-xl-6 col-lg-6 offset-lg-6 ">
+                                                <span class="fs-3 fw-500 mb-5 d-block">Reveillon</span>
+                                                <p>Os hotéis podem aplicar tarifas diferenciadas no período de 22 a 27 de dezembro, por noite ou em pacotes mínimos de noites, com ou sem jantar de Natal obrigatório.</p>
 
-                                    </div>
+                                                <p>Se você tiver algum serviço adicional, você será sempre informado sobre a tarifa. Os serviços
+                                                podem ter taxas diferenciadas no período de
+                                                22 a 27 de Dezembro.</p>
 
-                                </div>
-                                
-                            </div>
-                            <div class="swiper-slide">
-
-                                <div class="c-content-carousel__img" style="background-image:url('assets/img/eventos-natal.jpg')"></div>
-                                <div class="c-content-carousel__content text-white bg-dark">
-
-                                    <div class="col-xl-5">
-
-                                        <span class="fs-3 fw-bold mb-3 d-block">Natal</span>
-                                        <p>Os hotéis podem aplicar tarifas diferenciadas no período de 22 a 27 de dezembro, por noite ou em pacotes mínimos de noites, com ou sem jantar de Natal obrigatório.</p>
-
-                                        <p>Se você tiver algum serviço adicional, você será sempre informado sobre a tarifa. Os serviços
-                                        podem ter taxas diferenciadas no período de
-                                        22 a 27 de Dezembro.</p>
+                                            </div>
+                                        </div>
 
                                     </div>
-
-                                </div>
-
-                            </div>
-                            
-                        </div>
-                        <!-- If we need navigation buttons -->
-                        <div class="c-content-carousel__buttons">
-                            <div class="c-content-carousel__buttons__container">
-                                <div class="swiper-button-prev">
-                                    <span class="icon-arrow-left"></span>
-                                </div>
-                                <div class="swiper-button-next">
-                                    <span class="icon-arrow-right"></span>
                                 </div>
                             </div>
                         </div>
-
-                    </div>   
                 </div>
                 <div class="tab-pane fade" id="eventos" role="tabpanel" aria-labelledby="contact-tab">
-                       <!-- Slider main container -->
-                       <div class="swiper-container c-content-carousel JS__content-carousel">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
+                    <div class="c-content-carousel">
+                        <div class="d-flex">
+                            <div class="w-100">
 
                                 <div class="c-content-carousel__img" style="background-image:url('assets/img/eventos-natal.jpg')"></div>
-                                <div class="c-content-carousel__content text-white bg-dark">
 
-                                    <div class="col-xl-5">
+                                <div class="c-content-carousel__content text-white">
 
-                                        <span class="fs-3 fw-bold mb-3 d-block">Natal</span>
-                                        <p>Os hotéis podem aplicar tarifas diferenciadas no período de 22 a 27 de dezembro, por noite ou em pacotes mínimos de noites, com ou sem jantar de Natal obrigatório.</p>
+                                    <div class="c-content-carousel__content__bg bg-dark"></div>
 
-                                        <p>Se você tiver algum serviço adicional, você será sempre informado sobre a tarifa. Os serviços
-                                        podem ter taxas diferenciadas no período de
-                                        22 a 27 de Dezembro.</p>
+                                    <div class="container">
+                                        <div class="col-xxl-5 offset-xxl-6 col-xl-6 col-lg-6 offset-lg-6 ">
+                                            <span class="fs-3 fw-500 mb-5 d-block">Eventos & Congressos</span>
+                                            <p>Os hotéis podem aplicar tarifas diferenciadas no período de 22 a 27 de dezembro, por noite ou em pacotes mínimos de noites, com ou sem jantar de Natal obrigatório.</p>
 
+                                            <p>Se você tiver algum serviço adicional, você será sempre informado sobre a tarifa. Os serviços
+                                            podem ter taxas diferenciadas no período de
+                                            22 a 27 de Dezembro.</p>
+
+                                        </div>
                                     </div>
 
                                 </div>
-                                
-                            </div>
-                            <div class="swiper-slide">
-
-                                <div class="c-content-carousel__img" style="background-image:url('assets/img/eventos-natal.jpg')"></div>
-                                <div class="c-content-carousel__content text-white bg-dark">
-
-                                    <div class="col-xl-5">
-
-                                        <span class="fs-3 fw-bold mb-3 d-block">Natal</span>
-                                        <p>Os hotéis podem aplicar tarifas diferenciadas no período de 22 a 27 de dezembro, por noite ou em pacotes mínimos de noites, com ou sem jantar de Natal obrigatório.</p>
-
-                                        <p>Se você tiver algum serviço adicional, você será sempre informado sobre a tarifa. Os serviços
-                                        podem ter taxas diferenciadas no período de
-                                        22 a 27 de Dezembro.</p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            
-                        </div>
-                        <!-- If we need navigation buttons -->
-                        <div class="c-content-carousel__buttons">
-                            <div class="c-content-carousel__buttons__container">
-                                <div class="swiper-button-prev">
-                                    <span class="icon-arrow-left"></span>
-                                </div>
-                                <div class="swiper-button-next">
-                                    <span class="icon-arrow-right"></span>
-                                </div>
                             </div>
                         </div>
-
-                    </div>   
+                    </div>
                 </div>
             </div>
 
         </section>  
 
-        <section class="c-eventos__datas">
+        <section class="c-eventos__datas" id="todos-eventos">
 
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="row mb-5">
-                            <h2 class="d-inline-block fs-5 text-primary p-2 px-0 mb-0">Eventos</h2>
+                            <h2 class="d-inline-block fs-5 text-primary p-2 mb-0">Eventos</h2>
                             <h3 class="mb-2 fs-3 fw-bold text-secondary mb-4">Datas Comemorativas</h3>
                             <p class="text-black-50 col-xl-3">Confira todas as datas comemorativas e eventos que acontecem no Brasil</p>
                         </div>
@@ -421,13 +295,13 @@
         <section class="container-fluid p-0 d-flex">
             <div class="c-page__img position-absolute" style="background-image: url('assets/img/datas-especiais-banner2.jpg');"></div>
 
-            <div class="h-100 w-100 d-flex c-page__container py-5">
+            <div class="w-100 d-flex c-page__container pt-5">
 
                 <div class="container">
 
                     <div class="row d-flex justify-content-end">
 
-                        <div class="col-xl-6">
+                        <div class="col-lg-6">
 
                             <h2 class="mb-4 fs-1 fw-bold col-xl-6 text-secondary">EVENTOS & CONGRESSOS</h2>
 
@@ -509,31 +383,3 @@
 
 <?php include('includes/footer.php'); ?>
 
-<script>
-    window.addEventListener("load", function (event) {
-            
-        //Scroll da Imagem 
-        $stick = $('#banner');
-        $foot = $('#medidas');
-        margin = 0;
-        offtop = $stick.offset().top - margin;
-        offbtm = $foot.offset().top - ( margin*2 + $stick.height() );
-
-        $(window).scroll(function () {
-            scrtop = $(window).scrollTop();
-            if (scrtop > offtop && $stick.hasClass('natural')) {
-                $stick.removeClass('natural').addClass('fixed').css('top', margin);
-            }
-            if (offtop > scrtop && $stick.hasClass('fixed')) {
-                $stick.removeClass('fixed').addClass('natural').css('top', 'auto');
-            }
-            if (scrtop > offbtm && $stick.hasClass('fixed')) {
-                $stick.removeClass('fixed').addClass('bottom').css('top', offbtm+margin);
-            }
-            if (offbtm > scrtop && $stick.hasClass('bottom')) {
-                $stick.removeClass('bottom').addClass('fixed').css('top', margin);
-            }
-        });
-
-    });
-</script>

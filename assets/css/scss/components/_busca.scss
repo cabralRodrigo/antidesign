@@ -44,9 +44,6 @@
 
     }
     &__content{
-        @include breakpoint(xxl){
-            width: 33.43rem!important;
-        }
     }
     &__tab-2{
         .o-hotel{

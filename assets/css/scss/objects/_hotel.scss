@@ -2,15 +2,18 @@
     border-radius: 1.25rem;
     overflow: hidden;
     position: relative;
-    height: 19.6rem;
+    max-height: 19.6rem;
+    transition: .3s;
     @include breakpoint(xxl){
-        width: 33.43rem;
         .fs-6{
             font-size: .75rem!important;
         }
     }
+    @include breakpoint(lg){
+        width: 100%;
+    }
     &.open{
-        height: auto;
+        max-height: 100vh;
     }
     &__more-button{
         position: absolute;
@@ -52,16 +55,38 @@
         &__header{
             font-size: .62rem;
             padding-bottom: .48rem;
+            @include breakpoint(md){
+                flex-wrap: wrap;
+            }
             &__title{
                 border-right: 1px solid #E3E3E3;
                 padding-right: 2rem;
+                @include breakpoint(md){
+                    width: 100%;
+                    border-right: 0;
+                    padding-right: 0;
+                    margin-bottom: .5rem;   
+                }
             }
             &__icons{
                 font-size: 1.5rem;
                 padding-left: 1rem;
                 span{
                     margin: 0 .4rem;
+                    @include breakpoint(md){
+                        &:first-of-type{
+                            margin-left: 0;
+                        }
+                    }
                 }
+                @include breakpoint(md){
+                    padding-left: 0;
+                }
+            }
+            .btn-close{
+                font-size: 15px;
+                position: absolute;
+                right: 21px;
             }
         }
         &__button{
@@ -72,6 +97,21 @@
                 height: 2.77rem;
                 border-radius: 12px;
                 padding-top: 14px;
+                @include breakpoint(md){
+                    width: 100%;
+                }
+            }
+        }
+        &__list{
+            @include breakpoint(md){
+                li > div{
+                    width: 100%;
+                }
+            }
+        }
+        &__option{
+            @include breakpoint(md){
+                display: none!important;
             }
         }
     }

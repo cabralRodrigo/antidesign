@@ -1,17 +1,17 @@
 
-<section class="o-reserva JS__reserva">
+<section class="c-reserva-single JS__reserva">
 
-    <div class="o-reserva__bg JS__reservar-toggle"></div>
+    <div class="c-reserva-single__bg JS__reservar-toggle"></div>
 
-    <div class="o-reserva__box container">
+    <div class="c-reserva-single__box container">
 
-        <div class="o-reserva__close JS__reservar-toggle cursor-pointer">
+        <div class="c-reserva-single__close JS__reservar-toggle cursor-pointer">
             <span class="icon-close text-primary fs-28"></span>
         </div>
 
-        <div class="o-reserva__box__container d-flex justify-content-between o-reserva__step1 show">
+        <div class="c-reserva-single__box__container d-flex justify-content-between c-reserva-single__step1 show">
         
-            <div class="o-reserva__box__col-1 border-end">
+            <div class="c-reserva-single__box__col-1 border-end">
             
                 <span class="d-block fs-12">Centro - Rio de Janeiro - Rj</span>
                 <span class="c-busca__container__title fs-4 text-primary fw-normal"><span class="fw-bold">Hotel:</span> Center Hotel Rio</span>
@@ -77,7 +77,7 @@
                 </div>
             </div>
 
-            <div class="o-reserva__box__col-2">
+            <div class="c-reserva-single__box__col-2">
                 <div class="d-flex no-wrap">
                     <div class="mb-4 me-2">
                         <label for="idioma" class="form-label">Idioma</label>
@@ -185,7 +185,7 @@
                 
         </div>
     
-        <div class="o-reserva__box__container--check o-reserva__step2">
+        <div class="c-reserva-single__box__container--check c-reserva-single__step2">
             <div class="d-flex justify-content-between align-items-center border-bottom pb-4 ps-5">
                 <span class="fs-4 text-primary fw-normal"><span class="fw-bold">Reserva:</span> #35080</span>
                 <div class="d-flex">
@@ -194,7 +194,7 @@
                 </div>
             </div>
             
-            <div class="o-reserva__box__item d-flex justify-content-between">
+            <div class="c-reserva-single__box__item d-flex justify-content-between">
 
                 <table class="table fs-6" id="table">
                     <thead>
@@ -234,10 +234,10 @@
                 </div>
 
                 <div class="pt-4 d-flex">
-                    <button class="border-0 me-3 bg-white o-reserva__box__container--check__button">
+                    <button class="border-0 me-3 bg-white c-reserva-single__box__container--check__button">
                         <span class="icon-privacy-policy fs-24 text-primary"></span>
                     </button>
-                    <button class="border-0 bg-white o-reserva__box__container--check__button">
+                    <button class="border-0 bg-white c-reserva-single__box__container--check__button">
                         <span class="icon-trash fs-24 text-primary"></span>
                     </button>
                 </div>
