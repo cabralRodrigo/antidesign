@@ -1,6 +1,10 @@
 .c-single-experiencia{
     .c-banner{
         min-height: 53.8rem;
+        @include breakpoint(md){
+            min-height: 100vh;
+            height: 100vh;
+        }
     }
     &__galeria{
         padding: 9.6rem 0 12.9rem;
@@ -41,6 +45,10 @@
                     width: 5px;
                     background: $secondary;
                     opacity: 1;
+                    margin: 0 13px 0 0;
+                    &:last-of-type{
+                        margin-right: 0;
+                    }
                 }
                 .swiper-pagination-bullet-active{
                     background: $primary;
@@ -59,7 +67,7 @@
                 overflow: hidden;
                 &:after{
                     content: '';
-                    background-image: url('../../../img/single-experiencia/experiencia-carousel-bg.png');
+                    background-image: url('../img/single-experiencia/experiencia-carousel-bg.png');
                     display: block;
                     height: 100%;
                     width: 100%;
@@ -73,6 +81,12 @@
             &__content{
                 padding-right: 20px;
             }
+        }
+    }
+
+    &__filtro{
+        .hidden{
+            display: none!important;
         }
     }
 }
