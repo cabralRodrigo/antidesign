@@ -5,11 +5,11 @@ table.dataTable {
             background-image: none;
         }
         .sorting_desc{
-            background-image: url(../img/arrow-down.png)!important;
+            background-image: url(../../../img/arrow-down.png)!important;
         }
 
         .sorting_asc{
-            background-image: url(../img/arrow-top.png)!important;
+            background-image: url(../../../img/arrow-top.png)!important;
         }
         th{
             border-bottom: 0;
@@ -51,7 +51,7 @@ table.dataTable {
         -moz-appearance: none;
         appearance: none;
         border-radius: .93rem!important;
-        background: url(../img/arrow-down.png) no-repeat 80% white;
+        background: url(../../../img/arrow-down.png) no-repeat 80% white;
     }
 }
 .dataTables_filter{
