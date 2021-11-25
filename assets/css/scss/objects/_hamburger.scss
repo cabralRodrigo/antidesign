@@ -1,4 +1,4 @@
-.o-hamburger {
+.o-hamburger{
   position: relative;
   -webkit-user-select: none;
   user-select: none;
@@ -6,37 +6,40 @@
   outline: none;
   background: transparent;
 
-  span {
+  span{
     display: block;
     width: 33px;
     height: 3px;
     margin-bottom: 5px;
     position: relative;
-
+    
     background: #fff;
     border-radius: 3px;
-
+    
     z-index: 1;
-
+    
     transform-origin: 4px 0px;
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
 
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 
-    &:first-child {
+    &:first-child{
       transform-origin: 0% 0%;
     }
 
     &:nth-last-child(2) {
       transform-origin: 0% 100%;
     }
+
   }
 
   /* 
   * Transform all the slices of hamburger
   * into a crossmark.
   */
-  &.active span {
+  &.active span{
     opacity: 1;
     transform: rotate(46deg) translate(-2px, -6px);
     background: #fff;
@@ -45,7 +48,7 @@
   /*
   * But let's hide the middle one.
   */
-  &.active span:nth-child(2) {
+  &.active span:nth-child(2){
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
@@ -53,7 +56,8 @@
   /*
   * Ohyeah and the last one s hould go the other direction
   */
-  &.active span:nth-child(3) {
+  &.active span:nth-child(3){
     transform: rotate(-46deg) translate(0, -1px);
   }
 }
+

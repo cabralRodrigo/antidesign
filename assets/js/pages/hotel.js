@@ -21,7 +21,6 @@ var slidesHotel = {
     if(bannerHotel){
       new Swiper (bannerHotel, {
         slidesPerView: 'auto',
-        watchOverflow: true,
         spaceBetween: 16,
         navigation: {
             nextEl: ".swiper-button-next",
@@ -38,7 +37,6 @@ var slidesHotel = {
     if(hoteis){
       new Swiper (hoteis, {
         slidesPerView: 'auto',
-        watchOverflow: true,
         spaceBetween: 28,
         loop: true,
         navigation: {

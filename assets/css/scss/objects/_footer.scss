@@ -1,65 +1,37 @@
-.o-footer {
-  background: #fbfbfb;
-  padding-top: 6.25rem;
-  &__topo{
-    position: fixed;
-    right: 3rem;
-    bottom: 3rem;
-    z-index: 9999999999;
-    color: $primary;
-    background-color: #fff;
-    height: 3rem;
-    width: 3rem;
-    transition: 0.3s;
-    border-radius: 50% ;
-    font-size: 1.12rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none!important;
-    span{
-      position: relative;
-      bottom: 2px;
-      font-size: 16px;
+.o-footer{
+    background: #FBFBFB;
+    padding-top: 6.25rem;
+    &__links{
+        padding-bottom: 2rem;
+        border-color: #A2A2A2!important;
+        &__title{
+            font-weight: 500;
+        }
+        @include breakpoint(lg){
+            text-align: center;
+        }
     }
-    &:hover{
-      background-color: $primary;
-      span{
-        color: #fff;
-      }
+    &__copyright{
+        svg{
+            fill: #525252;
+        }
+        @include breakpoint(lg){
+            text-align: center;
+        }
     }
-  }
-  &__links {
-    padding-bottom: 2rem;
-    border-color: #a2a2a2 !important;
-    &__title {
-      font-weight: 500;
+    a{
+        &:hover{
+            color: $primary !important;
+            text-decoration: underline;
+            svg{
+                fill: $primary;
+            }
+        }
     }
-    @include breakpoint(lg) {
-      text-align: center;
-    }
-  }
-  &__copyright {
-    svg {
-      fill: #525252;
-    }
-    @include breakpoint(lg) {
-      text-align: center;
-    }
-  }
-  a {
-    &:hover {
-      color: $primary !important;
-      text-decoration: underline;
-      svg {
-        fill: $primary;
-      }
-    }
-  }
 
-  &__social {
-    @include breakpoint(lg) {
-      margin: 20px auto;
+    &__social{
+        @include breakpoint(lg){
+            margin: 20px auto;
+        }
     }
-  }
 }

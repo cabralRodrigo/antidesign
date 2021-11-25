@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     new Swiper (brasilTour, {
      
       slidesPerView: 1,
-      watchOverflow: true,
+      
       pagination: {
         el: ".JS__brasil-tour .swiper-pagination",
         clickable: true

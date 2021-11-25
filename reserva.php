@@ -2,12 +2,12 @@
 
 
 <main class="c-reservas">
-
+        
     <section class="c-banner">
         <?php include('includes/search-box.php') ?>
 
         <div class="swiper-container h-100 JS__banner">
-
+            
             <div class="swiper-wrapper h-100">
 
                 <div class="c-banner__item swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/banner-bali.jpg');">
@@ -18,9 +18,7 @@
                                 <h2 class="c-banner__title fw-bold fs-3">Bali.</h2>
                                 <p>Uma das ilhas com um cenário inesquecível! Se você busca sol brilhante, praias e montanhas, esse é o lugar certo</p>
                                 <a href="" class="c-banner__button d-flex align-items-center text-reset text-uppercase fw-bolder">
-                                    Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20">
-                                        <path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path>
-                                    </svg>
+                                    Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20"><path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path></svg>
                                 </a>
                             </div>
                         </div>
@@ -35,23 +33,21 @@
                                 <h2 class="c-banner__title fw-bold fs-3">Nusa Penida.</h2>
                                 <p>Uma das ilhas com um cenário inesquecível! Se você busca sol brilhante, praias e montanhas, esse é o lugar certo</p>
                                 <a href="" class="c-banner__button d-flex align-items-center text-reset text-uppercase fw-bolder">
-                                    Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20">
-                                        <path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path>
-                                    </svg>
+                                    Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20"><path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path></svg>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                
 
             </div>
-
+            
         </div>
 
     </section>
 
-    <section class="py-5 mt-4">
+    <section class="pt-5 mt-4">
         <div class="container">
 
             <div class="row mb-4">
@@ -98,7 +94,7 @@
             </div>
 
             <div class="row mb-4 pt-5">
-                <div class="d-flex flex-wrap me-n5 c-reserva-modal__filtros px-0">
+               <div class="d-flex flex-wrap me-n5 c-reserva-modal__filtros px-0">
                     <div class="mb-4 mx-3">
                         <label for="Cart_ClienteReferencia" class="form-label">Referência do Cliente</label>
                         <input class="form-control" id="Cart_ClienteReferencia" type="text" placeholder="Editar/Ref Cliente">
@@ -166,7 +162,7 @@
                     <div class="mb-4 mx-3 c-reserva-modal__filtros__idioma">
                         <label for="ShoppingCart_Idioma_Id" class="form-label">Idioma</label>
                         <select class="form-select JS__select" id="ShoppingCart_Idioma_Id">
-                            <option value="" selected="selected">Selecione o idioma</option>
+                            <option value="" selected="selected" >Selecione o idioma</option>
                             <option value="7">Alemão</option>
                             <option value="11">Dinamarquês</option>
                             <option value="4">Espanhol</option>
@@ -184,7 +180,7 @@
                     <div class="mb-4 mx-3">
                         <label for="reserva-due" class="form-label">Due Data</label>
                         <span class="form-control JS__passageiros-input" id="passageirosInput" aria-label="Passageiros + Quarto/s">
-                            <span class="JS__total-passageiros">00/00/0000</span> • R$<span class="JS__total-quartos">0,00</span>
+                            <span class="JS__total-passageiros">00/00/0000</span> • R$<span class="JS__total-quartos">0,00</span>   
                         </span>
                     </div>
                     <div class="mb-4 mx-3">
@@ -200,143 +196,142 @@
                         </label>
 
                     </div>
-                </div>
+               </div>
             </div>
 
-            <div class="row">
-                <div class="col-xl-12 px-0">
-                    <div class="table-responsive">
-                        <table class="table table-borderless fs-6 c-reserva__table" id="table">
-                            <thead style="background-color: #FBFBFB;" class="fs-12">
-                                <tr class="text-secondary">
-                                    <th scope="col">
-                                        <div class="d-flex align-items-center">
-                                            <span class="text-primary icon-product fs-22 me-2"></span>
-                                            Produto
-                                        </div>
-                                    </th>
-                                    <th scope="col">
-                                        <div class="d-flex align-items-center">
-                                            <span class="text-primary icon-status fs-22 me-2"></span>
-                                            Status
-                                        </div>
-                                    </th>
-                                    <th scope="col">
-                                        <div class="d-flex align-items-center">
-                                            <span class="text-primary icon-category fs-22 me-2"></span>
-                                            Ítem
-                                        </div>
-                                    </th>
-                                    <th scope="col">
-                                        <div class="d-flex align-items-center">
-                                            <span class="text-primary icon-calendar fs-22 me-2"></span>
-                                            Check-In <span class="mx-3 text-primary fw-bold">|</span> Check Out
-                                        </div>
-                                    </th>
-                                    <th scope="col">
-                                        <div class="d-flex align-items-center">
-                                            <span class="text-primary icon-cost fs-22 me-2"></span>
-                                            Custo
-                                        </div>
-                                    </th>
-                                    <th scope="col">
-                                        <div class="d-flex align-items-center">
-                                            <span class="text-primary icon-commission fs-22 me-2"></span>
-                                            Comissão
-                                        </div>
-                                    </th>
-                                    <th scope="col">
-                                        <div class="d-flex align-items-center">
-                                            <span class="text-primary icon-exchange fs-22 me-2"></span>
-                                            Câmbio
-                                        </div>
-                                    </th>
-                                    <th scope="col">
-                                        <div class="d-flex align-items-center">
-                                            <span class="text-primary icon-markup fs-22 me-2"></span>
-                                            Markup
-                                        </div>
-                                    </th>
-                                    <th scope="col">
-                                        <div class="d-flex align-items-center">
-                                            <span class="text-primary icon-total fs-22 me-2"></span>
-                                            Total
-                                        </div>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td scope="row">
-                                        <div class="form-check bg-white d-flex align-items-center">
-                                            <input class="form-check-input JS__search-box__radio me-3" type="radio" name="search-opt" id="35080-1-HT" value="35080-1-HT">
-                                            <label class="d-flex align-items-center text-primary mb-0" for="35080-1-HT">
-                                                Hotel
-                                                35080-1-HT
-                                            </label>
-                                        </div>
 
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <span class="dot bg-success me-2"></span>
-                                            Confirmado
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <span class="fw-500 text-primary">TRF O.W. ARPT / HOTEL O V.V - 1 - Privado - Sólo chofer - IN</span><br>
-                                        Salvador <br>
-                                        02 Adultos <br>
-                                        Cancelamento 15/01/2021<br>
-                                        Lidiane Medina<br>
-                                        RES014998-6059<br>
-                                        Fornecedor: Toca da Coruja<br>
-                                        Criação: 15/02/2021 - 10:44:15
-                                    </td>
-                                    <td>18/03/2021 <span class="mx-3 text-white fw-bold">|</span> 21/03/2021</td>
-                                    <td>BRL 3747,20</td>
-                                    <td>-</td>
-                                    <td>15,2500</td>
-                                    <td>5,00 %</td>
-                                    <td>USD 752</td>
-                                </tr>
-                                <tr>
-                                    <td colspan="10">
-                                        <div class="d-flex justify-content-between pt-3">
-                                            <div class="d-flex">
-                                                <div class="form-check form-switch mb-2 me-4">
-                                                    <input class="form-check-input me-2" type="checkbox" id="hoteis-internos">
-                                                    <label class="form-check-label" for="hoteis-internos">
-                                                        Visível para o cliente
-                                                    </label>
-                                                </div>
-                                                <div class="form-check form-switch mb-2 me-4">
-                                                    <input class="form-check-input me-2" type="checkbox" id="hoteis-internos">
-                                                    <label class="form-check-label" for="hoteis-internos">
-                                                        Confirmado
-                                                    </label>
-                                                </div>
-                                                <div class="form-check form-switch mb-2 me-4">
-                                                    <input class="form-check-input me-2" type="checkbox" id="hoteis-internos">
-                                                    <label class="form-check-label" for="hoteis-internos">
-                                                        Booking não opcional
-                                                    </label>
-                                                </div>
+            <div class="row">
+                <div class="col-xl-12 c-reserva-modal__table px-0">
+                    <table class="table fs-6" id="table">
+                        <thead style="background-color: #FBFBFB;" class="fs-12">
+                            <tr class="text-secondary">
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-product fs-22 me-2"></span>
+                                        Produto
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-status fs-22 me-2"></span>
+                                        Status
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-category fs-22 me-2"></span>
+                                        Ítem
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-calendar fs-22 me-2"></span>
+                                        Check-In <span class="mx-3 text-primary fw-bold">|</span> Check Out
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-cost fs-22 me-2"></span>
+                                        Custo
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-commission fs-22 me-2"></span>
+                                        Comissão
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-exchange fs-22 me-2"></span>
+                                        Câmbio
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-markup fs-22 me-2"></span>
+                                        Markup
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-total fs-22 me-2"></span>
+                                        Total
+                                    </div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">
+                                <div class="form-check bg-white">
+                                    <input class="form-check-input JS__search-box__radio" type="radio" name="search-opt" id="35080-1-HT" value="35080-1-HT">
+                                    <label class="form-check-label d-flex align-items-center text-primary fw-500 mb-0" for="35080-1-HT">
+                                        Hotel
+                                        35080-1-HT
+                                    </label>
+                                </div>
+                                    
+                                </td>
+                                <td>   
+                                    <div class="d-flex align-items-center">
+                                        <span class="dot bg-success me-2"></span>
+                                        Confirmado
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="fw-500 text-primary">TRF O.W. ARPT / HOTEL O V.V - 1 - Privado - Sólo chofer - IN</span><br>
+                                    Salvador <br>
+                                    02 Adultos <br> 
+                                    Cancelamento 15/01/2021<br>
+                                    Lidiane Medina<br>
+                                    RES014998-6059<br>
+                                    Fornecedor: Toca da Coruja<br>
+                                    Criação: 15/02/2021 - 10:44:15
+                                </td>
+                                <td>18/03/2021 <span class="mx-3 text-white fw-bold">|</span> 21/03/2021</td>
+                                <td>BRL 3747,20</td>
+                                <td>-</td>
+                                <td>15,2500</td>
+                                <td>5,00 %</td>
+                                <td>USD 752</td>
+                            </tr>
+                            <tr>
+                                <td colspan="10">
+                                    <div class="d-flex justify-content-between pt-5">
+                                        <div class="d-flex">
+                                            <div class="form-check form-switch mb-2 me-4">
+                                                <input class="form-check-input me-2" type="checkbox" id="hoteis-internos">
+                                                <label class="form-check-label" for="hoteis-internos">
+                                                    Visível para o cliente
+                                                </label>
                                             </div>
-                                            <div class="d-flex fs-22">
-                                                <span class="icon-comment text-primary me-4 cursor-pointer JS__open-editar-reserva" data-bs-toggle="tooltip" data-bs-placement="top" title="Comentários Internos"></span>
-                                                <span class="icon-pickup text-primary me-4 cursor-pointer JS__open-editar-reserva" data-bs-toggle="tooltip" data-bs-placement="top" title="Info. Pickup / Dropoff"></span>
-                                                <span class="icon-edit-values text-primary me-4 cursor-pointer JS__open-editar-reserva" data-bs-toggle="tooltip" data-bs-placement="top" title="Alteração de Valores"></span>
-                                                <span class="icon-change-log text-primary me-4 cursor-pointer JS__open-editar-reserva" data-bs-toggle="tooltip" data-bs-placement="top" title="Log de Alterações"></span>
-                                                <span class="icon-privacy-policy text-primary me-4 cursor-pointer JS__open-editar-reserva" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span>
-                                                <span class="icon-trash text-primary cursor-pointer JS__open-editar-reserva" data-bs-toggle="tooltip" data-bs-placement="top" title="Excluir Item"></span>
+                                            <div class="form-check form-switch mb-2 me-4">
+                                                <input class="form-check-input me-2" type="checkbox" id="hoteis-internos">
+                                                <label class="form-check-label" for="hoteis-internos">
+                                                    Confirmado
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-switch mb-2 me-4">
+                                                <input class="form-check-input me-2" type="checkbox" id="hoteis-internos">
+                                                <label class="form-check-label" for="hoteis-internos">
+                                                    Booking não opcional
+                                                </label>
                                             </div>
                                         </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                                        <div class="d-flex fs-22">
+                                            <span class="icon-comment text-primary me-4 cursor-pointer JS__open-editar-reserva" data-bs-toggle="tooltip" data-bs-placement="top" title="Comentários Internos"></span>
+                                            <span class="icon-pickup text-primary me-4 cursor-pointer JS__open-editar-reserva" data-bs-toggle="tooltip" data-bs-placement="top" title="Info. Pickup / Dropoff"></span>
+                                            <span class="icon-edit-values text-primary me-4 cursor-pointer JS__open-editar-reserva" data-bs-toggle="tooltip" data-bs-placement="top" title="Alteração de Valores"></span>
+                                            <span class="icon-change-log text-primary me-4 cursor-pointer JS__open-editar-reserva" data-bs-toggle="tooltip" data-bs-placement="top" title="Log de Alterações"></span>
+                                            <span class="icon-privacy-policy text-primary me-4 cursor-pointer JS__open-editar-reserva" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span>
+                                            <span class="icon-trash text-primary cursor-pointer JS__open-editar-reserva" data-bs-toggle="tooltip" data-bs-placement="top" title="Excluir Item"></span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
 
@@ -427,13 +422,13 @@
         </div>
 
         <div class="tab-content" id="tabTarifados">
-
+            
             <div class="tab-pane fade active show" id="comentarios-tabContent" role="tabpanel" aria-labelledby="comentarios-tab">
                 <div class="c-reserva-modal__menu__container fs-6">
                     <span class="fs-24 text-primary mb-3 d-block fw-bold">Comentários Internos</span>
 
-                    <p class="fw-500 mb-5">TRF O.W. ARPT / HOTEL O V.V<br>
-                        1 - Privado - Sólo chofer - IN</p>
+                    <p class="fw-500 mb-5">TRF O.W. ARPT / HOTEL O V.V<br> 
+                    1 - Privado - Sólo chofer - IN</p>
 
                     <ul class="comments fs-12">
                         <li>
@@ -453,13 +448,7 @@
                     <div class="mt-5 w-100">
                         <label for="add-comment" class="form-label">Adicionar Comentário</label>
                         <label for="add-comment" class="add-comment">
-                            <span><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23">
-                                    <g data-name="Grupo 350" transform="translate(-2603.494 -740.837)" fill="none" stroke="#96929c" stroke-linecap="round">
-                                        <circle data-name="Elipse 45" cx="11" cy="11" r="11" transform="translate(2603.994 741.337)" stroke-miterlimit="9" stroke-dasharray="4" />
-                                        <path data-name="Linha 90" stroke-miterlimit="10" d="M2614.994 747.063v10.548" />
-                                        <path data-name="Linha 91" stroke-miterlimit="10" d="M2620.268 752.337h-10.548" />
-                                    </g>
-                                </svg></span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23"><g data-name="Grupo 350" transform="translate(-2603.494 -740.837)" fill="none" stroke="#96929c" stroke-linecap="round"><circle data-name="Elipse 45" cx="11" cy="11" r="11" transform="translate(2603.994 741.337)" stroke-miterlimit="9" stroke-dasharray="4"/><path data-name="Linha 90" stroke-miterlimit="10" d="M2614.994 747.063v10.548"/><path data-name="Linha 91" stroke-miterlimit="10" d="M2620.268 752.337h-10.548"/></g></svg></span>
                             <input class="form-control" id="add-comment" type="text" placeholder="Adicione algum detalhe sobre a viagem">
                         </label>
                     </div>
@@ -503,7 +492,7 @@
 
                     <div>
                         <span class="fs-6 text-primary mb-3 d-block fw-bold">Pickup</span>
-
+                        
                         <label for="exampleInputEmail1" class="form-label">Tipo</label>
                         <div class="d-flex mb-3">
                             <div class="form-check bg-white me-4">
@@ -673,22 +662,22 @@
                         </div>
                         <div class="mb-5">
                             <span class="d-block text-primary fs-16 fw-500">Item</span>
-                            <div class="fw-500">Center Hotel Rio</div>
-                            Rio de Janeiro<br>
-                            Doble Estándar BB<br>
-                            Júlio Cabral<br>
-                            02 Adultos<br>
-                            Cancelamento 15/01/2021<br>
+                                <div class="fw-500">Center Hotel Rio</div>
+                                Rio de Janeiro<br>
+                                Doble Estándar BB<br>
+                                Júlio Cabral<br>
+                                02 Adultos<br>
+                                Cancelamento 15/01/2021<br>
                         </div>
                         <div class="mb-5 d-flex">
-                            <div class="me-5">
+                        <div class="me-5">
                                 <span class="d-block text-primary fs-16 fw-500">Check-In</span>
                                 12/03/2021
-                            </div>
-                            <div>
+                        </div>
+                        <div>
                                 <span class="d-block text-primary fs-16 fw-500">Check-Out</span>
                                 12/03/2021
-                            </div>
+                        </div>
                         </div>
                         <div class="mb-5">
                             <span class="d-block text-primary fs-16 fw-500">Preço</span>
@@ -732,11 +721,11 @@
                     </div>
                 </div>
             </div>
-
+            
             <div class="d-flex">
 
                 <div class="c-reserva-modal__doc__col1">
-
+                    
                     <span class="text-primary fw-500 fs-6 mb-4 d-block">Entrada & Saída: <span class="text-black-50">Cliente/Fornecedor</span></span>
 
                     <div class="d-flex justify-content-between">
@@ -750,32 +739,23 @@
                                     <div class="list-files">
                                         <!--   template   -->
                                     </div>
-                                    <button class="importar btn btn-primary px-5 rounded-pill fw-500 me-3">ENVIAR</button>
+                                        <button class="importar btn btn-primary px-5 rounded-pill fw-500 me-3">ENVIAR</button>
                                 </footer>
 
                                 <div class="body" id="drop">
-
+                                  
                                     <p class="pointer-none pt-0">
                                         <a id="triggerFile" class="text-decoration-none fs-12 text-black-50 d-block">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="60.499" height="55.683">
-                                                <g data-name="Grupo 354" fill="none" stroke="#656565" stroke-linecap="round" stroke-width="2">
-                                                    <g data-name="Grupo 353" stroke-miterlimit="10">
-                                                        <path data-name="Linha 92" d="M30.249 23.395v17.823" />
-                                                        <path data-name="Linha 93" d="M39.161 32.306H21.338" />
-                                                    </g>
-                                                    <path data-name="Caminho 109" d="M1 5.943v43.8a4.943 4.943 0 004.943 4.943h48.614a4.942 4.942 0 004.943-4.943V16.471a4.942 4.942 0 00-4.943-4.943H32.298a4.947 4.947 0 01-3.5-1.447l-7.583-7.583a4.942 4.942 0 00-3.474-1.447L5.959 1A4.943 4.943 0 001 5.943z" stroke-linejoin="round" />
-                                                </g>
-                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="60.499" height="55.683"><g data-name="Grupo 354" fill="none" stroke="#656565" stroke-linecap="round" stroke-width="2"><g data-name="Grupo 353" stroke-miterlimit="10"><path data-name="Linha 92" d="M30.249 23.395v17.823"/><path data-name="Linha 93" d="M39.161 32.306H21.338"/></g><path data-name="Caminho 109" d="M1 5.943v43.8a4.943 4.943 0 004.943 4.943h48.614a4.942 4.942 0 004.943-4.943V16.471a4.942 4.942 0 00-4.943-4.943H32.298a4.947 4.947 0 01-3.5-1.447l-7.583-7.583a4.942 4.942 0 00-3.474-1.447L5.959 1A4.943 4.943 0 001 5.943z" stroke-linejoin="round"/></g></svg>
                                             <div class="d-block w-50 mx-auto mb-2">Segure e arraste os arquivos até aqui</div>
                                             <span class="text-primary d-block">PDF, DOC e EXEL</span>
-                                        </a>
-                                    </p>
+                                        </a></p>
                                     <input type="file" multiple="multiple" />
                                 </div>
 
                             </div>
                         </div>
-
+                        
 
                     </div>
 
@@ -787,10 +767,10 @@
                                 <td>Journeys | Uso Interno Operações</td>
                                 <td>Key</td>
                                 <td>
-                                    <span class="icon-trash fs-24 text-primary"></span>
+                                     <span class="icon-trash fs-24 text-primary"></span>
                                 </td>
                                 <td>
-                                    <span class="icon-download fs-24 text-primary"></span>
+                                     <span class="icon-download fs-24 text-primary"></span>
                                 </td>
                             </tr>
                             <tr>
@@ -798,10 +778,10 @@
                                 <td>Journeys | Uso Interno Operações</td>
                                 <td>Key</td>
                                 <td>
-                                    <span class="icon-trash fs-24 text-primary"></span>
+                                     <span class="icon-trash fs-24 text-primary"></span>
                                 </td>
                                 <td>
-                                    <span class="icon-download fs-24 text-primary"></span>
+                                     <span class="icon-download fs-24 text-primary"></span>
                                 </td>
                             </tr>
                         </tbody>
@@ -814,74 +794,37 @@
                     <table class="table table-striped fs-6 table-borderless table-hover w-100" id="table">
                         <thead class="fs-12">
                             <tr class="text-secondary">
-                                <th scope="col" class="fw-500">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20.365" height="22.916" viewBox="0 0 20.365 22.916" class="me-2">
+                                <th scope="col" class="fw-500"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20.365" height="22.916" viewBox="0 0 20.365 22.916" class="me-2">
                                         <g id="Icon_Calendar" data-name="Icon | Calendar" transform="translate(0 1)">
-                                            <text id="Volta" transform="translate(5.183 16.792)" fill="#0f6b7b" font-size="9" font-family="Rubik-Medium, Rubik" font-weight="500">
-                                                <tspan x="0" y="0">01</tspan>
-                                            </text>
+                                            <text id="Volta" transform="translate(5.183 16.792)" fill="#0f6b7b" font-size="9" font-family="Rubik-Medium, Rubik" font-weight="500"><tspan x="0" y="0">01</tspan></text>
                                             <g id="Retângulo_22" data-name="Retângulo 22" transform="translate(0 1.395)" fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-                                                <rect width="20.365" height="20.521" rx="4" stroke="none"></rect>
-                                                <rect x="0.75" y="0.75" width="18.865" height="19.021" rx="3.25" fill="none"></rect>
+                                            <rect width="20.365" height="20.521" rx="4" stroke="none"></rect>
+                                            <rect x="0.75" y="0.75" width="18.865" height="19.021" rx="3.25" fill="none"></rect>
                                             </g>
                                             <path id="Caminho_12" data-name="Caminho 12" d="M0,0H9.5" transform="translate(5.44 7.111)" fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-width="1.5"></path>
                                             <g id="Grupo_47" data-name="Grupo 47" transform="translate(5.631)">
-                                                <line id="Linha_14" data-name="Linha 14" y1="3.28" fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-width="2"></line>
-                                                <line id="Linha_15" data-name="Linha 15" y1="3.28" transform="translate(9.171)" fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-width="2"></line>
+                                            <line id="Linha_14" data-name="Linha 14" y1="3.28" fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-width="2"></line>
+                                            <line id="Linha_15" data-name="Linha 15" y1="3.28" transform="translate(9.171)" fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-width="2"></line>
                                             </g>
-                                        </g>
-                                    </svg>
+                                    </g>
+                                </svg>
                                     Data de Envio
                                 </th>
                                 <th scope="col" class="fw-500">
-                                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20.365" height="22.916" viewBox="0 0 22.509 22.54">
-                                        <defs></defs>
-                                        <g fill="none" stroke="#0f6b7b" stroke-miterlimit="10" stroke-width="1.5" data-name="Icon | Iten" transform="translate(.75 .75)">
-                                            <rect width="8.841" height="8.841" data-name="Retângulo 66" rx="4.42"></rect>
-                                            <rect width="8.841" height="8.841" data-name="Retângulo 70" rx="4.42" transform="translate(0 12.199)"></rect>
-                                            <rect width="8.841" height="8.841" data-name="Retângulo 71" rx="4.42" transform="translate(12.168)"></rect>
-                                            <path stroke-linecap="round" d="M12.168 14.461h8.841" data-name="Linha 53"></path>
-                                            <path stroke-linecap="round" d="M12.168 18.726h8.841" data-name="Linha 54"></path>
-                                        </g>
-                                    </svg>
+                                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20.365" height="22.916" viewBox="0 0 22.509 22.54"><defs></defs><g fill="none" stroke="#0f6b7b" stroke-miterlimit="10" stroke-width="1.5" data-name="Icon | Iten" transform="translate(.75 .75)"><rect width="8.841" height="8.841" data-name="Retângulo 66" rx="4.42"></rect><rect width="8.841" height="8.841" data-name="Retângulo 70" rx="4.42" transform="translate(0 12.199)"></rect><rect width="8.841" height="8.841" data-name="Retângulo 71" rx="4.42" transform="translate(12.168)"></rect><path stroke-linecap="round" d="M12.168 14.461h8.841" data-name="Linha 53"></path><path stroke-linecap="round" d="M12.168 18.726h8.841" data-name="Linha 54"></path></g></svg>
                                     Categoria
                                 </th>
                                 <th scope="col" class="fw-500">
-                                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20.365" height="22.916" viewBox="0 0 21.995 22.399">
-                                        <defs></defs>
-                                        <g fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" data-name="Grupo 525">
-                                            <path stroke-width="1.457" d="M5.798.728H3.529a2.8 2.8 0 00-2.8 2.8v15.34a2.8 2.8 0 002.8 2.8h14.936a2.8 2.8 0 002.8-2.8V3.529a2.8 2.8 0 00-2.8-2.8h-2.659" data-name="Caminho 165"></path>
-                                            <path stroke-width="1.457" d="M.728 14.246h5.235l1.582 2.326h6.962l1.524-2.268h5.235" data-name="Caminho 166"></path>
-                                            <path stroke-width="1.381" d="M11.226 11.184V1.068" data-name="Linha 125"></path>
-                                            <path stroke-width="1.457" d="M15.676 6.787l-4.39 5.04-4.969-5.04" data-name="Caminho 167"></path>
-                                        </g>
-                                    </svg>
+                                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20.365" height="22.916" viewBox="0 0 21.995 22.399"><defs></defs><g fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" data-name="Grupo 525"><path stroke-width="1.457" d="M5.798.728H3.529a2.8 2.8 0 00-2.8 2.8v15.34a2.8 2.8 0 002.8 2.8h14.936a2.8 2.8 0 002.8-2.8V3.529a2.8 2.8 0 00-2.8-2.8h-2.659" data-name="Caminho 165"></path><path stroke-width="1.457" d="M.728 14.246h5.235l1.582 2.326h6.962l1.524-2.268h5.235" data-name="Caminho 166"></path><path stroke-width="1.381" d="M11.226 11.184V1.068" data-name="Linha 125"></path><path stroke-width="1.457" d="M15.676 6.787l-4.39 5.04-4.969-5.04" data-name="Caminho 167"></path></g></svg>
                                     Entrada/Saída
                                 </th>
                                 <th scope="col" class="fw-500">
-                                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20.365" height="22.916" viewBox="0 0 21.976 22.336">
-                                        <defs></defs>
-                                        <g data-name="Grupo 526" transform="translate(.728)">
-                                            <path fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.457" d="M0 21.608h20.519" data-name="Linha 126"></path>
-                                            <path fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.457" d="M10.26 9.308v8.236" data-name="Linha 127"></path>
-                                            <path fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.457" d="M4.342 11.733l5.951 5.951 5.884-5.884" data-name="Caminho 168"></path>
-                                            <circle cx=".99" cy=".99" r=".99" fill="#0f6b7b" data-name="Elipse 60" transform="translate(9.284)"></circle>
-                                            <circle cx=".99" cy=".99" r=".99" fill="#0f6b7b" data-name="Elipse 61" transform="translate(9.284 4.654)"></circle>
-                                        </g>
-                                    </svg>
+                                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20.365" height="22.916" viewBox="0 0 21.976 22.336"><defs></defs><g data-name="Grupo 526" transform="translate(.728)"><path fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.457" d="M0 21.608h20.519" data-name="Linha 126"></path><path fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.457" d="M10.26 9.308v8.236" data-name="Linha 127"></path><path fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.457" d="M4.342 11.733l5.951 5.951 5.884-5.884" data-name="Caminho 168"></path><circle cx=".99" cy=".99" r=".99" fill="#0f6b7b" data-name="Elipse 60" transform="translate(9.284)"></circle><circle cx=".99" cy=".99" r=".99" fill="#0f6b7b" data-name="Elipse 61" transform="translate(9.284 4.654)"></circle></g></svg>
                                     De
                                 </th>
                                 <th scope="col" class="fw-500">
-                                    <svg class="me-2" width="20.365" height="22.916" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.976 22.336">
-                                        <defs></defs>
-                                        <g data-name="Grupo 527" transform="rotate(180 10.623 11.168)">
-                                            <path fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.457" d="M0 21.608h20.519" data-name="Linha 126"></path>
-                                            <path fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.457" d="M10.26 9.308v8.236" data-name="Linha 127"></path>
-                                            <path fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.457" d="M4.342 11.733l5.951 5.951 5.884-5.883" data-name="Caminho 168"></path>
-                                            <circle cx=".99" cy=".99" r=".99" fill="#0f6b7b" data-name="Elipse 60" transform="translate(9.284)"></circle>
-                                            <circle cx=".99" cy=".99" r=".99" fill="#0f6b7b" data-name="Elipse 61" transform="translate(9.284 4.654)"></circle>
-                                        </g>
-                                    </svg>
+                                    <svg class="me-2" width="20.365" height="22.916" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.976 22.336"><defs></defs><g data-name="Grupo 527" transform="rotate(180 10.623 11.168)"><path fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.457" d="M0 21.608h20.519" data-name="Linha 126"></path><path fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.457" d="M10.26 9.308v8.236" data-name="Linha 127"></path><path fill="none" stroke="#0f6b7b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.457" d="M4.342 11.733l5.951 5.951 5.884-5.883" data-name="Caminho 168"></path><circle cx=".99" cy=".99" r=".99" fill="#0f6b7b" data-name="Elipse 60" transform="translate(9.284)"></circle><circle cx=".99" cy=".99" r=".99" fill="#0f6b7b" data-name="Elipse 61" transform="translate(9.284 4.654)"></circle></g></svg>
                                     Para
                                 </th>
                             </tr>
@@ -905,7 +848,7 @@
 
 
             </div>
-
+           
 
         </div>
 
@@ -929,7 +872,7 @@
             <div class="d-flex justify-content-between align-items-center border-bottom pb-3 pt-2 ps-5 mb-4">
                 <span class="fs-4 text-primary fw-normal"><span class="fw-bold">Invoice:</span> #35080</span>
             </div>
-
+            
 
             <div class="c-reserva-modal__box__item d-flex justify-content-between">
 
@@ -961,8 +904,8 @@
                             <td>
                                 <div class="d-flex align-items-center">
                                     <span class="dot bg-success me-2"></span>
-                                    Confirmado
-                                </div>
+                                    Confirmado  
+                                </div>    
                             </td>
                             <td>18/03/2021</td>
                             <td>21/03/2021</td>
@@ -1021,7 +964,7 @@
             <div class="d-flex justify-content-between align-items-center border-bottom pb-3 ps-5 mb-4 pt-2">
                 <span class="fs-4 text-primary fw-normal"><span class="fw-bold">Voucher:</span> 36547-1HT</span>
             </div>
-
+            
 
             <form action="">
                 <div class="d-flex flex-wrap flex-xl-nowrap">
@@ -1100,3 +1043,4 @@
 
 
 <script src="assets/js/pages/reserva.js"></script>
+

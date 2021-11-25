@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
         slidesPerView: 'auto',
         spaceBetween: 16,
         // centeredSlides: true,
-        watchOverflow: true,
         loop: true,
         navigation: {
             nextEl: '.JS__destinos-destacados__pagination .swiper-button-next',
@@ -18,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
         slidesPerView: 'auto',
         spaceBetween: 16,
         // centeredSlides: true,
-        watchOverflow: true,
         loop: true,
         navigation: {
             nextEl: '.JS__praias-carousel__pagination .swiper-button-next',
@@ -30,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     new Swiper(".JS-classificacao-carousel", {
         slidesPerView: 'auto',
         spaceBetween: 16,
-        watchOverflow: true,
+        // centeredSlides: true,
         loop: true,
         navigation: {
             nextEl: '.JS__classificacao-pagination .swiper-button-next',

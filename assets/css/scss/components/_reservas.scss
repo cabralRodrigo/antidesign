@@ -1,94 +1,65 @@
-.c-reservas {
-  &__filtros {
-    &__button {
-      svg {
-        transition: transform 0.2s ease-in-out,
-          -webkit-transform 0.2s ease-in-out;
-        transform: rotate(-180deg);
-      }
-      &.collapsed {
-        svg {
-          transform: rotate(0deg);
+.c-reservas{
+    &__filtros{
+        &__button{
+            svg{
+                transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+                transform: rotate(-180deg);
+            }
+            &.collapsed{
+                svg{
+                    transform: rotate(0deg);
+                }
+            }
         }
-      }
-    }
-    &__container {
-      width: 63%;
-      margin-right: 4rem;
-      @include breakpoint(xxl) {
-        width: 100%;
-        margin-right: 0;
-      }
-      .form-label,
-      .form-check-label {
-        margin-bottom: 0.5rem;
-      }
-    }
-    &__content {
-      @include breakpoint(lg) {
-        flex-wrap: wrap;
-        .w-100 {
-          width: calc(50% - 1rem) !important;
+        &__container{
+            width: 63%;
+            margin-right: 4rem;
+            @include breakpoint(xxl){
+                width: 100%;
+                margin-right: 0;
+            }
+            .form-label, .form-check-label{
+                margin-bottom: .5rem;
+            }
         }
-      }
-      @include breakpoint(lg) {
-        .w-100 {
-          width: 100% !important;
+        &__content{
+            @include breakpoint(lg){
+                flex-wrap: wrap;
+                .w-100{
+                    width: calc(50% - 1rem)!important;
+                }
+            }
+            @include breakpoint(lg){
+                .w-100{
+                    width: 100%!important;
+                }
+            }
         }
-      }
     }
-  }
-  .fixed-table-pagination {
-    margin-top: 1.5rem;
-  }
-  &__table {
-    &__status {
-      span {
-        display: block;
-        height: 5px;
-        width: 5px;
-        border-radius: 100%;
-        background: #d5d5d5;
-        margin-left: 2px;
-      }
-      &__item:nth-child(2) {
-        margin: 0 0.75rem;
-      }
-      &__item {
-        display: inline;
-      }
+    .fixed-table-pagination{
+        margin-top: 1.5rem;
     }
+    &__table{
+        
+        &__status{
+            span{
+                display: block;
+                height: 5px;
+                width: 5px;
+                border-radius: 100%;
+                background: #D5D5D5;
+                margin-left: 2px;
+            }
+            &__item:nth-child(2){
+                margin: 0 .75rem;
+            }
+            &__item{
+                display: inline;
+            }
+        }
 
-    .icon-pass-show {
-      color: $primary !important;
+        .icon-pass-show{
+            color: $primary!important;
+        }
     }
-  }
-}
-
-
-
-.c-reserva{
-  &__table{
-    color: #656565;
-    font-size: 14px;
-    line-height: 22px;
-    td{
-      &:nth-child(1){
-        max-width: 200px;
-      }
-      &:nth-child(3){
-        min-width: 248px;
-      }
-      &:nth-child(4){
-        min-width: 229px;
-      }
-    }
-
-    tr:nth-child(2n){
-      td{
-        border-bottom: 1px solid #ECECEC;
-      }
-    }
-
-  }
 }

@@ -1,3 +1,4 @@
+
 <?php include('includes/header.php') ?>
 
 
@@ -7,11 +8,11 @@
         <?php include('includes/search-box.php') ?>
 
         <div class="swiper-container h-100 JS__banner">
-
+            
             <div class="swiper-wrapper h-100">
 
                 <div class="c-banner__item swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/home/home-banner.jpg');">
-
+                    
                     <img src="assets/img/banner-bg.png" alt="background" class="c-banner__background">
                     <div class="container text-light">
                         <div class="row h-100 d-flex align-items-center">
@@ -19,9 +20,7 @@
                                 <h2 class="fw-bold fs-3">Peru, uma experiência extraordinária!</h2>
                                 <p>Com templos sagrados em florestas, cidades com vibrante vida noturna mares perfeitos para surfar e uma cultura de bem-estar.</p>
                                 <a href="" class="c-banner__button d-flex align-items-center text-reset text-uppercase fw-bolder">
-                                    Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20">
-                                        <path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path>
-                                    </svg>
+                                    Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20"><path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path></svg>
                                 </a>
                             </div>
                         </div>
@@ -30,7 +29,7 @@
                 </div>
 
             </div>
-
+            
         </div>
 
     </section>
@@ -77,9 +76,8 @@
             </div>
         </div>
 
-
     </section>
-
+    
     <?php include('includes/destaque.php') ?>
 
     <section class="c-cards-carousel JS__cards-carousel">
@@ -106,9 +104,9 @@
                 </div>
 
                 <div class="c-cards-carousel__content">
-
+                
                     <div class="swiper-container">
-                        <!-- Additional required wrapper -->
+                    <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
 
                             <div class="swiper-slide o-card d-flex align-items-end" style="background-image: url('assets/img/card-brasil-secreto.jpg');">
@@ -154,9 +152,9 @@
                                     </div>
                                 </a>
                             </div>
-
+                            
                         </div>
-
+                        
                     </div>
                 </div>
 
@@ -173,7 +171,7 @@
         <div class="c-home__info__bg position-absolute" style="background-image: url('assets/img/home/home-info.jpg');"></div>
 
         <div class="container d-flex justify-content-end">
-
+            
             <div class="c-home__info__container col-xl-12">
 
                 <div class="bg-white c-home__info__container__box">
@@ -181,7 +179,7 @@
                     <div class="row mb-5">
                         <div class="col-xxl-3 col-xl-5 col-lg-6">
                             <h3 class="fs-2 fw-bold text-secondary">Informações técnicas e suporte</h3>
-                        </div>
+                        </div>    
                     </div>
                     <div class="row">
                         <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
@@ -191,58 +189,58 @@
                                 <p class="fs-6">Acompanhe as atualizações Tarifarias diariamente em um só lugar.</p>
                             </div>
                             <a href="destinos.php" class="btn-link fs-6">Saber mais</a>
-
-                        </div>
+                            
+                        </div>      
                         <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-document d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Condições Gerais</h3>
                             <p class="fs-6">As condições regem todas nossas politicas, fique a parte sobre tudo.</p>
                             <a href="como-funcionamos.php" class="btn-link fs-6">Saber mais</a>
-                        </div>
+                        </div>      
                         <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-user d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Fornecedores</h3>
                             <p class="fs-6">Conheça todos os fornecedores espalhados pelo Brasil.</p>
                             <a href="parcerias.php" class="btn-link fs-6">Saber mais</a>
-                        </div>
+                        </div>      
                         <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-sun d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Covid-19</h3>
                             <p class="fs-6">Saiba quais as medidas vem sendo tomadas pela Journeys e parceiros.</p>
                             <a href="juntos-somos-mais-fortes.php" class="btn-link fs-6">Saber mais</a>
-                        </div>
+                        </div>      
                         <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-suporter d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Sap - Atendimento</h3>
                             <p class="fs-6">Atendimento dedicado a você para tirar qualquer dúvida, estamos a sua disposição.</p>
                             <a href="sap.php" class="btn-link fs-6">Saber mais</a>
-                        </div>
+                        </div>      
                         <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-pin d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Datas Especiais</h3>
                             <p class="fs-6">Algumas tarifas podem sofrer alterações de acordo com algumas datar, fique a parte.</p>
                             <a href="eventos.php" class="btn-link fs-6">Saber mais</a>
-                        </div>
+                        </div>      
                         <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-beach d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Vouchers</h3>
                             <p class="fs-6">Informações sobre utilizações de vouchers</p>
                             <a href="vouchers.php" class="btn-link fs-6">Saber mais</a>
-                        </div>
+                        </div>      
                         <div class="col-xl-3 col-lg-4 col-md-6 mb-5 c-home__info__container__box__item">
                             <span class="c-home__info__container__box__icon icon-download d-block"></span>
                             <h3 class="mb-4 fs-5 fw-500 text-secondary">Downloads & Kit De Mídia</h3>
                             <p class="fs-6">Pegue nossos recursos oficiais da marca e saiba mais sobre as diretrizes de uso.</p>
                             <a href="kit-de-midia.php" class="btn-link fs-6">Saber mais</a>
-                        </div>
-
-
+                        </div>      
+                       
+                        
                     </div>
 
                 </div>
-
+                
             </div>
-
+            
         </div>
 
     </section>
@@ -252,3 +250,4 @@
 
 
 <?php include('includes/footer.php') ?>
+

@@ -108,6 +108,7 @@
     &__content{
         padding: 1rem 0;
         &__table{
+            border-bottom: 2px solid $primary;
             border-radius: 0;
             border-spacing: 0!important;
             margin: 0;
@@ -133,7 +134,7 @@
                     border-radius: 0 !important;
                     border-bottom: 1px solid #E3E3E3;
                     padding: .5rem 0;
-                    transition: 0s!important;
+                    transition: 0!important;
                     &:first-of-type{
                         padding-left: 0!important;
                     }
@@ -145,13 +146,7 @@
             &__header{
                 border-bottom: 0;
                 td{
-                    border-bottom: 2px solid $primary!important;
-                    transition: 0;
-                }
-                &:last-of-type{
-                    td{
-                        border-bottom: 0!important;
-                    }
+                    border-bottom: 0!important;
                 }
 
             }
@@ -180,19 +175,9 @@
     }    
 
     .o-hotel__content__table__header{
-        &:not(:first-of-type){
-            td{
-                border-top: 2px solid $primary;
-            }
-        }
-        td{
-            border-bottom: 0!important;
-        }
         td:not(:first-of-type){
-            color: transparent!important;
-            span{
-                color: transparent!important;
-            }
+            visibility: hidden;
+            opacity: 0;
         }
     }
 
