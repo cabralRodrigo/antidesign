@@ -1,4 +1,4 @@
-<div class="o-search-box--reduced bg-white JS__search-box">
+<div class="o-search-box--reduced bg-white JS__search-box --hotel">
 
     <div class="o-search-box--reduced__form d-flex align-items-center h-100">
 

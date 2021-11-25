@@ -1,104 +1,158 @@
-.c-busca{
-    &__container{
-        padding: 3.75rem 0 6.18rem;
-        &__title{
-            margin-bottom: 4.18rem;
-        }
-        &__controls{
-            &__item{
-                cursor: pointer;
-                svg{
-                    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
-                }
-                &.collapsed{
-                    svg{
-                        transform: rotate(-180deg);
-                    }
-                }
-            }
-    
-        }
-    }
-    &__extras{
-      &__table{
-          .btn{
-              height: 44px;
-          }
-          td{
-            vertical-align: middle;
-            &:nth-child(2n){
-              text-align: right;
-            }
-          }
+.c-busca {
+  &__container {
+    padding: 3.75rem 0 6.18rem;
+
+    &__title {
+      margin-bottom: 4.18rem;
+      @include breakpoint(lg) {
+        margin-bottom: 2.5rem;
       }
     }
-    &__advertisement{
-        img{
-            max-width: 100%;
+    &__result {
+      @include breakpoint(xl) {
+        & > div:first-of-type {
+          order: 2;
         }
+      }
     }
-    &__tab-2{
-        .o-hotel{
-            width: 33.43rem;
+    &__controls {
+      @include breakpoint(xl) {
+        position: fixed;
+        top: 0;
+        background: #ffff;
+        z-index: 99999999999999;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 100%;
+        padding: 70px 25px;
+        overflow: auto;
+        height: 100vh;
+        visibility: hidden;
+        transition: 0.3s;
+        opacity: 0;
+        &.open {
+          visibility: inherit;
+          opacity: 1;
         }
-    }
-}
-
-
-.c-busca__controls__price {
-    width:100%;
-    float:left;
-    .range-value {
-        margin:0;
-            
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 1.5rem;
-        input {
-            width:100%;
-            background:none;
-            color: #656565;
-            font-size: 14px;
-            font-weight: 500;
-            box-shadow: none;
-            border: none;
-            width: 50%;
-            display: inline-block;
+      }
+      &__close {
+        display: none;
+        @include breakpoint(lg) {
+          display: block;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          left: 0;
+          text-align: right;
+          padding: 15px 25px;
+          background: #fff;
+          z-index: 9;
         }
-    }
-    
-    .range-bar {
-        border: none;
-        background: #E3E3E3;
-        height: 2px;  
-        width: 96%;
-        
-        .ui-slider-range {
-            background: #83D1DE;
+      }
+      &__item {
+        cursor: pointer;
+        svg {
+          transition: transform 0.2s ease-in-out,
+            -webkit-transform 0.2s ease-in-out;
         }
-        
-        .ui-slider-handle {
-            border:none;
-            border-radius:25px;
-            background:$primary;
-            border: 2px solid $primary;
-            height:17px;
-            width:17px;
-            top: -0.52em;
-            cursor:pointer;
+        &.collapsed {
+          svg {
+            transform: rotate(-180deg);
+          }
         }
-        .ui-slider-handle + span {
-            background:$primary;
-        }
+      }
     }
   }
-  /*--- /.price-range-slider ---*/
- 
+  &__extras {
+    &__table {
+      .btn {
+        height: 44px;
+      }
+      td {
+        vertical-align: middle;
+        &:nth-child(2n) {
+          text-align: right;
+        }
+      }
+    }
+  }
+  &__sidebar {
+    &__advertisement {
+      text-align: center;
+      img {
+        max-width: 100%;
+      }
+    }
 
+    @include breakpoint(xl) {
+      display: flex;
+      flex-direction: column;
+      &__advertisement {
+        order: 1;
+      }
+      .mb-4 {
+        order: 2;
+      }
+    }
+  }
+  &__tab-2 {
+    .o-hotel {
+      width: 33.43rem;
+    }
+  }
+}
 
+.c-busca__controls__price {
+  width: 100%;
+  float: left;
+  .range-value {
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    input {
+      width: 100%;
+      background: none;
+      color: #656565;
+      font-size: 14px;
+      font-weight: 500;
+      box-shadow: none;
+      border: none;
+      width: 50%;
+      display: inline-block;
+    }
+  }
+
+  .range-bar {
+    border: none;
+    background: #e3e3e3;
+    height: 2px;
+    width: 96%;
+
+    .ui-slider-range {
+      background: #83d1de;
+    }
+
+    .ui-slider-handle {
+      border: none;
+      border-radius: 25px;
+      background: $primary;
+      border: 2px solid $primary;
+      height: 17px;
+      width: 17px;
+      top: -0.52em;
+      cursor: pointer;
+    }
+    .ui-slider-handle + span {
+      background: $primary;
+    }
+  }
+}
+/*--- /.price-range-slider ---*/
 
 // Radio Sliding
-
 
 .checks-wrap {
   background: #e6e6e6;
@@ -182,4 +236,3 @@
   background: white;
   color: #1791bd;
 }
-

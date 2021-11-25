@@ -1,28 +1,26 @@
-// window.addEventListener("load", function (event) {
 
 
-//   //Scroll da Imagem 
-//   $stick = $('.c-page__img');
-//   $foot = $('.o-footer');
-//   margin = 0;
-//   offtop = $stick.offset().top - margin;
-//   offbtm = $foot.offset().top - ( margin*2 + $stick.height() );
+const bannerPage = new Swiper(".JS__page-banner", {
+  loop: true,
+  watchOverflow: true,
+  slidesPerView: 1,
+  effect: "fade",
+  fadeEffect: {
+      crossFade: true,
+  }
+});
 
-//   $(window).scroll(function () {
-//     scrtop = $(window).scrollTop();
-//     if (scrtop > offtop && $stick.hasClass('natural')) {
-//       $stick.removeClass('natural').addClass('fixed').css('top', margin);
-//     }
-//     if (offtop > scrtop && $stick.hasClass('fixed')) {
-//       $stick.removeClass('fixed').addClass('natural').css('top', 'auto');
-//     }
-//     if (scrtop > offbtm && $stick.hasClass('fixed')) {
-//       $stick.removeClass('fixed').addClass('bottom').css('top', offbtm+margin);
-//     }
-//     if (offbtm > scrtop && $stick.hasClass('bottom')) {
-//       $stick.removeClass('bottom').addClass('fixed').css('top', margin);
-//     }
-//   });
+if(bannerPage){
+
+  $('.accordion-button').on('click', (e) => {
+    
+    let item = e.target.closest('.accordion-item'),
+    index = Array.from(item.parentElement.children).indexOf(item);
+
+    bannerPage.slideTo(index);
+
+  });
 
 
-// });
+}
+

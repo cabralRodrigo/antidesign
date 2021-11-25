@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   new Swiper(".JS__experiencia-galeria", {
       slidesPerView: 'auto',
+      watchOverflow: true,
       navigation: {
         nextEl: ".JS__experiencia-galeria .swiper-button-next",
         prevEl: ".JS__experiencia-galeria .swiper-button-prev",

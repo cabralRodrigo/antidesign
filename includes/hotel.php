@@ -59,7 +59,23 @@
                         <td>
                             <span class="text-primary fw-500">USD 50</span>
                         </td>
-                        <td>Disp. Sob-Consulta</td>
+                        <td>
+                            <div class="d-flex">
+                                <div class="form-check my-0 me-2">
+                                    <input class="form-check-input" type="radio" value="" id="pub100" name="estoque">
+                                    <label class="form-check-label mb-0 fw-normal" for="pub100">
+                                        Púb. 100
+                                    </label>
+                                </div>  
+
+                                <div class="form-check my-0 ">
+                                    <input class="form-check-input" type="radio" value="" id="int100" name="estoque">
+                                    <label class="form-check-label mb-0 fw-normal" for="int100">
+                                        Int. 100
+                                    </label>
+                                </div>  
+                            </div>
+                        </td>
                         <td>
                             <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
@@ -150,11 +166,7 @@
                             <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
                     </tr>
-                </tbody>
-            </table>
 
-            <table class="table o-hotel__content__table fw-light fs-6">
-                <tbody>
                     <tr class="o-hotel__content__table__header">
                         <td>
                             <span class="fw-500 fs-5 me-1">Habitação 1</span>
@@ -172,6 +184,27 @@
                             <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
                         
+                    </tr>
+                    <tr class="o-hotel__content__table__container">
+                        <td>
+                            <div class="d-flex">
+                                <input class="form-check-input me-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label for="flexRadioDefault1" class="fw-normal">
+                                    Omnibees
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            Twin Standart BB 
+                            <span class="text-danger ms-1">Sem Reembolso</span>
+                        </td>
+                        <td>
+                            <span class="text-primary fw-500">USD 50</span>
+                        </td>
+                        <td>Disp. Sob-Consulta</td>
+                        <td>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                        </td>
                     </tr>
                     <tr class="o-hotel__content__table__container">
                         <td>

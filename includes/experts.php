@@ -1,4 +1,3 @@
-
 <section class="c-experts position-relative">
 
     <div class="tab-content" id="experts-tabContent">
@@ -14,7 +13,9 @@
                         <h3 class="mb-4 fs-3">Búzios paraíso cristalino 2</h3>
                         <p>Novidades e área de treinamento de destinos, confira todas as experiências</p>
                         <a href="experiencia.php" class="d-flex align-items-center text-reset text-uppercase fw-bolder pt-4">
-                            Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20"><path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path></svg>
+                            Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20">
+                                <path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path>
+                            </svg>
                         </a>
                     </div>
                 </div>
@@ -31,7 +32,9 @@
                         <h3 class="mb-4 fs-3">Búzios paraíso cristalino</h3>
                         <p class="">Novidades e área de treinamento de destinos, confira todas as experiências</p>
                         <a href="experiencia.php" class="d-flex align-items-center text-reset text-uppercase fw-bolder pt-4">
-                            Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20"><path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path></svg>
+                            Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20">
+                                <path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path>
+                            </svg>
                         </a>
                     </div>
                 </div>
@@ -45,7 +48,7 @@
 
         <div class="overflow-x">
             <nav>
-                <div class="nav nav-tabs text-white d-flex justify-content-between border-0" id="experts-tab" role="tablist">
+                <div class="nav nav-tabs text-white d-flex justify-content-between border-0 JS__tabsFlex" id="experts-tab" role="tablist">
 
                     <button class="nav-link text-white" id="experts-fernando-tab" data-bs-toggle="tab" data-bs-target="#experts-fernando" type="button" role="tab" aria-controls="experts-fernando" aria-selected="false">
                         Fernando de Noronha
@@ -67,7 +70,7 @@
                         Barra da Tijuca
                     </button>
                 </div>
-            </nav>    
+            </nav>
         </div>
 
     </div>

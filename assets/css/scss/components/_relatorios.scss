@@ -1,107 +1,104 @@
-.c-relatorios{
-    max-width: 100vw;
-    overflow-x: hidden;
-    &__bg{
-        min-height: 100vh;
-        width: 43.2%;
-        background-color: #fff;
-        position: absolute;
-        height: 100%;
-        @include breakpoint(xl){
-            width: 100%;
-            height: auto;
-            min-height: initial;
-        }
+.c-relatorios {
+  max-width: 100vw;
+  overflow-x: hidden;
+  &__bg {
+    min-height: 100vh;
+    width: 43.2%;
+    background-color: #fff;
+    position: absolute;
+    height: 100%;
+    @include breakpoint(xl) {
+      width: 100%;
+      height: auto;
+      min-height: initial;
     }
-    &__container{
-        padding: 9.56rem 0 7rem;
-        min-height: 100vh;
-        background-color: #FBFBFB;
-        @include breakpoint(xxl){
-            .fs-5{
-                font-size: 12px!important;
-            }
-        }
-        &__left{
-            position: relative;
-            z-index: 2;
-        }
-        &__form{
-            border-radius: 1.37rem;
-            padding: 1.5rem 3rem 3rem;
-            .btn{
-                padding: 1.83rem 0;
-            }
-            @include breakpoint(xxl){
-                padding: 1.5rem 2rem;
-                height: auto;
-            }
-            @include breakpoint(lg){
-                padding: 1.5rem 1rem;
-            }
-            .select2-container--default .select2-selection--single{
-                border: 0;
-                background: transparent;
-            }
-            .select2-container--default .select2-selection--single .select2-selection__rendered{
-                padding: 1.2rem 0 1.02rem 0;
-                font-size: 1rem;
-            }
-            .select2-container--default .select2-selection--single .select2-selection__arrow{
-                right: 0;
-            }
-            .select2-container--default .select2-selection--single:focus{
-                box-shadow: none;
-            }
-        }
-        &__result{
-            .table{
-                border-collapse: separate;
-                border-spacing: 0 .5rem;
-                display: block;
-                overflow-x: auto;
-                white-space: nowrap;
-                & > tbody {
-                    tr{
-                        cursor: pointer;
-                    }
-                    td{
-                        background: #fff;
-                    }
-                }
-                td, th{
-                    width: 100%;
-                    @include breakpoint(xxl){
-                        min-width: max-content;
-                        min-width: 135px;
-                    }
-                }
-            }
-            @include breakpoint(xl){
-                padding-top: 80px;
-            }
-            @include breakpoint(lg){
-                svg{
-                    display: none;
-                }
-            }
-        }
-        input{
-            outline: none;
-            &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-                color: #E0E0E0;
-                opacity: 1; /* Firefox */
-            }
-            
-            &:-ms-input-placeholder { /* Internet Explorer 10-11 */
-                color: #E0E0E0;
-            }
-            
-            &::-ms-input-placeholder { /* Microsoft Edge */
-                color: #E0E0E0;
-            }
-        }
+  }
+  &__container {
+    padding: 9.56rem 0 7rem;
+    min-height: 100vh;
+    background-color: #fbfbfb;
+    @include breakpoint(xxl) {
+      .fs-5 {
+        font-size: 12px !important;
+      }
     }
-    
-}
+    &__left {
+      position: relative;
+      z-index: 2;
+    }
+    &__form {
+      border-radius: 1.37rem;
+      padding: 1.5rem 3rem 3rem;
+      .btn {
+        padding: 1.83rem 0;
+      }
+      @include breakpoint(xxl) {
+        padding: 1.5rem 2rem;
+        height: auto;
+      }
+      @include breakpoint(lg) {
+        padding: 1.5rem 1rem;
+      }
+      .select2-container--default .select2-selection--single {
+        border: 0;
+        background: transparent;
+      }
+      .select2-container--default
+        .select2-selection--single
+        .select2-selection__rendered {
+        padding: 1.2rem 0 1.02rem 0;
+        font-size: 1rem;
+      }
+      .select2-container--default
+        .select2-selection--single
+        .select2-selection__arrow {
+        right: 0;
+      }
+      .select2-container--default .select2-selection--single:focus {
+        box-shadow: none;
+      }
+      &__checkout {
+        max-width: 104px;
+        margin-left: auto;
+      }
+    }
+    &__result {
+      .table {
+        & > tbody {
+          tr {
+            cursor: pointer;
+          }
+          td {
+            background: #fff;
+          }
+        }
+      }
+      @include breakpoint(xl) {
+        padding-top: 80px;
+      }
+      @include breakpoint(lg) {
+        svg {
+          display: none;
+        }
+      }
+    }
+    input {
+      outline: none;
+      &::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #e0e0e0;
+        opacity: 1; /* Firefox */
+      }
 
+      &:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #e0e0e0;
+      }
+
+      &::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #e0e0e0;
+      }
+    }
+  }
+}

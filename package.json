@@ -16,12 +16,14 @@
     "jquery": "^3.6.0",
     "lightbox2": "^2.11.3",
     "moment": "^2.29.1",
-    "swiper": "^6.5.9",
     "videojs-youtube": "^2.6.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
     "gulp-babel": "^7.0.1",
     "video.js": "^7.13.3"
   },

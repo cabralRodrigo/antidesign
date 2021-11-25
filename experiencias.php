@@ -1,14 +1,13 @@
-
 <?php include('includes/header.php') ?>
 
 
 <main class="c-experiencias">
-        
+
     <section class="c-banner c-banner--reduced-search">
         <?php include('includes/search-box--reduced.php') ?>
 
         <div class="swiper-container h-100 JS__banner">
-            
+
             <div class="swiper-wrapper h-100">
 
                 <div class="c-banner__item swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/banner-home2.jpg');">
@@ -19,7 +18,9 @@
                                 <h2 class="fw-bold fs-1">Experiências</h2>
                                 <p>Existe momentos únicos, que podem ficar ainda melhores com novas experiências.</p>
                                 <a href="experiencias.php" class="c-banner__button d-flex align-items-center text-reset text-uppercase fw-bolder">
-                                    Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20"><path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path></svg>
+                                    Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20">
+                                        <path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path>
+                                    </svg>
                                 </a>
                             </div>
                         </div>
@@ -27,7 +28,7 @@
                 </div>
 
             </div>
-            
+
         </div>
 
     </section>
@@ -58,13 +59,13 @@
                         <button class="nav-link" id="tour-sul-tab" data-bs-toggle="tab" data-bs-target="#tour-sul-tabContent" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Translados</button>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-link" id="tour-pantanal-tab"  data-bs-toggle="tab" data-bs-target="#tour-pantanal-tabContent" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Atrações</button>
+                        <button class="nav-link" id="tour-pantanal-tab" data-bs-toggle="tab" data-bs-target="#tour-pantanal-tabContent" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Atrações</button>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-link" id="tour-eco-tab"  data-bs-toggle="tab" data-bs-target="#tour-eco-tabContent" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Itens extras</button>
+                        <button class="nav-link" id="tour-eco-tab" data-bs-toggle="tab" data-bs-target="#tour-eco-tabContent" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Itens extras</button>
                     </li>
                     <li class="nav-item">
-                        <button class="nav-link" id="tour-destinos-tab"  data-bs-toggle="tab" data-bs-target="#tour-destinos-tabContent" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Tudo</button>
+                        <button class="nav-link" id="tour-destinos-tab" data-bs-toggle="tab" data-bs-target="#tour-destinos-tabContent" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Tudo</button>
                     </li>
                 </ul>
 
@@ -76,7 +77,7 @@
 
             <div>
                 <div class="c-experiencias__content">
-                    
+
                     <div class="c-experiencias__content__item">
                         <a href="experiencia.php" class="text-reset text-secondary">
                             <div class="c-experiencias__content__item__img" style="background-image:url('assets/img/experiencias/entrada-beto-carreiro-word.jpg');"></div>
@@ -85,7 +86,7 @@
                             <p class="fs-12 mb-2">Entreterimento para toda familia!</p>
                             <span class="c-experiencias__content__item__price fs-4"><span class="text-primary fw-500">R$89,90</span> Por Pessoa</span>
                             <span class="fw-500 mt-4 d-flex align-items-center text-primary">
-                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span> 
+                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span>
                             </span>
                         </a>
                     </div>
@@ -98,7 +99,7 @@
                             <p class="fs-12 mb-2">Somente Motorista | Privado</p>
                             <span class="c-experiencias__content__item__price fs-4"><span class="text-primary fw-500">R$89,90</span> Por Pessoa</span>
                             <span class="fw-500 mt-4 d-flex align-items-center text-primary">
-                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span> 
+                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span>
                             </span>
                         </a>
                     </div>
@@ -111,7 +112,7 @@
                             <p class="fs-12 mb-2">Entreterimento para toda familia!</p>
                             <span class="c-experiencias__content__item__price fs-4"><span class="text-primary fw-500">R$89,90</span> Por Pessoa</span>
                             <span class="fw-500 mt-4 d-flex align-items-center text-primary">
-                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span> 
+                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span>
                             </span>
                         </a>
                     </div>
@@ -124,7 +125,7 @@
                             <p class="fs-12 mb-2">Entreterimento para toda familia!</p>
                             <span class="c-experiencias__content__item__price fs-4"><span class="text-primary fw-500">R$89,90</span> Por Pessoa</span>
                             <span class="fw-500 mt-4 d-flex align-items-center text-primary">
-                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span> 
+                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span>
                             </span>
                         </a>
                     </div>
@@ -137,7 +138,7 @@
                             <p class="fs-12 mb-2">+ 1 hora de espera em centro comercial/ hotel </p>
                             <span class="c-experiencias__content__item__price fs-4"><span class="text-primary fw-500">R$89,90</span> Por Pessoa</span>
                             <span class="fw-500 mt-4 d-flex align-items-center text-primary">
-                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span> 
+                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span>
                             </span>
                         </a>
                     </div>
@@ -150,7 +151,7 @@
                             <p class="fs-12 mb-2">Entreterimento para toda familia!</p>
                             <span class="c-experiencias__content__item__price fs-4 fs-6"><span class="text-primary fw-500">R$89,90</span> Por Pessoa</span>
                             <span class="fw-500 mt-4 d-flex align-items-center text-primary">
-                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span> 
+                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span>
                             </span>
                         </a>
                     </div>
@@ -162,7 +163,7 @@
                             <p class="fs-12 mb-2">Entreterimento para toda familia!</p>
                             <span class="c-experiencias__content__item__price fs-4"><span class="text-primary fw-500">R$89,90</span> Por Pessoa</span>
                             <span class="fw-500 mt-4 d-flex align-items-center text-primary">
-                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span> 
+                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span>
                             </span>
                         </a>
                     </div>
@@ -174,7 +175,7 @@
                             <p class="fs-12 mb-2">+ 1 hora de espera em centro comercial/ hotel </p>
                             <span class="c-experiencias__content__item__price fs-4"><span class="text-primary fw-500">R$89,90</span> Por Pessoa</span>
                             <span class="fw-500 mt-4 d-flex align-items-center text-primary">
-                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span> 
+                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span>
                             </span>
                         </a>
                     </div>
@@ -186,7 +187,7 @@
                             <p class="fs-12 mb-2">Passeio Privado</p>
                             <span class="c-experiencias__content__item__price fs-4"><span class="text-primary fw-500">R$89,90</span> Por Pessoa</span>
                             <span class="fw-500 mt-4 d-flex align-items-center text-primary fs-6">
-                                Reservar <span class="icon-arrow-right fw-bold ms-2"></span> 
+                                Reservar <span class="icon-arrow-right fw-bold ms-2"></span>
                             </span>
                         </a>
                     </div>
@@ -198,7 +199,7 @@
                             <p class="fs-12 mb-2">Com Almoço | Privado</p>
                             <span class="c-experiencias__content__item__price fs-4"><span class="text-primary fw-500">R$89,90</span> Por Pessoa</span>
                             <span class="fw-500 mt-4 d-flex align-items-center text-primary">
-                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span> 
+                                Reservar <span class="icon-arrow-right fw-bold ms-2 fs-6"></span>
                             </span>
                         </a>
                     </div>
@@ -212,4 +213,3 @@
 
 
 <?php include('includes/footer.php') ?>
-

@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function (event) {
 
+
     $('.JS__pickup-tipo').change(function(){
         if($(this).val() == '1'){ // or this.value == 'volvo'
 
@@ -16,4 +17,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
 
 
+
+    $('.JS__busca-toggleFiltros').on('click', function(){
+        $('.JS__busca-filtros').toggleClass('open');
+    });
+    
+
+
 });
+
