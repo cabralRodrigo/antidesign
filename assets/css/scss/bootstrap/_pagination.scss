@@ -2,7 +2,9 @@
   display: flex;
   @include list-unstyled();
 }
-
+.page-item{
+  margin: 2px;
+}
 .page-link {
   position: relative;
   display: block;
@@ -32,6 +34,12 @@
 .page-item {
   &:not(:first-child) .page-link {
     margin-left: $pagination-margin-start;
+  }
+  &:hover {
+
+    .page-link{
+      background-color: rgb(226, 226, 226);
+    }
   }
 
   &.active .page-link {

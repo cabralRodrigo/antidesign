@@ -5,7 +5,9 @@
 
         <div class="d-flex">
             <span class="o-hotel__img__item md-inline-block fs-12 fw-normal bg-white py-2 px-3 me-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="10.965" height="10.512"><path data-name="Caminho 36" d="M6.248.476l1.033 2.093a.853.853 0 00.642.467l2.31.335a.854.854 0 01.473 1.456L9.035 6.456a.854.854 0 00-.245.755l.395 2.3a.853.853 0 01-1.238.9L5.881 9.325a.854.854 0 00-.794 0l-2.066 1.086a.853.853 0 01-1.238-.9l.395-2.3a.853.853 0 00-.246-.755L.26 4.827a.854.854 0 01.473-1.456l2.31-.335a.853.853 0 00.642-.467L4.718.476a.853.853 0 011.53 0z" fill="#0f6b7b"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="10.965" height="10.512">
+                    <path data-name="Caminho 36" d="M6.248.476l1.033 2.093a.853.853 0 00.642.467l2.31.335a.854.854 0 01.473 1.456L9.035 6.456a.854.854 0 00-.245.755l.395 2.3a.853.853 0 01-1.238.9L5.881 9.325a.854.854 0 00-.794 0l-2.066 1.086a.853.853 0 01-1.238-.9l.395-2.3a.853.853 0 00-.246-.755L.26 4.827a.854.854 0 01.473-1.456l2.31-.335a.853.853 0 00.642-.467L4.718.476a.853.853 0 011.53 0z" fill="#0f6b7b" />
+                </svg>
                 <span class="ms-1">05</span>
             </span>
             <span class="o-hotel__img__item md-inline-block fs-12 fw-normal bg-white py-2 px-3 text-primary fw-500 me-2">Flat</span>
@@ -23,10 +25,10 @@
 
     <div class="o-hotel__container">
 
-        
+
         <div class="o-hotel__header border-bottom d-flex align-items-center">
 
-            <div class="o-hotel__header__content d-flex justify-content-between w-100 py-1">
+            <div class="o-hotel__header__content d-flex justify-content-between w-100 py-2">
 
                 <div class="o-hotel__header__content__title d-flex align-items-center flex-wrap">
                     <span class="d-block lh-1 w-100">Centro - Rio de Janeiro - Rj</span>
@@ -36,7 +38,7 @@
 
                 <div class="o-hotel__header__more">
                     <button class="btn btn-outline-primary fs-6 fw-500 JS__hotel-open me-2 py-0">Ver Opçōes <span class="ms-2 icon-arrow-down fw-bold"></span></button>
-                    <button class="btn btn-primary fs-6 py-0 JS__reservar-toggle">Reservar</button>  
+                    <button class="btn btn-primary fs-6 py-0 JS__reservar-toggle">Reservar</button>
                 </div>
 
             </div>
@@ -44,7 +46,7 @@
         </div>
 
         <div class="o-hotel__content fs-5">
-        
+
             <table class="table o-hotel__content__table fw-light fs-6">
                 <tbody>
                     <tr class="o-hotel__content__table__header">
@@ -53,17 +55,33 @@
                             (2 Adt - 1 Chd)
                         </td>
                         <td>
-                            Twin Standart BB 
+                            Twin Standart BB
                             <span class="text-danger ms-1">Sem Reembolso</span>
                         </td>
                         <td>
                             <span class="text-primary fw-500">USD 50</span>
                         </td>
-                        <td>Disp. Sob-Consulta</td>
+                        <td>
+                            <div class="d-flex">
+                                <div class="form-check my-0 me-2">
+                                    <input class="form-check-input" type="radio" value="" id="pub100" name="estoque">
+                                    <label class="form-check-label mb-0 fw-normal" for="pub100">
+                                        Púb. 100
+                                    </label>
+                                </div>
+
+                                <div class="form-check my-0 ">
+                                    <input class="form-check-input" type="radio" value="" id="int100" name="estoque">
+                                    <label class="form-check-label mb-0 fw-normal" for="int100">
+                                        Int. 100
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
                         <td>
                             <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
-                        
+
                     </tr>
                     <tr class="o-hotel__content__table__container">
                         <td>
@@ -75,7 +93,7 @@
                             </div>
                         </td>
                         <td>
-                            Twin Standart BB 
+                            Twin Standart BB
                             <span class="text-danger ms-1">Sem Reembolso</span>
                         </td>
                         <td>
@@ -96,13 +114,29 @@
                             </div>
                         </td>
                         <td>
-                            Twin Standart BB 
+                            Twin Standart BB
                             <span class="text-danger ms-1">Sem Reembolso</span>
                         </td>
                         <td>
                             <span class="text-primary fw-500">USD 50</span>
                         </td>
-                        <td>Disp. Sob-Consulta</td>
+                        <td>
+                            <div class="d-flex">
+                                <div class="form-check my-0 me-2">
+                                    <input class="form-check-input" type="radio" value="" id="pub100-1" name="estoque">
+                                    <label class="form-check-label mb-0 fw-normal" for="pub100-1">
+                                        Púb. 100
+                                    </label>
+                                </div>
+
+                                <div class="form-check my-0 ">
+                                    <input class="form-check-input" type="radio" value="" id="int100-2" name="estoque">
+                                    <label class="form-check-label mb-0 fw-normal" for="int100-2">
+                                        Int. 100
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
                         <td>
                             <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
@@ -117,7 +151,7 @@
                             </div>
                         </td>
                         <td>
-                            Twin Standart BB 
+                            Twin Standart BB
                             <span class="text-danger ms-1">Sem Reembolso</span>
                         </td>
                         <td>
@@ -139,7 +173,7 @@
                             </div>
                         </td>
                         <td>
-                            Twin Standart BB 
+                            Twin Standart BB
                             <span class="text-danger ms-1">Sem Reembolso</span>
                         </td>
                         <td>
@@ -150,18 +184,14 @@
                             <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
                     </tr>
-                </tbody>
-            </table>
 
-            <table class="table o-hotel__content__table fw-light fs-6">
-                <tbody>
                     <tr class="o-hotel__content__table__header">
                         <td>
-                            <span class="fw-500 fs-5 me-1">Habitação 1</span>
+                            <span class="fw-500 fs-5 me-1">Habitação 2</span>
                             (2 Adt - 1 Chd)
                         </td>
                         <td>
-                            Twin Standart BB 
+                            Twin Standart BB
                             <span class="text-danger ms-1">Sem Reembolso</span>
                         </td>
                         <td>
@@ -171,7 +201,7 @@
                         <td>
                             <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
-                        
+
                     </tr>
                     <tr class="o-hotel__content__table__container">
                         <td>
@@ -183,7 +213,7 @@
                             </div>
                         </td>
                         <td>
-                            Twin Standart BB 
+                            Twin Standart BB
                             <span class="text-danger ms-1">Sem Reembolso</span>
                         </td>
                         <td>
@@ -194,6 +224,163 @@
                             <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
                     </tr>
+                    <tr class="o-hotel__content__table__container">
+                        <td>
+                            <div class="d-flex">
+                                <input class="form-check-input me-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label for="flexRadioDefault1" class="fw-normal">
+                                    Omnibees
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            Twin Standart BB
+                            <span class="text-danger ms-1">Sem Reembolso</span>
+                        </td>
+                        <td>
+                            <span class="text-primary fw-500">USD 50</span>
+                        </td>
+                        <td>Disp. Sob-Consulta</td>
+                        <td>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                        </td>
+                    </tr>
+                    <tr class="o-hotel__content__table__header">
+                        <td>
+                            <span class="fw-500 fs-5 me-1">Habitação 3</span>
+                            (2 Adt - 1 Chd)
+                        </td>
+                        <td>
+                            Twin Standart BB
+                            <span class="text-danger ms-1">Sem Reembolso</span>
+                        </td>
+                        <td>
+                            <span class="text-primary fw-500">USD 50</span>
+                        </td>
+                        <td>
+                            <div class="d-flex">
+                                <div class="form-check my-0 me-2">
+                                    <input class="form-check-input" type="radio" value="" id="pub100" name="estoque">
+                                    <label class="form-check-label mb-0 fw-normal" for="pub100">
+                                        Púb. 100
+                                    </label>
+                                </div>
+
+                                <div class="form-check my-0 ">
+                                    <input class="form-check-input" type="radio" value="" id="int100" name="estoque">
+                                    <label class="form-check-label mb-0 fw-normal" for="int100">
+                                        Int. 100
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                        </td>
+
+                    </tr>
+                    <tr class="o-hotel__content__table__container">
+                        <td>
+                            <div class="d-flex">
+                                <input class="form-check-input me-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label for="flexRadioDefault1" class="fw-normal">
+                                    Omnibees
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            Twin Standart BB
+                            <span class="text-danger ms-1">Sem Reembolso</span>
+                        </td>
+                        <td>
+                            <span class="text-primary fw-500">USD 50</span>
+                        </td>
+                        <td>Disp. Sob-Consulta</td>
+                        <td>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                        </td>
+                    </tr>
+                    <tr class="o-hotel__content__table__container">
+                        <td>
+                            <div class="d-flex">
+                                <input class="form-check-input me-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label for="flexRadioDefault1" class="fw-normal">
+                                    Omnibees
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            Twin Standart BB
+                            <span class="text-danger ms-1">Sem Reembolso</span>
+                        </td>
+                        <td>
+                            <span class="text-primary fw-500">USD 50</span>
+                        </td>
+                        <td>
+                            <div class="d-flex">
+                                <div class="form-check my-0 me-2">
+                                    <input class="form-check-input" type="radio" value="" id="pub100-1" name="estoque">
+                                    <label class="form-check-label mb-0 fw-normal" for="pub100-1">
+                                        Púb. 100
+                                    </label>
+                                </div>
+
+                                <div class="form-check my-0 ">
+                                    <input class="form-check-input" type="radio" value="" id="int100-2" name="estoque">
+                                    <label class="form-check-label mb-0 fw-normal" for="int100-2">
+                                        Int. 100
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                        </td>
+                    </tr>
+                    <tr class="o-hotel__content__table__container">
+                        <td>
+                            <div class="d-flex">
+                                <input class="form-check-input me-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label for="flexRadioDefault1" class="fw-normal">
+                                    Omnibees
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            Twin Standart BB
+                            <span class="text-danger ms-1">Sem Reembolso</span>
+                        </td>
+                        <td>
+                            <span class="text-primary fw-500">USD 50</span>
+                        </td>
+                        <td>Disp. Sob-Consulta</td>
+                        <td>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="o-hotel__content__table__container">
+                        <td>
+                            <div class="d-flex">
+                                <input class="form-check-input me-3" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label for="flexRadioDefault1" class="fw-normal">
+                                    Omnibees
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            Twin Standart BB
+                            <span class="text-danger ms-1">Sem Reembolso</span>
+                        </td>
+                        <td>
+                            <span class="text-primary fw-500">USD 50</span>
+                        </td>
+                        <td>Disp. Sob-Consulta</td>
+                        <td>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                        </td>
+                    </tr>
+
                 </tbody>
             </table>
 

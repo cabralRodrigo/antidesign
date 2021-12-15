@@ -79,17 +79,17 @@
                                 <div class="o-header__language__options">
                                     <ul class="nav">
                                         <li class="active">
-                                            <span class="fs-12 cursor-pointer">
+                                            <span class="fs-6 cursor-pointer">
                                                 Português
                                             </span>
                                         </li>
                                         <li>
-                                            <span class="fs-12 cursor-pointer">
+                                            <span class="fs-6 cursor-pointer">
                                                 English
                                             </span>
                                         </li>
                                         <li>
-                                            <span class="fs-12 cursor-pointer">
+                                            <span class="fs-6 cursor-pointer">
                                                 Español
                                             </span>
                                         </li>
@@ -103,7 +103,7 @@
                         </li>
                         <li class="position-relative">
 
-                            <button class="text-reset bg-white text-secondary fs-6 ps-4 pe-2 rounded-pill d-md-flex align-items-center border border-white o-header__login JS__header-login"> 
+                            <button class="text-reset bg-white text-secondary fs-6 rounded-pill d-md-flex align-items-center o-header__login JS__header-login"> 
                                 <span class="o-header__login__txt">Bem-Vindo </span>
                                 <span class="text-primary fw-500 ms-1 me-3 "> Anti Travel</span>
                                 <div class="o-header__login__img rounded-circle" style="background-image: url('assets/img/header-user.jpg')">

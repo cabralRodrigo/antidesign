@@ -25,8 +25,6 @@
                 </div>
 
 
-
-
                 <div class="mb-3 mt-3">
     <label for="file" class="form-label fw-normal">File/Referência</label>
     <input class="form-control" type="text" id="reserva-file">
@@ -101,9 +99,8 @@
     </select>
 </div>
 
-
-
 <!--
+
                 <div class="mt-4 mb-3 border-bottom me-4">
                     <span class="text-primary d-block">Habitação 1</span>
 
@@ -174,17 +171,9 @@
             <div class="c-reserva-modal__box__col-2 overflow-auto">
 
                 <div class="c-reserva-modal__box__habitacao">
-                    <span class="c-busca__container__title d-block fs-4 text-primary fw-normal mb-1"><span class="fw-500">Habitação 1</span> (2 Adt - 1 Chd) </span>
-                    <div class="fs-12 d-flex mb-3 fw-light flex-wrap">
-                    <span class="d-flex align-items-center fw-normal">
-                        <span class="icon-star-full"></span>
-                        <span class="mx-2">05</span> |
-                    </span>
-                    <span class="mx-2"> Twin Standart BB</span> |
-                    <span class="mx-2">Sem Reembolso</span>
-                </div>
+                    <span class="c-busca__container__title d-block fs-4 text-primary fw-normal mb-3"><span class="fw-500">TRF O.W. REGULAR ARPT / HOTEL (ZONA SUR O CENTRO) O V.V</span></span>
 
-                    <div>
+                    <div class="border-bottom py-4">
                         <span class="text-primary d-block mb-3">Titular</span>
 
                         <div class="row">
@@ -205,12 +194,8 @@
                                 <input class="form-control" type="email" id="file" placeholder="nome@email.com.br">
                             </div>
                         </div>
-                    </div>
 
-                    
-
-                    <div>
-                        <span class="text-primary d-block mb-3 d-block">Acompanhantes</span>
+                        <span class="text-primary d-block mb-3">Acompanhantes</span>
                         <div class="row">
                             <div class="mb-3 col-3">
                                 <label for="acompanhante-nome" class="form-label fw-normal">Nome</label>
@@ -220,9 +205,187 @@
                                 <label for="acompanhante-sobrenome" class="form-label fw-normal">Sobrenome</label>
                                 <input class="form-control" type="text" id="acompanhante-sobrenome" placeholder="Sobrenome do acompanhante">
                             </div>
-                        
+                            <div class="mb-3 col-3">
+                                <label for="acompanhante-nome" class="form-label fw-normal">Nome</label>
+                                <input class="form-control" type="text" id="acompanhante-nome" placeholder="Nome do acompanhante">
+                            </div>
+                            <div class="mb-3 col-3">
+                                <label for="acompanhante-sobrenome" class="form-label fw-normal">Sobrenome</label>
+                                <input class="form-control" type="text" id="acompanhante-sobrenome" placeholder="Sobrenome do acompanhante">
+                            </div>
+                            <div class="mb-3 col-3">
+                                <label for="acompanhante-nome" class="form-label fw-normal">Nome</label>
+                                <input class="form-control" type="text" id="acompanhante-nome" placeholder="Nome do acompanhante">
+                            </div>
+                            <div class="mb-3 col-3">
+                                <label for="acompanhante-sobrenome" class="form-label fw-normal">Sobrenome</label>
+                                <input class="form-control" type="text" id="acompanhante-sobrenome" placeholder="Sobrenome do acompanhante">
+                            </div>
                         </div>
                     </div>
+
+                    <div class="border-bottom py-4">
+                    <span class="text-secondary d-block mb-3">Ida</span>
+                        <div class="row">
+                            <div class="col-6 mb-3">
+                            <span class="text-primary d-block mb-3">Pick-Up</span>
+
+                            <div class="mb-3">
+                                <label for="reserva-dropoff-tipo" class="form-label fw-normal">Tipo</label>
+                                <select class="form-select JS__select JS__dropoff-tipo" id="reserva-dropoff-tipo">
+                                    <option value="1" selected="selected">Hotel</option>
+                                    <option value="2">Aeroporto</option>
+                                </select>  
+                                </div>
+
+                                <div class="mb-3">
+                                <label for="reserva-dropoff-cidade" class="form-label fw-normal">Cidade</label>
+                                <select class="form-select JS__select" id="reserva-dropoff-cidade">
+                                    <option value="1" selected="selected">Selecione</option>
+                                </select>  
+                                </div>
+
+                                <div class="mb-3">
+                                <label for="reserva-dropoff-hotel" class="form-label fw-normal">Hotel</label>
+                                <select class="form-select JS__select" id="reserva-dropoff-hotel">
+                                    <option value="1" selected="selected">Selecione</option>
+                                </select> 
+                                </div>
+                                
+                            </div>
+
+                            
+     
+                            <div class="col-6 mb-3">
+                            <span class="text-primary d-block mb-3">Dropoff</span>
+
+                            <div class="mb-3">
+                                <label for="reserva-pickup-tipo" class="form-label fw-normal">Tipo</label>
+                                <select class="form-select JS__select JS__pickup-tipo" id="reserva-pickup-tipo">
+                                    <option value="1" selected="selected">Hotel</option>
+                                    <option value="2">Aeroporto</option>
+                                </select>  
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="reserva-pickup-cidade" class="form-label fw-normal">Cidade</label>
+                                <select class="form-select JS__select" id="reserva-pickup-cidade">
+                                    <option value="1" selected="selected">Selecione</option>
+                                </select>  
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="reserva-pickup-hotel" class="form-label fw-normal">Hotel</label>
+                                <select class="form-select JS__select" id="reserva-pickup-hotel">
+                                    <option value="1" selected="selected">Selecione</option>
+                                </select> 
+                            </div>
+                                
+                                
+                            </div>
+                           
+                            <div class="col-4 mb-3 JS__pickup-tipo-opt2 d-none">
+                                <label for="reserva-pickup-hotel" class="form-label fw-normal">Número do Voo</label>
+                                <input class="form-control display-none" type="text" id="reserva-pickup-voo" placeholder="Número do Voo">
+                            </div>
+
+                            <div class="col-4 mb-3 JS__pickup-tipo-opt2 d-none">
+                                <label for="reserva-pickup-hotel" class="form-label fw-normal">Aeroporto</label>
+                                <select class="form-select JS__select" id="reserva-pickup-aeroporto">
+                                    <option value="1" selected="selected">Hotel</option>
+                                </select>  
+                            </div>
+
+                            <div class="col-4 mb-3 JS__pickup-tipo-opt2 d-none">
+                                <label for="reserva-pickup-horario" class="form-label fw-normal">Horário</label>
+                                <input class="form-control display-none JS__input-hour" type="text" id="reserva-pickup-voo" placeholder="Número do Voo">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="border-bottom py-4">
+                    <span class="text-secondary d-block mb-3">Volta</span>
+                        <div class="row">
+                            <div class="col-6 mb-3">
+                            <span class="text-primary d-block mb-3">Pick-Up</span>
+
+                            <div class="mb-3">
+                                <label for="reserva-dropoff-tipo" class="form-label fw-normal">Tipo</label>
+                                <select class="form-select JS__select JS__dropoff-tipo" id="reserva-dropoff-tipo">
+                                    <option value="1" selected="selected">Hotel</option>
+                                    <option value="2">Aeroporto</option>
+                                </select>  
+                                </div>
+
+                                <div class="mb-3">
+                                <label for="reserva-dropoff-cidade" class="form-label fw-normal">Cidade</label>
+                                <select class="form-select JS__select" id="reserva-dropoff-cidade">
+                                    <option value="1" selected="selected">Selecione</option>
+                                </select>  
+                                </div>
+
+                                <div class="mb-3">
+                                <label for="reserva-dropoff-hotel" class="form-label fw-normal">Hotel</label>
+                                <select class="form-select JS__select" id="reserva-dropoff-hotel">
+                                    <option value="1" selected="selected">Selecione</option>
+                                </select> 
+                                </div>
+                                
+                            </div>
+
+                            
+     
+                            <div class="col-6 mb-3">
+                            <span class="text-primary d-block mb-3">Dropoff</span>
+
+                            <div class="mb-3">
+                                <label for="reserva-pickup-tipo" class="form-label fw-normal">Tipo</label>
+                                <select class="form-select JS__select JS__pickup-tipo" id="reserva-pickup-tipo">
+                                    <option value="1" selected="selected">Hotel</option>
+                                    <option value="2">Aeroporto</option>
+                                </select>  
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="reserva-pickup-cidade" class="form-label fw-normal">Cidade</label>
+                                <select class="form-select JS__select" id="reserva-pickup-cidade">
+                                    <option value="1" selected="selected">Selecione</option>
+                                </select>  
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="reserva-pickup-hotel" class="form-label fw-normal">Hotel</label>
+                                <select class="form-select JS__select" id="reserva-pickup-hotel">
+                                    <option value="1" selected="selected">Selecione</option>
+                                </select> 
+                            </div>
+                                
+                                
+                            </div>
+                           
+                            <div class="col-4 mb-3 JS__pickup-tipo-opt2 d-none">
+                                <label for="reserva-pickup-hotel" class="form-label fw-normal">Número do Voo</label>
+                                <input class="form-control display-none" type="text" id="reserva-pickup-voo" placeholder="Número do Voo">
+                            </div>
+
+                            <div class="col-4 mb-3 JS__pickup-tipo-opt2 d-none">
+                                <label for="reserva-pickup-hotel" class="form-label fw-normal">Aeroporto</label>
+                                <select class="form-select JS__select" id="reserva-pickup-aeroporto">
+                                    <option value="1" selected="selected">Hotel</option>
+                                </select>  
+                            </div>
+
+                            <div class="col-4 mb-3 JS__pickup-tipo-opt2 d-none">
+                                <label for="reserva-pickup-horario" class="form-label fw-normal">Horário</label>
+                                <input class="form-control display-none JS__input-hour" type="text" id="reserva-pickup-voo" placeholder="Número do Voo">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                   
 
                     <div class="border-bottom py-4">
                         <label for="reserva-comentarios" class="form-label fw-normal">Comentários</label>
@@ -285,112 +448,134 @@
 
                     </div>
 
+                  
+
+                
+
                 </div>
 
-        
-                <div class="c-reserva-modal__box__habitacao">
-                    <span class="c-busca__container__title d-block fs-4 text-primary fw-normal mb-3"><span class="fw-500">Habitação 2</span> (2 Adt - 1 Chd) </span>
-
-
+                <div class="border-bottom py-4">
+                    <span class="text-primary d-block mb-3 fw-500 fs-4">Informações de Pagamento</span>
+                    <div class="row">
+                        <div class="mb-3 col-6">
+                            <label for="reserva-pagamento-bandeira" class="form-label fw-normal">Bandeira</label>
+                            <select class="form-select JS__select" id="reserva-pagamento-bandeira">
+                                <option>visa</option>
+                            </select>  
+                        </div>
+                        <div class="mb-3 col-6">
+                            <label for="reserva-pagamento-parcelas" class="form-label fw-normal">Parcelas</label>
+                            <select class="form-select JS__select" id="reserva-pagamento-parcelas">
+                                <option>1</option>
+                            </select>  
+                        </div>
+                        <div class="mb-3 col">
+                            <label for="reserva-pagamento-titular" class="form-label fw-normal">Titular</label>
+                            <input class="form-control" type="text" id="reserva-pagamento-titular">
+                        </div>
+                        <div class="mb-3 col-3">
+                            <label for="reserva-pagamento-titular" class="form-label fw-normal">Número</label>
+                            <input class="form-control" type="text" id="reserva-pagamento-titular">
+                        </div>
+                        <div class="mb-3 col-3">
+                            <label for="reserva-pagamento-codigo" class="form-label fw-normal">Código de Segurança</label>
+                            <input class="form-control" type="text" id="reserva-pagamento-codigo">
+                        </div>
+                    </div>
                     <div>
-                        <span class="text-primary d-block mb-3">Titular</span>
-
+                        <span class="text-primary d-block mb-3">Validade</span>
                         <div class="row">
-                            <div class="mb-3 col-3">
-                                <label for="reserva-nome" class="form-label fw-normal">Nome</label>
-                                <input class="form-control" type="text" id="reserva-titularNome" placeholder="Nome do passageiro">
+                            <div class="mb-3 col-6">
+                                <label for="reserva-pagamento-mes" class="form-label fw-normal">Mês</label>
+                                <input class="form-control" type="text" id="reserva-pagamento-mes">
                             </div>
-                            <div class="mb-3 col-3">
-                                <label for="reserva-nome" class="form-label fw-normal">Sobrenome</label>
-                                <input class="form-control" type="text" id="reserva-titularSobrenome" placeholder="Sobrenome do passageiro">
-                            </div>
-                            <div class="mb-3 col-3">
-                                <label for="reserva-telefone" class="form-label fw-normal">Telefone</label>
-                                <input class="form-control" type="text" id="reserva-telefone" placeholder="+ 55 (00) 00000-0000">
-                            </div>
-                            <div class="mb-3 col-3">
-                                <label for="file" class="form-label fw-normal">Email</label>
-                                <input class="form-control" type="email" id="file" placeholder="nome@email.com.br">
+                            <div class="mb-3 col-6">
+                                <label for="reserva-pagamento-ano" class="form-label fw-normal">Ano</label>
+                                <input class="form-control" type="text" id="reserva-pagamento-ano">
                             </div>
                         </div>
                     </div>
-
-                    
-
                     <div>
-                        <span class="text-primary d-block mb-3 d-block">Acompanhantes</span>
+                        <span class="text-primary d-block mb-3">Informações do titular</span>
                         <div class="row">
-                            <div class="mb-3 col-3">
-                                <label for="acompanhante-nome" class="form-label fw-normal">Nome</label>
-                                <input class="form-control" type="text" id="acompanhante-nome" placeholder="Nome do acompanhante">
+                            <div class="mb-3 col-6">
+                                <label for="reserva-pagamento-pais" class="form-label fw-normal">País</label>
+                                
+                                <select class="form-select JS__select-country" id="reserva-pagamento-pais">
+                                    <option value="24">Africa do Sul </option>
+                                    <option value="5">Alemanha</option>
+                                    <option value="3">Argentina</option>
+                                    <option value="38">Austria</option>
+                                    <option value="40">Belgica</option>
+                                    <option value="6">Bolivia</option>
+                                    <option value="2">Brasil</option>
+                                    <option value="26">Bulgaria</option>
+                                    <option value="36">Canada</option>
+                                    <option value="4">Chile</option>
+                                    <option value="28">China</option>
+                                    <option value="34">Chipre</option>
+                                    <option value="13">Colômbia</option>
+                                    <option value="37">Dinamarca</option>
+                                    <option value="11">El Salvador</option>
+                                    <option value="35">Emirados Arabes Unidos</option>
+                                    <option value="10">Equador</option>
+                                    <option value="12">Espanha</option>
+                                    <option value="18">Estados Unidos</option>
+                                    <option value="29">França</option>
+                                    <option value="32">Honduras</option>
+                                    <option value="27">Inglaterra</option>
+                                    <option value="25">Israel </option>
+                                    <option value="39">Marrocos</option>
+                                    <option value="9">México</option>
+                                    <option value="41">Noruega</option>
+                                    <option value="23">Panamá</option>
+                                    <option value="7">Paraguai</option>
+                                    <option value="8">Peru</option>
+                                    <option value="30">Porto Rico</option>
+                                    <option value="16">Portugal</option>
+                                    <option value="14">Rep. Dominicana</option>
+                                    <option value="21">República Dominicana</option>
+                                    <option value="22">Russia</option>
+                                    <option value="31">Suiça </option>
+                                    <option value="17">Turquia</option>
+                                    <option value="33">Ucrânia</option>
+                                    <option selected="selected" value="15">Uruguai</option>
+                                    <option value="19">
+                                </select>
                             </div>
-                            <div class="mb-3 col-3">
-                                <label for="acompanhante-sobrenome" class="form-label fw-normal">Sobrenome</label>
-                                <input class="form-control" type="text" id="acompanhante-sobrenome" placeholder="Sobrenome do acompanhante">
+                            <div class="mb-3 col-6">
+                                <label for="reserva-pagamento-estado" class="form-label fw-normal">Estado</label>
+                                
+                                <select class="form-select JS__select" id="reserva-pagamento-estado">
+                                    <option value="acre">Acre</option>
+                                </select>
                             </div>
-                        
+                            <div class="mb-3 col-12">
+                                <label for="reserva-pagamento-endereco" class="form-label fw-normal">Endereço</label>
+                                <input class="form-control" type="text" id="reserva-pagamento-endereco">
+                            </div>
+                            <div class="mb-3 col-6">
+                                <label for="reserva-pagamento-cidade" class="form-label fw-normal">Cidade</label>
+                                <input class="form-control" type="text" id="reserva-pagamento-cidade">
+                            </div>
+                            <div class="mb-3 col-6">
+                                <label for="reserva-pagamento-codigopostal" class="form-label fw-normal">Código Postal</label>
+                                <input class="form-control" type="text" id="reserva-pagamento-codigopostal">
+                            </div>
+                            <div class="mb-3 col-6">
+                                <label for="reserva-pagamento-registro" class="form-label fw-normal">Tipo de Registro</label>
+                                
+                                <select class="form-select JS__select" id="reserva-pagamento-registro">
+                                    <option value="cpf">CPF</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3 col-6">
+                                <label for="reserva-pagamento-cpf" class="form-label fw-normal">CPF</label>
+                                
+                                <input class="form-control" type="text" id="reserva-pagamento-cpf">
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="border-bottom py-4">
-                        <label for="reserva-comentarios" class="form-label fw-normal">Comentários</label>
-                        <input class="form-control " type="text" id="reserva-comentarios" placeholder="Algum detalhe sobre a viagem?">
-
-
-                        <div class="py-4">
-                        <a class="d-flex text-decoration-none cursor-pointer collapsed" data-bs-toggle="collapse" data-bs-target="#politica-cancelamento" aria-expanded="false" aria-controls="info">
-                            <span class="icon-privacy-policy fs-22 text-primary me-2"></span>
-                            Política de Cancelamento
-                            <span class="icon-arrow-down ms-2 mt-1 fs-12 fw-bold"></span>
-                        </a>
-                        <div class="multi-collapse collapse fs-6 fw-light pt-3" id="politica-cancelamento">
-                            <p>O prazo de cancelamento da reserva com tarifa reembolsável é de até 24 horas de antecedência ao dia e horário (14 horas) do check in (chegada) da mesma, após esse prazo, terá como penalidade a cobrança de uma diária mais 5% de ISS, valor já pré-pago no ato da reserva.</p>
-
-                            <p>Data limite até 1 dias antes do checkin. Valor de cancelamento é correspondente ao valor de 1 noites.</p>
-
-                            <p>Café da manhã</p>
-
-                            <p>Refeições: Café da manhã</p>
-
-                            <p>Comodidades incluidas: Internet wi-fi gratuita nas áreas comuns do Hotel, Estacionamento cortesia mediante disponibilidade de vagas.</p>
-
-                            <p>Pagamento Reembolsável</p>
-                        </div>
-                        </div>
-                        <div class="d-flex flex-wrap">  
-                        <div class="form-check mb-1 me-3">
-                            <input class="form-check-input" type="checkbox" name="reserva-opt" id="visivel-cliente">
-                            <label class="form-check-label fw-light" for="visivel-cliente">
-                                Visível para o cliente
-                            </label>
-                        </div>
-                        <div class="form-check mb-1 me-3">
-                            <input class="form-check-input" type="checkbox" name="reserva-opt" id="opcional">
-                            <label class="form-check-label fw-light" for="opcional">
-                                Opcional
-                            </label>
-                        </div>
-                        <div class="form-check mb-1 me-3">
-                            <input class="form-check-input" type="checkbox" name="reserva-opt" id="email-operador">
-                            <label class="form-check-label fw-light" for="email-operador">
-                                Enviar email ao operador
-                            </label>
-                        </div>
-                        <div class="form-check mb-1 me-3">
-                            <input class="form-check-input" type="checkbox" name="reserva-opt" id="email-fornecedor">
-                            <label class="form-check-label fw-light" for="email-fornecedor">
-                                Enviar email ao fornecedor
-                            </label>
-                        </div>
-                        <div class="form-check mb-1 me-3">
-                            <input class="form-check-input" type="checkbox" name="reserva-opt" id="email-cliente">
-                            <label class="form-check-label fw-light" for="email-cliente">
-                                Enviar email ao cliente
-                            </label>
-                        </div>
-                
-                    </div>
-
                     </div>
 
                 </div>

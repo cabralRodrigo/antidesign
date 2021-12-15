@@ -1,6 +1,6 @@
 // Adiciona os modulos instalados
 const gulp = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
 const concat = require('gulp-concat');

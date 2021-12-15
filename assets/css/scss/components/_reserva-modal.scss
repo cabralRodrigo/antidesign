@@ -80,7 +80,7 @@
         }
         &__container{
             z-index: 999999;
-            padding: 3.37rem 0 2.62rem 8.6rem;  
+            padding: 3.37rem 8.6rem 2.62rem 8.6rem;  
             margin: 0 auto;
             display: none!important;
             opacity: 0;
@@ -141,6 +141,7 @@
                 }
                 td:first-of-type{
                     padding-left: 0;
+                    width: 20%;
                 }
             }
 
@@ -157,7 +158,7 @@
         }
         &__col-2{
             width: 62.8rem;
-            padding-right: 8.6rem;
+            padding-right: 2rem;
             padding-left: 4px;
             @include breakpoint(xl){
                 width: 33.8rem;

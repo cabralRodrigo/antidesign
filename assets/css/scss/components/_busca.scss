@@ -22,7 +22,7 @@
     &__extras{
       &__table{
           .btn{
-              height: 44px;
+              height: 40px;
           }
           td{
             vertical-align: middle;
@@ -47,50 +47,29 @@
 
 .c-busca__controls__price {
     width:100%;
-    float:left;
     .range-value {
         margin:0;
             
         display: flex;
         justify-content: space-between;
         margin-bottom: 1.5rem;
-        input {
-            width:100%;
-            background:none;
-            color: #656565;
-            font-size: 14px;
-            font-weight: 500;
-            box-shadow: none;
-            border: none;
-            width: 50%;
-            display: inline-block;
-        }
+    }
+    .slider-price {
+      &__container{
+        transform: scale(1); cursor: inherit; height: 36px; display: flex; width: 100%;
+      
+      }
+      &__bullet{
+        position: absolute;z-index: 0;cursor: grab;user-select: none;touch-action: none;height: 20px;width: 20px;border-radius: 20px;background-color: rgb(15 107 123);display: flex;justify-content: center;align-items: center;box-shadow: rgb(170, 170, 170) 0px 2px 6px;
+      }
+      &__bar{
+        height: 3px;width: 100%;border-radius: 4px;background: linear-gradient(to right, #e3e3e3 0%, #e3e3e3 25%, #83d1de 25%, #83d1de 75%, #e3e3e3 75%, #e3e3e3 100%);align-self: center;
+      }
+      
+
     }
     
-    .range-bar {
-        border: none;
-        background: #E3E3E3;
-        height: 2px;  
-        width: 96%;
-        
-        .ui-slider-range {
-            background: #83D1DE;
-        }
-        
-        .ui-slider-handle {
-            border:none;
-            border-radius:25px;
-            background:$primary;
-            border: 2px solid $primary;
-            height:17px;
-            width:17px;
-            top: -0.52em;
-            cursor:pointer;
-        }
-        .ui-slider-handle + span {
-            background:$primary;
-        }
-    }
+
   }
   /*--- /.price-range-slider ---*/
  

@@ -160,8 +160,9 @@
     }
     
     &__login{
-        padding: .347rem 0;
-        height: 51px;
+        padding: 0 0 0 20px;
+        height: 52px;
+        border: none;
 
         &:focus{
             color: #656565;
@@ -195,6 +196,7 @@
         &__img{
             height: 38px;
             width: 38px;
+            margin: 8px;
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
@@ -243,13 +245,13 @@
 
 
     &__language{
-        margin-right: 23px;
+        margin-right: 25px;
         transition: .3s;
         overflow: hidden;
-        padding: 0 .5rem 0 .5rem;
+        padding: 0;
         border: 1px solid transparent;
-        height: 51px;
-        width: 51px;
+        height: 52px;
+        width: 52px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -270,13 +272,15 @@
         
         .icon-language{
             color: #fff;
+            margin: 0;
+            padding: 14px;
             @include breakpoint(md) {
                 display: none;
             }
         }
-        // &:hover{
-        //     background-color: rgba(255, 255, 255, 0.15);
-        // }
+        &:hover{
+             background-color: rgba(255, 255, 255, 0.15);
+         }
         &.active{
             background: #fff;
             width: auto;
@@ -296,6 +300,7 @@
                 transition-delay: .3s;
                 transition: .3s;
                 display: flex;
+                padding-left: 14px;
             }
             &:hover{
                 background: #fff;
