@@ -1,6 +1,7 @@
 
-<?php include('includes/header.php') ?>
 <?php include('includes/loader-error.php') ?>
+<?php include('includes/header.php') ?>
+<?php include('includes/banner-lgpd.php') ?>
 
 <main class="c-busca">
         

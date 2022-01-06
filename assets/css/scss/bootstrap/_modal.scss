@@ -54,7 +54,11 @@
     transform: $modal-scale-transform;
   }
 }
-
+.modal-title [class^="icon-"], .modal-title [class*=" icon-"]{
+      font-size: 38px;
+      margin-right: 10px;
+      vertical-align: bottom;
+}
 .modal-dialog-scrollable {
   height: subtract(100%, $modal-dialog-margin * 2);
 
