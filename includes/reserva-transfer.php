@@ -13,8 +13,8 @@
         
             <div class="c-reserva-modal__box__col-1 border-end">
             
-                <span class="d-block fs-12 fw-light">Centro - Rio de Janeiro - Rj</span>
-                <span class="c-busca__container__title fs-4 text-primary fw-normal"><span class="fw-500">Hotel:</span> Center Hotel Rio</span>
+                <span class="d-block fs-12 fw-light">Rio de Janeiro - RJ</span>
+                <span class="c-busca__container__title fs-4 text-primary fw-normal"><span class="fw-500">TRF O.W. REGULAR ARPT / HOTEL (ZONA SUR O CENTRO) O V.V</span></span>
 
                 <div class="o-hotel__content__header__icons text-black-50 d-flex align-items-center p-0 mt-3 pb-3 fs-22">
                     <span class="icon-paw me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Aceita Pets"></span>
@@ -25,10 +25,6 @@
                 </div>
 
 
-                <div class="mb-3 mt-3">
-    <label for="file" class="form-label fw-normal">File/Referência</label>
-    <input class="form-control" type="text" id="reserva-file">
-</div>
 <div class="mb-3">
     <label for="idioma" class="form-label fw-normal">Idioma</label>
     <select class="form-select JS__select" id="reserva-idioma">
@@ -171,8 +167,7 @@
             <div class="c-reserva-modal__box__col-2 overflow-auto">
 
                 <div class="c-reserva-modal__box__habitacao">
-                    <span class="c-busca__container__title d-block fs-4 text-primary fw-normal mb-3"><span class="fw-500">TRF O.W. REGULAR ARPT / HOTEL (ZONA SUR O CENTRO) O V.V</span></span>
-
+                    
                     <div class="border-bottom py-4">
                         <span class="text-primary d-block mb-3">Titular</span>
 

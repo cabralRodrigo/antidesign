@@ -1,6 +1,6 @@
 
 <?php include('includes/header.php') ?>
-<?php include('includes/loader.php') ?>
+<?php include('includes/loader-error.php') ?>
 
 <main class="c-busca">
         

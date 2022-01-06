@@ -30,7 +30,7 @@
                             </div>
                         </div>
                     </div>
-                    <idiv class="c-banner__background__overlay"></div>
+                    <div class="c-banner__background__overlay"></div>
                 </div>
 
                 <div class="c-banner__item swiper-slide h-100 d-flex align-items-end"
@@ -53,7 +53,7 @@
                             </div>
                         </div>
                     </div>
-                    <idiv class="c-banner__background__overlay"></div>
+                    <div class="c-banner__background__overlay"></div>
                 </div>
 
 

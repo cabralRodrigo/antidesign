@@ -11,7 +11,7 @@
             <div class="swiper-wrapper h-100">
 
                 <div class="c-banner__item swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/banner-bali.jpg');">
-                    <img src="assets/img/banner-bg.png" alt="background" class="c-banner__background">
+                  
                     <div class="container text-light">
                         <div class="row h-100 d-flex align-items-center">
                             <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-8 col-sm-8">
@@ -23,10 +23,11 @@
                             </div>
                         </div>
                     </div>
+                    <div class="c-banner__background__overlay"></div>
                 </div>
 
                 <div class="c-banner__item swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/reservas-banner.jpg');">
-                    <img src="assets/img/banner-bg.png" alt="background" class="c-banner__background">
+                    
                     <div class="container text-light">
                         <div class="row h-100 d-flex align-items-center">
                             <div class="col-xl-4">
@@ -38,6 +39,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="c-banner__background__overlay"></div>
                 </div>
                 
 
