@@ -99,7 +99,7 @@
                 &.btn-outline-primary{
                     border-color: #E0E0E0;
                 }
-                .icon-arrow-down{
+                .icon-chevron-down{
                     transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
                 }
             }
@@ -178,7 +178,7 @@
         }
     }
     .JS__hotel-open{
-        .icon-arrow-down{
+        .icon-chevron-down{
             transform: rotate(180deg);
             display: inline-block;
             transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;

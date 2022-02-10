@@ -12,11 +12,11 @@
             </span>
             <span class="o-hotel__img__item md-inline-block fs-12 fw-normal bg-white py-2 px-3 text-primary fw-500 me-2">Flat</span>
             <span class="o-hotel__img__item o-hotel__img__item__icons bg-white py-2 px-3 text-black-50">
-                <span class="icon-paw" data-bs-toggle="tooltip" data-bs-placement="top" title="Aceita Pets"></span>
-                <span class="icon-beach-view" data-bs-toggle="tooltip" data-bs-placement="top" title="Frente a Praia"></span>
-                <span class="icon-wifi" data-bs-toggle="tooltip" data-bs-placement="top" title="Wi-Fi Disponível"></span>
-                <span class="icon-pwd" data-bs-toggle="tooltip" data-bs-placement="top" title="Acessibilidade"></span>
-                <span class="icon-key" data-bs-toggle="tooltip" data-bs-placement="top" title="Safe & Clean"></span>
+                <span class="icon-paw" data-tt-toggle="tooltip" data-bs-placement="top" title="Aceita Pets"></span>
+                <span class="icon-beach-view" data-tt-toggle="tooltip" data-bs-placement="top" title="Frente a Praia"></span>
+                <span class="icon-wifi" data-tt-toggle="tooltip" data-bs-placement="top" title="Wi-Fi Disponível"></span>
+                <span class="icon-pwd" data-tt-toggle="tooltip" data-bs-placement="top" title="Acessibilidade"></span>
+                <span class="icon-key" data-tt-toggle="tooltip" data-bs-placement="top" title="Safe & Clean"></span>
             </span>
         </div>
 
@@ -79,7 +79,7 @@
                             </div>
                         </td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
 
                     </tr>
@@ -101,7 +101,7 @@
                         </td>
                         <td>Disp. Sob-Consulta</td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
                     </tr>
                     <tr class="o-hotel__content__table__container">
@@ -138,7 +138,7 @@
                             </div>
                         </td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
                     </tr>
                     <tr class="o-hotel__content__table__container">
@@ -159,7 +159,7 @@
                         </td>
                         <td>Disp. Sob-Consulta</td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                             </a>
                         </td>
                     </tr>
@@ -181,7 +181,7 @@
                         </td>
                         <td>Disp. Sob-Consulta</td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
                     </tr>
 
@@ -199,7 +199,7 @@
                         </td>
                         <td>Disp. Sob-Consulta</td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
 
                     </tr>
@@ -221,7 +221,7 @@
                         </td>
                         <td>Disp. Sob-Consulta</td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
                     </tr>
                     <tr class="o-hotel__content__table__container">
@@ -242,7 +242,7 @@
                         </td>
                         <td>Disp. Sob-Consulta</td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
                     </tr>
                     <tr class="o-hotel__content__table__header">
@@ -275,7 +275,7 @@
                             </div>
                         </td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
 
                     </tr>
@@ -297,7 +297,7 @@
                         </td>
                         <td>Disp. Sob-Consulta</td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
                     </tr>
                     <tr class="o-hotel__content__table__container">
@@ -334,7 +334,7 @@
                             </div>
                         </td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
                     </tr>
                     <tr class="o-hotel__content__table__container">
@@ -355,7 +355,7 @@
                         </td>
                         <td>Disp. Sob-Consulta</td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                             </a>
                         </td>
                     </tr>
@@ -377,7 +377,7 @@
                         </td>
                         <td>Disp. Sob-Consulta</td>
                         <td>
-                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
+                            <button type="button" class="btn btn-link border-0 p-0" data-bs-toggle="modal" data-bs-target="#politica-de-privacidade"><span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span></button>
                         </td>
                     </tr>
 

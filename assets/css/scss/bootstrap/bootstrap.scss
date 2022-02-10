@@ -63,7 +63,7 @@ $body-color: #656565!default;
 $input-btn-padding-y:         1rem;
 $input-btn-padding-x:         1rem;
 $input-btn-font-size:         .75rem;
-$input-btn-line-height:       1;
+$input-btn-line-height:       1.2;
 $input-placeholder-color:               #E0E0E0 !default;
 
 
@@ -229,6 +229,7 @@ $pagination-hover-border-color: transparent;
   -webkit-transition: 0.15s ease-in-out;
   transition: 0.15s ease-in-out;
   margin-left: .25rem;
+  margin-top: .3rem;
 }    
 
 .form-switch .form-check-input:checked + .form-check-label {
@@ -238,6 +239,7 @@ $pagination-hover-border-color: transparent;
 .form-switch .form-check-input{
   height: 1.25rem;
   width: 2rem;
+  margin-top: .25rem;
   cursor: pointer;
 }
 
@@ -251,7 +253,7 @@ $pagination-hover-border-color: transparent;
 
 table.table{
   border-collapse: separate;
-  border-spacing: 0 .75rem;
+  border-spacing: 0;
   thead th{
     font-weight: 500;
     border-radius: 0;
@@ -263,10 +265,10 @@ table.table{
     padding: .7rem .5rem;
     vertical-align: middle;
     &:first-of-type{
-      border-radius: .93rem 0 0 .93rem;
+      border-radius: 0;
     }
     &:last-of-type{
-      border-radius: 0 .93rem .93rem 0;
+      border-radius: 0;
     }
   } 
   & > :not(:last-child) > :last-child > *{
@@ -277,6 +279,23 @@ table.table{
   }
 }
 
+table.table-rounded{
+  tbody td{
+    padding: .7rem .5rem;
+    vertical-align: middle;
+    &:first-of-type{
+      border-radius: .93rem 0 0 .93rem;
+    }
+    &:last-of-type{
+      border-radius: 0 .93rem .93rem 0;
+    }
+  } 
+}
+.divide{
+  height: 4px!important;
+  background-color: #106b7b;
+  opacity: 1;
+}
 
 
 .nav-tabs{

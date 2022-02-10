@@ -8,13 +8,13 @@
     <div class="c-reserva-modal__box__confirmation JS__reserva-step1 show">
     
         <div class="c-reserva-modal__close JS__reservar-toggle cursor-pointer">
-            <span class="icon-close text-primary fs-28"></span>
+            <span class="icon-x text-primary fs-28"></span>
         </div>
     
         <div class="c-reserva-modal__box__confirmation__header d-flex justify-content-between align-items-center pb-4 bg-white w-100">
             <div class="d-flex">
                 <div class="c-reserva-modal__close JS__reservar-toggle cursor-pointer position-static me-5">
-                    <span class="icon-close text-primary fs-28"></span>
+                    <span class="icon-x text-primary fs-28"></span>
                 </div>
 
                 <span class="fs-4 text-primary fw-light"><span class="fw-500">Reserva:</span> Ticket Entrada Beto Carreiro</span>
@@ -243,7 +243,7 @@
         <div class="c-reserva-modal__box__confirmation__header d-flex justify-content-between align-items-center pb-4 bg-white w-100">
             <div class="d-flex">
                 <div class="c-reserva-modal__close JS__reservar-toggle cursor-pointer position-static me-5">
-                    <span class="icon-close text-primary fs-28"></span>
+                    <span class="icon-x text-primary fs-28"></span>
                 </div>
 
                 <span class="fs-4 text-primary fw-light"><span class="fw-500">Reserva:</span> #35080</span>

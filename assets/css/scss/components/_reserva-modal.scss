@@ -1,3 +1,6 @@
+.overflow-padding{
+    padding-right: 2rem;
+}
 .c-reserva-modal{
     display: none;
 
@@ -112,7 +115,8 @@
         }
         &__confirmation{
             margin: 0 auto;
-            padding-top: 3.37rem;
+            width: 100%;
+            //padding-top: 3.37rem;
             opacity: 0;
             visibility: hidden;
             display: none;
@@ -122,7 +126,7 @@
                 display: block;
             }
             &__header{
-                padding: 0 3.8rem;
+                padding: 3.37rem 3.8rem 1.5rem;
             }
             &__container{
                 max-height: calc(95vh - 161px);
@@ -132,17 +136,13 @@
 
             table.table{
                 width: 56.5rem;
+                width: 100%;
                 th{
-                    border-bottom: 0!important;
-                    padding-bottom: 0;
                     &:first-of-type{
                         padding-left: 0;
                     }
                 }
-                td:first-of-type{
-                    padding-left: 0;
-                    width: 20%;
-                }
+       
             }
 
             &__button{
@@ -372,13 +372,13 @@
             margin-left: 0;
         }
         &__agrupamento{
-            width: 165px;
+            width: 160px;
         }
         &__nacionalidade{
-            width: 203px;
+            width: 186px;
         }
         &__idioma{
-            width: 185px;
+            width: 166px;
         }
         &__visibilidade{
             border: 1px solid #ced4da;
@@ -415,9 +415,11 @@
                 tbody{
                     td{
                         padding-right: 30px !important;
+                        padding-left: 18px;
                     }
                     td:nth-child(1){
                         min-width: 150px;
+                        padding-left: 0;
                     }
                     td:nth-child(2){
                         min-width: 150px;

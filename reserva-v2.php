@@ -88,7 +88,7 @@
             <div class="row">
                 <div class="d-flex border-bottom pb-4 flex-wrap c-reserva-modal__search">
                     <div class="me-5 mb-3">
-                        <span class="fw-500 fs-12 d-block">Check-In</span>
+                        <span class="fs-12 d-block">Check-In</span>
                         <div class="fs-6">12 de Fevereiro</div>
                     </div>
                     <div class="me-5 mb-3">
@@ -125,6 +125,8 @@
             </div>
 
             <div class="row mb-3 pt-5">
+
+            <div class="row confirmacao">
                 <div class="d-flex flex-wrap me-n5 c-reserva-modal__filtros px-0">
                     <div class="mb-3 mx-3">
                         <label for="Cart_ClienteReferencia" class="form-label">Referência do Cliente</label>
@@ -246,6 +248,59 @@
                     
                 </div>
             </div>
+
+
+            
+                <div class="d-flex flex-wrap me-n5 c-reserva-modal__filtros px-0">
+                    <div class="mb-3 mx-3">
+                        <label for="Cart_ClienteReferencia" class="form-label">Referência do Cliente</label>
+                        <div class="fs-6">Março de 2021</div>
+                    </div>
+                    <div class="mb-3 me-3">
+                        <label for="Cart_CodigoRaposa" class="form-label">File/Invoice</label>
+                        <div class="fs-6">Março de 2021</div>
+                    </div>
+                    <div class="mb-3 me-3 c-reserva-modal__filtros__agrupamento">
+                        <label for="empresa" class="form-label">Empresa</label>
+                        <div class="fs-6">Março de 2021</div>
+                    </div>
+                    <div class="mb-3 me-3 c-reserva-modal__filtros__agrupamento">
+                        <label for="ufatura" class="form-label">Unidade de Faturamento</label>
+                        <div class="fs-6">Março de 2021</div>
+                    </div>
+                    <div class="mb-3 me-3 c-reserva-modal__filtros__agrupamento">
+                        <label for="ShoppingCart_AgrupamentoReserva_Id" class="form-label">Agrupamento</label>
+                        <div class="fs-6">Março de 2021</div>
+                    </div>
+                    <div class="mb-3 me-3">
+                        <label for="Cart_TourLider" class="form-label">Tour Líder</label>
+                        <div class="fs-6">Março de 2021</div>
+                    </div>
+                    <div class="mb-3 me-3 c-reserva-modal__filtros__idioma">
+                        <label for="ShoppingCart_Idioma_Id" class="form-label">Idioma</label>
+                        <div class="fs-6">Março de 2021</div>
+                    </div>
+                    <div class="mb-3 me-3 c-reserva-modal__filtros__nacionalidade">
+                        <label for="ShoppingCart_Pais_Id" class="form-label">Nacionalidade</label>
+                        <div class="fs-6">Março de 2021</div>
+                    </div>
+                   
+                   
+                    <div class="mb-3">
+                        <label for="reserva-due" class="form-label">Due Date</label>
+                        <span class="fs-6 text-primary">
+                          
+                            <span class="JS__total-passageiros">00/00/0000</span> • R$<span
+                                class="JS__total-quartos">0,00</span>
+                        </span>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+           
+
 
 
             <div class="row">

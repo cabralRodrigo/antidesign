@@ -1,9 +1,11 @@
 document.addEventListener("DOMContentLoaded", function (event) {
     
 	menuReserva.init();
+	excluirtodas.init();
 	voucher.init();
 	invoice.init();
 	docDigital.init();
+	log.init();
 
 	flatpickr("#reserva-data", {
 		locale: 'pt',
@@ -24,6 +26,28 @@ var menuReserva = {
       
     }
 },
+log = {
+	init: function(){
+  
+	  $('.JS__log-toggle').each(function() {
+		$(this).on('click', function(){
+			document.querySelector('.JS__log').classList.toggle('open');
+		});
+	  });
+  
+	}
+  },
+excluirtodas = {
+	init: function(){
+  
+	  $('.JS__excluir_todas-toggle').each(function() {
+		$(this).on('click', function(){
+			document.querySelector('.JS__excluir_todas').classList.toggle('open');
+		});
+	  });
+  
+	}
+  },
 voucher = {
   init: function(){
 

@@ -8,7 +8,7 @@
         <div class="c-reserva-modal__box__container JS__reserva-step1 d-flex">
         
             <div class="c-reserva-modal__close JS__reservar-toggle cursor-pointer">
-                <span class="icon-close text-primary fs-28"></span>
+                <span class="icon-x text-primary fs-28"></span>
             </div>
         
             <div class="c-reserva-modal__box__col-1 border-end">
@@ -17,11 +17,11 @@
                 <span class="c-busca__container__title fs-4 text-primary fw-normal"><span class="fw-500">TRF O.W. REGULAR ARPT / HOTEL (ZONA SUR O CENTRO) O V.V</span></span>
 
                 <div class="o-hotel__content__header__icons text-black-50 d-flex align-items-center p-0 mt-3 pb-3 fs-22">
-                    <span class="icon-paw me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Aceita Pets"></span>
-                    <span class="icon-beach-view me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Frente a Praia"></span>
-                    <span class="icon-wifi me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Wi-Fi Disponível"></span>
-                    <span class="icon-pwd me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Acessibilidade"></span>
-                    <span class="icon-key me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Safe & Clean"></span>
+                    <span class="icon-paw me-3" data-tt-toggle="tooltip" data-bs-placement="top" title="Aceita Pets"></span>
+                    <span class="icon-beach-view me-3" data-tt-toggle="tooltip" data-bs-placement="top" title="Frente a Praia"></span>
+                    <span class="icon-wifi me-3" data-tt-toggle="tooltip" data-bs-placement="top" title="Wi-Fi Disponível"></span>
+                    <span class="icon-pwd me-3" data-tt-toggle="tooltip" data-bs-placement="top" title="Acessibilidade"></span>
+                    <span class="icon-key me-3" data-tt-toggle="tooltip" data-bs-placement="top" title="Safe & Clean"></span>
                 </div>
 
 
@@ -595,7 +595,7 @@
             <div class="c-reserva-modal__box__confirmation__header d-flex justify-content-between align-items-center pb-4 bg-white w-100">
                 <div class="d-flex">
                     <div class="c-reserva-modal__close JS__reservar-toggle cursor-pointer position-static me-5">
-                        <span class="icon-close text-primary fs-28"></span>
+                        <span class="icon-x text-primary fs-28"></span>
                     </div>
 
                     <span class="fs-4 text-primary fw-light"><span class="fw-500">Reserva:</span> #35080</span>
@@ -651,11 +651,11 @@
 
                         <div class="d-flex pt-5">
                             <a href="#astoria-copacabana-info"  class="border-0 me-3 bg-white text-decoration-none c-reserva-modal__box__confirmation_button collapsed" data-bs-toggle="collapse" data-bs-target="#reserva-item1" aria-expanded="false" aria-controls="info">
-                                <span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span>
+                                <span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span>
                             </a>
 
                             <button class="border-0 bg-white c-reserva-modal__box__confirmation__button">
-                                <span class="icon-trash fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Excluir Item"></span>
+                                <span class="icon-trash fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Excluir Item"></span>
                             </button>
                         </div>
                     </div>
@@ -733,11 +733,11 @@
 
                         <div class="pt-4 d-flex">
                             <a href="#astoria-copacabana-info"  class="border-0 me-3 bg-white text-decoration-none c-reserva-modal__box__confirmation__button collapsed" data-bs-toggle="collapse" data-bs-target="#reserva-item2" aria-expanded="false" aria-controls="info">
-                                <span class="icon-privacy-policy fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span>
+                                <span class="icon-privacy-policy fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Política/Privacidade"></span>
                             </a>
 
                             <button class="border-0 bg-white c-reserva-modal__box__confirmation__button">
-                                <span class="icon-trash fs-24 text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Excluir Item"></span>
+                                <span class="icon-trash fs-24 text-primary" data-tt-toggle="tooltip" data-bs-placement="top" title="Excluir Item"></span>
                             </button>
                         </div>
                     </div>

@@ -203,7 +203,7 @@
             &__input{
                 position: relative;
                 .form-control{
-                    padding: 1.02rem 1rem 1.145rem 3.7rem;
+                    padding-left: 3rem;
                     cursor: pointer;
                 }
             }
@@ -541,7 +541,7 @@
         &__options{
             width: 6rem;
             cursor: pointer;
-            .icon-arrow-down{
+            .icon-chevron-down{
                 font-size: 13px;
             }
             &__icon{
@@ -643,6 +643,7 @@
         }
         .select2-container--default .select2-selection--single{
             padding: 0;
+            height: 30px;
         }
         .select2-container--default .select2-selection--single .select2-selection__arrow{
            background: none;

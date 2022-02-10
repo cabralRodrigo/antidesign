@@ -479,7 +479,7 @@ var datepicker ={
 
 var tooltip = {
   init : function(){
-      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-tt-toggle="tooltip"]'));
       var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
       });
