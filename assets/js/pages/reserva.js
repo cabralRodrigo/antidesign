@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     
 	menuReserva.init();
 	excluirtodas.init();
+	cancelar_uma.init();
 	voucher.init();
 	invoice.init();
 	docDigital.init();
@@ -43,6 +44,17 @@ excluirtodas = {
 	  $('.JS__excluir_todas-toggle').each(function() {
 		$(this).on('click', function(){
 			document.querySelector('.JS__excluir_todas').classList.toggle('open');
+		});
+	  });
+  
+	}
+  },
+  cancelar_uma = {
+	init: function(){
+  
+	  $('.JS__cancelar_uma-toggle').each(function() {
+		$(this).on('click', function(){
+			document.querySelector('.JS__cancelar_uma').classList.toggle('open');
 		});
 	  });
   
@@ -126,6 +138,7 @@ App.init = (function() {
 	}
 
 	// trigger input
+	/*
 	$("#triggerFile").addEventListener("click", evt => {
 		evt.preventDefault();
 		$("input[type=file]").click();
@@ -159,6 +172,7 @@ App.init = (function() {
 
 	// input change
 	$("input[type=file]").addEventListener("change", handleFileSelect);
+	*/
 })();
 
 });

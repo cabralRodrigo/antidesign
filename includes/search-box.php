@@ -422,7 +422,7 @@
                             <span class="JS__total-passageiros">01</span> passageiros • <span class="JS__total-quartos">01</span> Quartos
                         </span>
                         <label for="passageirosInput" class="o-search-box__form__passageiros__icon">
-                            <span class="icon-user-add"></span>
+                            <span class="icon-user-plus"></span>
                         </label>
                     </div>
 

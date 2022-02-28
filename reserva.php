@@ -239,6 +239,7 @@
                         <label for="reserva-due" class="form-label">Due Date</label>
                         <span class="form-control JS__passageiros-input duo-date" id="passageirosInput"
                             aria-label="Passageiros + Quarto/s">
+                            <span class="icon-user-plus"></span>
                             <span class="JS__total-passageiros">00/00/0000</span> • R$<span
                                 class="JS__total-quartos">0,00</span>
                         </span>
@@ -405,8 +406,12 @@
                                             <span class="icon-external-link text-primary me-4 cursor-pointer"
                                                 data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
                                                 data-bs-target="#selecionarfornecedor" title="Editar Fornecedor"></span>
-                                            <span
+                                            <!--<span
                                                 class="icon-trash-2 text-primary cursor-pointer me-4 JS__open-editar-reserva"
+                                                data-tt-toggle="tooltip" data-bs-placement="top"
+                                                title="Cancelar Item"></span>-->
+                                                <span
+                                                class="icon-trash-2 text-primary cursor-pointer me-4 JS__cancelar_uma-toggle"
                                                 data-tt-toggle="tooltip" data-bs-placement="top"
                                                 title="Cancelar Item"></span>
                                             <span class="icon-trash-undo text-primary me-4 cursor-pointer"
@@ -517,9 +522,13 @@
                                             <span class="icon-external-link text-primary me-4 cursor-pointer"
                                                 data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
                                                 data-bs-target="#selecionarfornecedor" title="Editar Fornecedor"></span>
-                                            <span
+                                             <!--<span
                                                 class="icon-trash-2 text-primary cursor-pointer me-4 JS__open-editar-reserva"
                                                 data-tt-toggle="tooltip" data-bs-placement="top"
+                                                title="Cancelar Item"></span>-->
+                                                <span
+                                                class="icon-trash-2 text-primary cursor-pointer me-4 JS__cancelar_uma-toggle"
+                                                data-tt-toggle="tooltip" 
                                                 title="Cancelar Item"></span>
                                             <span class="icon-trash-undo text-primary me-4 cursor-pointer"
                                                 data-tt-toggle="tooltip" data-bs-placement="top"
@@ -541,7 +550,7 @@
                 <div class="col d-flex justify-content-between flex-wrap align-items-center">
                     <div class="d-flex flex-wrap mb-2">
 
-                        <div class="d-flex align-items-center me-4 mb-3  cursor-pointer JS__excluir_todas-toggle">
+                        <div class="d-flex align-items-center me-4 mb-3  cursor-pointer JS__excluir_todas-toggle disabled">
                             <span class="icon-trash-2 text-primary fs-24 me-2"></span>
                             <span class="fs-12">Cancelar Todas</span>
                         </div>
@@ -629,13 +638,13 @@
                             <span class="icon-privacy-policy"></span>
                         </button>
                     </li>
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <button class="nav-link" id="excluir-tab" data-bs-toggle="tab"
                             data-bs-target="#excluir-tabContent" type="button" role="tab" aria-controls="nav-profile"
                             aria-selected="false">
                             <span class="icon-trash-2"></span>
                         </button>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
         </div>
@@ -946,7 +955,7 @@
                 <span class="icon-x text-primary fs-28"></span>
             </div>
 
-            <div class="c-reserva-modal__box__confirmation c-reserva-modal__step1 pb-5 show">
+            <div class="c-reserva-modal__box__confirmation c-reserva-modal__step1 pb-5 show overflow-auto overflow-padding">
 
                 <div class="border-bottom pb-3 pt-2 mb-3">
                     <span class="fs-4 text-primary fw-bold mb-3 d-block">Doc Digital</span>
@@ -962,15 +971,40 @@
                     </div>
                 </div>
 
-                <div class="d-flex">
+                <div class="d-flex border-bottom pb-3 pt-2 mb-5">
 
-                    <div class="c-reserva-modal__doc__col1">
+                    <div class="col-6">
 
-                        <span class="text-primary fw-500 fs-6 mb-3 d-block">Entrada & Saída: <span
-                                class="text-black-50">Cliente/Fornecedor</span></span>
+                        <span class="text-primary fw-500 fs-6 mb-3 d-block">Entrada:</span>
 
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                        <div class="upload">
+                            <span class="mb-2">CLIENTE<br>
+                            <span class="mt-2 fs-12">Segure e arraste os arquivos até aqui</span></span>
+                        </div>
+                        <div class="upload">
+                            <span class="mb-2">FORNECEDOR<br>
+                            <span class="mt-2 fs-12">Segure e arraste os arquivos até aqui</span></span>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col-6">
+                        <span class="text-primary fw-500 fs-6 mb-3 d-block">Saída:</span>
 
+                        <div class="d-flex">
+                        <div class="upload">
+                            <span class="mb-2">CLIENTE<br>
+                            <span class="mt-2 fs-12">Segure e arraste os arquivos até aqui</span></span>
+                        </div>
+                        <div class="upload">
+                            <span class="mb-2">FORNECEDOR<br>
+                            <span class="mt-2 fs-12">Segure e arraste os arquivos até aqui</span></span>
+                        </div>
+                        </div>
+                    
+                    </div>
+                    </div>
+<!--
                             <div class="upload">
                                 <div class="upload-files d-flex justify-content-between">
                                     <footer>
@@ -978,7 +1012,7 @@
                                             <span class="fw-500 text-primary fs-12">Arquivos</span>
                                         </div>
                                         <div class="list-files">
-                                            <!--   template   -->
+                                           
                                         </div>
                                         <button
                                             class="importar btn btn-primary px-5 rounded-pill fw-500 me-3">ENVIAR</button>
@@ -1012,7 +1046,7 @@
                             </div>
 
 
-                        </div>
+                        
 
                         <span class="text-primary fw-500 fs-16 mt-5 mb-0 d-block d-block">Documentos Salvos</span>
                         <table class="table fs-12 w-100 JS__datatable" id="table">
@@ -1043,148 +1077,117 @@
                         </table>
 
                     </div>
+                    -->
+                    <div class="c-reserva-modal__doc__table_">
+                    <div class="row">
+                    <div class="col-lg-6">
 
-                    <div class="c-reserva-modal__doc__table">
-                        <span class="text-primary fw-500 fs-6">Dados do Documento</span>
-                        <table class="table table-striped fs-6 table-borderless table-rounded table-hover w-100"
-                            id="table">
-                            <thead class="fs-12">
-                                <tr class="text-secondary">
-                                    <th scope="col" class="fw-500">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20.365" height="22.916"
-                                            viewBox="0 0 20.365 22.916" class="me-2">
-                                            <g id="Icon_Calendar" data-name="Icon | Calendar"
-                                                transform="translate(0 1)">
-                                                <text id="Volta" transform="translate(5.183 16.792)" fill="#0f6b7b"
-                                                    font-size="9" font-family="Rubik-Medium, Rubik" font-weight="500">
-                                                    <tspan x="0" y="0">01</tspan>
-                                                </text>
-                                                <g id="Retângulo_22" data-name="Retângulo 22"
-                                                    transform="translate(0 1.395)" fill="none" stroke="#0f6b7b"
-                                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-                                                    <rect width="20.365" height="20.521" rx="4" stroke="none"></rect>
-                                                    <rect x="0.75" y="0.75" width="18.865" height="19.021" rx="3.25"
-                                                        fill="none"></rect>
-                                                </g>
-                                                <path id="Caminho_12" data-name="Caminho 12" d="M0,0H9.5"
-                                                    transform="translate(5.44 7.111)" fill="none" stroke="#0f6b7b"
-                                                    stroke-linecap="round" stroke-width="1.5"></path>
-                                                <g id="Grupo_47" data-name="Grupo 47" transform="translate(5.631)">
-                                                    <line id="Linha_14" data-name="Linha 14" y1="3.28" fill="none"
-                                                        stroke="#0f6b7b" stroke-linecap="round" stroke-width="2"></line>
-                                                    <line id="Linha_15" data-name="Linha 15" y1="3.28"
-                                                        transform="translate(9.171)" fill="none" stroke="#0f6b7b"
-                                                        stroke-linecap="round" stroke-width="2"></line>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                        Data de Envio
-                                    </th>
-                                    <th scope="col" class="fw-500">
-                                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20.365"
-                                            height="22.916" viewBox="0 0 22.509 22.54">
-                                            <defs></defs>
-                                            <g fill="none" stroke="#0f6b7b" stroke-miterlimit="10" stroke-width="1.5"
-                                                data-name="Icon | Iten" transform="translate(.75 .75)">
-                                                <rect width="8.841" height="8.841" data-name="Retângulo 66" rx="4.42">
-                                                </rect>
-                                                <rect width="8.841" height="8.841" data-name="Retângulo 70" rx="4.42"
-                                                    transform="translate(0 12.199)"></rect>
-                                                <rect width="8.841" height="8.841" data-name="Retângulo 71" rx="4.42"
-                                                    transform="translate(12.168)"></rect>
-                                                <path stroke-linecap="round" d="M12.168 14.461h8.841"
-                                                    data-name="Linha 53"></path>
-                                                <path stroke-linecap="round" d="M12.168 18.726h8.841"
-                                                    data-name="Linha 54"></path>
-                                            </g>
-                                        </svg>
-                                        Categoria
-                                    </th>
-                                    <th scope="col" class="fw-500">
-                                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20.365"
-                                            height="22.916" viewBox="0 0 21.995 22.399">
-                                            <defs></defs>
-                                            <g fill="none" stroke="#0f6b7b" stroke-linecap="round"
-                                                stroke-linejoin="round" data-name="Grupo 525">
-                                                <path stroke-width="1.457"
-                                                    d="M5.798.728H3.529a2.8 2.8 0 00-2.8 2.8v15.34a2.8 2.8 0 002.8 2.8h14.936a2.8 2.8 0 002.8-2.8V3.529a2.8 2.8 0 00-2.8-2.8h-2.659"
-                                                    data-name="Caminho 165"></path>
-                                                <path stroke-width="1.457"
-                                                    d="M.728 14.246h5.235l1.582 2.326h6.962l1.524-2.268h5.235"
-                                                    data-name="Caminho 166"></path>
-                                                <path stroke-width="1.381" d="M11.226 11.184V1.068"
-                                                    data-name="Linha 125"></path>
-                                                <path stroke-width="1.457" d="M15.676 6.787l-4.39 5.04-4.969-5.04"
-                                                    data-name="Caminho 167"></path>
-                                            </g>
-                                        </svg>
-                                        Entrada/Saída
-                                    </th>
-                                    <th scope="col" class="fw-500">
-                                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20.365"
-                                            height="22.916" viewBox="0 0 21.976 22.336">
-                                            <defs></defs>
-                                            <g data-name="Grupo 526" transform="translate(.728)">
-                                                <path fill="none" stroke="#0f6b7b" stroke-linecap="round"
-                                                    stroke-linejoin="round" stroke-width="1.457" d="M0 21.608h20.519"
-                                                    data-name="Linha 126"></path>
-                                                <path fill="none" stroke="#0f6b7b" stroke-linecap="round"
-                                                    stroke-linejoin="round" stroke-width="1.457" d="M10.26 9.308v8.236"
-                                                    data-name="Linha 127"></path>
-                                                <path fill="none" stroke="#0f6b7b" stroke-linecap="round"
-                                                    stroke-linejoin="round" stroke-width="1.457"
-                                                    d="M4.342 11.733l5.951 5.951 5.884-5.884" data-name="Caminho 168">
-                                                </path>
-                                                <circle cx=".99" cy=".99" r=".99" fill="#0f6b7b" data-name="Elipse 60"
-                                                    transform="translate(9.284)"></circle>
-                                                <circle cx=".99" cy=".99" r=".99" fill="#0f6b7b" data-name="Elipse 61"
-                                                    transform="translate(9.284 4.654)"></circle>
-                                            </g>
-                                        </svg>
-                                        De
-                                    </th>
-                                    <th scope="col" class="fw-500">
-                                        <svg class="me-2" width="20.365" height="22.916"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.976 22.336">
-                                            <defs></defs>
-                                            <g data-name="Grupo 527" transform="rotate(180 10.623 11.168)">
-                                                <path fill="none" stroke="#0f6b7b" stroke-linecap="round"
-                                                    stroke-linejoin="round" stroke-width="1.457" d="M0 21.608h20.519"
-                                                    data-name="Linha 126"></path>
-                                                <path fill="none" stroke="#0f6b7b" stroke-linecap="round"
-                                                    stroke-linejoin="round" stroke-width="1.457" d="M10.26 9.308v8.236"
-                                                    data-name="Linha 127"></path>
-                                                <path fill="none" stroke="#0f6b7b" stroke-linecap="round"
-                                                    stroke-linejoin="round" stroke-width="1.457"
-                                                    d="M4.342 11.733l5.951 5.951 5.884-5.883" data-name="Caminho 168">
-                                                </path>
-                                                <circle cx=".99" cy=".99" r=".99" fill="#0f6b7b" data-name="Elipse 60"
-                                                    transform="translate(9.284)"></circle>
-                                                <circle cx=".99" cy=".99" r=".99" fill="#0f6b7b" data-name="Elipse 61"
-                                                    transform="translate(9.284 4.654)"></circle>
-                                            </g>
-                                        </svg>
-                                        Para
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody class="fs-6 pointer">
-                                <tr onclick="window.open('relatorio.pdf')">
-                                    <td>13 de Dezembro</td>
-                                    <td>Journeys</td>
-                                    <td>Interno</td>
-                                    <td>Erick</td>
-                                    <td>Kelly</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        
+                        <div style="background-color: white; height: 700px; overflow-y: scroll;">
+                            <table class="table table-hover table-rounded-header fs-6">
 
-                        <div class="form-floating fs-12">
-                            <textarea class="form-control bg-gray w-100" placeholder="Leave a comment here"
-                                id="floatingTextarea2" style="height: 100px"></textarea>
-                            <label for="floatingTextarea2">Journeys | Uso Interno Operações</label>
+                                <thead style="background-color: #FBFBFB;" class="fs-12"><tr>
+                                    <th>Data Envio</th>
+                                    <th>Categoria</th>
+                                    <th>Entrada / Saída</th>
+                                    <th>FROM</th>
+                                    <th>TO</th>
+                                </tr>
+
+
+                            </thead></table>
                         </div>
+
+
                     </div>
+
+                    <div class="col-lg-6">
+
+                   
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group" style="width: 100%">
+                                    <label class="form-label mb-2">Env</label>
+                                    <input type="text" id="text-data-envio" class="form-control" style="max-width: unset; width: 100%;" readonly="readonly">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group" style="width: 100%">
+                                    <label class="form-label mb-2">Rec</label>
+                                    <input type="text" id="text-data-upload" class="form-control" style="max-width: unset; width: 100%;" readonly="readonly">
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group" style="width: 100%">
+                                    <label class="form-label mb-2">De</label>
+                                    <input type="text" id="text-remetente" class="form-control" style="max-width: unset; width: 100%;" readonly="readonly">
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group" style="width: 100%">
+                                    <label class="form-label mb-2">Para</label>
+                                    <input type="text" id="text-destinatario" class="form-control" style="max-width: unset; width: 100%;" readonly="readonly">
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group" style="width: 100%">
+                                    <label class="form-label mb-2">Cópia</label>
+                                    <input type="text" id="text-cc" class="form-control" style="max-width: unset; width: 100%;" readonly="readonly">
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group" style="width: 100%">
+                                    <label class="form-label mb-2">Assunto</label>
+                                    <input type="text" id="text-assunto" class="form-control" style="max-width: unset; width: 100%;" readonly="readonly">
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <iframe id="conteudo" class="conteudo" src=""></iframe>
+                            </div>
+                        </div>
+
+                        
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <select id="anexos" class="form-select"></select>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+             
+                    </div>
+
+
+             
+                    <div class="d-flex justify-content-end align-items-center pt-4 flex-wrap flex-xl-nowrap">
+                        <button id="remover-email" class="btn btn-danger px-5 mb-3 rounded-pill fw-500 me-3">Remover</button>
+                        <button id="baixar-email" class="btn btn-primary px-5 mb-3 rounded-pill fw-500">Baixar email completo</button>
+                    </div>
+              
+
 
 
                 </div>
@@ -1736,6 +1739,95 @@
     </div>
 </div>
 <!-- /Modal Excluir Todas -->
+
+
+<!-- Modal Cancelar Uma -->
+<div class="c-reserva-modal c-reserva-modal__cancelar_uma JS__cancelar_uma">
+
+    <div class="c-reserva-modal__bg cursor-pointer JS__cancelar_uma-toggle"></div>
+
+    <div class="c-reserva-modal__box">
+
+        <div class="c-reserva-modal__box__container d-flex show">
+            <div class="c-reserva-modal__close JS__cancelar_uma-toggle cursor-pointer">
+                <span class="icon-x text-primary fs-28"></span>
+            </div>
+
+            <div
+                class="c-reserva-modal__box__confirmation c-reserva-modal__step1 pb-5 show overflow-auto overflow-padding">
+
+                <div class="d-flex justify-content-between align-items-center border-bottom pb-3 mb-3 pt-2">
+                    <span class="fs-4 text-primary fw-normal"><span class="fw-bold">Cancelar Reserva(s)</span></span>
+                </div>
+
+
+
+                <div class="row">
+
+                    <div class="c-reserva-modal__table">
+
+                        <table class="table fs-12 no-footer">
+                            <thead>
+                                <tr role="row">
+                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1"
+                                        colspan="1" aria-label="
+                                        Cliente
+                                    : activate to sort column ascending" style="width: 0px;">
+                                        Item
+                                    </th>
+                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1"
+                                        colspan="1" aria-label="
+                                        Usuário
+                                    : activate to sort column ascending" style="width: 0px;">
+                                        Observação
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="odd">
+                                    <td>TRF O.W. ARPT / HOTEL O V.V - 1 - Privado - Sólo chofer - IN</td>
+                                    <td>Nenhum valor será cobrado pelo cancelamento da reserva.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="d-flex justify-content-between align-items-center pt-4 flex-wrap flex-xl-nowrap">
+                    <div class="form-check form-switch mb-3 me-4">
+                        <input class="form-check-input me-2" type="checkbox" id="email-operador">
+                        <label class="form-check-label" for="email-operador">
+                            Enviar email ao operador
+                        </label>
+                    </div>
+                    <div class="form-check form-switch mb-3 me-4">
+                        <input class="form-check-input me-2" type="checkbox" id="email-fornecedor">
+                        <label class="form-check-label" for="email-fornecedor">
+                            Enviar email ao fornecedor
+                        </label>
+                    </div>
+                    <div class="form-check form-switch mb-3 me-4">
+                        <input class="form-check-input me-2" type="checkbox" id="email-cliente">
+                        <label class="form-check-label" for="email-cliente">
+                            Enviar email ao cliente
+                        </label>
+                    </div>
+                    <div class="d-flex flex-wrap">
+                        <button class="btn btn-primary px-5 mb-3 rounded-pill fw-500 me-3">Cancelar Reserva(s)</button>
+                        <button class="btn btn-secondary px-5 mb-3 rounded-pill fw-500">Fechar</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- /Modal Calcelar Uma -->
 
 
 <!-- Modal Log Alterações -->

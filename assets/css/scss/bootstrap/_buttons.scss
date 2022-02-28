@@ -49,7 +49,12 @@
     @include box-shadow(none);
   }
 }
-
+.disabled{
+  pointer-events: none;
+    opacity: $btn-disabled-opacity;
+    cursor: not-allowed! important;
+    @include box-shadow(none);
+}
 
 //
 // Alternate buttons

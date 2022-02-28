@@ -115,6 +115,7 @@
         }
     }
     &__form{
+        margin-top: 0.5rem;
         padding-top: 1.15rem;
         border-top: 1px solid #EAEAEA;
         &__item{
@@ -209,8 +210,8 @@
             }
             &__icon{
                 position: absolute;
-                font-size: 1.75rem;
-                top: 1.87rem;
+                font-size: 1.25rem;
+                top: 2.05rem;
                 left: 1rem;
             }
             &__content{
