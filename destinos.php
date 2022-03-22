@@ -249,7 +249,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>
@@ -259,7 +259,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>
@@ -268,7 +268,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>
@@ -277,7 +277,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>
@@ -286,7 +286,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>
@@ -295,7 +295,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>
@@ -304,7 +304,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>
@@ -313,7 +313,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>
@@ -322,7 +322,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>
@@ -331,7 +331,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>
@@ -348,7 +348,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>
@@ -358,7 +358,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>
@@ -367,7 +367,7 @@
                                 <div>
                                     <span class="text-reset d-inline-flex align-items-center">
                                         <span class="text-primary fw-500 me-3">Conferir</span> 
-                                        <span class="icon-pass-show text-primary fs-24"></span>
+                                        <span class="icon-eye text-primary fs-24"></span>
                                     <span>
                                 </div>
                             </a>

@@ -99,9 +99,10 @@
         }
         .form-check-input {
             cursor: pointer;
-            width: 15px;
-            height: 15px;
-            margin-right: 13px;
+            width: 16px;
+            height: 16px;
+            margin-right: .5rem;
+            margin-top: 0.275rem;
         }
     }
     &__container{
@@ -437,8 +438,7 @@
                     }
                 }
                 .icon-search{
-                    font-size: 1.75rem;
-                    top: 2px;
+                    font-size: 1.35rem;
                 }
             }
             

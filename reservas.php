@@ -464,8 +464,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -482,8 +482,8 @@
                                 <td>-</td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -515,8 +515,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -548,8 +548,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -581,8 +581,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -614,8 +614,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-hidden"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye-off"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -647,8 +647,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -680,8 +680,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-hidden"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye-off"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -713,8 +713,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -746,8 +746,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-hidden"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye-off"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -779,8 +779,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -812,8 +812,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-hidden"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye-off"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -845,8 +845,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -878,8 +878,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-hidden"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye-off"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -911,8 +911,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -944,8 +944,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-hidden"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye-off"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -977,8 +977,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -1010,8 +1010,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-hidden"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye-off"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -1043,8 +1043,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -1076,8 +1076,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-hidden"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye-off"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -1109,8 +1109,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -1142,8 +1142,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-hidden"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye-off"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -1175,8 +1175,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-hidden"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye-off"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -1208,8 +1208,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -1241,8 +1241,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -1274,8 +1274,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                             <tr data-href="reserva.php">
@@ -1307,8 +1307,8 @@
                                 </td>
                                 <td>-</td>
                                 <td>01</td>
-                                <td class="fs-24 text-black-50">
-                                    <span class="icon-pass-show"></span>
+                                <td class="fs-20 text-black-50">
+                                    <span class="icon-eye"></span>
                                 </td>
                             </tr>
                            

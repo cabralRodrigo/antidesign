@@ -114,3 +114,65 @@
 .btn-sm {
   @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-border-radius-sm);
 }
+
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    tranform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    tranform: rotate(360deg);
+  }
+}
+
+.btn-load{
+  pointer-events: none;
+  cursor: not-allowed! important;
+  @include box-shadow(none);
+  color: #0c434c;
+    background-color: #0f6b7b;
+    border-color: #0f6b7b;
+}
+
+.btn-loader, .icon-loader {
+  border-radius: 24px;
+  border: 3px solid rgba(rgb(255, 255, 255), 0.4);
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  &:after {
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    content: "";
+    border: 3px solid transparent;
+    border-radius: 24px;
+    border-top-color: rgb(255, 255, 255);
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    bottom: -3px;
+    left: -3px;
+  }
+}
+.icon-loader{
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+  font-size: 0;
+  border: 3px solid rgb(15, 107, 123, 0.2);
+  &:before {
+    display: none;
+  }
+  &:after {
+    border: 3px solid transparent;
+    border-top-color: rgb(15, 107, 123);
+  }
+}

@@ -58,7 +58,7 @@
             }
         }
 
-        .icon-pass-show{
+        .icon-eye{
             color: $primary!important;
         }
     }
@@ -66,4 +66,110 @@
 .duo-date{
     width: 160px;
     max-width: 100%;
+}
+.hide {
+    display: none!important;
+}
+.show {
+    display: block!important;
+}
+.show-flex {
+    display: flex!important;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+table.dataTable.table-reserva thead th, table.dataTable.table-reserva thead td, table.dataTable.table-reserva tbody td{
+    padding: 0 1rem 0.35rem 0;
+    border-bottom: none;
+    position: relative;
+    width: 10%!important;
+}
+table.table.no-footer.table-reserva{
+    border-color: transparent;
+}
+.reserva-item .data{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    padding: 1rem 2rem 1rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #656565;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    background-clip: padding-box;
+    border: 1px solid #eeeeee;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.93rem;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+button.btn.edit-reserva{
+    border-radius: 0 0.93rem 0.93rem 0;
+    width: 48px;
+    height: 48px;
+    background-color: #0f6b7b;
+    padding: 0;
+    border: none;
+}
+.reserva-item .form-group{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    padding-right: 1em;
+}
+.reserva-item .form-group .edit-input{
+    border: 1px solid #106b7b!important;
+    border-radius: 0.93rem!important;
+    font-size: 0.75rem;
+    line-height: 1.2;
+    //background-color: #fff!important;
+}
+.reserva-item .icon-edit-3{
+    position: absolute;
+    right: 1em;
+    top: .75rem;
+}
+.reserva-item .icon-check-circle{
+    color: #fff;
+}
+.reserva-item .input-group-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+.reserva-item .input-group-inner{
+    position: absolute;
+    top: 0;
+    right: 48px;
+    border-radius: 10px 0 10px 10px!important;
+    color: #656565;
+    -webkit-box-shadow: 5px 13px 15px 5px rgb(0 0 0 / 16%);
+    box-shadow: 5px 13px 15px 5px rgb(0 0 0 / 16%);
+    font-size: .68rem;
+    padding: 1.75rem 1rem;
+    background-color: #fff;
+}
+.reserva-item .flatpickr-calendar{
+    border-radius: 0;
+    padding: 20px 0 0 0;
+    box-shadow: none;
+    background-color: transparent;
 }

@@ -176,3 +176,161 @@ App.init = (function() {
 })();
 
 });
+
+
+var flatpickr1MonthInstance = null;
+$('#edit-reserva' ).on( "draw.dt", function(){
+	var flatpickrContainer = jQuery( "#searchbox-datepicker-1month" ).parent().parent().parent().find( ".searchbox-datepicker-1month__container" );
+	var optionsFlatpickr = {
+		showMonths: 1,
+        locale: 'pt',
+        dateFormat: 'd/m/Y',
+        conjunction: " - ",
+        inline: true,
+        minDate: "today",
+        monthSelectorType: 'static'
+	};
+	if( flatpickrContainer.length > 0 ){
+		optionsFlatpickr.appendTo = flatpickrContainer.get(0);
+	}
+	flatpickr1MonthInstance = flatpickr( "#searchbox-datepicker-1month", optionsFlatpickr );
+} );
+
+$('#edit-reserva').DataTable(
+	{
+		"paging": false,
+		"ordering": false,
+		"info": false
+	}
+);
+
+$(".edit-button").on("click", function($input){
+    $thisDiv = $(this).closest( "td" );
+    $thisInput =$thisDiv.find("input");
+    $thisSpan = $thisDiv.find(".data");
+	$multipleInputs = $thisDiv.is( ".reserva-item-multiple" );
+    $thisButtonGroup = $thisDiv.find(".form-group");
+	priceStr = "R$";
+	if( $multipleInputs ){
+		if( $thisInput.length > 0 ){
+			$thisSpan.text($thisInput.val()).removeClass("hide").addClass("show-flex");
+		} else {
+			if( $thisDiv.find("select option:selected" ).length > 0 ){
+				$thisSpan.text( $thisDiv.find("select option:selected" ).text() ).removeClass("hide").addClass("show-flex");
+			}
+		}
+		var inputArr = [];
+		$thisDiv.find( ".reserva-item-input" ).each( function(){
+			$itemInputIndex = jQuery( this ).attr( "data-input-index" );
+			if( typeof $itemInputIndex !== "undefined" && ! isNaN( parseFloat( $itemInputIndex ) ) && parseFloat( $itemInputIndex ) >= 0 ){
+				$itemInputValue = null;
+				if( jQuery( this ).is( "input" ) ){
+					$itemInputValue = jQuery( this ).val();
+					if( jQuery( this ).is( ".reserva-item-input--price" ) ){
+						if( typeof $itemInputValue !== "undefined" && $itemInputValue !== null && typeof $itemInputValue.length !== "undefined" && ! isNaN( parseFloat( $itemInputValue.length ) ) && parseFloat( $itemInputValue.length ) > 0 ){
+							$itemInputValue = priceStr + $itemInputValue;	
+						}
+					}
+				} else if( jQuery( this ).is( "select" ) ){
+					$itemInputValue = $thisDiv.find("select option:selected" ).text();
+				}
+				if( $itemInputValue !== null ){
+					inputArr.push( {
+						index: parseFloat( $itemInputIndex ),
+						content: $itemInputValue
+					} );
+				}
+			}
+		} );
+		if( inputArr.length > 0 ){
+			if( inputArr.length > 1 ){
+				inputArr.sort( function( a, b ){
+					return a.index === b.index ? 0 : ( a.index > b.index ? 1 : -1 );
+				} );
+			}
+			inputArr = inputArr.map( function( inputCfg ){
+				return inputCfg.content;
+			} );
+		}
+		$thisSpan.html( inputArr.join( "<br>" ) ).removeClass("hide").addClass("show-flex");
+	} else {
+		if( $thisInput.length > 0 ){
+			$thisSpan.text($thisInput.val()).removeClass("hide").addClass("show-flex");
+		} else {
+			if( $thisDiv.find("select option:selected" ).length > 0 ){
+				$thisSpan.text( $thisDiv.find("select option:selected" ).text() ).removeClass("hide").addClass("show-flex");
+			}
+		}
+	}
+    $thisButtonGroup.removeClass("show-flex").addClass("hide");
+})
+
+$(".data").on("click", function(){
+	$span = $(this);
+	$thisDiv = $(this).closest( "td" );
+	$tdContainer = $span.parent();
+	$inputGroup =  $tdContainer.find(".form-group");
+	$input = $inputGroup.find("input:not( .flatpickr-calendar input )");
+	$editButton = $inputGroup.find(".btn");
+	$spanText = $span.text();
+	$span.removeClass('show-flex').addClass("hide");
+	$inputGroup.removeClass('hide').addClass("show-flex");
+	$multipleInputs = $thisDiv.is( ".reserva-item-multiple" );
+	priceStr = "\\R\\$";
+	if( $multipleInputs ){
+		$spanText = $span.html();
+		$spanTextExpl = $spanText.split( "<br>" );
+		$currentInput = null;
+		for( var indText in $spanTextExpl ){
+			$currentInput = $thisDiv.find( ".reserva-item-input[data-input-index=" + indText + "]" );
+			$currentText = $spanTextExpl[indText];
+			if( $currentInput.is( "#searchbox-datepicker-1month" ) ){
+				if( flatpickr1MonthInstance !== null ){
+					flatpickr1MonthInstance.setDate( $currentText, true, "d/m/Y" );
+				}
+			} else {
+				if( $currentInput.is( ".reserva-item-input--price" ) ){
+					$currentInput.val($currentText.replace( new RegExp( `\\b${priceStr}\\b`, 'gi' ), "" ) );
+				} else {
+					$currentInput.val( $currentText );
+				}
+			}
+		}
+	} else {
+		if( $input.length > 0 ){
+			$input.val($spanText);	
+			if( $input.is( "#searchbox-datepicker-1month" ) && flatpickr1MonthInstance !== null ){
+				flatpickr1MonthInstance.setDate( $spanText, true, "d/m/Y" );
+			}
+		} else {
+			$input = $inputGroup.find("select" );
+			if( $input.length > 0 ){
+				$input.find( "option" ).each( function( index ){
+					if( jQuery( this ).text() === $spanText ){
+						$input[0].selectedIndex = index;
+					}
+				} );
+				$input.select2('open');
+				$input = $input.next( ".select2" ).find( ".select2-selection" );
+			}
+		}
+	}
+	if( $input.length > 0 ){
+		$input.focus();
+	}
+});
+$(document).on( "keyup", function(e) { 
+	key = e.which || e.keyCode || 0;
+	code = e.code || "";
+	if( key === 27 || code === "Escape" ){
+		$focusedTd = $(':focus').closest( "#edit-reserva tbody td" );
+		if( $focusedTd.length > 0 ){
+			$focusedGroup = $focusedTd.find( ".form-group" );
+			$span = $focusedTd.find( ".data" );
+			if( $focusedGroup.length > 0 ){
+				$focusedGroup.removeClass( "show-flex" ).addClass( "hide" );
+				$span.removeClass('hide').addClass("show-flex");
+			}
+		}
+	}
+} );

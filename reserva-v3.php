@@ -123,13 +123,173 @@
                     </div>
                 </div>
             </div>
+            
+    <table id="example" class="table-reserva table table-rounded-header dataTable no-footer fs-6" role="grid" aria-describedby="DataTables_Table_0_example">
+            <thead>
+		<tr>
+			<th class="fw-500 fs-12">Referência do Cliente</th>
+			<th class="fw-500 fs-12">File/Invoice</th>
+			<th class="fw-500 fs-12">Empresa</th>
+			<th class="fw-500 fs-12">Unidade de Faturamento</th>
+			<th class="fw-500 fs-12">Agrupamento</th>
+			<th class="fw-500 fs-12">Tour Líder</th>
+            <th class="fw-500 fs-12">Idioma</th>
+			<th class="fw-500 fs-12">Nacionalidade</th>
+			<th class="fw-500 fs-12">Due Date</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td>
+				<span class="data show">Tiger Nixon</span>
+				<div class="form-group hide">
+				
+					<div class="input-group">
+						<input type="text" class="edit-input form-control">
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-primary edit-button">Edit</button>
+						</div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<span class="data show">System Architect</span>
+				<div class="form-group hide">
+				
+					<div class="input-group">
+						<input type="text" class="edit-input form-control">
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-primary edit-button">Edit</button>
+						</div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<span class="data show">Journeys</span>
+				<div class="form-group hide">
+				
+					<div class="input-group">
+                        <select class="form-select JS__select select2-hidden-accessible" id="empresa_dt">
+                            <option value="1">Journeys AGT</option>
+                            <option selected="selected" value="2">Journeys</option>
+                            <option value="3">Journeys ALLOT</option>
+                            <option value="4">Journeys ESP</option>
+                            <option value="5">Journeys GRP</option>
+                            <option value="6">Journeys PARTNERS</option>
+                            <option value="7">Journeys NACIONAL</option>
+                        </select>
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-primary edit-button">Edit</button>
+						</div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<span class="data show">61</span>
+				<div class="form-group hide">
+				
+					<div class="input-group">
+                    <select class="form-select JS__select select2-hidden-accessible" id="empresa_dt">
+                            <option value="1">Journeys AGT</option>
+                            <option selected="selected" value="2">Journeys</option>
+                            <option value="3">Journeys ALLOT</option>
+                            <option value="4">Journeys ESP</option>
+                            <option value="5">Journeys GRP</option>
+                            <option value="6">Journeys PARTNERS</option>
+                            <option value="7">Journeys NACIONAL</option>
+                        </select>
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-primary edit-button">Edit</button>
+						</div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<span class="data show">2011/04/25</span>
+				<div class="form-group hide">
+				
+					<div class="input-group">
+                    <select class="form-select JS__select select2-hidden-accessible" id="empresa_dt">
+                            <option value="1">Journeys AGT</option>
+                            <option selected="selected" value="2">Journeys</option>
+                            <option value="3">Journeys ALLOT</option>
+                            <option value="4">Journeys ESP</option>
+                            <option value="5">Journeys GRP</option>
+                            <option value="6">Journeys PARTNERS</option>
+                            <option value="7">Journeys NACIONAL</option>
+                        </select>
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-primary edit-button">Edit</button>
+						</div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<span class="data show">José</span>
+				<div class="form-group hide">
+				
+					<div class="input-group">
+						<input type="text" class="edit-input form-control">
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-primary edit-button">Edit</button>
+						</div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<span class="data show">Português</span>
+				<div class="form-group hide">
+				
+					<div class="input-group">
+                    <select class="form-select JS__select select2-hidden-accessible" id="empresa_dt">
+                            <option value="1">Journeys AGT</option>
+                            <option selected="selected" value="2">Journeys</option>
+                            <option value="3">Journeys ALLOT</option>
+                            <option value="4">Journeys ESP</option>
+                            <option value="5">Journeys GRP</option>
+                            <option value="6">Journeys PARTNERS</option>
+                            <option value="7">Journeys NACIONAL</option>
+                        </select>
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-primary edit-button">Edit</button>
+						</div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<span class="data show">$320,800</span>
+				<div class="form-group hide">
+				
+					<div class="input-group">
+						<input type="text" class="edit-input form-control">
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-primary edit-button">Edit</button>
+						</div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<span class="data show">25/04/2022</span>
+				<div class="form-group hide form-group--datepicker">
+				
+					<div class="input-group">
+						<input type="text" class="edit-input form-control bg-transparent" id="searchbox-datepicker-1month">
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-primary edit-button">Edit</button>
+						</div>
+					</div>
+				</div>
+			</td>
+		</tr>
+</tbody>
+</table>
 
             <div class="row mb-3 pt-5">
                 <div class="d-flex flex-wrap me-n5 c-reserva-modal__filtros px-0">
                     <div class="mb-3 mx-3">
                         <label for="Cart_ClienteReferencia" class="form-label">Referência do Cliente</label>
-                        <input class="form-control" id="Cart_ClienteReferencia" type="text"
-                            placeholder="Editar/Ref Cliente">
+                        <input class="form-control" id="Cart_ClienteReferencia" type="text" placeholder="Editar/Ref Cliente">
                     </div>
                     <div class="mb-3 me-3">
                         <label for="Cart_CodigoRaposa" class="form-label">File/Invoice</label>

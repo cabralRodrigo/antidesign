@@ -64,7 +64,7 @@ $input-btn-padding-y:         1rem;
 $input-btn-padding-x:         1rem;
 $input-btn-font-size:         .75rem;
 $input-btn-line-height:       1.2;
-$input-placeholder-color:               #E0E0E0 !default;
+$input-placeholder-color:     #c2c2c2 !default;
 
 
 //tooltip
@@ -223,7 +223,7 @@ $pagination-hover-border-color: transparent;
 }
 
 .form-switch .form-check-label{
-  color: #474153;
+  color: #656565;
   font-size: .75rem;
   font-weight: 400;
   -webkit-transition: 0.15s ease-in-out;
@@ -233,7 +233,7 @@ $pagination-hover-border-color: transparent;
 }    
 
 .form-switch .form-check-input:checked + .form-check-label {
-  font-weight: 500;
+  color: #3b3b3b;
 }
 
 .form-switch .form-check-input{
@@ -257,6 +257,7 @@ table.table{
   thead th{
     font-weight: 500;
     border-radius: 0;
+    padding: .7rem .5rem;
   }
   tbody:before{
     content: '';
@@ -265,10 +266,10 @@ table.table{
     padding: .7rem .5rem;
     vertical-align: middle;
     &:first-of-type{
-      border-radius: 0;
+      border-radius: .93rem 0 0 0.93rem !important;
     }
     &:last-of-type{
-      border-radius: 0;
+      border-radius: 0 .93rem 0.93rem 0!important;
     }
   } 
   & > :not(:last-child) > :last-child > *{
