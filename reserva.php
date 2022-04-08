@@ -85,8 +85,8 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="d-flex border-bottom pb-4 flex-wrap c-reserva-modal__search">
+            <div class="row mb-3">
+                <div class="d-flex border-bottom pb-4 flex-wrap">
                     <div class="me-5 mb-3">
                         <span class="fw-500 fs-12 d-block">Check-In</span>
                         <div class="fs-6">12 de Fevereiro</div>
@@ -108,13 +108,13 @@
                         <div class="fs-6">Xxxx</div>
                     </div>
                     <div class="mb-3">
-                       
+
 
                         <label class="c-reserva-modal__filtros__visibilidade cursor-pointer" aria-label="Visibilidade"
                             for="reserva-visibilidade">
                             <div class="form-check form-switch px-0">
                                 <span class="form-check-label mb-0">
-                                Visível para o cliente
+                                    Visível para o cliente
                                 </span>
                                 <input class="form-check-input me-2" type="checkbox" id="reserva-visibilidade">
                             </div>
@@ -124,129 +124,260 @@
                 </div>
             </div>
 
-            <div class="row mb-3 pt-5">
-                <div class="d-flex flex-wrap me-n5 c-reserva-modal__filtros px-0">
-                    <div class="mb-3 mx-3">
-                        <label for="Cart_ClienteReferencia" class="form-label">Referência do Cliente</label>
-                        <input class="form-control" id="Cart_ClienteReferencia" type="text"
-                            placeholder="Editar/Ref Cliente">
-                    </div>
-                    <div class="mb-3 me-3">
-                        <label for="Cart_CodigoRaposa" class="form-label">File/Invoice</label>
-                        <input class="form-control" type="text" id="Cart_CodigoRaposa" placeholder="8383283" id="file">
-                    </div>
-                    <div class="mb-3 me-3 c-reserva-modal__filtros__agrupamento">
-                        <label for="empresa" class="form-label">Empresa</label>
-                        <select class="form-select JS__select" id="empresa">
-                            <option value="1">Journeys AGT</option>
-                            <option selected="selected" value="2">Journeys</option>
-                            <option value="3">Journeys ALLOT</option>
-                            <option value="4">Journeys ESP</option>
-                            <option value="5">Journeys GRP</option>
-                            <option value="6">Journeys PARTNERS</option>
-                            <option value="7">Journeys NACIONAL</option>
-                        </select>
-                    </div>
-                    <div class="mb-3 me-3 c-reserva-modal__filtros__agrupamento">
-                        <label for="ufatura" class="form-label">Unidade de Faturamento</label>
-                        <select class="form-select JS__select" id="ufatura">
-                            <option value="1">Journeys AGT</option>
-                            <option selected="selected" value="2">Journeys</option>
-                            <option value="3">Journeys ALLOT</option>
-                            <option value="4">Journeys ESP</option>
-                            <option value="5">Journeys GRP</option>
-                            <option value="6">Journeys PARTNERS</option>
-                            <option value="7">Journeys NACIONAL</option>
-                        </select>
-                    </div>
-                    <div class="mb-3 me-3 c-reserva-modal__filtros__agrupamento">
-                        <label for="ShoppingCart_AgrupamentoReserva_Id" class="form-label">Agrupamento</label>
-                        <select class="form-select JS__select" id="ShoppingCart_AgrupamentoReserva_Id">
-                            <option value="1">Journeys AGT</option>
-                            <option selected="selected" value="2">Journeys</option>
-                            <option value="3">Journeys ALLOT</option>
-                            <option value="4">Journeys ESP</option>
-                            <option value="5">Journeys GRP</option>
-                            <option value="6">Journeys PARTNERS</option>
-                            <option value="7">Journeys NACIONAL</option>
-                        </select>
-                    </div>
-                    <div class="mb-3 me-3">
-                        <label for="Cart_TourLider" class="form-label">Tour Líder</label>
-                        <input class="form-control " type="text" id="Cart_TourLider">
-                    </div>
-                    <div class="mb-3 me-3 c-reserva-modal__filtros__idioma">
-                        <label for="ShoppingCart_Idioma_Id" class="form-label">Idioma</label>
-                        <select class="form-select JS__select" id="ShoppingCart_Idioma_Id">
-                            <option value="" selected="selected">Selecione o idioma</option>
-                            <option value="7">Alemão</option>
-                            <option value="11">Dinamarquês</option>
-                            <option value="4">Espanhol</option>
-                            <option value="8">Francês</option>
-                            <option value="6">Inglês</option>
-                            <option value="9">Italiano</option>
-                            <option value="3">Português</option>
-                            <option value="5">Português.</option>
-                        </select>
-                    </div>
-                    <div class="mb-3 me-3 c-reserva-modal__filtros__nacionalidade">
-                        <label for="ShoppingCart_Pais_Id" class="form-label">Nacionalidade</label>
-                        <select class="form-select JS__select" id="ShoppingCart_Pais_Id">
-                            <option value="24">Africa do Sul </option>
-                            <option value="5">Alemanha</option>
-                            <option value="3">Argentina</option>
-                            <option value="38">Austria</option>
-                            <option value="40">Belgica</option>
-                            <option value="6">Bolivia</option>
-                            <option value="2">Brasil</option>
-                            <option value="26">Bulgaria</option>
-                            <option value="36">Canada</option>
-                            <option value="4">Chile</option>
-                            <option value="28">China</option>
-                            <option value="34">Chipre</option>
-                            <option value="13">Colômbia</option>
-                            <option value="37">Dinamarca</option>
-                            <option value="11">El Salvador</option>
-                            <option value="35">Emirados Arabes Unidos</option>
-                            <option value="10">Equador</option>
-                            <option value="12">Espanha</option>
-                            <option value="18">Estados Unidos</option>
-                            <option value="29">França</option>
-                            <option value="32">Honduras</option>
-                            <option value="27">Inglaterra</option>
-                            <option value="25">Israel </option>
-                            <option value="39">Marrocos</option>
-                            <option value="9">México</option>
-                            <option value="41">Noruega</option>
-                            <option value="23">Panamá</option>
-                            <option value="7">Paraguai</option>
-                            <option value="8">Peru</option>
-                            <option value="30">Porto Rico</option>
-                            <option value="16">Portugal</option>
-                            <option value="14">Rep. Dominicana</option>
-                            <option value="21">República Dominicana</option>
-                            <option value="22">Russia</option>
-                            <option value="31">Suiça </option>
-                            <option value="17">Turquia</option>
-                            <option value="33">Ucrânia</option>
-                            <option selected="selected" value="15">Uruguai</option>
-                            <option value="19">Venezuela</option>
-                        </select>
-                    </div>
-                   
-                   
-                    <div class="mb-3">
-                        <label for="reserva-due" class="form-label">Due Date</label>
-                        <span class="form-control JS__passageiros-input duo-date" id="passageirosInput"
-                            aria-label="Passageiros + Quarto/s">
-                            <span class="icon-user-plus"></span>
-                            <span class="JS__total-passageiros">00/00/0000</span> • R$<span
-                                class="JS__total-quartos">0,00</span>
-                        </span>
-                    </div>
-                    
-                </div>
-            </div>
+            <table id="edit-reserva" class="table-reserva table table-rounded-header dataTable no-footer fs-6 mb-5">
+                <thead>
+                    <tr>
+                        <th class="fw-500 fs-12">Referência do Cliente</th>
+                        <th class="fw-500 fs-12">File/Invoice</th>
+                        <th class="fw-500 fs-12">Empresa</th>
+                        <th class="fw-500 fs-12">Unidade de Faturamento</th>
+                        <th class="fw-500 fs-12">Agrupamento</th>
+                        <th class="fw-500 fs-12">Tour Líder</th>
+                        <th class="fw-500 fs-12">Idioma</th>
+                        <th class="fw-500 fs-12">Nacionalidade</th>
+                        <th class="fw-500 fs-12">Due Date</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="reserva-item">
+
+                            <span class="data show-flex">Editar Ref/Cliente</span>
+                            <span class="icon-edit-3 text-primary fs-22 me-2"></span>
+
+                            <div class="form-group hide">
+                                <div class="input-group">
+                                    <input type="text" class="edit-input form-control">
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn btn-primary edit-button edit-reserva"><span
+                                                class="icon-check fs-22"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="reserva-item">
+
+                            <span class="data show-flex">#283248</span>
+                            <span class="icon-edit-3 text-primary fs-22 me-2"></span>
+
+                            <div class="form-group hide">
+                                <div class="input-group">
+                                    <input type="text" class="edit-input form-control">
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn btn-primary edit-button edit-reserva"><span
+                                                class="icon-check fs-22"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="reserva-item">
+                            <span class="data show-flex">Journeys</span>
+                            <span class="icon-edit-3 text-primary fs-22 me-2"></span>
+
+                            <div class="form-group hide">
+                                <div class="input-group">
+                                    <select class="form-select JS__select" id="empresa">
+                                        <option value="1">Journeys AGT</option>
+                                        <option selected="selected" value="2">Journeys</option>
+                                        <option value="3">Journeys ALLOT</option>
+                                        <option value="4">Journeys ESP</option>
+                                        <option value="5">Journeys GRP</option>
+                                        <option value="6">Journeys PARTNERS</option>
+                                        <option value="7">Journeys NACIONAL</option>
+                                    </select>
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn btn-primary edit-button edit-reserva"><span
+                                                class="icon-check fs-22"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="reserva-item">
+
+                            <span class="data show-flex">Journeys</span>
+                            <span class="icon-edit-3 text-primary fs-22 me-2"></span>
+
+                            <div class="form-group hide">
+                                <div class="input-group">
+                                    <select class="form-select JS__select" id="faturamento">
+                                        <option value="1">Journeys AGT</option>
+                                        <option selected="selected" value="2">Journeys</option>
+                                        <option value="3">Journeys ALLOT</option>
+                                        <option value="4">Journeys ESP</option>
+                                        <option value="5">Journeys GRP</option>
+                                        <option value="6">Journeys PARTNERS</option>
+                                        <option value="7">Journeys NACIONAL</option>
+                                    </select>
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn btn-primary edit-button edit-reserva"><span
+                                                class="icon-check fs-22"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="reserva-item">
+
+                            <span class="data show-flex">Journeys</span>
+                            <span class="icon-edit-3 text-primary fs-22 me-2"></span>
+
+                            <div class="form-group hide">
+                                <div class="input-group">
+                                    <select class="form-select JS__select" id="agrupamento">
+                                        <option value="1">Journeys AGT</option>
+                                        <option selected="selected" value="2">Journeys</option>
+                                        <option value="3">Journeys ALLOT</option>
+                                        <option value="4">Journeys ESP</option>
+                                        <option value="5">Journeys GRP</option>
+                                        <option value="6">Journeys PARTNERS</option>
+                                        <option value="7">Journeys NACIONAL</option>
+                                    </select>
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn btn-primary edit-button edit-reserva"><span
+                                                class="icon-check fs-22"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="reserva-item">
+
+                            <span class="data show-flex">Tour Líder</span>
+                            <span class="icon-edit-3 text-primary fs-22 me-2"></span>
+
+                            <div class="form-group hide">
+                                <div class="input-group">
+                                    <input type="text" class="edit-input form-control">
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn btn-primary edit-button edit-reserva"><span
+                                                class="icon-check fs-22"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="reserva-item">
+
+                            <span class="data show-flex">Selecione</span>
+                            <span class="icon-edit-3 text-primary fs-22 me-2"></span>
+
+                            <div class="form-group hide">
+                                <div class="input-group">
+                                    <select class="form-select JS__select" id="reserva-idioma">
+                                        <option value="" selected="selected">Selecione o idioma</option>
+                                        <option value="7">Alemão</option>
+                                        <option value="11">Dinamarquês</option>
+                                        <option value="4">Espanhol</option>
+                                        <option value="8">Francês</option>
+                                        <option value="6">Inglês</option>
+                                        <option value="9">Italiano</option>
+                                        <option value="3">Português</option>
+                                        <option value="5">Português.</option>
+                                    </select>
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn btn-primary edit-button edit-reserva"><span
+                                                class="icon-check fs-22"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="reserva-item">
+
+                            <span class="data show-flex">Selecione</span>
+                            <span class="icon-edit-3 text-primary fs-22 me-2"></span>
+
+                            <div class="form-group hide">
+                                <div class="input-group">
+                                    <select class="form-select JS__select" id="ShoppingCart_Pais_Id">
+                                        <option value="24">Africa do Sul </option>
+                                        <option value="5">Alemanha</option>
+                                        <option value="3">Argentina</option>
+                                        <option value="38">Austria</option>
+                                        <option value="40">Belgica</option>
+                                        <option value="6">Bolivia</option>
+                                        <option value="2">Brasil</option>
+                                        <option value="26">Bulgaria</option>
+                                        <option value="36">Canada</option>
+                                        <option value="4">Chile</option>
+                                        <option value="28">China</option>
+                                        <option value="34">Chipre</option>
+                                        <option value="13">Colômbia</option>
+                                        <option value="37">Dinamarca</option>
+                                        <option value="11">El Salvador</option>
+                                        <option value="35">Emirados Arabes Unidos</option>
+                                        <option value="10">Equador</option>
+                                        <option value="12">Espanha</option>
+                                        <option value="18">Estados Unidos</option>
+                                        <option value="29">França</option>
+                                        <option value="32">Honduras</option>
+                                        <option value="27">Inglaterra</option>
+                                        <option value="25">Israel </option>
+                                        <option value="39">Marrocos</option>
+                                        <option value="9">México</option>
+                                        <option value="41">Noruega</option>
+                                        <option value="23">Panamá</option>
+                                        <option value="7">Paraguai</option>
+                                        <option value="8">Peru</option>
+                                        <option value="30">Porto Rico</option>
+                                        <option value="16">Portugal</option>
+                                        <option value="14">Rep. Dominicana</option>
+                                        <option value="21">República Dominicana</option>
+                                        <option value="22">Russia</option>
+                                        <option value="31">Suiça </option>
+                                        <option value="17">Turquia</option>
+                                        <option value="33">Ucrânia</option>
+                                        <option selected="selected" value="15">Uruguai</option>
+                                        <option value="19">Venezuela</option>
+                                    </select>
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn btn-primary edit-button edit-reserva"><span
+                                                class="icon-check fs-22"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="reserva-item reserva-item-multiple">
+                            <span class="data show-flex">00/00/0000<br>R$0,00</span>
+                            <span class="icon-edit-3 text-primary fs-22 me-2"></span>
+                            <div class="form-group hide">
+                                <div class="input-group input-group--multiple">
+                                    <div class="input-group-inner">
+                                        <div class="row">
+                                            <div class="col">
+                                                <span class="fw-500 fs-12 d-block">Data</span>
+                                                <input type="text"
+                                                    class="edit-input form-control bg-transparent reserva-item-input"
+                                                    data-input-index="0" id="searchbox-datepicker-1month">
+                                            </div>
+                                            <div class="col">
+                                                <span class="fw-500 fs-12 d-block">Valor</span>
+                                                <input type="text"
+                                                    class="edit-input form-control reserva-item-input reserva-item-input--price"
+                                                    data-input-index="1">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="searchbox-datepicker-1month__container"></div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn btn-primary edit-button edit-reserva"><span
+                                                class="icon-check fs-22"></span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+
 
 
             <div class="row">
@@ -410,11 +541,12 @@
                                                 class="icon-trash-2 text-primary cursor-pointer me-4 JS__open-editar-reserva"
                                                 data-tt-toggle="tooltip" data-bs-placement="top"
                                                 title="Cancelar Item"></span>-->
-                                                <span
+                                            <span
                                                 class="icon-trash-2 text-primary cursor-pointer me-4 JS__cancelar_uma-toggle"
                                                 data-tt-toggle="tooltip" data-bs-placement="top"
                                                 title="Cancelar Item"></span>
-                                            <span class="icon-trash-undo text-primary me-4 cursor-pointer"
+                                            <span
+                                                class="icon-trash-undo text-primary me-4 cursor-pointer JS__rev_cancel"
                                                 data-tt-toggle="tooltip" data-bs-placement="top"
                                                 title="Reversão de Cancelamento"></span>
                                             <span class="icon-trash-politic text-primary cursor-pointer"
@@ -522,15 +654,15 @@
                                             <span class="icon-external-link text-primary me-4 cursor-pointer"
                                                 data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
                                                 data-bs-target="#selecionarfornecedor" title="Editar Fornecedor"></span>
-                                             <!--<span
+                                            <!--<span
                                                 class="icon-trash-2 text-primary cursor-pointer me-4 JS__open-editar-reserva"
                                                 data-tt-toggle="tooltip" data-bs-placement="top"
                                                 title="Cancelar Item"></span>-->
-                                                <span
+                                            <span
                                                 class="icon-trash-2 text-primary cursor-pointer me-4 JS__cancelar_uma-toggle"
-                                                data-tt-toggle="tooltip" 
-                                                title="Cancelar Item"></span>
-                                            <span class="icon-trash-undo text-primary me-4 cursor-pointer"
+                                                data-tt-toggle="tooltip" title="Cancelar Item"></span>
+                                            <span
+                                                class="icon-trash-undo text-primary me-4 cursor-pointer JS__rev_cancel"
                                                 data-tt-toggle="tooltip" data-bs-placement="top"
                                                 title="Reversão de Cancelamento"></span>
                                             <span class="icon-trash-politic text-primary cursor-pointer"
@@ -550,7 +682,8 @@
                 <div class="col d-flex justify-content-between flex-wrap align-items-center">
                     <div class="d-flex flex-wrap mb-2">
 
-                        <div class="d-flex align-items-center me-4 mb-3  cursor-pointer JS__excluir_todas-toggle disabled">
+                        <div
+                            class="d-flex align-items-center me-4 mb-3  cursor-pointer JS__excluir_todas-toggle disabled">
                             <span class="icon-trash-2 text-primary fs-24 me-2"></span>
                             <span class="fs-12">Cancelar Todas</span>
                         </div>
@@ -655,21 +788,24 @@
             <div class="tab-pane fade active show" id="comentarios-tabContent" role="tabpanel"
                 aria-labelledby="comentarios-tab">
                 <div class="c-reserva-modal__menu__container fs-6">
-                    <span class="fs-24 text-primary mb-3 d-block fw-bold">Comentários Internos</span>
+                    <span class="fs-24 text-primary mb-5 d-block fw-bold">Comentários Internos</span>
 
                     <p class="fw-500 mb-5">TRF O.W. ARPT / HOTEL O V.V<br>
                         1 - Privado - Sólo chofer - IN</p>
 
                     <ul class="comments fs-12">
                         <li>
+                            <span class="icon icon-message-square fs-16"></span>
                             <div><span class="text-primary fw-500 me-2">Kelly Silva</span> 11, Set, 2021</div>
                             Está viagem necessita de hospedagem dupla
                         </li>
                         <li class="level-2">
+                            <span class="icon icon-message-square fs-16"></span>
                             <div><span class="text-primary fw-500 me-2">Kelly Silva</span> 12, Set, 2021</div>
                             Serão dois hóspedes
                         </li>
                         <li>
+                            <span class="icon icon-message-square fs-16"></span>
                             <div><span class="text-primary fw-500 me-2">Erick Henrique</span> 14, Set, 2021</div>
                             Viagem com alterações criadas
                         </li>
@@ -678,20 +814,9 @@
                     <div class="mt-5 w-100">
                         <label for="add-comment" class="form-label">Adicionar Comentário</label>
                         <label for="add-comment" class="add-comment">
-                            <span><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23">
-                                    <g data-name="Grupo 350" transform="translate(-2603.494 -740.837)" fill="none"
-                                        stroke="#96929c" stroke-linecap="round">
-                                        <circle data-name="Elipse 45" cx="11" cy="11" r="11"
-                                            transform="translate(2603.994 741.337)" stroke-miterlimit="9"
-                                            stroke-dasharray="4" />
-                                        <path data-name="Linha 90" stroke-miterlimit="10"
-                                            d="M2614.994 747.063v10.548" />
-                                        <path data-name="Linha 91" stroke-miterlimit="10"
-                                            d="M2620.268 752.337h-10.548" />
-                                    </g>
-                                </svg></span>
+                            <span class="icon-plus"></span>
                             <input class="form-control" id="add-comment" type="text"
-                                placeholder="Adicione algum detalhe sobre a viagem">
+                                placeholder="Adicione algum detalhe sobre a viagem" pattern=".*\S.*" required>
                         </label>
                     </div>
 
@@ -702,9 +827,9 @@
 
             <div class="tab-pane fade" id="valores-tabContent" role="tabpanel" aria-labelledby="pickup-tab">
                 <div class="c-reserva-modal__menu__container fs-6">
-                    <span class="fs-24 text-primary mb-3 d-block fw-bold">Alteração de Valores</span>
+                    <span class="fs-24 text-primary mb-5 d-block fw-bold">Alteração de Valores</span>
 
-                    <p class="my-5">TRF O.W. ARPT / HOTEL O V.V<br>1 Privado - Sólo chofer - IN</p>
+                    <p class="fw-500 mb-5">TRF O.W. ARPT / HOTEL O V.V<br>1 Privado - Sólo chofer - IN</p>
 
                     <div class="mb-3 w-100 me-2">
                         <label for="exampleInputEmail1" class="form-label">Valor de Venda (USD)</label>
@@ -733,65 +858,151 @@
 
 
                     <div>
-                        <span class="fs-6 text-primary mb-3 d-block fw-bold">Pickup</span>
+                        <p class="fw-500 mb-2 pb-2 border-bottom">Ida</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <span class="fs-6 text-primary mb-3 d-block fw-bold">Pickup</span>
 
-                        <label for="exampleInputEmail1" class="form-label">Tipo</label>
-                        <div class="d-flex mb-3">
-                            <div class="form-check bg-white me-4">
-                                <input class="form-check-input" type="radio" name="pickup-tipo" value="1"
-                                    id="pickup-hotel" checked>
-                                <label class="form-check-label d-flex align-items-center" for="pickup-hotel">
-                                    <span class="icon-bags fs-24 me-2"></span> Hotel
-                                </label>
-                            </div>
-                            <div class="form-check bg-white">
-                                <input class="form-check-input" type="radio" name="pickup-tipo" value="1"
-                                    id="pickup-aeroporto">
-                                <label class="form-check-label d-flex align-items-center" for="pickup-aeroporto">
-                                    <span class="icon-airport fs-24 me-2"></span> Aeroporto
-                                </label>
-                            </div>
-                        </div>
-                        <div class="mb-3 w-100 me-2">
-                            <label for="exampleInputEmail1" class="form-label">Cidade</label>
-                            <input class="form-control " type="text" placeholder="Digite o nome da cidade desejada">
-                        </div>
-                        <div class="mb-3 w-100 me-2">
-                            <label for="exampleInputEmail1" class="form-label">Número do Voo</label>
-                            <input class="form-control " type="text" placeholder="0000000">
-                        </div>
-                        <div class="mb-3 w-100 me-2">
-                            <label for="exampleInputEmail1" class="form-label">Localização do Aeroporto</label>
-                            <input class="form-control " type="text" placeholder="Digite o endereço">
-                        </div>
+                                <label for="exampleInputEmail1" class="form-label">Tipo</label>
+                                <div class="d-flex mb-3">
+                                    <div class="form-check bg-white me-4">
+                                        <input class="form-check-input" type="radio" name="pickup-tipo" value="1"
+                                            id="pickup-hotel" checked>
+                                        <label class="form-check-label d-flex align-items-center" for="pickup-hotel">
+                                            <span class="icon-bags fs-24 me-2"></span> Hotel
+                                        </label>
+                                    </div>
+                                    <div class="form-check bg-white">
+                                        <input class="form-check-input" type="radio" name="pickup-tipo" value="1"
+                                            id="pickup-aeroporto">
+                                        <label class="form-check-label d-flex align-items-center"
+                                            for="pickup-aeroporto">
+                                            <span class="icon-airport fs-24 me-2"></span> Aeroporto
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="mb-3 w-100 me-2">
+                                    <label for="exampleInputEmail1" class="form-label">Cidade</label>
+                                    <input class="form-control " type="text"
+                                        placeholder="Digite o nome da cidade desejada">
+                                </div>
+                                <div class="mb-3 w-100 me-2">
+                                    <label for="exampleInputEmail1" class="form-label">Número do Voo</label>
+                                    <input class="form-control " type="text" placeholder="0000000">
+                                </div>
+                                <div class="mb-3 w-100 me-2">
+                                    <label for="exampleInputEmail1" class="form-label">Localização do Aeroporto</label>
+                                    <input class="form-control " type="text" placeholder="Digite o endereço">
+                                </div>
 
-                    </div>
-                    <div>
-                        <span class="fs-6 text-primary mb-3 mt-4 d-block fw-bold">Dropoof</span>
-                        <label for="exampleInputEmail1" class="form-label">Tipo</label>
-                        <div class="d-flex mb-3">
-                            <div class="form-check bg-white me-4">
-                                <input class="form-check-input" type="radio" name="dropoof-tipo" value="1"
-                                    id="dropoof-hotel" checked>
-                                <label class="form-check-label d-flex align-items-center" for="dropoof-hotel">
-                                    <span class="icon-bags fs-24 me-2"></span> Hotel
-                                </label>
                             </div>
-                            <div class="form-check bg-white">
-                                <input class="form-check-input" type="radio" name="dropoof-tipo" value="1"
-                                    id="dropoof-aeroporto">
-                                <label class="form-check-label d-flex align-items-center" for="dropoof-aeroporto">
-                                    <span class="icon-airport fs-24 me-2"></span> Aeroporto
-                                </label>
+                            <div class="col-6">
+
+                                <span class="fs-6 text-primary mb-3 d-block fw-bold">Dropoof</span>
+                                <label for="exampleInputEmail1" class="form-label">Tipo</label>
+                                <div class="d-flex mb-3">
+                                    <div class="form-check bg-white me-4">
+                                        <input class="form-check-input" type="radio" name="dropoof-tipo" value="1"
+                                            id="dropoof-hotel" checked>
+                                        <label class="form-check-label d-flex align-items-center" for="dropoof-hotel">
+                                            <span class="icon-bags fs-24 me-2"></span> Hotel
+                                        </label>
+                                    </div>
+                                    <div class="form-check bg-white">
+                                        <input class="form-check-input" type="radio" name="dropoof-tipo" value="1"
+                                            id="dropoof-aeroporto">
+                                        <label class="form-check-label d-flex align-items-center"
+                                            for="dropoof-aeroporto">
+                                            <span class="icon-airport fs-24 me-2"></span> Aeroporto
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="mb-3 w-100 me-2">
+                                    <label for="exampleInputEmail1" class="form-label">Cidade</label>
+                                    <input class="form-control" type="text"
+                                        placeholder="Digite o nome da cidade desejada">
+                                </div>
+                                <div class="mb-3 w-100 me-2">
+                                    <label for="exampleInputEmail1" class="form-label">Hotel</label>
+                                    <input class="form-control " type="text" placeholder="0000000">
+                                </div>
+
+                            </div>
+                            <div>
                             </div>
                         </div>
-                        <div class="mb-3 w-100 me-2">
-                            <label for="exampleInputEmail1" class="form-label">Cidade</label>
-                            <input class="form-control" type="text" placeholder="Digite o nome da cidade desejada">
-                        </div>
-                        <div class="mb-3 w-100 me-2">
-                            <label for="exampleInputEmail1" class="form-label">Hotel</label>
-                            <input class="form-control " type="text" placeholder="0000000">
+                        <p class="fw-500 mt-5 mb-2 pb-2 border-bottom">Volta</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <span class="fs-6 text-primary mb-3 d-block fw-bold">Pickup</span>
+
+                                <label for="exampleInputEmail1" class="form-label">Tipo</label>
+                                <div class="d-flex mb-3">
+                                    <div class="form-check bg-white me-4">
+                                        <input class="form-check-input" type="radio" name="pickup-tipo" value="1"
+                                            id="pickup-hotel" checked>
+                                        <label class="form-check-label d-flex align-items-center" for="pickup-hotel">
+                                            <span class="icon-bags fs-24 me-2"></span> Hotel
+                                        </label>
+                                    </div>
+                                    <div class="form-check bg-white">
+                                        <input class="form-check-input" type="radio" name="pickup-tipo" value="1"
+                                            id="pickup-aeroporto">
+                                        <label class="form-check-label d-flex align-items-center"
+                                            for="pickup-aeroporto">
+                                            <span class="icon-airport fs-24 me-2"></span> Aeroporto
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="mb-3 w-100 me-2">
+                                    <label for="exampleInputEmail1" class="form-label">Cidade</label>
+                                    <input class="form-control " type="text"
+                                        placeholder="Digite o nome da cidade desejada">
+                                </div>
+                                <div class="mb-3 w-100 me-2">
+                                    <label for="exampleInputEmail1" class="form-label">Número do Voo</label>
+                                    <input class="form-control " type="text" placeholder="0000000">
+                                </div>
+                                <div class="mb-3 w-100 me-2">
+                                    <label for="exampleInputEmail1" class="form-label">Localização do Aeroporto</label>
+                                    <input class="form-control " type="text" placeholder="Digite o endereço">
+                                </div>
+
+                            </div>
+                            <div class="col-6">
+
+                                <span class="fs-6 text-primary mb-3 d-block fw-bold">Dropoof</span>
+                                <label for="exampleInputEmail1" class="form-label">Tipo</label>
+                                <div class="d-flex mb-3">
+                                    <div class="form-check bg-white me-4">
+                                        <input class="form-check-input" type="radio" name="dropoof-tipo" value="1"
+                                            id="dropoof-hotel" checked>
+                                        <label class="form-check-label d-flex align-items-center" for="dropoof-hotel">
+                                            <span class="icon-bags fs-24 me-2"></span> Hotel
+                                        </label>
+                                    </div>
+                                    <div class="form-check bg-white">
+                                        <input class="form-check-input" type="radio" name="dropoof-tipo" value="1"
+                                            id="dropoof-aeroporto">
+                                        <label class="form-check-label d-flex align-items-center"
+                                            for="dropoof-aeroporto">
+                                            <span class="icon-airport fs-24 me-2"></span> Aeroporto
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="mb-3 w-100 me-2">
+                                    <label for="exampleInputEmail1" class="form-label">Cidade</label>
+                                    <input class="form-control" type="text"
+                                        placeholder="Digite o nome da cidade desejada">
+                                </div>
+                                <div class="mb-3 w-100 me-2">
+                                    <label for="exampleInputEmail1" class="form-label">Hotel</label>
+                                    <input class="form-control " type="text" placeholder="0000000">
+                                </div>
+
+                            </div>
+                            <div>
+                            </div>
                         </div>
                     </div>
 
@@ -803,7 +1014,7 @@
             <div class="tab-pane fade" id="log-tabContent" role="tabpanel" aria-labelledby="log-tab">
                 <div class="c-reserva-modal__menu__container fs-6">
                     <span class="fs-24 text-primary mb-5 d-block fw-bold">Log de Alterações</span>
-                    <p class="fw-500 fs-6 mb-3">TRF O.W. ARPT / HOTEL O V.V - 1 - Privado - Sólo chofer - IN</p>
+                    <p class="fw-500 mb-5">TRF O.W. ARPT / HOTEL O V.V<br>1 - Privado - Sólo chofer - IN</p>
                     <div class="c-reserva-modal__table--log">
                         <table class="table fs-12 JS__datatable">
                             <thead>
@@ -900,7 +1111,7 @@
 
             <div class="tab-pane fade" id="excluir-tabContent" role="tabpanel" aria-labelledby="excluir-tab">
                 <div class="c-reserva-modal__menu__container fs-6">
-                    <span class="fs-24 text-primary mb-3 d-block"><span class="fw-bold">Reserva:</span> #36252</span>
+                    <span class="fs-24 text-primary mb-5 d-block"><span class="fw-bold">Reserva:</span> #36252</span>
                     <p class="fw-500 mb-5">Você tem certeza que deseja efetuar a exclusão deste item? Está ação não
                         poderá ser desfeita!</p>
 
@@ -947,7 +1158,8 @@
 
 
 <div class="c-reserva-modal c-reserva-modal__doc JS__doc ">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"></script>
     <div class="c-reserva-modal__bg cursor-pointer JS__doc-toggle"></div>
 
     <div class="c-reserva-modal__box">
@@ -956,7 +1168,8 @@
                 <span class="icon-x text-primary fs-28"></span>
             </div>
 
-            <div class="c-reserva-modal__box__confirmation c-reserva-modal__step1 pb-5 show overflow-auto overflow-padding">
+            <div
+                class="c-reserva-modal__box__confirmation c-reserva-modal__step1 pb-5 show overflow-auto overflow-padding">
 
                 <div class="border-bottom pb-3 pt-2 mb-3">
                     <span class="fs-4 text-primary fw-bold mb-3 d-block">Doc Digital</span>
@@ -973,130 +1186,89 @@
                 </div>
 
                 <div class="d-flex border-bottom pb-3 pt-2 mb-5">
-
                     <div class="col-6">
-
                         <span class="text-primary fw-500 fs-6 mb-3 d-block">Entrada:</span>
-
                         <div class="d-flex">
-                        <div class="upload">
-                            <span class="mb-2">CLIENTE<br>
-                            <span class="mt-2 fs-12">Segure e arraste os arquivos até aqui</span></span>
-                        </div>
-                        <div class="upload">
-                            <span class="mb-2">FORNECEDOR<br>
-                            <span class="mt-2 fs-12">Segure e arraste os arquivos até aqui</span></span>
-                        </div>
-                        </div>
-                        </div>
-                        <div class="col-6">
-                        <span class="text-primary fw-500 fs-6 mb-3 d-block">Saída:</span>
-
-                        <div class="d-flex">
-                        <div class="upload">
-                            <span class="mb-2">CLIENTE<br>
-                            <span class="mt-2 fs-12">Segure e arraste os arquivos até aqui</span></span>
-                        </div>
-                        <div class="upload">
-                            <span class="mb-2">FORNECEDOR<br>
-                            <span class="mt-2 fs-12">Segure e arraste os arquivos até aqui</span></span>
-                        </div>
-                        </div>
-                    
-                    </div>
-                    </div>
-<!--
                             <div class="upload">
-                                <div class="upload-files d-flex justify-content-between">
-                                    <footer>
-                                        <div class="divider">
-                                            <span class="fw-500 text-primary fs-12">Arquivos</span>
-                                        </div>
-                                        <div class="list-files">
-                                           
-                                        </div>
-                                        <button
-                                            class="importar btn btn-primary px-5 rounded-pill fw-500 me-3">ENVIAR</button>
-                                    </footer>
-
-                                    <div class="body" id="drop">
-
-                                        <p class="pointer-none pt-0">
-                                            <a id="triggerFile"
-                                                class="text-decoration-none fs-12 text-black-50 d-block">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="60.499" height="55.683">
-                                                    <g data-name="Grupo 354" fill="none" stroke="#656565"
-                                                        stroke-linecap="round" stroke-width="2">
-                                                        <g data-name="Grupo 353" stroke-miterlimit="10">
-                                                            <path data-name="Linha 92" d="M30.249 23.395v17.823" />
-                                                            <path data-name="Linha 93" d="M39.161 32.306H21.338" />
-                                                        </g>
-                                                        <path data-name="Caminho 109"
-                                                            d="M1 5.943v43.8a4.943 4.943 0 004.943 4.943h48.614a4.942 4.942 0 004.943-4.943V16.471a4.942 4.942 0 00-4.943-4.943H32.298a4.947 4.947 0 01-3.5-1.447l-7.583-7.583a4.942 4.942 0 00-3.474-1.447L5.959 1A4.943 4.943 0 001 5.943z"
-                                                            stroke-linejoin="round" />
-                                                    </g>
-                                                </svg>
-                                                <div class="d-block w-50 mx-auto mb-2">Segure e arraste os arquivos até
-                                                    aqui</div>
-                                                <span class="text-primary d-block">PDF, DOC e EXEL</span>
-                                            </a></p>
-                                        <input type="file" multiple="multiple" />
-                                    </div>
-
+                                <form action="/upload" class="dropzone" id="dropzone">
+                                    <div class="dz-message">
+                                        <span class="mb-2 text-primary fw-500">CLIENTE</span><br>
+                                        <span class="mt-2 fs-12">Segure e arraste os arquivos até aqui</span>
                                 </div>
+                                </form>
                             </div>
-
-
-                        
-
-                        <span class="text-primary fw-500 fs-16 mt-5 mb-0 d-block d-block">Documentos Salvos</span>
-                        <table class="table fs-12 w-100 JS__datatable" id="table">
-                            <tbody>
-                                <tr class="border-bottom">
-                                    <td>Nota Fiscal Journeys</td>
-                                    <td>Journeys | Uso Interno Operações</td>
-                                    <td>Key</td>
-                                    <td>
-                                        <span class="icon-trash-2 fs-24 text-primary"></span>
-                                    </td>
-                                    <td>
-                                        <span class="icon-download fs-24 text-primary"></span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Nota Fiscal Journeys</td>
-                                    <td>Journeys | Uso Interno Operações</td>
-                                    <td>Key</td>
-                                    <td>
-                                        <span class="icon-trash-2 fs-24 text-primary"></span>
-                                    </td>
-                                    <td>
-                                        <span class="icon-download fs-24 text-primary"></span>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
+                            <div class="upload">
+                                <form action="/upload" class="dropzone" id="dropzone">
+                                    <div class="dz-message">
+                                        <span class="mb-2 text-primary fw-500">FORNECEDOR</span><br>
+                                        <span class="mt-2 fs-12">Segure e arraste os arquivos até aqui</span>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    -->
-                    <div class="c-reserva-modal__doc__table_">
-                    <div class="row">
+                
+                <div class="col-6">
+                    <span class="text-primary fw-500 fs-6 mb-3 d-block">Saída:</span>
+                    <div class="d-flex">
+                            <div class="upload">
+                                <form action="/upload" class="dropzone" id="dropzone">
+                                    <div class="dz-message">
+                                        <span class="mb-2 text-primary fw-500">CLIENTE</span><br>
+                                        <span class="mt-2 fs-12">Segure e arraste os arquivos até aqui</span>
+                                </div>
+                                </form>
+                            </div>
+                            <div class="upload">
+                                <form action="/upload" class="dropzone" id="dropzone">
+                                    <div class="dz-message">
+                                        <span class="mb-2 text-primary fw-500">FORNECEDOR</span><br>
+                                        <span class="mt-2 fs-12">Segure e arraste os arquivos até aqui</span>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="c-reserva-modal__doc__table_">
+                <div class="row">
                     <div class="col-lg-6">
+                        <div style="background-color: white; height: 700px; overflow-y: scroll; position: relative;">
+                       
+    <div id="preloader" class="absolute">
+        <div class="loader-container">
+            <div class="loader-icon">
+                <svg viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+                    <path id="line-icon" class="logo" d="M20,14.8c1.7-1.6,3.9-2.5,6.3-2.5L23,15.6c2.3,0.1,4.4,1.1,6,2.7h-6.1l0,0
+	c1.6,1.6,2.5,3.9,2.4,6.2l-4.7-4.7C20.7,24.9,21,36.7,21,37c0,0.3,0.2,0.5,0.5,0.5h2.4c5.1,0,9.3-4.2,9.3-9.3V11.8
+	c0-5.1-4.1-9.3-9.3-9.3h-7.9c-5.1,0-9.3,4.2-9.3,9.3v16.3c0,5.1,4.2,9.3,9.3,9.3h2.4c0.3,0,0.5-0.2,0.5-0.5c0-0.3,0.3-12,0.4-17.1
+	L15,24.5c-0.3-2.3,0.4-4.6,2.1-6.2l0,0h-6.1c1.6-1.6,3.7-2.6,6-2.7l-3.3-3.3C16.1,12.3,18.3,13.2,20,14.8"></path>
+                </svg>
+                <svg viewBox="0 0 40 40" class="line" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+                    <path id="bg-icon" class="st0" d="M20,14.8c1.7-1.6,3.9-2.5,6.3-2.5L23,15.6c2.3,0.1,4.4,1.1,6,2.7h-6.1l0,0
+	c1.6,1.6,2.5,3.9,2.4,6.2l-4.7-4.7C20.7,24.9,21,36.7,21,37c0,0.3,0.2,0.5,0.5,0.5h2.4c5.1,0,9.3-4.2,9.3-9.3V11.8
+	c0-5.1-4.1-9.3-9.3-9.3h-7.9c-5.1,0-9.3,4.2-9.3,9.3v16.3c0,5.1,4.2,9.3,9.3,9.3h2.4c0.3,0,0.5-0.2,0.5-0.5c0-0.3,0.3-12,0.4-17.1
+	L15,24.5c-0.3-2.3,0.4-4.6,2.1-6.2l0,0h-6.1c1.6-1.6,3.7-2.6,6-2.7l-3.3-3.3C16.1,12.3,18.3,13.2,20,14.8"></path>
+                </svg>
+            </div>
+            <div class="message">Carregando mensagem</div>
+        </div>
+    </div>
 
-                        
-                        <div style="background-color: white; height: 700px; overflow-y: scroll;">
                             <table class="table table-hover table-rounded-header fs-6">
 
-                                <thead style="background-color: #FBFBFB;" class="fs-12"><tr>
-                                    <th>Data Envio</th>
-                                    <th>Categoria</th>
-                                    <th>Entrada / Saída</th>
-                                    <th>FROM</th>
-                                    <th>TO</th>
-                                </tr>
+                                <thead style="background-color: #FBFBFB;" class="fs-12">
+                                    <tr>
+                                        <th>Data Envio</th>
+                                        <th>Categoria</th>
+                                        <th>Entrada / Saída</th>
+                                        <th>FROM</th>
+                                        <th>TO</th>
+                                    </tr>
 
 
-                            </thead></table>
+                                </thead>
+                            </table>
                         </div>
 
 
@@ -1104,70 +1276,76 @@
 
                     <div class="col-lg-6">
 
-                   
+
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-group" style="width: 100%">
                                     <label class="form-label mb-2">Env</label>
-                                    <input type="text" id="text-data-envio" class="form-control" style="max-width: unset; width: 100%;" readonly="readonly">
+                                    <input type="text" id="text-data-envio" class="form-control"
+                                        style="max-width: unset; width: 100%;" readonly="readonly">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group" style="width: 100%">
                                     <label class="form-label mb-2">Rec</label>
-                                    <input type="text" id="text-data-upload" class="form-control" style="max-width: unset; width: 100%;" readonly="readonly">
+                                    <input type="text" id="text-data-upload" class="form-control"
+                                        style="max-width: unset; width: 100%;" readonly="readonly">
                                 </div>
                             </div>
                         </div>
 
-                        
+
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="form-group" style="width: 100%">
                                     <label class="form-label mb-2">De</label>
-                                    <input type="text" id="text-remetente" class="form-control" style="max-width: unset; width: 100%;" readonly="readonly">
+                                    <input type="text" id="text-remetente" class="form-control"
+                                        style="max-width: unset; width: 100%;" readonly="readonly">
                                 </div>
                             </div>
                         </div>
 
-                        
+
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="form-group" style="width: 100%">
                                     <label class="form-label mb-2">Para</label>
-                                    <input type="text" id="text-destinatario" class="form-control" style="max-width: unset; width: 100%;" readonly="readonly">
+                                    <input type="text" id="text-destinatario" class="form-control"
+                                        style="max-width: unset; width: 100%;" readonly="readonly">
                                 </div>
                             </div>
                         </div>
 
-                        
+
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="form-group" style="width: 100%">
                                     <label class="form-label mb-2">Cópia</label>
-                                    <input type="text" id="text-cc" class="form-control" style="max-width: unset; width: 100%;" readonly="readonly">
+                                    <input type="text" id="text-cc" class="form-control"
+                                        style="max-width: unset; width: 100%;" readonly="readonly">
                                 </div>
                             </div>
                         </div>
 
-                        
+
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="form-group" style="width: 100%">
                                     <label class="form-label mb-2">Assunto</label>
-                                    <input type="text" id="text-assunto" class="form-control" style="max-width: unset; width: 100%;" readonly="readonly">
+                                    <input type="text" id="text-assunto" class="form-control"
+                                        style="max-width: unset; width: 100%;" readonly="readonly">
                                 </div>
                             </div>
                         </div>
 
-                        
+
                         <div class="row">
                             <div class="col-lg-12">
                                 <iframe id="conteudo" class="conteudo" src=""></iframe>
                             </div>
                         </div>
 
-                        
+
                         <div class="row">
                             <div class="col-lg-12">
                                 <select id="anexos" class="form-select"></select>
@@ -1178,26 +1356,27 @@
                 </div>
 
 
-             
-                    </div>
-
-
-             
-                    <div class="d-flex justify-content-end align-items-center pt-4 flex-wrap flex-xl-nowrap">
-                        <button id="remover-email" class="btn btn-danger px-5 mb-3 rounded-pill fw-500 me-3">Remover</button>
-                        <button id="baixar-email" class="btn btn-primary px-5 mb-3 rounded-pill fw-500">Baixar email completo</button>
-                    </div>
-              
-
-
-
-                </div>
-
 
             </div>
 
+
+
+            <div class="d-flex justify-content-end align-items-center pt-4 flex-wrap flex-xl-nowrap">
+                <button id="remover-email" class="btn btn-danger px-5 mb-3 rounded-pill fw-500 me-3">Remover</button>
+                <button id="baixar-email" class="btn btn-primary px-5 mb-3 rounded-pill fw-500">Baixar email
+                    completo</button>
+            </div>
+
+
+
+
         </div>
+
+
     </div>
+
+</div>
+</div>
 </div>
 
 
@@ -1307,7 +1486,8 @@
                 <div class="row">
 
                     <div class="mb-3 col-12 d-flex flex-row-reverse">
-                        <button class="btn btn-primary px-5 rounded-pill fw-500 btn-load">Exportar Invoice <span class="btn-loader"></span></button>
+                        <button class="btn btn-primary px-5 rounded-pill fw-500 btn-load">Exportar Invoice <span
+                                class="btn-loader"></span></button>
                     </div>
 
 
@@ -1855,7 +2035,7 @@
                 <div class="row">
                     <div class="c-reserva-modal__table--log">
                         <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper no-footer">
-                           
+
                             <table class="table fs-12 JS__datatable dataTable no-footer" id="DataTables_Table_0"
                                 role="grid" aria-describedby="DataTables_Table_0_info">
                                 <thead>
@@ -1937,7 +2117,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                          
+
                         </div>
                     </div>
                 </div>
@@ -2437,8 +2617,7 @@
                 <form>
                     <div class="row">
                         <div class="col-6">
-                            <div class="mb-3"
-                                data-select2-id="select2-tipodepenalidade">
+                            <div class="mb-3" data-select2-id="select2-tipodepenalidade">
                                 <label for="tipodepenalidade" class="form-label">Tipo de penalidade</label>
                                 <select class="form-select JS__select select2-hidden-accessible" id="tipodepenalidade"
                                     data-select2-id="select2-data-tipodepenalidade" tabindex="-1" aria-hidden="true">
@@ -2461,7 +2640,8 @@
                             </div>
                             <div class="mb-3">
                                 <label for="Cart_ClienteReferencia" class="form-label">Deadline</label>
-                                <input class="form-control" id="Cart_ClienteReferencia" type="text" placeholder="dd/mm/aaaa">
+                                <input class="form-control" id="Cart_ClienteReferencia" type="text"
+                                    placeholder="dd/mm/aaaa">
                             </div>
                         </div>
                         <div class="col-6">

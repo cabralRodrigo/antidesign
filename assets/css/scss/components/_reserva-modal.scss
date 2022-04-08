@@ -267,6 +267,7 @@
             .nav-item{
                 button{
                     position: relative;
+                    margin: 15px 0;
                     &:before{
                         content: '';
                         background: #0F6B7B;
@@ -293,6 +294,7 @@
                 background: #fff;
                 width: 100%;
                 text-align: center;
+                color: #656565;
             }
             @include breakpoint(md){
                 width: 6rem;
@@ -313,9 +315,9 @@
             }
         }
 
-        #log-tabContent{ 
+        #log-tabContent, #pickup-tabContent{ 
             .c-reserva-modal__menu__container{
-                width: 939px;
+                width: 65rem;
                 @include breakpoint(xl){
                     width: 30.31rem;
                 }
@@ -348,11 +350,17 @@
                 display: block;
                 span{
                     position: absolute;
-                    top: 11px;
+                    top: 12px;
                     left: 15px;
+                    font-size: 1.35rem;
+                    border-radius: 100%;
+                    border: 1px dotted #ced4da;
+                    color: #ced4da;
                 }
                 input#add-comment{
                     padding-left: 3rem;
+                    border: 1px solid #ced4da; 
+                    outline: none;
                 }
             }
         }
