@@ -59,36 +59,40 @@
 }
 
 .c-cards-carousel__pagination{
-    width: 142px;
+    width: 160px;
     padding-top: 110px;
     @include breakpoint(xl){
         margin: 0 auto;
     }
-    .swiper-button-prev{
-        svg{
-            transform: rotate(180deg);
-        }
-    }
+
     .swiper-button-prev,
     .swiper-button-next{
         height: 3rem;
         width: 3rem;
         transition: .3s;
-        svg{
-            transition: .3s;
-        }
         &:after{
-            content:'';
+            color: #0f6b7b;
+            font-size: 14px;
         }
 
         &:hover{
             background: $primary;
-            span{
-                color: #fff!important;
+            &:after{
+                color: #fff;
+                font-size: 14px;
             }
         }
     }
+
 }
-
-
-
+.swiper-display-total{
+    position: absolute;
+    top: 50%;
+    color: #0f6b7b !important;
+    left: 50%;
+    height: 48px;
+    width: 93px;
+    line-height: 48px;
+    transform: translate(-50%, -46%);
+    text-align: center;
+}

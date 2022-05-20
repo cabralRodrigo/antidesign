@@ -1,7 +1,10 @@
+.JS__hotel-banner{
+    height: 500px;
+}
 .c-hotel{
     padding-top: 7.37rem;
     &__banner{
-        height: calc(77vh - 118px);
+        height: 500px;
         position: relative;
         overflow: hidden;
         &__img{
@@ -81,7 +84,6 @@
                     width: 10px;
                     top: inherit;
                     bottom: 40px;
-                    background-image: url('../../../img/arrow-right-white.png');
                     background-position: center;
                     background-repeat: no-repeat;
                     &:after{

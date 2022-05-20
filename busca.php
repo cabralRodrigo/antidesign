@@ -396,10 +396,87 @@
                     <div class="row">
 
                         <div class="col-xl-8 col-lg-12 mb-5">
-
-                            <h2 class="d-inline-block fs-5 text-secondary px-0 mb-3">138 hotéis encontrados</h2>
-                            <h3 class="c-busca__container__title fs-2 text-primary fw-normal"><span
+                        <h3 class="c-busca__container__title fs-2 text-primary fw-normal"><span
                                     class="fw-bold">Hotéis em:</span> Rio de Janeiro</h3>
+
+                        <table class="table table-rounded-header fs-6" id="table">
+                        <thead class="fs-12">
+                            <tr class="text-secondary">
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-map-pin fs-22 me-2"></span>
+                                        Ciudad
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-calendar fs-22 me-2"></span>
+                                        Entrada
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-calendar fs-22 me-2"></span>
+                                        Salida
+                                    </div>
+                                </th>
+                               
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-moon fs-22 me-2"></span>
+                                        Noches
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-category fs-22 me-2"></span>
+                                        Categoria
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-user1 fs-22 me-2"></span>
+                                        Adulto
+                                    </div>
+                                </th>
+                                <th scope="col">
+                                    <div class="d-flex align-items-center">
+                                        <span class="text-primary icon-children fs-22 me-2"></span>
+                                        Niños
+                                    </div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td class="align-top">
+                            Rio de Janeiro
+                                </td>
+                                <td class="align-top">
+                                16/05/2022
+                                </td>
+                                <td class="align-top">
+                                19/05/2022
+                                </td>
+                                <td class="align-top">
+                                        3
+                                </td>
+                                <td class="align-top">
+                                        Todas
+                                </td>
+                                <td class="align-top">
+                                        2
+                                </td>
+                                <td class="align-top">
+                                        0
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+
+                            <h2 class="d-inline-block fs-5 text-secondary px-0 mb-5">138 hotéis encontrados</h2>
+                            
 
                             <?php include('includes/hotel.php'); ?>
 
@@ -447,10 +524,20 @@
                                 </select>
                             </div>
 
-                            <div>
-                                <img src="assets/img/advertisement.jpg" alt="">
+                            <div class="propaganda-vertical">
+                                <div class="inner-content">
+                                    <h3>Transforme a experiência de viajar</h3>
+                                    <p>Adicione um transfer em sua viagem não perca essa experiência.</p>
+                                    <a href="#" class="cta-ads">Conheça as opções<span class="icon-arrow-right1"></span></a>
+                                </div>
+                                <div class="overlay"></div>
+                                <img src="assets/img/advertisement-vertical.jpg" alt="">
                             </div>
 
+                            <div class="propaganda-vertical">
+                               
+                                <img src="assets/img/advertisement.jpg" alt="">
+                            </div>
                         </div>
 
                     </div>

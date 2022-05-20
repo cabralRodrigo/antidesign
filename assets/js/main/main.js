@@ -132,7 +132,6 @@ var cardSlides = {
         var prev_slider = 'slider-prev' + i;
 
         $(this).find('.swiper-container').addClass(classAdd);
-
         $(this).find('.swiper-button-prev').addClass(prev_slider);
         $(this).find(".swiper-button-next").addClass(next_slider);
 
@@ -143,6 +142,20 @@ var cardSlides = {
             navigation: {
                 nextEl: ('.' + next_slider),
                 prevEl: ('.' + prev_slider),
+            },            
+            on: {
+              init: function( swiper ){
+                var swiperHtml = typeof swiper.slides !== "undefined" && swiper.slides !== null && typeof swiper.slides.length !== "undefined" && ! isNaN( parseFloat( swiper.slides.length ) ) && parseFloat( swiper.slides.length ) > 0 ? parseFloat( swiper.slides.length ) : ""; 
+                swiper.$el.closest( ".row" ).find( ".swiper-display-total" ).html( swiperHtml );
+              },
+              update: function( swiper ){
+                var swiperHtml = typeof swiper.slides !== "undefined" && swiper.slides !== null && typeof swiper.slides.length !== "undefined" && ! isNaN( parseFloat( swiper.slides.length ) ) && parseFloat( swiper.slides.length ) > 0 ? parseFloat( swiper.slides.length ) : ""; 
+                swiper.$el.closest( ".row" ).find( ".swiper-display-total" ).html( swiperHtml );
+              },
+              observerUpdate: function( swiper ){
+                var swiperHtml = typeof swiper.slides !== "undefined" && swiper.slides !== null && typeof swiper.slides.length !== "undefined" && ! isNaN( parseFloat( swiper.slides.length ) ) && parseFloat( swiper.slides.length ) > 0 ? parseFloat( swiper.slides.length ) : ""; 
+                swiper.$el.closest( ".row" ).find( ".swiper-display-total" ).html( swiperHtml );
+              }
             },
             breakpoints: {
               // when window width is >= 320px
@@ -600,5 +613,3 @@ function formatState (state) {
   );
   return $state;
 };
-
-

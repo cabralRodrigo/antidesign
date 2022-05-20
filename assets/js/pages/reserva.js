@@ -334,3 +334,13 @@ $(document).on( "keyup", function(e) {
 		}
 	}
 } );
+
+// Forma 3
+var checkTodos = $("#checkall");
+checkTodos.on("click", function(){
+  if ( $(this).is(':checked') ){
+    $('.checkall input:checkbox').prop("checked", true);
+  }else{
+    $('.checkall input:checkbox').prop("checked", false);
+  }
+});

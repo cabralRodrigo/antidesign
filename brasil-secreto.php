@@ -183,12 +183,9 @@
 
                     <div class="position-relative c-cards-carousel__pagination">
                         <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev fs-24 shadow rounded-circle">
-                            <span class="icon-arrow-left fw-bold text-primary"></span>
-                        </div>
-                        <div class="swiper-button-next fs-4 shadow rounded-circle">
-                            <span class="icon-arrow-right fw-bold text-primary"></span>
-                        </div>
+                        <div class="swiper-button-prev fs-4 shadow rounded-circle"></div>
+                        <div class="swiper-display-total fs-4"></div>
+                         <div class="swiper-button-next fs-4 shadow rounded-circle"></div>
                     </div>
 
                 </div>

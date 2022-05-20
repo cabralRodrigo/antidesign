@@ -60,12 +60,8 @@
                         </div>
 
                         <div class="c-single-experiencia__galeria__swiper__controls d-flex">
-                            <div class="swiper-button-prev">
-                                <span class="icon-arrow-left"></span>
-                            </div>
-                            <div class="swiper-button-next">
-                                <span class="icon-arrow-right"></span>
-                            </div>
+                        <div class="swiper-button-prev fs-4 shadow rounded-circle"></div>
+                         <div class="swiper-button-next fs-4 shadow rounded-circle"></div>
                         </div>                        
                         
                         <div class="swiper-pagination"></div>
@@ -117,13 +113,9 @@
                         <p>Explore os diversos hotéis com classificações desde a gastronomia até a decoração</p>
 
                         <div class="position-relative c-cards-carousel__pagination">
-                            <!-- If we need navigation buttons -->
-                            <div class="swiper-button-prev fs-4 shadow rounded-circle">
-                                <span class="icon-arrow-left fw-bold text-primary"></span>
-                            </div>
-                            <div class="swiper-button-next fs-4 shadow rounded-circle">
-                                <span class="icon-arrow-right fw-bold text-primary"></span>
-                            </div>
+                        <div class="swiper-button-prev fs-4 shadow rounded-circle"></div>
+                        <div class="swiper-display-total fs-4"></div>
+                         <div class="swiper-button-next fs-4 shadow rounded-circle"></div>
                         </div>
 
                     </div>
@@ -294,13 +286,9 @@
                     </div>
 
                     <div class="position-relative c-cards-carousel__pagination mt-4">
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev fs-4 shadow rounded-circle">
-                            <span class="icon-arrow-left fw-bold text-primary"></span>
-                        </div>
-                        <div class="swiper-button-next fs-4 shadow rounded-circle">
-                            <span class="icon-arrow-right fw-bold text-primary"></span>
-                        </div>
+                    <div class="swiper-button-prev fs-4 shadow rounded-circle"></div>
+                        <div class="swiper-display-total fs-4"></div>
+                         <div class="swiper-button-next fs-4 shadow rounded-circle"></div>
                     </div>
 
                 </div>
@@ -320,13 +308,9 @@
                     <p>Desfrutes de lugares incríveis escondidos que você só vai encontrar em Búzios!</p>
 
                     <div class="position-relative c-cards-carousel__pagination">
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev fs-4 shadow rounded-circle">
-                            <span class="icon-arrow-left fw-bold text-primary"></span>
-                        </div>
-                        <div class="swiper-button-next fs-4 shadow rounded-circle">
-                            <span class="icon-arrow-right fw-bold text-primary"></span>
-                        </div>
+                    <div class="swiper-button-prev fs-4 shadow rounded-circle"></div>
+                        <div class="swiper-display-total fs-4"></div>
+                         <div class="swiper-button-next fs-4 shadow rounded-circle"></div>
                     </div>
 
                 </div>
@@ -483,13 +467,9 @@
                     </div>
 
                     <div class="position-relative c-cards-carousel__pagination mt-4">
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev fs-4 shadow rounded-circle">
-                            <span class="icon-arrow-left     fw-bold text-primary"></span>
-                        </div>
-                        <div class="swiper-button-next fs-4 shadow rounded-circle">
-                            <span class="icon-arrow-right fw-bold text-primary"></span>
-                        </div>
+                    <div class="swiper-button-prev fs-4 shadow rounded-circle"></div>
+                        <div class="swiper-display-total fs-4"></div>
+                         <div class="swiper-button-next fs-4 shadow rounded-circle"></div>
                     </div>
 
                 </div>

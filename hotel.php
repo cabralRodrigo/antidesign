@@ -6,7 +6,7 @@
         
     <section class="c-hotel__banner">
         <!-- Slider main container -->
-        <div class="swiper-container h-100 JS__hotel-banner">
+        <div class="swiper-container JS__hotel-banner">
 
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper h-100">
@@ -48,8 +48,8 @@
 
             <!-- If we need navigation buttons -->
             <div class="c-hotel__banner__buttons">
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev fs-4 shadow rounded-circle"></div>
+            <div class="swiper-button-next fs-4 shadow rounded-circle"></div>
             </div>
 
         </div>
@@ -486,12 +486,11 @@
 
                     <div class="position-relative c-cards-carousel__pagination">
                         <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev fs-4 shadow rounded-circle">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="8.397" height="14.73"><path data-name="Caminho 4" d="M8.396 7.365a1.029 1.029 0 01-.3.729l-6.337 6.337A1.032 1.032 0 01.3 12.972l5.6-5.6-5.6-5.6A1.036 1.036 0 111.759.302l6.336 6.329a1.029 1.029 0 01.301.734z" fill="#0e6a7a"/></svg>
-                        </div>
-                        <div class="swiper-button-next fs-4 shadow rounded-circle">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="8.397" height="14.73"><path data-name="Caminho 4" d="M8.396 7.365a1.029 1.029 0 01-.3.729l-6.337 6.337A1.032 1.032 0 01.3 12.972l5.6-5.6-5.6-5.6A1.036 1.036 0 111.759.302l6.336 6.329a1.029 1.029 0 01.301.734z" fill="#0e6a7a"/></svg>
-                        </div>
+                       
+                        <div class="swiper-button-prev fs-4 shadow rounded-circle"></div>
+                        <div class="swiper-display-total fs-4"></div>
+                         <div class="swiper-button-next fs-4 shadow rounded-circle"></div>
+                         <div class="swiper-pagination"></div>
                     </div>
 
                 </div>

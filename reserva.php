@@ -387,6 +387,8 @@
                             <tr class="text-secondary">
                                 <th scope="col">
                                     <div class="d-flex align-items-center">
+                                    <input class="form-check-input fs-6 me-2" type="checkbox"
+                                            name="checkall" id="checkall">
                                         <span class="text-primary icon-product fs-22 me-2"></span>
                                         Produto
                                     </div>
@@ -443,9 +445,9 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td scope="row" class="align-top">
+                                <td scope="row" class="align-top checkall">
                                     <div class="form-check bg-white">
-                                        <input class="form-check-input JS__search-box__radio" type="radio"
+                                        <input class="form-check-input JS__search-box__radio" type="checkbox"
                                             name="search-opt" id="35080-1-HT" value="35080-1-HT">
                                         <label
                                             class="form-check-label d-flex align-items-center text-primary fw-500 mb-0 fs-6"
@@ -560,9 +562,9 @@
                         </tbody>
                         <tbody>
                             <tr>
-                                <td scope="row" class="align-top">
+                                <td scope="row" class="align-top checkall">
                                     <div class="form-check bg-white">
-                                        <input class="form-check-input JS__search-box__radio" type="radio"
+                                        <input class="form-check-input JS__search-box__radio" type="checkbox"
                                             name="search-opt" id="35080-1-HT" value="35080-1-HT">
                                         <label
                                             class="form-check-label d-flex align-items-center text-primary fw-500 mb-0 fs-6"

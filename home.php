@@ -43,13 +43,9 @@
                     <p class="text-black-50">Confira os destinos que separamos especialmente para você</p>
 
                     <div class="position-relative c-cards-carousel__pagination">
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev fs-4 shadow rounded-circle sites-slider__prev">
-                            <span class="icon-arrow-left fw-bold text-primary"></span>
-                        </div>
-                        <div class="swiper-button-next fs-4 shadow rounded-circle sites-slider__next">
-                            <span class="icon-arrow-right fw-bold text-primary"></span>
-                        </div>
+                        <div class="swiper-button-prev fs-4 shadow rounded-circle"></div>
+                        <div class="swiper-display-total fs-4"></div>
+                        <div class="swiper-button-next fs-4 shadow rounded-circle"></div>
                     </div>
 
                 </div>
@@ -72,6 +68,45 @@
                                     <div class="o-card__content">
                                         <span class="fs-4 text-white fw-500 mb-2 d-block">Trancoso</span>
                                         <p class="fs-6">Um lugar incrível para ficar na memória</p>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="swiper-slide o-card d-flex align-items-end" style="background-image: url('assets/img/card-ilha-grande.jpg');">
+
+                                <img src="assets/img/card-bg.png" alt="" class="o-card__bg">
+                                
+                                <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
+                                    <span class="icon icon-beach-view bg-white rounded text-primary rounded-circle "></span>
+                                    <div class="o-card__content">
+                                        <span class="fs-4 text-white fw-500 mb-2 d-block">Ilha Grande</span>
+                                        <p class="fs-6">Todos os hotéis com serviço completo e melhor conforto.</p>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="swiper-slide o-card d-flex align-items-end" style="background-image: url('assets/img/card-ilha-grande.jpg');">
+
+                                <img src="assets/img/card-bg.png" alt="" class="o-card__bg">
+                                
+                                <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
+                                    <span class="icon icon-beach-view bg-white rounded text-primary rounded-circle "></span>
+                                    <div class="o-card__content">
+                                        <span class="fs-4 text-white fw-500 mb-2 d-block">Ilha Grande</span>
+                                        <p class="fs-6">Todos os hotéis com serviço completo e melhor conforto.</p>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="swiper-slide o-card d-flex align-items-end" style="background-image: url('assets/img/card-ilha-grande.jpg');">
+
+                                <img src="assets/img/card-bg.png" alt="" class="o-card__bg">
+                                
+                                <a href="#" class="text-reset text-white h-100 d-flex flex-wrap align-items-start justify-content-between flex-column">
+                                    <span class="icon icon-beach-view bg-white rounded text-primary rounded-circle "></span>
+                                    <div class="o-card__content">
+                                        <span class="fs-4 text-white fw-500 mb-2 d-block">Ilha Grande</span>
+                                        <p class="fs-6">Todos os hotéis com serviço completo e melhor conforto.</p>
                                     </div>
                                 </a>
 
@@ -130,13 +165,20 @@
 
     <?php include('includes/destaque.php') ?>
 
+   
+
     <section class="c-home__advertisement">
         <div class="container">
-            <div class="row">
-                <a href="#">
-                    <img src="assets/img/advertisement2.jpg" alt="Advertisement" class="d-block mx-auto">
-                </a>
-            </div>
+        
+            <div class="propaganda-horizontal">
+                                <div class="inner-content">
+                                    <h3>Transforme a experiência de viajar</h3>
+                                    <p>Adicione um transfer em sua viagem não perca essa experiência.</p>
+                                    <a href="#" class="cta-ads">Conheça as opções<span class="icon-arrow-right1"></span></a>
+                                </div>
+                                <div class="overlay"></div>
+                                <img src="assets/img/advertisement-horizontal.jpg" alt="">
+                            </div>
         </div>
     </section>
 
@@ -150,12 +192,9 @@
                     <p>Desfrutes de lugares incríveis escondidos que você só vai encontrar em Búzios!</p>
 
                     <div class="position-relative c-cards-carousel__pagination">
-                        <div class="swiper-button-prev fs-4 shadow rounded-circle sites-slider__prev">
-                            <span class="icon-arrow-left fw-bold text-primary"></span>
-                        </div>
-                        <div class="swiper-button-next fs-4 shadow rounded-circle sites-slider__next">
-                            <span class="icon-arrow-right fw-bold text-primary"></span>
-                        </div>
+                        <div class="swiper-button-prev fs-4 shadow rounded-circle"></div>
+                        <div class="swiper-display-total fs-4"></div>
+                        <div class="swiper-button-next fs-4 shadow rounded-circle"></div>
                     </div>
                 </div>
 
@@ -222,12 +261,9 @@
 
                    
                     <div class="position-relative c-cards-carousel__pagination">
-                        <div class="swiper-button-prev fs-4 shadow rounded-circle sites-slider__prev">
-                            <span class="icon-arrow-left fw-bold text-primary"></span>
-                        </div>
-                        <div class="swiper-button-next fs-4 shadow rounded-circle sites-slider__next">
-                            <span class="icon-arrow-right fw-bold text-primary"></span>
-                        </div>
+                        <div class="swiper-button-prev fs-4 shadow rounded-circle"></div>
+                        <div class="swiper-display-total fs-4"></div>
+                        <div class="swiper-button-next fs-4 shadow rounded-circle"></div>
                     </div>
 
                 </div>
