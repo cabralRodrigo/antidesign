@@ -2,7 +2,7 @@
     height: 500px;
 }
 .c-hotel{
-    padding-top: 7.37rem;
+    padding-top: 100px;
     &__banner{
         height: 500px;
         position: relative;
@@ -72,34 +72,13 @@
                 }
             }
         }
-        &__buttons{
-            width: 63.95vw;
-            z-index: 9999;
-            display: block;
-            position: relative;
-            .swiper-button{
-                &-prev,
-                &-next{
-                    height: 19px;
-                    width: 10px;
-                    top: inherit;
-                    bottom: 40px;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    &:after{
-                        display: none;
-                    }
-                }
-                &-prev{
-                    transform: rotate(-180deg);
-                    right: 82px;
-                    left: inherit;
-                    position: absolute;
-                }
-                &-next{
-                    right: 32px;
-                }
-            }
+        .c-cards-carousel__pagination{
+            margin-top: -120px;
+            width: 130px;
+        }
+        .swiper-button-prev,
+        .swiper-button-next{
+            background-color: #fff;
         }
     }
 
@@ -227,4 +206,7 @@
             }
         }
     }
+}
+.stars{
+    display: block;
 }

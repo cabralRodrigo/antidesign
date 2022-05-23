@@ -265,12 +265,14 @@ table.table{
   tbody td{
     padding: .7rem .5rem;
     vertical-align: middle;
+    /*
     &:first-of-type{
       border-radius: .93rem 0 0 0.93rem !important;
     }
     &:last-of-type{
       border-radius: 0 .93rem 0.93rem 0!important;
     }
+    */
   } 
   & > :not(:last-child) > :last-child > *{
     border-color: #EAEAEA;

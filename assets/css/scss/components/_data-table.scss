@@ -71,3 +71,6 @@ table.dataTable {
 .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter{
     text-align: left;
 }
+table.table.align-top tbody td{
+    vertical-align: top;
+}
