@@ -2,6 +2,21 @@
     height: 66.6vh;
     min-height: 45rem;
     overflow: hidden;
+    .swiper-pagination{
+        text-align: left;
+        position: relative;
+        bottom: 91px;
+    }
+    .swiper-pagination-bullet{
+        background: #fff;
+        opacity: 1;
+        height: 5px;
+        width: 5px;
+        margin: 0 13px 0 0!important;
+    }
+    .swiper-pagination-bullet-active{
+        background: #0E6A7A;
+    }
     @include breakpoint(md){
         min-height: 100vh;
     }

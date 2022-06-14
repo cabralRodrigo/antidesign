@@ -26,8 +26,25 @@
                     <div class="c-banner__background__overlay"></div>
                 </div>
 
+                <div class="c-banner__item swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/banner-bali.jpg');">
+                    
+                    <div class="container text-light h-100">
+                        <div class="row h-100 d-flex align-items-center">
+                            <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-8 col-sm-8">
+                                <h2 class="fw-bold fs-1">Experiências</h2>
+                                <p>Existe momentos únicos, que podem ficar ainda melhores com novas experiências.</p>
+                                <a href="experiencias.php" class="c-banner__button d-flex align-items-center text-reset text-uppercase fw-bolder">
+                                    Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20"><path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-banner__background__overlay"></div>
+                </div>
+
+
             </div>
-            
+            <div class="swiper-pagination container"></div>
         </div>
 
     </section>

@@ -36,11 +36,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
   });
 
   new Swiper(".JS__banner", {
-      // loop: true,
-      effect: 'fade',
-      fadeEffect: {
-          crossFade: true
-      },
+    loop: true,
+    effect: 'fade',
+    
+    fadeEffect: {
+      crossFade: true
+    },
+    pagination: {
+      el: ".JS__banner .swiper-pagination",
+      clickable: true
+    },
+    autoplay: {
+      delay: 5000,
+    },
   });
 
   new Swiper(".JS__destaque", {
@@ -52,6 +60,22 @@ document.addEventListener("DOMContentLoaded", function (event) {
     },
     pagination: {
       el: ".JS__destaque .swiper-pagination",
+      clickable: true
+    },
+    autoplay: {
+      delay: 5000,
+    },
+  });
+
+  new Swiper(".JS__destaque_home", {
+    loop: true,
+    effect: 'fade',
+    
+    fadeEffect: {
+      crossFade: true
+    },
+    pagination: {
+      el: ".JS__destaque_home .swiper-pagination",
       clickable: true
     },
     autoplay: {
@@ -613,3 +637,11 @@ function formatState (state) {
   );
   return $state;
 };
+
+jQuery(window).scroll(function () {
+  if (jQuery(this).scrollTop() > 100) {
+    jQuery('#header').addClass("o-header--white");
+  } else {
+    jQuery('#header').removeClass("o-header--white");
+  }
+});

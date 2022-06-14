@@ -39,10 +39,10 @@
 
 
 <body>
-    <header class="o-header position-absolute p-4">
+    <header class="o-header position-fixed p-4" id="header">
         <div class="container">
 
-            <nav class="navbar navbar-dark navbar-expand-lg justify-content-between">
+            <nav class="navbar navbar-dark navbar-expand-lg justify-content-start">
 
                 <a class="navbar-brand" aria-current="page" href="/" title="Journeys">
                     <span class="o-header__logo">
@@ -50,63 +50,60 @@
                     </span>
                 </a>
 
-                <button class="o-header__toggle o-hamburger JS__header-toggle" type="button">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-
-                <div class="o-header__navbar JS__header-navbar">
-                    <ul class="nav align-items-center o-header__main">
+                <ul class="nav align-items-center o-header__main">
                         <li class="nav-item">
-                            <a class="nav-link fs-6 active" href="brasil-secreto.php">Brasil</a>
+                            <a class="nav-link active" href="brasil-secreto.php">BRASIL</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-6" href="sobre.php">Sobre</a>
+                            <a class="nav-link" href="sobre.php">SOBRE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-6" href="relatorios.php">Relatórios</a>
+                            <a class="nav-link" href="relatorios.php">RELATÓRIOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-6" href="reservas.php">Reservas</a>
+                            <a class="nav-link" href="reservas.php">RESERVAS</a>
                         </li>
                     </ul>
+
+                <!--<button class="o-header__toggle o-hamburger JS__header-toggle" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>-->
+
+                <div class="o-header__navbar JS__header-navbar">
+                   
                     <ul class="nav align-items-center o-header__navbar__login">
-                        
-                        <li class="nav-item">
-                            <div class="o-header__language rounded-pill JS__header-language">
 
-                                <div class="o-header__language__options">
-                                    <ul class="nav">
-                                        <li class="active">
-                                            <span class="fs-6 cursor-pointer">
-                                                Português
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="fs-6 cursor-pointer">
-                                                English
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span class="fs-6 cursor-pointer">
-                                                Español
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
+                    <div class="o-header__language rounded-pill JS__header-language">
+                        <div class="o-header__language__options rounded-pill">
+                            <ul class="nav">
+                                <li class="active">
+                                    <span class="fs-6 cursor-pointer">
+                                        Português
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="fs-6 cursor-pointer">
+                                        English
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="fs-6 cursor-pointer">
+                                        Español
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <span class="icon-language cursor-pointer fs-22"></span>
+                    </div>
 
-                                <span class="icon-language cursor-pointer fs-22"></span>
-
-                            </div>
-
-                        </li>
                         <li class="position-relative">
 
                             <button class="text-reset bg-white text-secondary fs-6 rounded-pill d-md-flex align-items-center o-header__login JS__header-login"> 
-                                <span class="o-header__login__txt">Bem-Vindo </span>
-                                <span class="text-primary fw-500 ms-1 me-3 "> Anti Travel</span>
-                                <div class="o-header__login__img rounded-circle" style="background-image: url('assets/img/header-user.jpg')">
+                                <span class="o-header__login__txt">Bem-Vindo Journeys<br><span class="text-primary fw-500 client_name">GRUPO OPERAMA OPERADORA MAYORISTA DE TURISMO SAS</span></span>
+                                <div class="o-header__login__client" style="background-image: url('assets/img/fama.png')">
+                                <!--<div class="o-header__login__img rounded-circle" style="background-image: url('assets/img/header-user.jpg')">-->
                                 </div>
                             </button>
 
@@ -133,16 +130,10 @@
                                 <span class="text-primary fw-500 ms-1 me-3 ">Faça seu login</span>
                             </a>
                         </li>
-
-
                     </ul>
                 </div>
-
-            
             </nav>
-            
         </div>
-
     </header>
 
 
