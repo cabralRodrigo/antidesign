@@ -516,7 +516,7 @@
                                             <span
                                                 class="icon-message-square text-primary me-4 cursor-pointer JS__open-editar-reserva"
                                                 data-tt-toggle="tooltip" data-bs-placement="top"
-                                                title="Comentários Internos"></span>
+                                                title="Comentários Internos"><span class="notification bg-danger">3</span></span>
                                             <span
                                                 class="icon-navigation text-primary me-4 cursor-pointer JS__open-editar-reserva"
                                                 data-tt-toggle="tooltip" data-bs-placement="top"

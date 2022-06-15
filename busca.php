@@ -388,6 +388,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row py-3">
+                    <button class="btn btn-secondary fs-6 fw-500 w-100">LIMPAR</button>
+                    </div>
 
                 </div>
 

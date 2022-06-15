@@ -324,7 +324,6 @@ kbd {
   }
 }
 
-
 // Figures
 //
 // Apply a consistent margin strategy (matches our type styles).
@@ -340,7 +339,9 @@ img,
 svg {
   vertical-align: middle;
 }
-
+img{
+  max-width: 100%;
+}
 
 // Tables
 //

@@ -2,6 +2,11 @@
     .c-banner{
         height: 95vh;
         min-height: 1026px;
+        .swiper-pagination{
+            text-align: left;
+            position: relative;
+            bottom: 190px;
+        }
         @include breakpoint(lg){
             min-height: 100vh;
             height: 100vh;

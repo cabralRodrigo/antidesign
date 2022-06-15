@@ -189,18 +189,17 @@
 
                             <div class="row border-bottom pt-5">
                                 <div class="col-xl-12">
-                                    <span class="d-inline-block fs-12 p-2 px-0 mb-0">Copacabana - Rio de Janeiro - Rj</span>
-                                    <h2 class="mb-2 fw-bold text-primary fs-24">Belmond Copacabana Palace</h2>
+
+                                <div class="w-100 mb-5">
+                                    <img src="assets/img/tarifarios.jpg">
+                                </div>
+
+
                                     
-                                    <p class="fs-12"> 
-                                        <span class="o-hotel__img__item md-inline-block fw-500 me-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="10.965" height="10.512"><path data-name="Caminho 36" d="M6.248.476l1.033 2.093a.853.853 0 00.642.467l2.31.335a.854.854 0 01.473 1.456L9.035 6.456a.854.854 0 00-.245.755l.395 2.3a.853.853 0 01-1.238.9L5.881 9.325a.854.854 0 00-.794 0l-2.066 1.086a.853.853 0 01-1.238-.9l.395-2.3a.853.853 0 00-.246-.755L.26 4.827a.854.854 0 01.473-1.456l2.31-.335a.853.853 0 00.642-.467L4.718.476a.853.853 0 011.53 0z" fill="#0f6b7b"></path></svg>
-                                            <span class="ms-1">03</span>
-                                        </span>  
-                                        Twin Standart BB   |   Sem Reembolso   |   Disp. Sob-Consulta
-                                    </p>
+                                    <h2 class="fw-bold text-primary fs-24">Belmond Copacabana Palace</h2>
+                                    <p class="fs-12 mb-0">Copacabana - Rio de Janeiro - Rj</p>
                                     
-                                    <div class="c-reservas__table">
+                                 
                                         <table class="table table-striped fs-6 table-borderless mt-5" id="table">
                                             <thead>
                                                 <tr class="text-secondary">
@@ -313,7 +312,7 @@
                                             
                                             </tbody>
                                         </table>
-                                    </div>
+                                   
 
 
                                     <div class="row border-bottom">
@@ -356,131 +355,205 @@
 
                             <div class="row border-bottom pt-5">
                                 <div class="col-xl-12">
-
-                                    <span class="d-inline-block fs-12 p-2 px-0 mb-0">Copacabana - Rio de Janeiro - Rj</span>
-                                    <h2 class="mb-2 fw-bold text-primary fs-24">ASTORIA COPACABANA</h2>
-                                    <p class="fs-12"> 
-                                        <span class="o-hotel__img__item md-inline-block fw-500 me-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="10.965" height="10.512"><path data-name="Caminho 36" d="M6.248.476l1.033 2.093a.853.853 0 00.642.467l2.31.335a.854.854 0 01.473 1.456L9.035 6.456a.854.854 0 00-.245.755l.395 2.3a.853.853 0 01-1.238.9L5.881 9.325a.854.854 0 00-.794 0l-2.066 1.086a.853.853 0 01-1.238-.9l.395-2.3a.853.853 0 00-.246-.755L.26 4.827a.854.854 0 01.473-1.456l2.31-.335a.853.853 0 00.642-.467L4.718.476a.853.853 0 011.53 0z" fill="#0f6b7b"></path></svg>
-                                            <span class="ms-1">03</span>
-                                        </span>  
-                                        Twin Standart BB   |   Sem Reembolso   |   Disp. Sob-Consulta
-                                    </p>
-
-                                    <div class="c-reservas__table">
-                                        <table class="table table-striped fs-6 table-borderless mt-5" id="table">
+               
+                                <h2 class="fw-bold text-primary fs-24">Localiza <a href="#" class="icon-external-link"></a></h2>
+                                                    
+                                        <table class="table table-striped fs-6 table-borderless table-hover mt-5" id="table">
                                             <thead>
                                                 <tr class="text-secondary">
-                                                    <th scope="col">Categoria</th>
-                                                    <th scope="col">Vista</th>
-                                                    <th scope="col">In</th>
-                                                    <th scope="col">Out</th>
-                                                    <th scope="col">Tipo</th>
-                                                    <th scope="col">EBB</th>
-                                                    <th scope="col">Semana</th>
-                                                    <th scope="col">Remark</th>
-                                                    <th scope="col">Promo</th>
-                                                    <th scope="col">BB</th>
-                                                    <th scope="col">MAP</th>
-                                                    <th scope="col">FAP</th>
-                                                    <th scope="col">AI</th>
-                                                    <th scope="col">SGL</th>
-                                                    <th scope="col">DBL</th>
-                                                    <th scope="col">TPL</th>
-                                                    <th scope="col">QLP</th>
-                                                    <th scope="col">CHD1</th>
-                                                    <th scope="col">CHD2</th>
+                                                    <th scope="col">Grupo</th>
+                                                    <th scope="col">Modelo</th>
+                                                    <th scope="col">PAX</th>
+                                                    <th scope="col">Bagagem</th>
+                                                    <th scope="col">Cidade</th>
+                                                    <th scope="col">Diária</th>
+                                                    <th scope="col">Semanal</th>
+                                                    <th scope="col">Quinzenal</th>
+                                                    <th scope="col">Mensal</th>
+                                                    <th scope="col">Duração</th>
+                                                    
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td scope="row">Standard</td>
-                                                    <td>Sem Vista</td>
-                                                    <td>30/03/21</td>
-                                                    <td>01/04/21</td>
+                                                    <td scope="row" class="nowrap">R - Minivan</td>
+                                                    <td class="nowrap"><span class="text-primary cursor-pointer"
+                                                data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
+                                                data-bs-target="#verimagem1" title="Ver Imagem">Fiat Boblo <span class="icon-eye"></span></span>
+                                                </td>
+                                                    <td>7</td>
+                                                    <td class="nowrap">Grande: 0 <br>Pequena: 0</td>
+                                                    <td>Rio de Janeiro, Aracaju, Belo Horizonte, Brasilia, Campinas, Campo Grande , Canoas, Confins, Cuiaba, Curitiba, Florianopolis, Fortaleza, Foz do Iguacu, Goiania, Ilheus , Itajai, Joao Pessoa, Maceio, Manaus , Natal, Niteroi, Osasco, Porto Alegre, Porto Seguro , Recife, Salvador, Santo Andre , Sao Bernardo do Campo, Sao Caetano do Sul , Sao Jose dos Pinhais, Sao Paulo, Sao Paulo - Guarulhos , Uberlandia, Varzea Grande, Vila Velha, Vitoria</td>
+                                                    <td>37</td>
+                                                    <td>221</td>
                                                     <td>-</td>
                                                     <td>-</td>
-                                                    <td>Dias de Aplicação</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>Inc</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>35</td>
-                                                    <td>39</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
+                                                    <td>15/06/2022 - 30/06/2022</td>
+                                                    
                                                 </tr>
                                                 <tr>
-                                                    <td scope="row">Standard</td>
-                                                    <td>Sem Vista</td>
-                                                    <td>05/04/21</td>
-                                                    <td>27/12/21</td>
-                                                    <td>Semana Santa</td>
-                                                    <td>-</td>
-                                                    <td>Dias de Aplicação</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>Inc</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>55</td>
-                                                    <td>60</td>
+                                                    <td scope="row" class="nowrap">R - Minivan</td>
+                                                    <td class="nowrap"><span class="text-primary cursor-pointer"
+                                                data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
+                                                data-bs-target="#verimagem1" title="Ver Imagem">Fiat Boblo <span class="icon-eye"></span></span>
+                                                </td>
+                                                    <td>7</td>
+                                                    <td class="nowrap">Grande: 0 <br>Pequena: 0</td>
+                                                    <td>Rio de Janeiro, Aracaju, Belo Horizonte, Brasilia, Campinas, Campo Grande , Canoas, Confins, Cuiaba, Curitiba, Florianopolis, Fortaleza, Foz do Iguacu, Goiania, Ilheus , Itajai, Joao Pessoa, Maceio, Manaus , Natal, Niteroi, Osasco, Porto Alegre, Porto Seguro , Recife, Salvador, Santo Andre , Sao Bernardo do Campo, Sao Caetano do Sul , Sao Jose dos Pinhais, Sao Paulo, Sao Paulo - Guarulhos , Uberlandia, Varzea Grande, Vila Velha, Vitoria</td>
+                                                    <td>37</td>
+                                                    <td>221</td>
                                                     <td>-</td>
                                                     <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
+                                                    <td>15/06/2022 - 30/06/2022</td>
+                                                    
                                                 </tr>
                                                 <tr>
-                                                    <td scope="row">Standard</td>
-                                                    <td>Sem Vista</td>
-                                                    <td>30/03/21</td>
-                                                    <td>01/04/21</td>
+                                                    <td scope="row" class="nowrap">R - Minivan</td>
+                                                    <td class="nowrap"><span class="text-primary cursor-pointer"
+                                                data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
+                                                data-bs-target="#verimagem1" title="Ver Imagem">Fiat Boblo <span class="icon-eye"></span></span>
+                                                </td>
+                                                    <td>7</td>
+                                                    <td class="nowrap">Grande: 0 <br>Pequena: 0</td>
+                                                    <td>Rio de Janeiro, Aracaju, Belo Horizonte, Brasilia, Campinas, Campo Grande , Canoas, Confins, Cuiaba, Curitiba, Florianopolis, Fortaleza, Foz do Iguacu, Goiania, Ilheus , Itajai, Joao Pessoa, Maceio, Manaus , Natal, Niteroi, Osasco, Porto Alegre, Porto Seguro , Recife, Salvador, Santo Andre , Sao Bernardo do Campo, Sao Caetano do Sul , Sao Jose dos Pinhais, Sao Paulo, Sao Paulo - Guarulhos , Uberlandia, Varzea Grande, Vila Velha, Vitoria</td>
+                                                    <td>37</td>
+                                                    <td>221</td>
                                                     <td>-</td>
                                                     <td>-</td>
-                                                    <td>Dias de Aplicação</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>Inc</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>274</td>
-                                                    <td>274</td>
-                                                    <td>349</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
+                                                    <td>15/06/2022 - 30/06/2022</td>
+                                                    
                                                 </tr>
                                                 <tr>
-                                                    <td scope="row">Standard</td>
-                                                    <td>Sem Vista</td>
-                                                    <td>05/04/21</td>
-                                                    <td>27/12/21</td>
-                                                    <td>Rock in Rio</td>
-                                                    <td>-</td>
-                                                    <td>Dias de Aplicação</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>Inc</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>274</td>
-                                                    <td>274</td>
-                                                    <td>349</td>
+                                                    <td scope="row" class="nowrap">R - Minivan</td>
+                                                    <td class="nowrap"><span class="text-primary cursor-pointer"
+                                                data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
+                                                data-bs-target="#verimagem1" title="Ver Imagem">Fiat Boblo <span class="icon-eye"></span></span>
+                                                </td>
+                                                    <td>7</td>
+                                                    <td class="nowrap">Grande: 0 <br>Pequena: 0</td>
+                                                    <td>Rio de Janeiro, Aracaju, Belo Horizonte, Brasilia, Campinas, Campo Grande , Canoas, Confins, Cuiaba, Curitiba, Florianopolis, Fortaleza, Foz do Iguacu, Goiania, Ilheus , Itajai, Joao Pessoa, Maceio, Manaus , Natal, Niteroi, Osasco, Porto Alegre, Porto Seguro , Recife, Salvador, Santo Andre , Sao Bernardo do Campo, Sao Caetano do Sul , Sao Jose dos Pinhais, Sao Paulo, Sao Paulo - Guarulhos , Uberlandia, Varzea Grande, Vila Velha, Vitoria</td>
+                                                    <td>37</td>
+                                                    <td>221</td>
                                                     <td>-</td>
                                                     <td>-</td>
-                                                    <td>-</td>
+                                                    <td>15/06/2022 - 30/06/2022</td>
+                                                    
                                                 </tr>
-                                            
+                                                <tr>
+                                                    <td scope="row" class="nowrap">R - Minivan</td>
+                                                    <td class="nowrap"><span class="text-primary cursor-pointer"
+                                                data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
+                                                data-bs-target="#verimagem1" title="Ver Imagem">Fiat Boblo <span class="icon-eye"></span></span>
+                                                </td>
+                                                    <td>7</td>
+                                                    <td class="nowrap">Grande: 0 <br>Pequena: 0</td>
+                                                    <td>Rio de Janeiro, Aracaju, Belo Horizonte, Brasilia, Campinas, Campo Grande , Canoas, Confins, Cuiaba, Curitiba, Florianopolis, Fortaleza, Foz do Iguacu, Goiania, Ilheus , Itajai, Joao Pessoa, Maceio, Manaus , Natal, Niteroi, Osasco, Porto Alegre, Porto Seguro , Recife, Salvador, Santo Andre , Sao Bernardo do Campo, Sao Caetano do Sul , Sao Jose dos Pinhais, Sao Paulo, Sao Paulo - Guarulhos , Uberlandia, Varzea Grande, Vila Velha, Vitoria</td>
+                                                    <td>37</td>
+                                                    <td>221</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>15/06/2022 - 30/06/2022</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="nowrap">R - Minivan</td>
+                                                    <td class="nowrap"><span class="text-primary cursor-pointer"
+                                                data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
+                                                data-bs-target="#verimagem1" title="Ver Imagem">Fiat Boblo <span class="icon-eye"></span></span>
+                                                </td>
+                                                    <td>7</td>
+                                                    <td class="nowrap">Grande: 0 <br>Pequena: 0</td>
+                                                    <td>Rio de Janeiro, Aracaju, Belo Horizonte, Brasilia, Campinas, Campo Grande , Canoas, Confins, Cuiaba, Curitiba, Florianopolis, Fortaleza, Foz do Iguacu, Goiania, Ilheus , Itajai, Joao Pessoa, Maceio, Manaus , Natal, Niteroi, Osasco, Porto Alegre, Porto Seguro , Recife, Salvador, Santo Andre , Sao Bernardo do Campo, Sao Caetano do Sul , Sao Jose dos Pinhais, Sao Paulo, Sao Paulo - Guarulhos , Uberlandia, Varzea Grande, Vila Velha, Vitoria</td>
+                                                    <td>37</td>
+                                                    <td>221</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>15/06/2022 - 30/06/2022</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="nowrap">R - Minivan</td>
+                                                    <td class="nowrap"><span class="text-primary cursor-pointer"
+                                                data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
+                                                data-bs-target="#verimagem1" title="Ver Imagem">Fiat Boblo <span class="icon-eye"></span></span>
+                                                </td>
+                                                    <td>7</td>
+                                                    <td class="nowrap">Grande: 0 <br>Pequena: 0</td>
+                                                    <td>Rio de Janeiro, Aracaju, Belo Horizonte, Brasilia, Campinas, Campo Grande , Canoas, Confins, Cuiaba, Curitiba, Florianopolis, Fortaleza, Foz do Iguacu, Goiania, Ilheus , Itajai, Joao Pessoa, Maceio, Manaus , Natal, Niteroi, Osasco, Porto Alegre, Porto Seguro , Recife, Salvador, Santo Andre , Sao Bernardo do Campo, Sao Caetano do Sul , Sao Jose dos Pinhais, Sao Paulo, Sao Paulo - Guarulhos , Uberlandia, Varzea Grande, Vila Velha, Vitoria</td>
+                                                    <td>37</td>
+                                                    <td>221</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>15/06/2022 - 30/06/2022</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="nowrap">R - Minivan</td>
+                                                    <td class="nowrap"><span class="text-primary cursor-pointer"
+                                                data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
+                                                data-bs-target="#verimagem1" title="Ver Imagem">Fiat Boblo <span class="icon-eye"></span></span>
+                                                </td>
+                                                    <td>7</td>
+                                                    <td class="nowrap">Grande: 0 <br>Pequena: 0</td>
+                                                    <td>Rio de Janeiro, Aracaju, Belo Horizonte, Brasilia, Campinas, Campo Grande , Canoas, Confins, Cuiaba, Curitiba, Florianopolis, Fortaleza, Foz do Iguacu, Goiania, Ilheus , Itajai, Joao Pessoa, Maceio, Manaus , Natal, Niteroi, Osasco, Porto Alegre, Porto Seguro , Recife, Salvador, Santo Andre , Sao Bernardo do Campo, Sao Caetano do Sul , Sao Jose dos Pinhais, Sao Paulo, Sao Paulo - Guarulhos , Uberlandia, Varzea Grande, Vila Velha, Vitoria</td>
+                                                    <td>37</td>
+                                                    <td>221</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>15/06/2022 - 30/06/2022</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="nowrap">R - Minivan</td>
+                                                    <td class="nowrap"><span class="text-primary cursor-pointer"
+                                                data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
+                                                data-bs-target="#verimagem1" title="Ver Imagem">Fiat Boblo <span class="icon-eye"></span></span>
+                                                </td>
+                                                    <td>7</td>
+                                                    <td class="nowrap">Grande: 0 <br>Pequena: 0</td>
+                                                    <td>Rio de Janeiro, Aracaju, Belo Horizonte, Brasilia, Campinas, Campo Grande , Canoas, Confins, Cuiaba, Curitiba, Florianopolis, Fortaleza, Foz do Iguacu, Goiania, Ilheus , Itajai, Joao Pessoa, Maceio, Manaus , Natal, Niteroi, Osasco, Porto Alegre, Porto Seguro , Recife, Salvador, Santo Andre , Sao Bernardo do Campo, Sao Caetano do Sul , Sao Jose dos Pinhais, Sao Paulo, Sao Paulo - Guarulhos , Uberlandia, Varzea Grande, Vila Velha, Vitoria</td>
+                                                    <td>37</td>
+                                                    <td>221</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>15/06/2022 - 30/06/2022</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="nowrap">R - Minivan</td>
+                                                    <td class="nowrap"><span class="text-primary cursor-pointer"
+                                                data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
+                                                data-bs-target="#verimagem1" title="Ver Imagem">Fiat Boblo <span class="icon-eye"></span></span>
+                                                </td>
+                                                    <td>7</td>
+                                                    <td class="nowrap">Grande: 0 <br>Pequena: 0</td>
+                                                    <td>Rio de Janeiro, Aracaju, Belo Horizonte, Brasilia, Campinas, Campo Grande , Canoas, Confins, Cuiaba, Curitiba, Florianopolis, Fortaleza, Foz do Iguacu, Goiania, Ilheus , Itajai, Joao Pessoa, Maceio, Manaus , Natal, Niteroi, Osasco, Porto Alegre, Porto Seguro , Recife, Salvador, Santo Andre , Sao Bernardo do Campo, Sao Caetano do Sul , Sao Jose dos Pinhais, Sao Paulo, Sao Paulo - Guarulhos , Uberlandia, Varzea Grande, Vila Velha, Vitoria</td>
+                                                    <td>37</td>
+                                                    <td>221</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>15/06/2022 - 30/06/2022</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="nowrap">R - Minivan</td>
+                                                    <td class="nowrap"><span class="text-primary cursor-pointer"
+                                                data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal"
+                                                data-bs-target="#verimagem1" title="Ver Imagem">Fiat Boblo <span class="icon-eye"></span></span>
+                                                </td>
+                                                    <td>7</td>
+                                                    <td class="nowrap">Grande: 0 <br>Pequena: 0</td>
+                                                    <td>Rio de Janeiro, Aracaju, Belo Horizonte, Brasilia, Campinas, Campo Grande , Canoas, Confins, Cuiaba, Curitiba, Florianopolis, Fortaleza, Foz do Iguacu, Goiania, Ilheus , Itajai, Joao Pessoa, Maceio, Manaus , Natal, Niteroi, Osasco, Porto Alegre, Porto Seguro , Recife, Salvador, Santo Andre , Sao Bernardo do Campo, Sao Caetano do Sul , Sao Jose dos Pinhais, Sao Paulo, Sao Paulo - Guarulhos , Uberlandia, Varzea Grande, Vila Velha, Vitoria</td>
+                                                    <td>37</td>
+                                                    <td>221</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>15/06/2022 - 30/06/2022</td>
+                                                    
+                                                </tr>
                                             </tbody>
                                         </table>
-                                    </div>
+                                   
 
                                     <div class="row border-bottom">
                                         <div class="col">
@@ -521,129 +594,198 @@
 
                             <div class="row c-reservas__table pt-5">
                                 <div class="col-xl-12">
-                                    <span class="d-inline-block fs-12 p-2 px-0 mb-0">Copacabana - Rio de Janeiro - Rj</span>
-                                    <h2 class="mb-2 fw-bold text-primary fs-24">ATLANTICO PRAIA</h2>
-                                    <p class="fs-12"> 
-                                        <span class="o-hotel__img__item md-inline-block fw-500 me-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="10.965" height="10.512"><path data-name="Caminho 36" d="M6.248.476l1.033 2.093a.853.853 0 00.642.467l2.31.335a.854.854 0 01.473 1.456L9.035 6.456a.854.854 0 00-.245.755l.395 2.3a.853.853 0 01-1.238.9L5.881 9.325a.854.854 0 00-.794 0l-2.066 1.086a.853.853 0 01-1.238-.9l.395-2.3a.853.853 0 00-.246-.755L.26 4.827a.854.854 0 01.473-1.456l2.31-.335a.853.853 0 00.642-.467L4.718.476a.853.853 0 011.53 0z" fill="#0f6b7b"></path></svg>
-                                            03
-                                        </span>  
-                                        Twin Standart BB   |   Sem Reembolso   |   Disp. Sob-Consulta
-                                    </p>
-                                    <div class="c-reservas__table">
-                                        <table class="table table-striped fs-6 table-borderless mt-5" id="table">
+                                <div class="w-100 mb-5">
+                                    <img src="assets/img/tarifarios.jpg">
+                                </div>
+                                <h2 class="fw-bold text-primary fs-24">DETALLES DEL PAQUETE | RIO + BUZIOS 7NTS <a href="#" class="icon-external-link"></a></h2>
+                                <p class="fs-16 mb-2">8 días / 7 noches</p>
+                                <p class="fs-12 mb-0">07 noches de hospedaje + traslados + tours</p>
+
+
+                        
+ 
+                                        <table class="table table-rowstriped fs-6 table-borderless table-hover mt-5" id="table">
                                             <thead>
                                                 <tr class="text-secondary">
-                                                    <th scope="col">Categoria</th>
+                                                    <th scope="col">Nivel</th>
+                                                    <th scope="col">Cidade</th>
+                                                    <th scope="col">Hotéis</th>
+                                                    <th scope="col">Cat.</th>
+                                                    <th scope="col">APTO</th>
                                                     <th scope="col">Vista</th>
-                                                    <th scope="col">In</th>
-                                                    <th scope="col">Out</th>
-                                                    <th scope="col">Tipo</th>
-                                                    <th scope="col">EBB</th>
-                                                    <th scope="col">Semana</th>
+                                                    <th scope="col">Regime</th>
+                                                    <th scope="col">Noites</th>
+                                                    <th scope="col">Saídas</th>
                                                     <th scope="col">Remark</th>
-                                                    <th scope="col">Promo</th>
-                                                    <th scope="col">BB</th>
-                                                    <th scope="col">MAP</th>
-                                                    <th scope="col">FAP</th>
-                                                    <th scope="col">AI</th>
+                                                    <th scope="col">Duração</th>
                                                     <th scope="col">SGL</th>
                                                     <th scope="col">DBL</th>
                                                     <th scope="col">TPL</th>
-                                                    <th scope="col">QLP</th>
-                                                    <th scope="col">CHD1</th>
-                                                    <th scope="col">CHD2</th>
+            
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td scope="row">Médio</td>
-                                                    <td>Cidade</td>
-                                                    <td>30/03/21</td>
-                                                    <td>01/04/21</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>Dias de Aplicação</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>Inc</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>114</td>
-                                                    <td>114</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
+                                                        <td rowspan="2">
+                                                            SUPERIOR
+                                                        </td>
+                                                    <td>
+                                                         Rio de Janeiro
+                                                    </td>
+
+                                                        <td>
+                                                            Miramar Hotel by Windsor
+                                                        </td>
+
+                                                    <td>
+                                                        5 *
+                                                    </td>
+                                                    <td>
+                                                        Superior
+                                                    </td>
+                                                    <td>
+                                                        Sem Vista
+                                                    </td>
+                                                    <td class="center">
+                                                        BB
+                                                    </td>
+                                                    <td class="center">
+                                                        3
+                                                    </td>
+
+
+                                                        <td rowspan="2" class="center">
+                                                            Diário
+                                                        </td>
+                                                        <td rowspan="2" class="center">
+                                                            
+                                                        </td>
+                                                        <td rowspan="2" class="center">
+                                                            01/09/22
+                                                            -
+                                                            15/12/22
+                                                        </td>
+                                                        <td rowspan="2" class="center">
+                                                            1621
+                                                        </td>
+                                                        <td rowspan="2" class="center">
+                                                            876
+                                                        </td>
+                                                        <td rowspan="2" class="center">
+                                                            -
+                                                        </td>
                                                 </tr>
                                                 <tr>
-                                                    <td scope="row">Médio</td>
-                                                    <td>Cidade</td>
-                                                    <td>05/04/21</td>
-                                                    <td>27/12/21</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>Dias de Aplicação</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>Inc</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>114</td>
-                                                    <td>114</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
+                                                    <td>
+                                                        Buzios
+                                                    </td>
+
+                                                        <td>
+                                                            Vila Deste
+                                                        </td>
+
+                                                    <td>
+                                                        4 *
+                                                    </td>
+                                                    <td>
+                                                        Classic
+                                                    </td>
+                                                    <td>
+                                                        Sem Vista
+                                                    </td>
+                                                    <td class="center">
+                                                        BB
+                                                    </td>
+                                                    <td class="center">
+                                                        4
+                                                    </td>
+
+
+                                                </tr>
+                                               
+                                    </tbody>
+                                    <tbody>
+                                                <tr>
+                                                        <td rowspan="2">
+                                                            SUPERIOR
+                                                        </td>
+                                                    <td>
+                                                         Rio de Janeiro
+                                                    </td>
+
+                                                        <td>
+                                                            Miramar Hotel by Windsor
+                                                        </td>
+
+                                                    <td>
+                                                        5 *
+                                                    </td>
+                                                    <td>
+                                                        Superior
+                                                    </td>
+                                                    <td>
+                                                        Sem Vista
+                                                    </td>
+                                                    <td class="center">
+                                                        BB
+                                                    </td>
+                                                    <td class="center">
+                                                        3
+                                                    </td>
+
+
+                                                        <td rowspan="2" class="center">
+                                                            Diário
+                                                        </td>
+                                                        <td rowspan="2" class="center">
+                                                            
+                                                        </td>
+                                                        <td rowspan="2" class="center">
+                                                            01/09/22
+                                                            -
+                                                            15/12/22
+                                                        </td>
+                                                        <td rowspan="2" class="center">
+                                                            1621
+                                                        </td>
+                                                        <td rowspan="2" class="center">
+                                                            876
+                                                        </td>
+                                                        <td rowspan="2" class="center">
+                                                            -
+                                                        </td>
                                                 </tr>
                                                 <tr>
-                                                    <td scope="row">Grande</td>
-                                                    <td>Praia</td>
-                                                    <td>30/03/21</td>
-                                                    <td>01/04/21</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>Dias de Aplicação</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>Inc</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>274</td>
-                                                    <td>274</td>
-                                                    <td>349</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
+                                                    <td>
+                                                        Buzios
+                                                    </td>
+
+                                                        <td>
+                                                            Vila Deste
+                                                        </td>
+
+                                                    <td>
+                                                        4 *
+                                                    </td>
+                                                    <td>
+                                                        Classic
+                                                    </td>
+                                                    <td>
+                                                        Sem Vista
+                                                    </td>
+                                                    <td class="center">
+                                                        BB
+                                                    </td>
+                                                    <td class="center">
+                                                        4
+                                                    </td>
+
+
                                                 </tr>
-                                                <tr>
-                                                    <td scope="row">Grande</td>
-                                                    <td>Praia</td>
-                                                    <td>05/04/21</td>
-                                                    <td>27/12/21</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>Dias de Aplicação</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>Inc</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>274</td>
-                                                    <td>274</td>
-                                                    <td>349</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                    <td>-</td>
-                                                </tr>
-                                            
-                                            </tbody>
+                                               
+                                    </tbody>
                                         </table>
-                                    </div>
+                                    
 
                                     <div class="row border-bottom">
                                         <div class="col">
@@ -1557,6 +1699,23 @@
     </section>
 
 </main>
+
+
+<!-- Modal Ver Imagem -->
+<div class="modal fade" id="verimagem1" tabindex="-1" aria-labelledby="verimagem1" aria-hidden="true">
+    <div class="modal-dialog modal-image">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-primary fs-24 fw-bold">Fiat Boblo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <img src="assets/img/doblo.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Modal Ver Imagem -->
 
 <script src="assets/js/pages/reservas.js"></script>
 

@@ -82,7 +82,7 @@ $border-radius-sm:            .31rem !default;
 // Table
 $table-cell-padding-y:        .9rem !default;
 $table-color: #656565!default;
-$table-striped-bg: #FBFBFB!default;
+$table-striped-bg: #f7f7f7!default;
 $table-border-color: transparent!default;
 
 //Accordion
@@ -418,7 +418,9 @@ table.table-rounded{
 table.table tbody td{
   transition: .15s ease-in-out;
 }
-
+td.nowrap{
+ white-space: nowrap;
+}
 
 
 .modal-header{

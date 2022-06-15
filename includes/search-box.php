@@ -400,6 +400,11 @@
                         <option value="5">Trf Priv / Tour Reg</option>
                         <option value="7">Trf Rio - Privado / Trfs Buzios - Regular </option>
                     </select>
+                    <ul class="regime-rules">
+                        <li><b>REGULAR:</b> A cada dois adultos, um infante free (não ocupa assento).</li>
+                        <li>A partir de 3 anos e/ou infantes adicionais, marcar como adulto.</li>
+                        <li><b>PRIVADO:</b> Considerar chd como adulto.</li>
+                    </ul>
                 </div>
                 
                 <div class="o-search-box__form__experiencia JS__experiencia-input">

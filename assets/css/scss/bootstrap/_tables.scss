@@ -104,7 +104,18 @@
     color: var(--#{$variable-prefix}table-striped-color);
   }
 }
-
+.table-rowstriped {
+tbody:nth-child(odd) {
+  --#{$variable-prefix}table-accent-bg: var(--#{$variable-prefix}table-striped-bg);
+  color: var(--#{$variable-prefix}table-striped-color);
+}
+}
+.table-rowstriped {
+tbody:hover td[rowspan], tr:hover td {
+  --#{$variable-prefix}table-accent-bg: var(--#{$variable-prefix}table-hover-bg);
+  color: var(--#{$variable-prefix}table-hover-color);
+}
+}
 // Active table
 //
 // The `.table-active` class can be added to highlight rows or cells

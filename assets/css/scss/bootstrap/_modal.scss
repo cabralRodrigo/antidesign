@@ -179,7 +179,13 @@
     max-width: $modal-md;
     margin: $modal-dialog-margin-y-sm-up auto;
   }
-
+  .modal-image.modal-dialog{
+    max-width: 800px;
+    margin: $modal-dialog-margin-y-sm-up auto;
+  }
+  .modal-image.modal-dialog img{
+    max-width: 100%;
+  }
   .modal-dialog-scrollable {
     height: subtract(100%, $modal-dialog-margin-y-sm-up * 2);
   }

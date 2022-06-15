@@ -12,7 +12,6 @@
             <div class="swiper-wrapper h-100">
 
                 <div class="c-banner__item swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/home/home-banner.jpg');">
-                    
                     <img src="assets/img/banner-bg.png" alt="background" class="c-banner__background">
                     <div class="container text-light">
                         <div class="row h-100 d-flex align-items-center">
@@ -25,11 +24,25 @@
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div class="c-banner__item swiper-slide h-100 d-flex align-items-end" style="background-image: url('assets/img/home/home-banner.jpg');">
+                    <img src="assets/img/banner-bg.png" alt="background" class="c-banner__background">
+                    <div class="container text-light">
+                        <div class="row h-100 d-flex align-items-center">
+                            <div class="col-md-8 col-lg-7 col-xl-6 col-xxl-4">
+                                <h2 class="fw-bold fs-3">Peru, uma experiência extraordinária!</h2>
+                                <p>Com templos sagrados em florestas, cidades com vibrante vida noturna mares perfeitos para surfar e uma cultura de bem-estar.</p>
+                                <a href="" class="c-banner__button d-flex align-items-center text-reset text-uppercase fw-bolder">
+                                    Explorar <svg xmlns="http://www.w3.org/2000/svg" width="41.29" height="20"><path d="M40.817 8.858L32.389.471a1.613 1.613 0 00-2.276 2.286l5.658 5.631H1.613a1.613 1.613 0 000 3.226h34.158l-5.658 5.631a1.613 1.613 0 002.276 2.286l8.428-8.387a1.614 1.614 0 000-2.286z" fill="#fff"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
-            
+            <div class="swiper-pagination container"></div>
         </div>
 
     </section>
