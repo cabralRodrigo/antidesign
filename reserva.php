@@ -817,7 +817,7 @@
                         <label for="add-comment" class="form-label">Adicionar Comentário</label>
                         <label for="add-comment" class="add-comment">
                             <span class="icon-plus"></span>
-                            <input class="form-control" id="add-comment" type="text"
+                            <input class="form-control comment" id="add-comment" type="text"
                                 placeholder="Adicione algum detalhe sobre a viagem" pattern=".*\S.*" required>
                         </label>
                     </div>
