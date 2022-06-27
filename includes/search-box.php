@@ -406,6 +406,17 @@
                         <li><b>PRIVADO:</b> Considerar chd como adulto.</li>
                     </ul>
                 </div>
+
+                <div class="o-search-box__form__modo JS__modo-input">
+                    <label for="hotelInput" class="form-label">Modo</label>
+                    <select class="form-select JS__select">
+                        <option value="Todos">Todos</option>
+                        <option value="in">IN</option>
+                        <option value="in-out">IN + OUT</option>
+                        <option value="in-out-city">IN + OUT + CITY</option>
+                        <option value="out">OUT</option>
+                    </select>
+                </div>
                 
                 <div class="o-search-box__form__experiencia JS__experiencia-input">
                     <label for="hotelInput" class="form-label">Experiência</label>

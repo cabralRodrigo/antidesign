@@ -288,41 +288,7 @@ Os quartos espaçosos estão decorados de forma única com móveis ingleses anti
 
                 <div class="col-xl-4 offset-xl-1">
                     <h2 class="fs-28 text-secondary mb-2 fw-bold">Sobre classificação & pertenência</h2>
-                    <p>Classificação de hotéis: <span class="fw-bold">Premium </span></p>
-
-                    <div class="col">
-
-<a class="c-busca__controls__item text-decoration-none fs-4 text-primary fw-500 d-flex align-items-center p-3 px-0 border-0 pb-4 collapsed" data-bs-toggle="collapse" data-bs-target="#belmond-copacabana-palace-info" aria-expanded="false" aria-controls="info">
-    <span class="icon-info me-3 fs-28"></span>
-    <span class="me-3">Informações Importantes</span>
-    <svg xmlns="http://www.w3.org/2000/svg" width="14.73" height="8.397"><path data-name="Caminho 4" d="M7.365.001a1.029 1.029 0 01.729.3l6.337 6.337a1.032 1.032 0 01-1.459 1.459l-5.6-5.6-5.6 5.6a1.036 1.036 0 11-1.47-1.459L6.631.302a1.029 1.029 0 01.734-.301z" fill="#0e6a7a"></path></svg>
-</a>
-
-<div class="multi-collapse collapse border-0" id="belmond-copacabana-palace-info">
-    <div class="row border-top py-4"> 
-        <div class="col-xl-4 col-lg-6 fs-6 mb-4">
-            <span class="d-block icon-suport fs-24 mb-3"></span>
-            <span class="d-block text-primary fw-500 mb-3 fs-4">Nossa Opinião</span>
-            <p> El hotel Arpoador, es una opción excelente para quien desea conocer Rio de Janeiro y hospedarse en una de las mejores localizaciones de la ciudad. El barrio de Ipanema,
-            cuenta con bares, entretenimiento y una de las mejores vistas de la ciudad. Desde la
-            terraza es posible visualizar un imponente atardecer, con vista al “Morro dos Irmãos”</p>
-        </div>
-        <div class="col-xl-3 col-lg-5 offset-lg-1 fs-6 mb-4">
-            <span class="d-block icon-parking mb-3 fs-24"></span>
-            <span class="d-block text-primary fs-4 fw-500 mb-3">Condições Gerais</span>
-            <p>Acepta 01 Chd free hasta 05 años en habitación doble con los padres solamente en la categoria Grande.</p>
-        </div>
-        <div class="col-xl-3 col-lg-5 offset-xl-1 fs-6">
-            <span class="d-block icon-calendar mb-3 fs-24"></span>
-            <span class="d-block text-primary fs-4 fw-500 mb-3">Check-In / Check-Out</span>
-            <p">14:00h / 12:00h</p>    
-        </div>
-    </div>
-    
-</div>
-</div>
-
-
+                    <p>Classificação de hotéis: <span class="fw-bold collapsed" data-bs-toggle="collapse" data-bs-target="#belmond-copacabana-palace-info" aria-expanded="false" aria-controls="info">Premium <span class="icon-info"></span></span></p>
                     <hr class="mt-4 mb-4">
                     <h2 class="fs-28 text-secondary mb-2 fw-bold">Perfil rapido</h2>
                     <p><span class="icon-user-plus fs-24 me-2 icon rounded rounded-circle icon-ball" data-tt-toggle="tooltip" data-bs-original-title="Familiar"></span><span class="icon-star1 fs-24 me-2 icon rounded rounded-circle icon-ball" data-tt-toggle="tooltip" data-bs-original-title="5 Estrelas"></span></p>

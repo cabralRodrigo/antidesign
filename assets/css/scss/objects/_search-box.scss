@@ -121,7 +121,7 @@
         border-top: 1px solid #EAEAEA;
         &__item{
             display: none;
-            width: 42.9rem;
+            width: 68.46%;
             background: #fff;
             z-index: 99;
             &.show{
@@ -141,7 +141,7 @@
             }
         }
         &__destino{
-            width: 13rem;
+            width: 23%;
             @include breakpoint(xl){
                 width: 11rem;
             }
@@ -168,7 +168,8 @@
             }
         }
         &__regime,
-        &__experiencia{
+        &__experiencia,
+        &__modo{
             display: none;
             width: 12rem;
             background: #fff;
@@ -296,7 +297,7 @@
             }
         }
         &__data{
-            width: 25.3%;
+            width: 16rem;
 
             @include breakpoint(xl){
                 width: 20%;
@@ -398,8 +399,8 @@
             &__icon{
                 position: absolute;
                 font-size: 1.75rem;
-                top: 1.87rem;
-                right: 4.68rem;
+                top: 1.82rem;
+                right: 4.2rem;
                 @include breakpoint(lg){
                     top: 7.4rem;
                     right: .68rem;
@@ -454,12 +455,25 @@
         }
     }
     
-    &.--translado,
+    &.--translado{
+        .o-search-box__form__regime, 
+        .o-search-box__form__modo,
+        .o-search-box__form__destino{
+            display: block;
+            width: 10rem;
+        }
+        .o-search-box__form__passageiros,
+        .o-search-box__form__data{
+            width: 14rem;
+        }
+
+    }
     &.--tour{
         .o-search-box__form__regime{
             display: block;
         }
-        .o-search-box__form__hotel{
+        .o-search-box__form__hotel,
+        .o-search-box__form__modo{
             display: none;
         }
     }
@@ -471,6 +485,7 @@
         .o-search-box__form__destino,
         .o-search-box__form__hotel,
         .o-search-box__form__regime,
+        .o-search-box__form__modo,
         .o-search-box__form__passageiros{
             display: none;
         }
@@ -486,7 +501,7 @@
     
     &.--hotel{
         .o-search-box__form__destino{
-            width: 415px;
+            width: 42.5%;
             @include breakpoint(xl){
                 width: 22rem;
             }
