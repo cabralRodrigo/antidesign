@@ -195,8 +195,8 @@
                                 </div>
 
 
-                                    
-                                    <h2 class="fw-bold text-primary fs-24">Belmond Copacabana Palace</h2>
+                               
+                                    <h2 class="fw-bold text-primary fs-24">Belmond Copacabana Palace <span class="stars fs-16"><span class="icon-star-full me-2 icon"></span><span class="icon-star-full me-2 icon"></span><span class="icon-star-full me-2 icon"></span><span class="icon-star-full me-2 icon"></span><span class="icon-star1 me-2 icon"></span></span></h2>
                                     <p class="fs-12 mb-0">Copacabana - Rio de Janeiro - Rj</p>
                                     
                                  

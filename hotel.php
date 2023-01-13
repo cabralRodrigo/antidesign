@@ -288,7 +288,8 @@ Os quartos espaçosos estão decorados de forma única com móveis ingleses anti
 
                 <div class="col-xl-4 offset-xl-1">
                     <h2 class="fs-28 text-secondary mb-2 fw-bold">Sobre classificação & pertenência</h2>
-                    <p>Classificação de hotéis: <span class="fw-bold collapsed" data-bs-toggle="collapse" data-bs-target="#belmond-copacabana-palace-info" aria-expanded="false" aria-controls="info">Premium <span class="icon-info"></span></span></p>
+                    <p>Classificação de hotéis: 
+                        <span class="fw-bold cursor-pointer" data-tt-toggle="tooltip" data-bs-placement="top" data-bs-toggle="modal" data-bs-target="#classificacao" title="Clique para entender a classificação">Premium <span class="icon-info"></span></span></p>
                     <hr class="mt-4 mb-4">
                     <h2 class="fs-28 text-secondary mb-2 fw-bold">Perfil rapido</h2>
                     <p><span class="icon-user-plus fs-24 me-2 icon rounded rounded-circle icon-ball" data-tt-toggle="tooltip" data-bs-original-title="Familiar"></span><span class="icon-star1 fs-24 me-2 icon rounded rounded-circle icon-ball" data-tt-toggle="tooltip" data-bs-original-title="5 Estrelas"></span></p>
@@ -302,6 +303,51 @@ Os quartos espaçosos estão decorados de forma única com móveis ingleses anti
     </section>
 
 </main>
+
+
+<!-- Modal Confirma Reserva -->
+<div class="modal fade" id="classificacao" tabindex="-1" aria-labelledby="classificacao" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-primary fs-24 fw-bold">Classificação</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <table class="table fs-6 p-0 align-top mt-5">
+                                                            
+                                                            <tbody>
+                                                                <tr class="border-bottom">
+                                                                    <td class="fw-bold">Premium</td>
+                                                                    <td>Producto diferenciado, con destaque por la excelencia en servicios, atención personalizada y estructura</td>
+                                                                </tr>
+                                                                <tr class="border-bottom">
+                                                                <td class="fw-bold">Std.</td>
+                                                                    <td>Producto económico, con buena relación costo beneficio</td>
+                                                                </tr>
+                                                                <tr class="border-bottom">
+                                                                <td class="fw-bold">Std.</td>
+                                                                    <td>Producto económico, con buena relación costo beneficio</td>
+                                                                </tr>
+                                                                <tr class="border-bottom">
+                                                                <td class="fw-bold">Std.</td>
+                                                                    <td>Producto económico, con buena relación costo beneficio</td>
+                                                                </tr>
+                                                                <tr class="border-bottom">
+                                                                <td class="fw-bold">Std.</td>
+                                                                    <td>Producto económico, con buena relación costo beneficio</td>
+                                                                </tr>
+                                                                <tr>
+                                                                <td class="fw-bold">Std.</td>
+                                                                    <td>Producto económico, con buena relación costo beneficio</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Modal Confirma Reserva -->
 
 <?php include('includes/footer.php') ?>
 

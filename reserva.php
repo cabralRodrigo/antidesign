@@ -2666,6 +2666,4 @@
 <!-- /Modal Politica de Cancelamento -->
 
 <?php include('includes/footer.php') ?>
-
-
 <script src="assets/js/pages/reserva.js"></script>
